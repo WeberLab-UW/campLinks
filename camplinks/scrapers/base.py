@@ -102,7 +102,7 @@ class BaseScraper(ABC):
                         upsert_candidate(conn, cand, eid)
                     total_elections += 1
                 conn.commit()
-            except requests.HTTPError as exc:
+            except requests.RequestException as exc:
                 logger.error("Failed to fetch %s: %s", state, exc)
             except (AttributeError, KeyError, ValueError, TypeError) as exc:
                 logger.error("Error parsing %s: %s", state, exc)

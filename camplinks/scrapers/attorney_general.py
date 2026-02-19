@@ -101,7 +101,7 @@ class AttorneyGeneralScraper(BaseScraper):
 
         try:
             index_soup = fetch_soup(index_url)
-        except requests.HTTPError:
+        except requests.RequestException:
             logger.warning(
                 "AG index page not found for %d, trying gubernatorial page.",
                 year,
@@ -111,7 +111,7 @@ class AttorneyGeneralScraper(BaseScraper):
             )
             try:
                 index_soup = fetch_soup(fallback_url)
-            except requests.HTTPError:
+            except requests.RequestException:
                 logger.error("Fallback page also not found for %d.", year)
                 return 0
 
@@ -134,7 +134,7 @@ class AttorneyGeneralScraper(BaseScraper):
                         upsert_candidate(conn, cand, eid)
                     total_elections += 1
                 conn.commit()
-            except requests.HTTPError as exc:
+            except requests.RequestException as exc:
                 logger.error("Failed to fetch %s: %s", state, exc)
             except (AttributeError, KeyError, ValueError, TypeError) as exc:
                 logger.error("Error parsing %s: %s", state, exc)

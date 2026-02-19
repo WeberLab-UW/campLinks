@@ -150,7 +150,7 @@ def enrich_from_wikipedia(conn: sqlite3.Connection) -> int:
                         ),
                     )
                 found += 1
-        except requests.HTTPError as exc:
+        except requests.RequestException as exc:
             logger.error("HTTP error for %s: %s", url, exc)
         except (AttributeError, KeyError, ValueError, TypeError) as exc:
             logger.error("Error parsing %s: %s", url, exc)

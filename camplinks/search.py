@@ -307,7 +307,7 @@ def find_candidate_info(
             soup = fetch_soup(bp_url, delay_s=BALLOTPEDIA_DELAY_S)
             contacts = extract_all_contact_links(soup)
             contacts["_ballotpedia_url"] = bp_url
-        except requests.HTTPError as exc:
+        except requests.RequestException as exc:
             logger.error("Ballotpedia fetch failed for %s: %s", name, exc)
         except (AttributeError, KeyError, ValueError, TypeError) as exc:
             logger.error("Ballotpedia parse error for %s: %s", name, exc)
