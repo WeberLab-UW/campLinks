@@ -104,7 +104,7 @@ class BaseScraper(ABC):
                 conn.commit()
             except requests.HTTPError as exc:
                 logger.error("Failed to fetch %s: %s", state, exc)
-            except Exception as exc:
+            except (AttributeError, KeyError, ValueError, TypeError) as exc:
                 logger.error("Error parsing %s: %s", state, exc)
 
         logger.info(

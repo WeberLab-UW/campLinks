@@ -7,7 +7,6 @@ Governor, etc.) and handle common Wikipedia markup patterns.
 from __future__ import annotations
 
 import re
-from typing import Optional
 
 from bs4 import Tag
 
@@ -23,7 +22,7 @@ INCUMBENT_RE = re.compile(r"\s*\(incumbent\)")
 def find_preceding_heading(
     element: Tag,
     heading_tags: tuple[str, ...],
-) -> Optional[Tag]:
+) -> Tag | None:
     """Walk backward through siblings to find the nearest heading tag.
 
     Wikipedia wraps headings in ``<div class="mw-heading mw-headingN">``
@@ -106,7 +105,7 @@ def is_general_election_table(table: Tag) -> bool:
 
 def parse_candidate_row(
     row: Tag,
-) -> Optional[dict[str, str | float | bool | None]]:
+) -> dict[str, str | float | bool | None] | None:
     """Extract candidate info from a ``<tr class="vcard">`` row.
 
     Args:

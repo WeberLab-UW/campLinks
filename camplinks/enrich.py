@@ -9,7 +9,6 @@ from __future__ import annotations
 
 import logging
 import sqlite3
-from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -54,7 +53,7 @@ def extract_campaign_website(soup: BeautifulSoup) -> str:
                         return href
 
     # --- Strategy 2: External links section ---
-    heading: Optional[Tag] = None
+    heading: Tag | None = None
     h2 = soup.find("h2", id="External_links")
     if h2 and isinstance(h2, Tag):
         heading = h2
@@ -153,7 +152,7 @@ def enrich_from_wikipedia(conn: sqlite3.Connection) -> int:
                 found += 1
         except requests.HTTPError as exc:
             logger.error("HTTP error for %s: %s", url, exc)
-        except Exception as exc:
+        except (AttributeError, KeyError, ValueError, TypeError) as exc:
             logger.error("Error parsing %s: %s", url, exc)
 
     conn.commit()
