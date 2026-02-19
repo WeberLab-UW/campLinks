@@ -5,16 +5,20 @@ Scrape and enrich US political election data from Wikipedia and Ballotpedia into
 ## Data Model
 
 ```mermaid
+---
+config:
+  theme: neutral
+---
 erDiagram
-    elections ||--o{ candidates : "has"
-    candidates ||--o{ contact_links : "has"
+    elections ||--o{ candidates : has
+    candidates ||--o{ contact_links : has
 
     elections {
         int election_id PK
         text state
         text race_type
         int year
-        text district "NULL for statewide"
+        text district
         text wikipedia_url
     }
 
@@ -40,7 +44,7 @@ erDiagram
 
 **`link_type` values:** `campaign_site`, `campaign_facebook`, `campaign_x`, `campaign_instagram`, `personal_website`, `personal_facebook`, `personal_linkedin`
 
-**`source` values:** `wikipedia`, `ballotpedia`, `web_search`
+**`source` values:** `wikipedia`, `ballotpedia`, `web_search`, `csv_import`
 
 ## Quickstart
 
@@ -116,13 +120,21 @@ df = pl.read_database(
 
 See [USAGE.md](USAGE.md) for a walkthrough with examples.
 
+## Migrating from Legacy CSV
+
+If you have an existing `house_races_2024.csv` from the old wide-format pipeline:
+
+```bash
+python convert_to_tidy.py --csv house_races_2024.csv --db camplinks.db
+```
+
 ## Development
 
 ```bash
 uv sync
-pytest tests/
-mypy camplinks/
-ruff check .
+uv run pytest tests/
+uv run mypy camplinks/
+uv run ruff check .
 ```
 
 ## Contributing
