@@ -6,7 +6,21 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **camplinks** is a generalizable pipeline for scraping US political election data from Wikipedia and enriching it with candidate contact information from Ballotpedia and web search. Data is stored in a normalized SQLite database.
 
-Supported race types: US House, US Senate (extensible to Governor, AG, etc. by adding scraper classes).
+Supported race types: US House, US Senate, Governor, Attorney General, State House, State Senate, State Supreme Court, Mayor.
+
+## Scraper Registry Keys
+
+| `--race` key | race_type in DB | Notes |
+|---|---|---|
+| `house` | US House | Standard, California, RCV formats |
+| `senate` | US Senate | Statewide |
+| `governor` | Governor | Statewide |
+| `attorney_general` | Attorney General | Falls back to gubernatorial index if AG index 404s |
+| `special_house` | US House | Same DB race_type as regular House |
+| `state_leg` | State House / State Senate | Chamber determined per-page |
+| `state_leg_special` | State House / State Senate | Filters specials from state leg index |
+| `municipal` | Mayor | Uses Wikipedia category page as index |
+| `judicial` | State Supreme Court | Contested + retention + Pattern A tables |
 
 ## Commands
 
@@ -17,6 +31,8 @@ uv sync
 # Run pipeline
 python -m camplinks --year 2024 --race house                    # full pipeline
 python -m camplinks --year 2024 --race senate --stage scrape    # scrape only
+python -m camplinks --year 2025 --race governor --stage scrape  # gubernatorial
+python -m camplinks --year 2025 --race municipal --stage scrape # mayoral
 python -m camplinks --year 2024 --race all                      # all race types
 python -m camplinks --year 2024 --race house --db custom.db     # custom DB path
 
@@ -80,6 +96,10 @@ Enrichment and search stages work automatically for any race type (they query th
 - Headings are wrapped in `<div class="mw-heading mw-headingN">` -- `find_preceding_heading()` in `wiki_parsing.py` checks both bare heading tags AND headings nested inside these wrappers.
 - Three House table formats: **standard** (`wikitable plainrowheaders`), **California** (combined primary+general with `<th>` section headers), **RCV** (Alaska `wikitable sortable` with `<span class="vcard">` instead of full row vcards). The House scraper falls back from standard to RCV if no results found.
 - `parse_candidate_row()` identifies cells by CSS class (`class="org"` for party) rather than column index, since colspan variations shift column positions.
+- **Two table patterns across scrapers:** Pattern B (standard `wikitable plainrowheaders` + `vcard` rows) used by most scrapers; Pattern A (basic `wikitable` with `<th scope="row">`) used by some judicial and municipal pages. `parse_basic_wikitable_row()` handles Pattern A.
+- **Retention elections** (judicial): Yes/No vote format instead of candidate-vs-candidate. `_parse_retention_table()` in `judicial.py` handles this.
+- **Municipal scraper index:** Uses Wikipedia category page (`Category:{year}_United_States_mayoral_elections`) with `<div class="mw-category">` structure instead of a standard article.
+- **Heading search order:** For district extraction, search h2 headings first, then h3 -- searching both simultaneously can match h3 "General election" instead of h2 "District N".
 
 ### Search Strategy (camplinks/search.py)
 - **Tier 1 (Ballotpedia):** DDG `site:ballotpedia.org` search, then parses `<div class="infobox person">` Contact section. Extracts all link types (campaign site, Facebook, X, Instagram, etc.).
@@ -92,7 +112,7 @@ Enrichment and search stages work automatically for any race type (they query th
 - DDG can throw `RatelimitException` or `DDGSException` with "429"; handled with retry logic in `http.py`.
 
 ### Database Gotchas
-- `elections.district` is NULL for statewide races (Senate, Governor). SQLite treats multiple NULLs as distinct in UNIQUE constraints, so this works correctly.
+- `elections.district` is NULL for statewide races (Senate, Governor, AG, Mayor). SQLite treats multiple NULLs as distinct in UNIQUE constraints, so this works correctly.
 - `get_candidates_missing_link()` filters `WHERE candidate_name != ''` to skip placeholder rows.
 - `open_db()` sets `PRAGMA foreign_keys = ON`, `journal_mode = WAL`, `synchronous = NORMAL`, `cache_size = -64000`.
 

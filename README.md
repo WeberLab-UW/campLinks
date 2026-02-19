@@ -58,9 +58,30 @@ python -m camplinks --year 2024 --race house
 # Scrape 2024 Senate races
 python -m camplinks --year 2024 --race senate
 
+# Scrape 2025 gubernatorial races
+python -m camplinks --year 2025 --race governor
+
+# Scrape 2025 mayoral elections (62+ cities)
+python -m camplinks --year 2025 --race municipal
+
 # Run all registered race types
 python -m camplinks --year 2024 --race all
 ```
+
+### Available `--race` keys
+
+| Key | Description |
+|---|---|
+| `house` | US House of Representatives |
+| `senate` | US Senate |
+| `governor` | Governor (statewide) |
+| `attorney_general` | Attorney General (statewide) |
+| `special_house` | House special elections |
+| `state_leg` | State legislature (regular sessions) |
+| `state_leg_special` | State legislature special elections |
+| `municipal` | Mayoral elections |
+| `judicial` | State Supreme Court elections |
+| `all` | Run all of the above |
 
 The database is written to `camplinks.db` by default. Override with `--db path/to/db`.
 

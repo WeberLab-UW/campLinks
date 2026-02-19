@@ -15,8 +15,15 @@ import logging
 from camplinks.models import DB_FILENAME
 
 # Import scrapers to trigger registration via register_scraper()
+import camplinks.scrapers.attorney_general  # noqa: F401
+import camplinks.scrapers.governor  # noqa: F401
 import camplinks.scrapers.house  # noqa: F401
+import camplinks.scrapers.judicial  # noqa: F401
+import camplinks.scrapers.municipal  # noqa: F401
 import camplinks.scrapers.senate  # noqa: F401
+import camplinks.scrapers.special_house  # noqa: F401
+import camplinks.scrapers.state_leg_special  # noqa: F401
+import camplinks.scrapers.state_legislative  # noqa: F401
 
 
 def main() -> None:

@@ -12,8 +12,6 @@ classifiers = [
     "Programming Language :: Python :: 3.11",
 ]
 
-[project.urls]
-Repository = "https://github.com/nicweber/campLinks"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "ddgs>=9.10.0",
@@ -23,6 +21,9 @@ dependencies = [
     "requests>=2.32.5",
     "tqdm>=4.67.3",
 ]
+
+[project.urls]
+Repository = "https://github.com/nicweber/campLinks"
 
 [project.scripts]
 camplinks = "camplinks.__main__:main"
