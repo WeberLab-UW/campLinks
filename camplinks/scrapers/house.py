@@ -18,6 +18,7 @@ from camplinks.scrapers import register_scraper
 from camplinks.scrapers.base import BaseScraper
 from camplinks.wiki_parsing import (
     INCUMBENT_RE,
+    candidates_from_parsed,
     extract_district_number,
     find_preceding_heading,
     is_general_election_table,
@@ -27,37 +28,6 @@ from camplinks.wiki_parsing import (
 _STATE_LINK_RE = re.compile(
     r"/wiki/\d{4}_United_States_House_of_Representatives_elections?_in_"
 )
-
-
-def _candidates_from_parsed(
-    parsed: list[dict[str, str | float | bool | None]],
-) -> list[Candidate]:
-    """Convert raw parsed dicts into Candidate dataclass instances.
-
-    Args:
-        parsed: List of dicts from parse_candidate_row.
-
-    Returns:
-        List of Candidate objects.
-    """
-    candidates: list[Candidate] = []
-    for c in parsed:
-        name = str(c.get("name", ""))
-        if not name:
-            continue
-        candidates.append(
-            Candidate(
-                party=str(c.get("party", "")),
-                candidate_name=name,
-                wikipedia_url=str(c.get("wiki_url", "")),
-                vote_pct=float(vp)
-                if (vp := c.get("vote_pct")) is not None
-                and isinstance(vp, (int, float))
-                else None,
-                is_winner=bool(c.get("is_winner", False)),
-            )
-        )
-    return candidates
 
 
 def _parse_california_table(
@@ -101,7 +71,7 @@ def _parse_california_table(
     if not parsed:
         return None
 
-    candidates = _candidates_from_parsed(parsed)
+    candidates = candidates_from_parsed(parsed)
     if not candidates:
         return None
 
@@ -201,7 +171,7 @@ def _parse_rcv_tables(
                 }
             )
 
-        candidates = _candidates_from_parsed(parsed)
+        candidates = candidates_from_parsed(parsed)
         if candidates:
             election = Election(
                 state=state,
@@ -321,7 +291,7 @@ class HouseScraper(BaseScraper):
                     if cand:
                         parsed.append(cand)
 
-                candidates = _candidates_from_parsed(parsed)
+                candidates = candidates_from_parsed(parsed)
                 if candidates:
                     election = Election(
                         state=state,

@@ -11,6 +11,7 @@ import re
 from bs4 import Tag
 
 from camplinks.http import BASE_URL
+from camplinks.models import Candidate
 
 # ── Compiled patterns ──────────────────────────────────────────────────────
 
@@ -169,6 +170,93 @@ def parse_candidate_row(
 
     return {
         "party": party_text,
+        "name": candidate_name,
+        "wiki_url": wiki_url,
+        "vote_pct": vote_pct,
+        "is_winner": is_winner,
+    }
+
+
+def candidates_from_parsed(
+    parsed: list[dict[str, str | float | bool | None]],
+) -> list[Candidate]:
+    """Convert raw parsed dicts into Candidate dataclass instances.
+
+    Args:
+        parsed: List of dicts from parse_candidate_row.
+
+    Returns:
+        List of Candidate objects.
+    """
+    candidates: list[Candidate] = []
+    for c in parsed:
+        name = str(c.get("name", ""))
+        if not name:
+            continue
+        candidates.append(
+            Candidate(
+                party=str(c.get("party", "")),
+                candidate_name=name,
+                wikipedia_url=str(c.get("wiki_url", "")),
+                vote_pct=float(vp)
+                if (vp := c.get("vote_pct")) is not None
+                and isinstance(vp, (int, float))
+                else None,
+                is_winner=bool(c.get("is_winner", False)),
+            )
+        )
+    return candidates
+
+
+def parse_basic_wikitable_row(
+    row: Tag,
+) -> dict[str, str | float | bool | None] | None:
+    """Parse candidate data from a basic wikitable row (no vcard).
+
+    Used for mayoral and other election pages that use ``<th scope="row">``
+    instead of ``<tr class="vcard">`` formatting.
+
+    Args:
+        row: A table row element.
+
+    Returns:
+        Dict with keys ``party``, ``name``, ``wiki_url``, ``vote_pct``,
+        ``is_winner``; or None if the row cannot be parsed.
+    """
+    th = row.find("th", attrs={"scope": "row"})
+    if th is None:
+        return None
+
+    candidate_name = th.get_text(strip=True)
+    candidate_name = INCUMBENT_RE.sub("", candidate_name).strip()
+    if not candidate_name:
+        return None
+
+    wiki_url = ""
+    link = th.find("a")
+    if link and isinstance(link, Tag):
+        href_val = str(link.get("href", ""))
+        if href_val.startswith("/wiki/"):
+            wiki_url = f"{BASE_URL}{href_val}"
+
+    is_winner = th.find("b") is not None or bool(
+        row.find(style=re.compile(r"font-weight\s*:\s*bold"))
+    )
+
+    tds = row.find_all("td")
+    vote_pct: float | None = None
+    for td in reversed(tds):
+        text = td.get_text(strip=True).replace(",", "").replace("%", "")
+        try:
+            val = float(text)
+            if 0 <= val <= 100:
+                vote_pct = val
+                break
+        except ValueError:
+            continue
+
+    return {
+        "party": "",
         "name": candidate_name,
         "wiki_url": wiki_url,
         "vote_pct": vote_pct,
