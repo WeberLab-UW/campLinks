@@ -112,14 +112,6 @@ df = pl.read_database(
 )
 ```
 
-## Migrating from Legacy CSV
-
-If you have an existing `house_races_2024.csv` from the old pipeline:
-
-```bash
-python convert_to_tidy.py --csv house_races_2024.csv --db camplinks.db
-```
-
 ## Adding a New Race Type
 
 See [USAGE.md](USAGE.md) for a walkthrough with examples.
@@ -132,3 +124,11 @@ pytest tests/
 mypy camplinks/
 ruff check .
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for setup instructions and guidelines.
+
+## License
+
+[MIT](LICENSE)

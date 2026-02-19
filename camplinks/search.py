@@ -13,7 +13,6 @@ from __future__ import annotations
 
 import logging
 import sqlite3
-from typing import Optional
 from urllib.parse import urlparse
 
 import requests
@@ -116,7 +115,7 @@ def extract_all_contact_links(soup: BeautifulSoup) -> dict[str, str]:
     if not infobox or not isinstance(infobox, Tag):
         return links
 
-    contact_header: Optional[Tag] = None
+    contact_header: Tag | None = None
     for div in infobox.find_all("div", class_="widget-row"):
         if not isinstance(div, Tag):
             continue
@@ -310,7 +309,7 @@ def find_candidate_info(
             contacts["_ballotpedia_url"] = bp_url
         except requests.HTTPError as exc:
             logger.error("Ballotpedia fetch failed for %s: %s", name, exc)
-        except Exception as exc:
+        except (AttributeError, KeyError, ValueError, TypeError) as exc:
             logger.error("Ballotpedia parse error for %s: %s", name, exc)
 
     if "campaign website" not in contacts:

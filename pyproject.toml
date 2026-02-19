@@ -2,7 +2,18 @@
 name = "camplinks"
 version = "0.1.0"
 description = "Scrape and enrich US political election data from Wikipedia and Ballotpedia."
+readme = "README.md"
+license = {text = "MIT"}
 requires-python = ">=3.11"
+authors = [{name = "Nic Weber"}]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
+
+[project.urls]
+Repository = "https://github.com/nicweber/campLinks"
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "ddgs>=9.10.0",

@@ -1,0 +1,10 @@
+.env
+*.db
+!camplinks.db
+__pycache__/
+.venv/
+.DS_Store
+campaign_search_cache.json
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
