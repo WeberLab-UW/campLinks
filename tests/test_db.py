@@ -8,6 +8,7 @@ import pytest
 
 from camplinks.db import (
     get_candidates_missing_link,
+    get_candidates_with_link,
     init_schema,
     upsert_candidate,
     upsert_contact_link,
@@ -213,3 +214,82 @@ class TestGetCandidatesMissingLink:
 
         missing = get_candidates_missing_link(db, "campaign_site")
         assert len(missing) == 0
+
+
+class TestGetCandidatesWithLink:
+    """Tests for finding candidates that have a specific contact link."""
+
+    def test_finds_candidates_with_campaign_site(self, db: sqlite3.Connection) -> None:
+        e = Election(state="Ohio", race_type="US House", year=2024, district="5")
+        eid = upsert_election(db, e)
+        c = Candidate(party="Republican", candidate_name="Alice")
+        cid = upsert_candidate(db, c, eid)
+        upsert_contact_link(
+            db, ContactLink(cid, "campaign_site", "https://alice.com", "wikipedia")
+        )
+        db.commit()
+
+        rows = get_candidates_with_link(db, "campaign_site")
+        assert len(rows) == 1
+        assert rows[0]["candidate_name"] == "Alice"
+        assert rows[0]["campaign_site_url"] == "https://alice.com"
+
+    def test_excludes_candidates_with_archived_link(
+        self, db: sqlite3.Connection
+    ) -> None:
+        e = Election(state="Ohio", race_type="US House", year=2024, district="5")
+        eid = upsert_election(db, e)
+        c = Candidate(party="Republican", candidate_name="Alice")
+        cid = upsert_candidate(db, c, eid)
+        upsert_contact_link(
+            db, ContactLink(cid, "campaign_site", "https://alice.com", "wikipedia")
+        )
+        upsert_contact_link(
+            db,
+            ContactLink(
+                cid,
+                "campaign_site_archived",
+                "https://web.archive.org/web/alice.com",
+                "wayback",
+            ),
+        )
+        db.commit()
+
+        rows = get_candidates_with_link(
+            db, "campaign_site", exclude_link_type="campaign_site_archived"
+        )
+        assert len(rows) == 0
+
+    def test_filter_by_year(self, db: sqlite3.Connection) -> None:
+        e1 = Election(state="Ohio", race_type="US House", year=2024, district="5")
+        e2 = Election(state="Ohio", race_type="US House", year=2022, district="5")
+        eid1 = upsert_election(db, e1)
+        eid2 = upsert_election(db, e2)
+
+        c1 = Candidate(party="Republican", candidate_name="Alice")
+        cid1 = upsert_candidate(db, c1, eid1)
+        upsert_contact_link(
+            db, ContactLink(cid1, "campaign_site", "https://alice.com", "wikipedia")
+        )
+
+        c2 = Candidate(party="Democratic", candidate_name="Bob")
+        cid2 = upsert_candidate(db, c2, eid2)
+        upsert_contact_link(
+            db, ContactLink(cid2, "campaign_site", "https://bob.com", "wikipedia")
+        )
+        db.commit()
+
+        rows = get_candidates_with_link(db, "campaign_site", year=2024)
+        assert len(rows) == 1
+        assert rows[0]["candidate_name"] == "Alice"
+
+    def test_does_not_return_candidates_without_link(
+        self, db: sqlite3.Connection
+    ) -> None:
+        e = Election(state="Ohio", race_type="US House", year=2024, district="5")
+        eid = upsert_election(db, e)
+        upsert_candidate(db, Candidate(party="Republican", candidate_name="Alice"), eid)
+        db.commit()
+
+        rows = get_candidates_with_link(db, "campaign_site")
+        assert len(rows) == 0
