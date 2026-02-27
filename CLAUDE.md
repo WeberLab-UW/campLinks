@@ -59,7 +59,7 @@ Three normalized tables in `camplinks.db`:
 
 `link_type` values: `campaign_site`, `campaign_facebook`, `campaign_x`, `campaign_instagram`, `personal_website`, `personal_facebook`, `personal_linkedin`
 
-`source` values: `wikipedia`, `ballotpedia`, `web_search`
+`source` values: `wikipedia`, `ballotpedia`, `web_search`, `csv_import`
 
 All writes use upsert (ON CONFLICT) so stages are idempotent and safe to re-run.
 
@@ -117,7 +117,9 @@ Enrichment and search stages work automatically for any race type (they query th
 - `open_db()` sets `PRAGMA foreign_keys = ON`, `journal_mode = WAL`, `synchronous = NORMAL`, `cache_size = -64000`.
 
 ## Tech Stack Constraints
-- **Polars only** (never pandas), **orjson** for JSON, **SQLite** for database.
-- **ddgs v9+** -- import as `from ddgs import DDGS`.
-- **uv** for packages, **ruff** for formatting/linting.
-- All functions require type hints and docstrings per `~/Desktop/CLAUDE.md`.
+- **Python 3.11+**, **uv** for packages, **ruff** for formatting/linting, **mypy** for type checking.
+- **Polars only** (never pandas), **orjson** for JSON, **SQLite** (raw `sqlite3`, no ORM).
+- **BeautifulSoup** with **lxml** parser for HTML parsing.
+- **ddgs v9+** -- import as `from ddgs import DDGS`; exceptions from `ddgs.exceptions`.
+- All functions require type hints and docstrings (Args/Returns/Raises format).
+- Use `logger.error` for error reporting, never bare `print`.

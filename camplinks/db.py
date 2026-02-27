@@ -206,6 +206,60 @@ def get_candidates_missing_link(
     return conn.execute(query, params).fetchall()
 
 
+def get_candidates_with_link(
+    conn: sqlite3.Connection,
+    link_type: str,
+    exclude_link_type: str | None = None,
+    year: int | None = None,
+    race_type: str | None = None,
+) -> list[sqlite3.Row]:
+    """Find candidates that have a specific contact link type.
+
+    Optionally excludes candidates that already have a second link type,
+    enabling idempotent validation (skip already-validated candidates).
+
+    Args:
+        conn: Database connection.
+        link_type: The link_type to require (e.g. "campaign_site").
+        exclude_link_type: Optional link_type to exclude candidates who
+            already have it (e.g. "campaign_site_archived").
+        year: Optional filter by election year.
+        race_type: Optional filter by race type.
+
+    Returns:
+        List of Row objects with candidate, election, and link fields.
+    """
+    query = """\
+        SELECT c.candidate_id, c.candidate_name, c.party,
+               e.state, e.district, e.year, e.race_type,
+               cl.url AS campaign_site_url
+        FROM candidates c
+        JOIN elections e ON c.election_id = e.election_id
+        JOIN contact_links cl ON cl.candidate_id = c.candidate_id
+        WHERE c.candidate_name != ''
+          AND cl.link_type = ?
+    """
+    params: list[str | int] = [link_type]
+
+    if exclude_link_type is not None:
+        query += """\
+          AND c.candidate_id NOT IN (
+              SELECT cl2.candidate_id FROM contact_links cl2
+              WHERE cl2.link_type = ?
+          )
+        """
+        params.append(exclude_link_type)
+
+    if year is not None:
+        query += " AND e.year = ?"
+        params.append(year)
+    if race_type is not None:
+        query += " AND e.race_type = ?"
+        params.append(race_type)
+
+    return conn.execute(query, params).fetchall()
+
+
 # ── Contact links ──────────────────────────────────────────────────────────
 
 

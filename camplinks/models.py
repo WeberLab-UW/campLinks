@@ -78,6 +78,7 @@ LINK_TYPES: tuple[str, ...] = (
     "personal_website",
     "personal_facebook",
     "personal_linkedin",
+    "campaign_site_archived",
 )
 
 # Mapping from Ballotpedia contact labels to our link_type values

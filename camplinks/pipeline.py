@@ -1,4 +1,4 @@
-"""Pipeline orchestrator — chains scrape, enrich, and search stages.
+"""Pipeline orchestrator — chains scrape, enrich, search, and validate stages.
 
 Each stage is idempotent (upsert semantics) so it is safe to re-run
 any stage without duplicating data.
@@ -14,6 +14,7 @@ from camplinks.enrich import enrich_from_wikipedia
 from camplinks.models import DB_FILENAME
 from camplinks.scrapers import get_scraper
 from camplinks.search import search_all_candidates
+from camplinks.validate import validate_campaign_sites
 
 logger = logging.getLogger(__name__)
 
@@ -30,8 +31,8 @@ def run_pipeline(
         year: Election year (e.g. 2024).
         race: Race key (e.g. "house", "senate") or "all" for every
             registered scraper.
-        stage: Optional stage filter — "scrape", "enrich", or "search".
-            If None, all stages run in order.
+        stage: Optional stage filter — "scrape", "enrich", "search",
+            or "validate". If None, all stages run in order.
         db_path: Path to the SQLite database file.
     """
     conn = open_db(db_path)
@@ -68,6 +69,7 @@ def _run(
     run_scrape = stage in (None, "scrape")
     run_enrich = stage in (None, "enrich")
     run_search = stage in (None, "search")
+    run_validate = stage in (None, "validate")
 
     # Stage 1: Scrape
     if run_scrape:
@@ -87,6 +89,14 @@ def _run(
             scraper_cls = get_scraper(race)
             race_type = scraper_cls.race_type
         search_all_candidates(conn, year=year, race_type=race_type)
+
+    # Stage 4: Validate (race-agnostic — validates all campaign_site links)
+    if run_validate:
+        race_type = None
+        if race != "all":
+            scraper_cls = get_scraper(race)
+            race_type = scraper_cls.race_type
+        validate_campaign_sites(conn, year=year, race_type=race_type)
 
     # Summary
     _print_summary(conn, year)
