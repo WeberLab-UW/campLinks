@@ -16,6 +16,7 @@ from camplinks.models import DB_FILENAME
 
 # Import scrapers to trigger registration via register_scraper()
 import camplinks.scrapers.attorney_general  # noqa: F401
+import camplinks.scrapers.ballotpedia_governor  # noqa: F401
 import camplinks.scrapers.ballotpedia_municipal  # noqa: F401
 import camplinks.scrapers.governor  # noqa: F401
 import camplinks.scrapers.house  # noqa: F401

@@ -21,6 +21,7 @@ Supported race types: US House, US Senate, Governor, Attorney General, State Hou
 | `state_leg_special` | State House / State Senate | Filters specials from state leg index |
 | `municipal` | Mayor | Uses Wikipedia category page as index |
 | `bp_municipal` | Mayor | Ballotpedia, top-100 cities by population |
+| `bp_governor` | Governor | Ballotpedia, all 50 states (fallback if index fails) |
 | `judicial` | State Supreme Court | Contested + retention + Pattern A tables |
 
 ## Commands
@@ -35,6 +36,7 @@ python -m camplinks --year 2024 --race senate --stage scrape    # scrape only
 python -m camplinks --year 2025 --race governor --stage scrape  # gubernatorial
 python -m camplinks --year 2025 --race municipal --stage scrape # mayoral (Wikipedia)
 python -m camplinks --year 2023 --race bp_municipal --stage scrape # mayoral (Ballotpedia, top-100 cities)
+python -m camplinks --year 2026 --race bp_governor --stage scrape # gubernatorial (Ballotpedia, all states)
 python -m camplinks --year 2024 --race all                      # all race types
 python -m camplinks --year 2024 --race house --db custom.db     # custom DB path
 python -m camplinks --year 2026 --race senate --stage scrape    # scrape 2026 (captures primaries)
@@ -118,6 +120,18 @@ Enrichment and search stages work automatically for any race type (they query th
 - Cities with no election that year return 404 -- caught and logged at INFO level, not ERROR.
 - State field uses `"City, State"` format (e.g., "Houston, Texas") to prevent collisions (Portland OR vs ME).
 - Hardcoded fallback city list (`_FALLBACK_CITIES`) if the top-100 page is unavailable.
+
+### Ballotpedia Governor Scraper (`bp_governor`)
+- Overrides `scrape_all()` for Ballotpedia-specific delay and 404 handling (not every state has a governor race every cycle).
+- Parses index page (`Gubernatorial_elections,_{year}`) to discover which states have races; falls back to all 50 states if index fails.
+- Skips lieutenant governor pages (URLs containing "lieutenant") to avoid data contamination.
+- Shares votebox parsing code with `bp_municipal` via `ballotpedia_parsing.py`.
+- URL pattern: `{State}_gubernatorial_election,_{year}` (comma format, not parentheses).
+
+### Ballotpedia Shared Parsing (`ballotpedia_parsing.py`)
+- Extracted from `ballotpedia_municipal.py` to avoid duplication across Ballotpedia scrapers.
+- Contains: `parse_votebox()`, `parse_rcv_votebox()`, `detect_election_stage()`, `parse_candidate_cell()`, `parse_results_rows()`.
+- Constants: `BALLOTPEDIA_BASE`, `BALLOTPEDIA_DELAY_S`.
 
 ### Search Strategy (camplinks/search.py)
 - **Tier 1 (Ballotpedia):** DDG `site:ballotpedia.org` search, then parses `<div class="infobox person">` Contact section. Extracts all link types (campaign site, Facebook, X, Instagram, etc.).

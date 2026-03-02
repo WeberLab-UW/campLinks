@@ -51,7 +51,9 @@ class GovernorScraper(BaseScraper):
         Returns:
             De-duplicated list of (state, url) tuples.
         """
-        pattern = re.compile(rf"/wiki/{year}_\w+_gubernatorial_election$")
+        pattern = re.compile(
+            rf"/wiki/{year}_(?!.*lieutenant)\w+_gubernatorial_election$"
+        )
         seen: set[str] = set()
         results: list[tuple[str, str]] = []
         for anchor in soup.find_all("a", href=pattern):
