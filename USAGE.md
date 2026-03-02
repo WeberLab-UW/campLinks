@@ -120,7 +120,28 @@ Cities that didn't hold a mayoral election that year are skipped (404). Cities w
 
 Data is stored with `state="City, State"` (e.g., "Houston, Texas"), `race_type="Mayor"`. This coexists with the Wikipedia-based `municipal` scraper which uses different city name formats.
 
-## Vignette 6: Adding a New Race Type (e.g., Governor)
+## Vignette 6: Scraping Gubernatorial Elections from Ballotpedia
+
+The `bp_governor` scraper targets Ballotpedia directly for gubernatorial elections across all 50 states. This provides better early coverage than the Wikipedia-based `governor` scraper, especially for upcoming election years where Wikipedia pages are still stubs.
+
+```bash
+# Scrape 2024 gubernatorial elections (known results)
+python -m camplinks --year 2024 --race bp_governor --stage scrape
+
+# Scrape 2026 gubernatorial elections (primaries as they become available)
+python -m camplinks --year 2026 --race bp_governor --stage scrape
+```
+
+The scraper parses the Ballotpedia index page to discover which states have races that year, then fetches individual state pages. States without a governor race return 404 and are skipped. Data includes general, primary, and runoff elections.
+
+For maximum coverage, run both the Wikipedia and Ballotpedia governor scrapers -- they upsert into the same `Governor` race_type rows:
+
+```bash
+python -m camplinks --year 2024 --race governor --stage scrape      # Wikipedia
+python -m camplinks --year 2024 --race bp_governor --stage scrape   # Ballotpedia
+```
+
+## Vignette 7: Adding a New Race Type
 
 To add support for a new race type, create a scraper class in `camplinks/scrapers/`. Here's the pattern:
 
@@ -238,7 +259,7 @@ python -m camplinks --year 2024 --race governor
 
 That's it. The enrichment and search stages work automatically for any race type since they operate on the candidates table, not on race-specific logic.
 
-## Vignette 7: Exporting Data
+## Vignette 8: Exporting Data
 
 ### To CSV
 

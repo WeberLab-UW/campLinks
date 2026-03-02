@@ -5,13 +5,15 @@ from __future__ import annotations
 from bs4 import BeautifulSoup
 
 from camplinks.scrapers.ballotpedia_municipal import (
-    BALLOTPEDIA_BASE,
     TOP_100_URL,
     BallotpediaMunicipalScraper,
-    _detect_election_stage,
-    _parse_candidate_cell,
-    _parse_rcv_votebox,
-    _parse_votebox,
+)
+from camplinks.scrapers.ballotpedia_parsing import (
+    BALLOTPEDIA_BASE,
+    detect_election_stage,
+    parse_candidate_cell,
+    parse_rcv_votebox,
+    parse_votebox,
 )
 
 
@@ -165,30 +167,30 @@ TOP_100_TABLE_HTML = """\
 
 
 class TestParseCandidateCell:
-    """Tests for _parse_candidate_cell()."""
+    """Tests for parse_candidate_cell()."""
 
     def test_standard_party(self) -> None:
-        name, party = _parse_candidate_cell("John Smith (Democrat)")
+        name, party = parse_candidate_cell("John Smith (Democrat)")
         assert name == "John Smith"
         assert party == "Democrat"
 
     def test_nonpartisan(self) -> None:
-        name, party = _parse_candidate_cell("Jane Doe (Nonpartisan)")
+        name, party = parse_candidate_cell("Jane Doe (Nonpartisan)")
         assert name == "Jane Doe"
         assert party == "Nonpartisan"
 
     def test_abbreviated_party(self) -> None:
-        name, party = _parse_candidate_cell("Bob Jones (R)")
+        name, party = parse_candidate_cell("Bob Jones (R)")
         assert name == "Bob Jones"
         assert party == "R"
 
     def test_no_party(self) -> None:
-        name, party = _parse_candidate_cell("Alice Wonder")
+        name, party = parse_candidate_cell("Alice Wonder")
         assert name == "Alice Wonder"
         assert party == ""
 
     def test_whitespace_handling(self) -> None:
-        name, party = _parse_candidate_cell("  John Smith (D)  ")
+        name, party = parse_candidate_cell("  John Smith (D)  ")
         assert name == "John Smith"
         assert party == "D"
 
@@ -197,99 +199,99 @@ class TestParseCandidateCell:
 
 
 class TestDetectElectionStage:
-    """Tests for _detect_election_stage()."""
+    """Tests for detect_election_stage()."""
 
     def test_general_election(self) -> None:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        assert _detect_election_stage(vbox) == "general"
+        assert detect_election_stage(vbox) == "general"
 
     def test_runoff_election(self) -> None:
         soup = _soup(RUNOFF_VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        assert _detect_election_stage(vbox) == "runoff"
+        assert detect_election_stage(vbox) == "runoff"
 
     def test_primary_election(self) -> None:
         html = VOTEBOX_HTML.replace("General election", "Democratic primary election")
         soup = _soup(html)
         vbox = soup.find("div", class_="votebox")
-        assert _detect_election_stage(vbox) == "primary"
+        assert detect_election_stage(vbox) == "primary"
 
     def test_no_header_defaults_to_general(self) -> None:
         html = '<div class="votebox"><table></table></div>'
         soup = _soup(html)
         vbox = soup.find("div", class_="votebox")
-        assert _detect_election_stage(vbox) == "general"
+        assert detect_election_stage(vbox) == "general"
 
 
 # ── TestParseVotebox ──────────────────────────────────────────────────────
 
 
 class TestParseVotebox:
-    """Tests for _parse_votebox()."""
+    """Tests for parse_votebox()."""
 
     def test_extracts_candidates(self) -> None:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        parsed = _parse_votebox(vbox)
+        parsed = parse_votebox(vbox)
         assert len(parsed) == 2
 
     def test_winner_detection(self) -> None:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        parsed = _parse_votebox(vbox)
+        parsed = parse_votebox(vbox)
         assert parsed[0]["is_winner"] is True
         assert parsed[1]["is_winner"] is False
 
     def test_candidate_name(self) -> None:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        parsed = _parse_votebox(vbox)
+        parsed = parse_votebox(vbox)
         assert parsed[0]["name"] == "John Whitmire"
         assert parsed[1]["name"] == "Sheila Jackson Lee"
 
     def test_party_extraction(self) -> None:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        parsed = _parse_votebox(vbox)
+        parsed = parse_votebox(vbox)
         assert parsed[0]["party"] == "Nonpartisan"
 
     def test_vote_percentage(self) -> None:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        parsed = _parse_votebox(vbox)
+        parsed = parse_votebox(vbox)
         assert parsed[0]["vote_pct"] == 64.4
         assert parsed[1]["vote_pct"] == 35.6
 
     def test_ballotpedia_url(self) -> None:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
-        parsed = _parse_votebox(vbox)
+        parsed = parse_votebox(vbox)
         assert parsed[0]["wiki_url"] == f"{BALLOTPEDIA_BASE}/John_Whitmire"
 
     def test_empty_table(self) -> None:
         html = '<div class="votebox"><table></table></div>'
         soup = _soup(html)
         vbox = soup.find("div", class_="votebox")
-        assert _parse_votebox(vbox) == []
+        assert parse_votebox(vbox) == []
 
 
 # ── TestParseRcvVotebox ───────────────────────────────────────────────────
 
 
 class TestParseRcvVotebox:
-    """Tests for _parse_rcv_votebox()."""
+    """Tests for parse_rcv_votebox()."""
 
     def test_parses_final_round(self) -> None:
         soup = _soup(RCV_VOTEBOX_HTML)
         vbox = soup.find("div", class_="rcvvotebox")
-        parsed = _parse_rcv_votebox(vbox)
+        parsed = parse_rcv_votebox(vbox)
         assert len(parsed) == 2
 
     def test_winner_from_final_round(self) -> None:
         soup = _soup(RCV_VOTEBOX_HTML)
         vbox = soup.find("div", class_="rcvvotebox")
-        parsed = _parse_rcv_votebox(vbox)
+        parsed = parse_rcv_votebox(vbox)
         assert parsed[0]["name"] == "Daniel Lurie"
         assert parsed[0]["is_winner"] is True
         assert parsed[0]["vote_pct"] == 55.0
@@ -297,7 +299,7 @@ class TestParseRcvVotebox:
     def test_loser_from_final_round(self) -> None:
         soup = _soup(RCV_VOTEBOX_HTML)
         vbox = soup.find("div", class_="rcvvotebox")
-        parsed = _parse_rcv_votebox(vbox)
+        parsed = parse_rcv_votebox(vbox)
         assert parsed[1]["name"] == "London Breed"
         assert parsed[1]["is_winner"] is False
 

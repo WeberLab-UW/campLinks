@@ -6,15 +6,16 @@ Last updated: 2026-03-02
 
 | Metric | Count |
 |--------|-------|
-| Elections | 1,124 |
-| Candidates | 5,235 |
-| Contact Links | 4,197 |
+| Elections | 1,165 |
+| Candidates | 6,043 |
+| Contact Links | 4,327 |
 
 ## Elections by Year and Race Type
 
 | Year | Race Type | Elections | Candidates |
 |------|-----------|-----------|------------|
 | 2023 | Mayor | 45 | 313 |
+| 2024 | Governor | 16 | 264 |
 | 2024 | Mayor | 48 | 240 |
 | 2024 | US House of Representatives | 437 | 839 |
 | 2025 | Attorney General | 1 | 2 |
@@ -25,7 +26,7 @@ Last updated: 2026-03-02
 | 2025 | State Supreme Court | 1 | 4 |
 | 2025 | US House | 5 | 35 |
 | 2026 | Attorney General | 6 | 18 |
-| 2026 | Governor | 9 | 80 |
+| 2026 | Governor | 34 | 624 |
 | 2026 | Mayor | 12 | 75 |
 | 2026 | State House | 199 | 1,856 |
 | 2026 | State Senate | 2 | 12 |
@@ -38,26 +39,36 @@ Last updated: 2026-03-02
 | Year | General | Primary | Runoff | Total |
 |------|---------|---------|--------|-------|
 | 2023 | 28 | 11 | 6 | 45 |
-| 2024 | 464 | 16 | 5 | 485 |
+| 2024 | 472 | 24 | 5 | 501 |
 | 2025 | 251 | 14 | 5 | 270 |
-| 2026 | 92 | 230 | 2 | 324 |
+| 2026 | 104 | 240 | 5 | 349 |
 
 ## Campaign Site Coverage
 
-| Year | Candidates | With Campaign Site | Coverage % |
-|------|------------|-------------------|------------|
-| 2023 | 313 | 0 | 0.0% |
-| 2024 | 1,079 | 807 | 74.8% |
-| 2025 | 1,195 | 751 | 62.8% |
-| 2026 | 2,648 | 0 | 0.0% |
+| Year | Race Type | Candidates | With Site | Coverage % |
+|------|-----------|------------|-----------|------------|
+| 2023 | Mayor | 313 | 3 | 1.0% |
+| 2024 | Governor | 264 | 0 | 0.0% |
+| 2024 | Mayor | 240 | 0 | 0.0% |
+| 2024 | US House | 839 | 807 | 96.2% |
+| 2025 | Attorney General | 2 | 2 | 100.0% |
+| 2025 | Governor | 8 | 8 | 100.0% |
+| 2025 | Mayor | 664 | 258 | 38.9% |
+| 2025 | State House | 475 | 441 | 92.8% |
+| 2025 | State Senate | 7 | 7 | 100.0% |
+| 2025 | State Supreme Court | 4 | 4 | 100.0% |
+| 2025 | US House | 35 | 31 | 88.6% |
+| 2026 | Governor | 624 | 6 | 1.0% |
+| 2026 | State House | 1,856 | 113 | 6.1% |
+| 2026 | Other | 712 | 8 | 1.1% |
 
-Note: 0% coverage years have not had enrich/search/validate stages run yet.
+Note: 0% / low coverage years need the search stage run (`--stage search`). Enrich stage has been run for all years.
 
 ## Contact Links by Type
 
 | Link Type | Count |
 |-----------|-------|
-| campaign_site | 1,558 |
+| campaign_site | 1,688 |
 | campaign_facebook | 585 |
 | personal_linkedin | 513 |
 | personal_facebook | 505 |
@@ -72,9 +83,16 @@ Note: 0% coverage years have not had enrich/search/validate stages run yet.
 |--------|-------|
 | csv_import | 1,959 |
 | ballotpedia | 1,419 |
+| wikipedia | 368 |
 | web_search | 366 |
-| wikipedia | 238 |
 | wayback | 215 |
+
+## Ballotpedia Governor Scraper
+
+| Year | States Found | General | Primary | Runoff | Total Elections |
+|------|-------------|---------|---------|--------|---------------|
+| 2024 | 27 | 8 | 8 | 0 | 16 |
+| 2026 | 34 | 14 | 17 | 3 | 34 |
 
 ## Ballotpedia Municipal Scraper (Top-100 Cities)
 

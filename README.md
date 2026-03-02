@@ -68,6 +68,9 @@ python -m camplinks --year 2025 --race municipal
 # Scrape 2023-2026 mayoral elections (Ballotpedia, top-100 cities)
 python -m camplinks --year 2023 --race bp_municipal --stage scrape
 
+# Scrape gubernatorial elections from Ballotpedia (all 50 states)
+python -m camplinks --year 2026 --race bp_governor --stage scrape
+
 # Run all registered race types
 python -m camplinks --year 2024 --race all
 ```
@@ -85,6 +88,7 @@ python -m camplinks --year 2024 --race all
 | `state_leg_special` | State legislature special elections |
 | `municipal` | Mayoral elections (Wikipedia) |
 | `bp_municipal` | Mayoral elections (Ballotpedia, top-100 cities) |
+| `bp_governor` | Gubernatorial elections (Ballotpedia, all states) |
 | `judicial` | State Supreme Court elections |
 | `all` | Run all of the above |
 
