@@ -18,8 +18,9 @@ from camplinks.scrapers import register_scraper
 from camplinks.scrapers.base import BaseScraper
 from camplinks.wiki_parsing import (
     candidates_from_parsed,
+    classify_election_table,
     extract_district_number,
-    is_general_election_table,
+    extract_primary_party,
     parse_candidate_row,
 )
 
@@ -179,13 +180,18 @@ class StateLegSpecialScraper(BaseScraper):
             class_=lambda c: c and "wikitable" in c and "plainrowheaders" in c,
         )
         for table in tables:
-            if not is_general_election_table(table):
+            stage = classify_election_table(table)
+            if stage is None:
                 continue
+
+            primary_party = extract_primary_party(table) if stage != "general" else ""
 
             parsed: list[dict[str, str | float | bool | None]] = []
             for row in table.find_all("tr", class_="vcard"):
                 cand = parse_candidate_row(row)
                 if cand:
+                    if primary_party and not cand.get("party"):
+                        cand["party"] = primary_party
                     parsed.append(cand)
 
             candidates = candidates_from_parsed(parsed)
@@ -195,6 +201,7 @@ class StateLegSpecialScraper(BaseScraper):
                     race_type=race_type,
                     year=year,
                     district=district,
+                    election_stage=stage,
                 )
                 results.append((election, candidates))
 

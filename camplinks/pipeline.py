@@ -9,7 +9,7 @@ from __future__ import annotations
 import logging
 import sqlite3
 
-from camplinks.db import init_schema, open_db
+from camplinks.db import init_schema, migrate_schema, open_db
 from camplinks.enrich import enrich_from_wikipedia
 from camplinks.models import DB_FILENAME
 from camplinks.scrapers import get_scraper
@@ -24,6 +24,7 @@ def run_pipeline(
     race: str,
     stage: str | None = None,
     db_path: str = DB_FILENAME,
+    election_stage: str | None = None,
 ) -> None:
     """Run the camplinks pipeline for a given race and year.
 
@@ -34,12 +35,16 @@ def run_pipeline(
         stage: Optional stage filter — "scrape", "enrich", "search",
             or "validate". If None, all stages run in order.
         db_path: Path to the SQLite database file.
+        election_stage: Optional election stage filter for
+            enrich/search/validate. Defaults to "general" for those
+            stages if not specified.
     """
     conn = open_db(db_path)
+    migrate_schema(conn)
     init_schema(conn)
 
     try:
-        _run(conn, year, race, stage)
+        _run(conn, year, race, stage, election_stage)
     finally:
         conn.close()
 
@@ -49,6 +54,7 @@ def _run(
     year: int,
     race: str,
     stage: str | None,
+    election_stage: str | None,
 ) -> None:
     """Internal pipeline execution.
 
@@ -57,6 +63,7 @@ def _run(
         year: Election year.
         race: Race key or "all".
         stage: Stage filter or None for all.
+        election_stage: Election stage filter for downstream stages.
     """
     from camplinks.scrapers import SCRAPER_REGISTRY
 
@@ -78,9 +85,12 @@ def _run(
             scraper = scraper_cls()
             scraper.scrape_all(year, conn)
 
+    # For downstream stages, default to "general" unless explicitly overridden
+    downstream_stage = election_stage if election_stage is not None else "general"
+
     # Stage 2: Enrich (race-agnostic — enriches all candidates with wiki URLs)
     if run_enrich:
-        enrich_from_wikipedia(conn)
+        enrich_from_wikipedia(conn, election_stage=downstream_stage)
 
     # Stage 3: Search (race-agnostic — searches for all missing contacts)
     if run_search:
@@ -88,7 +98,9 @@ def _run(
         if race != "all":
             scraper_cls = get_scraper(race)
             race_type = scraper_cls.race_type
-        search_all_candidates(conn, year=year, race_type=race_type)
+        search_all_candidates(
+            conn, year=year, race_type=race_type, election_stage=downstream_stage
+        )
 
     # Stage 4: Validate (race-agnostic — validates all campaign_site links)
     if run_validate:
@@ -96,7 +108,9 @@ def _run(
         if race != "all":
             scraper_cls = get_scraper(race)
             race_type = scraper_cls.race_type
-        validate_campaign_sites(conn, year=year, race_type=race_type)
+        validate_campaign_sites(
+            conn, year=year, race_type=race_type, election_stage=downstream_stage
+        )
 
     # Summary
     _print_summary(conn, year)
@@ -139,3 +153,13 @@ def _print_summary(conn: sqlite3.Connection, year: int) -> None:
         candidates,
         contacts,
     )
+
+    stage_rows = conn.execute(
+        """\
+        SELECT election_stage, COUNT(*) FROM elections
+        WHERE year = ? GROUP BY election_stage ORDER BY election_stage
+        """,
+        (year,),
+    ).fetchall()
+    for row in stage_rows:
+        logger.info("  %s: %d elections", row[0], row[1])

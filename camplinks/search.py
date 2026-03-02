@@ -275,6 +275,7 @@ def _race_keyword(race_type: str) -> str:
         "US House": "congress",
         "US Senate": "senate",
         "Governor": "governor",
+        "Mayor": "mayor",
     }
     return mapping.get(race_type, "election")
 
@@ -325,6 +326,7 @@ def search_all_candidates(
     cache_path: str = CACHE_FILE,
     year: int | None = None,
     race_type: str | None = None,
+    election_stage: str | None = "general",
 ) -> int:
     """Find contact info for all candidates missing a campaign site.
 
@@ -333,12 +335,18 @@ def search_all_candidates(
         cache_path: Path for the incremental cache file.
         year: Optional filter by election year.
         race_type: Optional filter by race type.
+        election_stage: Optional filter by election stage. Defaults to
+            "general" to avoid searching for primary-only candidates.
 
     Returns:
         Number of candidates with new contact info found.
     """
     targets = get_candidates_missing_link(
-        conn, "campaign_site", year=year, race_type=race_type
+        conn,
+        "campaign_site",
+        year=year,
+        race_type=race_type,
+        election_stage=election_stage,
     )
 
     if not targets:

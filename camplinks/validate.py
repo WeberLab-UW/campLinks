@@ -97,6 +97,7 @@ def validate_campaign_sites(
     cache_path: str = VALIDATE_CACHE_FILE,
     year: int | None = None,
     race_type: str | None = None,
+    election_stage: str | None = "general",
 ) -> int:
     """Validate campaign site URLs and archive inaccessible ones.
 
@@ -109,6 +110,8 @@ def validate_campaign_sites(
         cache_path: Path for the incremental validation cache file.
         year: Optional filter by election year.
         race_type: Optional filter by race type.
+        election_stage: Optional filter by election stage. Defaults to
+            "general" to avoid validating primary-only candidates.
 
     Returns:
         Number of archived URLs found and saved.
@@ -119,6 +122,7 @@ def validate_campaign_sites(
         exclude_link_type="campaign_site_archived",
         year=year,
         race_type=race_type,
+        election_stage=election_stage,
     )
     if not targets:
         logger.info("No campaign sites to validate.")

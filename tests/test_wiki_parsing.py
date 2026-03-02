@@ -5,7 +5,9 @@ from __future__ import annotations
 from bs4 import BeautifulSoup
 
 from camplinks.wiki_parsing import (
+    classify_election_table,
     extract_district_number,
+    extract_primary_party,
     find_preceding_heading,
     is_general_election_table,
     parse_candidate_row,
@@ -222,3 +224,147 @@ class TestParseCandidateRow:
         result = parse_candidate_row(row)
         assert result is not None
         assert result["vote_pct"] == 70.61
+
+
+# ---------------------------------------------------------------------------
+# classify_election_table
+# ---------------------------------------------------------------------------
+class TestClassifyElectionTable:
+    """Tests for election table classification."""
+
+    def test_general_caption(self) -> None:
+        html = (
+            '<table class="wikitable plainrowheaders">'
+            "<caption>2024 general election</caption>"
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) == "general"
+
+    def test_primary_caption(self) -> None:
+        html = (
+            '<table class="wikitable plainrowheaders">'
+            "<caption>Republican primary results</caption>"
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) == "primary"
+
+    def test_runoff_caption(self) -> None:
+        html = (
+            '<table class="wikitable plainrowheaders">'
+            "<caption>Democratic primary runoff results</caption>"
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) == "runoff"
+
+    def test_heading_general_election(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading3"><h3>General election</h3></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) == "general"
+
+    def test_heading_results(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading3"><h3>Results</h3></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) == "general"
+
+    def test_heading_primary(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading3"><h3>Primary election</h3></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) == "primary"
+
+    def test_heading_runoff(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading3"><h3>Runoff election</h3></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) == "runoff"
+
+    def test_no_context_returns_none(self) -> None:
+        html = '<table class="wikitable plainrowheaders"><tr><td></td></tr></table>'
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert classify_election_table(table) is None
+
+
+# ---------------------------------------------------------------------------
+# extract_primary_party
+# ---------------------------------------------------------------------------
+class TestExtractPrimaryParty:
+    """Tests for extracting party from primary table headings."""
+
+    def test_republican_heading(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading2"><h2>Republican primary</h2></div>'
+            '<div class="mw-heading mw-heading3"><h3>Results</h3></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert extract_primary_party(table) == "Republican"
+
+    def test_democratic_heading(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading2"><h2>Democratic primary</h2></div>'
+            '<div class="mw-heading mw-heading3"><h3>Results</h3></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert extract_primary_party(table) == "Democratic"
+
+    def test_no_party_heading(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading2"><h2>Background</h2></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert extract_primary_party(table) == ""
+
+    def test_democrat_normalized_to_democratic(self) -> None:
+        html = (
+            '<div class="mw-heading mw-heading2"><h2>Democrat primary</h2></div>'
+            '<table class="wikitable plainrowheaders">'
+            "<tr><td></td></tr></table>"
+        )
+        soup = BeautifulSoup(html, "lxml")
+        table = soup.find("table")
+        assert table is not None
+        assert extract_primary_party(table) == "Democratic"

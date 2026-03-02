@@ -10,11 +10,12 @@ The simplest use case: scrape all 437 US House races for 2024, then enrich every
 python -m camplinks --year 2024 --race house
 ```
 
-This runs all three stages:
+This runs all four stages:
 
 1. **Scrape** - Fetches the [2024 House elections index](https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections) on Wikipedia, follows links to each state page, and parses candidate tables.
 2. **Enrich** - For every candidate with a Wikipedia page, fetches their page and extracts the campaign website from the infobox.
 3. **Search** - For candidates still missing a campaign website, searches Ballotpedia (via DuckDuckGo) and extracts all contact links from the Ballotpedia infobox. Falls back to general web search with heuristic scoring.
+4. **Validate** - Checks every campaign site URL for accessibility. For dead links, queries the Wayback Machine and stores the archived URL as a `campaign_site_archived` contact link.
 
 Results land in `camplinks.db`. Inspect them:
 
@@ -36,7 +37,7 @@ Senate races work exactly the same way:
 python -m camplinks --year 2024 --race senate
 ```
 
-This scrapes the [2024 Senate elections index](https://en.wikipedia.org/wiki/2024_United_States_Senate_elections), follows links to each state race page, and parses the general election table. Senate races are statewide, so `district` is NULL in the database.
+This scrapes the [2024 Senate elections index](https://en.wikipedia.org/wiki/2024_United_States_Senate_elections), follows links to each state race page, and parses both primary and general election tables. Senate races are statewide, so `district` is empty in the database. Each stage (primary, general, runoff) gets its own election record.
 
 You can run both House and Senate in one command:
 
@@ -57,9 +58,19 @@ python -m camplinks --year 2024 --race house --stage enrich
 
 # Search Ballotpedia + web (slow, has rate limiting)
 python -m camplinks --year 2024 --race house --stage search
+
+# Validate campaign sites and archive dead links
+python -m camplinks --year 2024 --race house --stage validate
 ```
 
-Each stage is **idempotent** - it uses upsert semantics, so re-running a stage won't duplicate data. The search stage also uses a JSON cache (`campaign_search_cache.json`) so interrupted runs resume where they left off.
+Each stage is **idempotent** - it uses upsert semantics, so re-running a stage won't duplicate data. The search and validate stages use JSON caches (`campaign_search_cache.json` and `validate_cache.json`) so interrupted runs resume where they left off.
+
+By default, enrich/search/validate only process **general election** candidates. Use `--election-stage` to target a specific stage:
+
+```bash
+# Search for primary candidates' campaign sites
+python -m camplinks --year 2024 --race senate --stage search --election-stage primary
+```
 
 ## Vignette 4: Scraping a Different Election Year
 
@@ -91,7 +102,25 @@ for r in rows:
     print(f"{r['year']} {r['race_type']}: {r['candidates']} candidates")
 ```
 
-## Vignette 5: Adding a New Race Type (e.g., Governor)
+## Vignette 5: Scraping Mayoral Elections from Ballotpedia
+
+The `bp_municipal` scraper targets Ballotpedia directly for the 100 most populous US cities. It handles standard, runoff, and ranked-choice voting (RCV) election formats.
+
+```bash
+# Scrape 2023 mayoral elections from Ballotpedia
+python -m camplinks --year 2023 --race bp_municipal --stage scrape
+
+# Scrape all four years
+python -m camplinks --year 2024 --race bp_municipal --stage scrape
+python -m camplinks --year 2025 --race bp_municipal --stage scrape
+python -m camplinks --year 2026 --race bp_municipal --stage scrape
+```
+
+Cities that didn't hold a mayoral election that year are skipped (404). Cities with runoff elections get separate records (e.g., Houston 2023 has both a general and runoff election).
+
+Data is stored with `state="City, State"` (e.g., "Houston, Texas"), `race_type="Mayor"`. This coexists with the Wikipedia-based `municipal` scraper which uses different city name formats.
+
+## Vignette 6: Adding a New Race Type (e.g., Governor)
 
 To add support for a new race type, create a scraper class in `camplinks/scrapers/`. Here's the pattern:
 
@@ -209,7 +238,7 @@ python -m camplinks --year 2024 --race governor
 
 That's it. The enrichment and search stages work automatically for any race type since they operate on the candidates table, not on race-specific logic.
 
-## Vignette 6: Exporting Data
+## Vignette 7: Exporting Data
 
 ### To CSV
 
@@ -267,7 +296,8 @@ erDiagram
         text state
         text race_type
         int year
-        text district "NULL for statewide"
+        text district "empty for statewide"
+        text election_stage "general primary runoff"
         text wikipedia_url
     }
 
