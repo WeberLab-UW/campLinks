@@ -20,6 +20,7 @@ Supported race types: US House, US Senate, Governor, Attorney General, State Hou
 | `state_leg` | State House / State Senate | Chamber determined per-page |
 | `state_leg_special` | State House / State Senate | Filters specials from state leg index |
 | `municipal` | Mayor | Uses Wikipedia category page as index |
+| `bp_municipal` | Mayor | Ballotpedia, top-100 cities by population |
 | `judicial` | State Supreme Court | Contested + retention + Pattern A tables |
 
 ## Commands
@@ -32,9 +33,12 @@ uv sync
 python -m camplinks --year 2024 --race house                    # full pipeline
 python -m camplinks --year 2024 --race senate --stage scrape    # scrape only
 python -m camplinks --year 2025 --race governor --stage scrape  # gubernatorial
-python -m camplinks --year 2025 --race municipal --stage scrape # mayoral
+python -m camplinks --year 2025 --race municipal --stage scrape # mayoral (Wikipedia)
+python -m camplinks --year 2023 --race bp_municipal --stage scrape # mayoral (Ballotpedia, top-100 cities)
 python -m camplinks --year 2024 --race all                      # all race types
 python -m camplinks --year 2024 --race house --db custom.db     # custom DB path
+python -m camplinks --year 2026 --race senate --stage scrape    # scrape 2026 (captures primaries)
+python -m camplinks --year 2024 --race house --election-stage primary --stage search  # search primary candidates
 
 # Migrate legacy CSV
 python convert_to_tidy.py --csv house_races_2024.csv
@@ -53,9 +57,11 @@ ruff check .
 ## Database Schema
 
 Three normalized tables in `camplinks.db`:
-- **elections** -- one row per contest, UNIQUE(state, race_type, year, district)
+- **elections** -- one row per contest, UNIQUE(state, race_type, year, district, election_stage)
 - **candidates** -- one row per candidate per election, UNIQUE(election_id, candidate_name)
 - **contact_links** -- one row per link per candidate, UNIQUE(candidate_id, link_type)
+
+`election_stage` values: `general`, `primary`, `runoff`
 
 `link_type` values: `campaign_site`, `campaign_facebook`, `campaign_x`, `campaign_instagram`, `personal_website`, `personal_facebook`, `personal_linkedin`
 
@@ -74,11 +80,14 @@ Upserts are not simple overwrites -- they merge intelligently:
 
 ### Pipeline Stages
 
-Three stages run in order: **scrape -> enrich -> search**. Each is independently runnable via `--stage` and idempotent.
+Four stages run in order: **scrape -> enrich -> search -> validate**. Each is independently runnable via `--stage` and idempotent.
 
-1. **Scrape:** Fetches Wikipedia index page for the race/year, follows state links, parses candidate tables. Commits after each state.
+1. **Scrape:** Fetches Wikipedia index page for the race/year, follows state links, parses candidate tables (general, primary, and runoff). Commits after each state.
 2. **Enrich:** For candidates with `wikipedia_url` but no `campaign_site` link, fetches their Wikipedia page and extracts the campaign website from the infobox or External links section.
 3. **Search:** For candidates still missing `campaign_site`, runs two-tier search. Uses `campaign_search_cache.json` for resumability (auto-saves every 25 candidates).
+4. **Validate:** Checks campaign site URLs for accessibility. For dead links, queries the Wayback Machine and stores the archived URL as a `campaign_site_archived` contact link.
+
+Enrich, search, and validate default to `election_stage="general"` to avoid wasting rate-limited queries on primary-only candidates. Override with `--election-stage`.
 
 ### Scraper Registry Pattern
 
@@ -100,6 +109,15 @@ Enrichment and search stages work automatically for any race type (they query th
 - **Retention elections** (judicial): Yes/No vote format instead of candidate-vs-candidate. `_parse_retention_table()` in `judicial.py` handles this.
 - **Municipal scraper index:** Uses Wikipedia category page (`Category:{year}_United_States_mayoral_elections`) with `<div class="mw-category">` structure instead of a standard article.
 - **Heading search order:** For district extraction, search h2 headings first, then h3 -- searching both simultaneously can match h3 "General election" instead of h2 "District N".
+- **Table classification:** `classify_election_table()` returns `"general"`, `"primary"`, `"runoff"`, or `None` by checking caption text then preceding h3/h4 headings. `extract_primary_party()` walks backward to find the h2 heading (e.g. "Republican primary") to set candidate party for primary tables.
+
+### Ballotpedia Municipal Scraper (`bp_municipal`)
+- Overrides `scrape_all()` because the city list comes from a static top-100 page, not a year-specific index.
+- Three HTML formats: standard `.votebox`, `.rcvvotebox` (RCV cities like SF, NYC), and runoff voteboxes (Houston, Nashville).
+- Election stage detected from `<h5 class="votebox-header-election-type">` text within each votebox.
+- Cities with no election that year return 404 -- caught and logged at INFO level, not ERROR.
+- State field uses `"City, State"` format (e.g., "Houston, Texas") to prevent collisions (Portland OR vs ME).
+- Hardcoded fallback city list (`_FALLBACK_CITIES`) if the top-100 page is unavailable.
 
 ### Search Strategy (camplinks/search.py)
 - **Tier 1 (Ballotpedia):** DDG `site:ballotpedia.org` search, then parses `<div class="infobox person">` Contact section. Extracts all link types (campaign site, Facebook, X, Instagram, etc.).
@@ -112,9 +130,13 @@ Enrichment and search stages work automatically for any race type (they query th
 - DDG can throw `RatelimitException` or `DDGSException` with "429"; handled with retry logic in `http.py`.
 
 ### Database Gotchas
-- `elections.district` is NULL for statewide races (Senate, Governor, AG, Mayor). SQLite treats multiple NULLs as distinct in UNIQUE constraints, so this works correctly.
+- `elections.district` is `''` (empty string) for statewide races (Senate, Governor, AG, Mayor). `upsert_election()` normalizes `None` to `''` so the UNIQUE constraint works correctly (SQLite treats NULLs as distinct, which would break upsert).
 - `get_candidates_missing_link()` filters `WHERE candidate_name != ''` to skip placeholder rows.
 - `open_db()` sets `PRAGMA foreign_keys = ON`, `journal_mode = WAL`, `synchronous = NORMAL`, `cache_size = -64000`.
+
+## Coverage Report
+
+[COVERAGE.md](COVERAGE.md) tracks current database stats (elections, candidates, contact links by year/race/source). **Update it after any pipeline run** by querying the database and rewriting the file with fresh numbers. Include the current date in the "Last updated" line.
 
 ## Tech Stack Constraints
 - **Python 3.11+**, **uv** for packages, **ruff** for formatting/linting, **mypy** for type checking.

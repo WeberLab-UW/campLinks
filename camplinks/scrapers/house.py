@@ -19,9 +19,10 @@ from camplinks.scrapers.base import BaseScraper
 from camplinks.wiki_parsing import (
     INCUMBENT_RE,
     candidates_from_parsed,
+    classify_election_table,
     extract_district_number,
+    extract_primary_party,
     find_preceding_heading,
-    is_general_election_table,
     parse_candidate_row,
 )
 
@@ -277,8 +278,13 @@ class HouseScraper(BaseScraper):
                 class_=lambda c: c and "wikitable" in c and "plainrowheaders" in c,
             )
             for table in tables:
-                if not is_general_election_table(table):
+                stage = classify_election_table(table)
+                if stage is None:
                     continue
+
+                primary_party = (
+                    extract_primary_party(table) if stage != "general" else ""
+                )
 
                 h2 = find_preceding_heading(table, ("h2",))
                 district = extract_district_number(
@@ -289,6 +295,8 @@ class HouseScraper(BaseScraper):
                 for row in table.find_all("tr", class_="vcard"):
                     cand = parse_candidate_row(row)
                     if cand:
+                        if primary_party and not cand.get("party"):
+                            cand["party"] = primary_party
                         parsed.append(cand)
 
                 candidates = candidates_from_parsed(parsed)
@@ -298,6 +306,7 @@ class HouseScraper(BaseScraper):
                         race_type="US House",
                         year=year,
                         district=district,
+                        election_stage=stage,
                     )
                     results.append((election, candidates))
 

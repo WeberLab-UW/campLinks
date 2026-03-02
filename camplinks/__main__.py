@@ -16,6 +16,7 @@ from camplinks.models import DB_FILENAME
 
 # Import scrapers to trigger registration via register_scraper()
 import camplinks.scrapers.attorney_general  # noqa: F401
+import camplinks.scrapers.ballotpedia_municipal  # noqa: F401
 import camplinks.scrapers.governor  # noqa: F401
 import camplinks.scrapers.house  # noqa: F401
 import camplinks.scrapers.judicial  # noqa: F401
@@ -52,6 +53,16 @@ def main() -> None:
         help="Run only this pipeline stage (default: all stages)",
     )
     parser.add_argument(
+        "--election-stage",
+        type=str,
+        default=None,
+        choices=["general", "primary", "runoff"],
+        help=(
+            "Filter by election stage. For enrich/search/validate: "
+            "defaults to general-only if omitted."
+        ),
+    )
+    parser.add_argument(
         "--db",
         type=str,
         default=DB_FILENAME,
@@ -69,6 +80,7 @@ def main() -> None:
         race=args.race,
         stage=args.stage,
         db_path=args.db,
+        election_stage=args.election_stage,
     )
 
 

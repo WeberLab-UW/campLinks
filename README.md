@@ -19,6 +19,7 @@ erDiagram
         text race_type
         int year
         text district
+        text election_stage
         text wikipedia_url
     }
 
@@ -42,9 +43,9 @@ erDiagram
     }
 ```
 
-**`link_type` values:** `campaign_site`, `campaign_facebook`, `campaign_x`, `campaign_instagram`, `personal_website`, `personal_facebook`, `personal_linkedin`
+**`link_type` values:** `campaign_site`, `campaign_site_archived`, `campaign_facebook`, `campaign_x`, `campaign_instagram`, `personal_website`, `personal_facebook`, `personal_linkedin`
 
-**`source` values:** `wikipedia`, `ballotpedia`, `web_search`, `csv_import`
+**`source` values:** `wikipedia`, `ballotpedia`, `web_search`, `wayback`, `csv_import`
 
 ## Quickstart
 
@@ -61,8 +62,11 @@ python -m camplinks --year 2024 --race senate
 # Scrape 2025 gubernatorial races
 python -m camplinks --year 2025 --race governor
 
-# Scrape 2025 mayoral elections (62+ cities)
+# Scrape 2025 mayoral elections (Wikipedia, 62+ cities)
 python -m camplinks --year 2025 --race municipal
+
+# Scrape 2023-2026 mayoral elections (Ballotpedia, top-100 cities)
+python -m camplinks --year 2023 --race bp_municipal --stage scrape
 
 # Run all registered race types
 python -m camplinks --year 2024 --race all
@@ -79,7 +83,8 @@ python -m camplinks --year 2024 --race all
 | `special_house` | House special elections |
 | `state_leg` | State legislature (regular sessions) |
 | `state_leg_special` | State legislature special elections |
-| `municipal` | Mayoral elections |
+| `municipal` | Mayoral elections (Wikipedia) |
+| `bp_municipal` | Mayoral elections (Ballotpedia, top-100 cities) |
 | `judicial` | State Supreme Court elections |
 | `all` | Run all of the above |
 
@@ -87,13 +92,14 @@ The database is written to `camplinks.db` by default. Override with `--db path/t
 
 ## Pipeline Stages
 
-The pipeline runs three stages in order. Each stage is idempotent (safe to re-run).
+The pipeline runs four stages in order. Each stage is idempotent (safe to re-run).
 
 | Stage | What it does | Data source |
 |-------|-------------|-------------|
 | **scrape** | Fetch election results from Wikipedia | Wikipedia state election pages |
 | **enrich** | Extract campaign websites from candidate Wikipedia pages | Wikipedia candidate infoboxes |
 | **search** | Find missing contact info via Ballotpedia and web search | Ballotpedia + DuckDuckGo |
+| **validate** | Check campaign site accessibility, archive dead links | Wayback Machine API |
 
 Run individual stages with `--stage`:
 
@@ -101,6 +107,7 @@ Run individual stages with `--stage`:
 python -m camplinks --year 2024 --race house --stage scrape
 python -m camplinks --year 2024 --race house --stage enrich
 python -m camplinks --year 2024 --race house --stage search
+python -m camplinks --year 2024 --race house --stage validate
 ```
 
 ## Querying the Database

@@ -5,6 +5,9 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 
+ELECTION_STAGES: tuple[str, ...] = ("general", "primary", "runoff")
+
+
 @dataclass
 class Election:
     """A single political race (one contest in one district/state).
@@ -15,6 +18,7 @@ class Election:
         year: Election year.
         district: District identifier or None for statewide races.
         wikipedia_url: Source Wikipedia page URL.
+        election_stage: Stage of the election ("general", "primary", "runoff").
         election_id: Database primary key (set after insertion).
     """
 
@@ -23,6 +27,7 @@ class Election:
     year: int
     district: str | None = None
     wikipedia_url: str = ""
+    election_stage: str = "general"
     election_id: int | None = None
 
 

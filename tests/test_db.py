@@ -10,6 +10,7 @@ from camplinks.db import (
     get_candidates_missing_link,
     get_candidates_with_link,
     init_schema,
+    migrate_schema,
     upsert_candidate,
     upsert_contact_link,
     upsert_election,
@@ -293,3 +294,157 @@ class TestGetCandidatesWithLink:
 
         rows = get_candidates_with_link(db, "campaign_site")
         assert len(rows) == 0
+
+
+class TestElectionStageUpsert:
+    """Tests for election_stage field in upserts."""
+
+    def test_default_stage_is_general(self, db: sqlite3.Connection) -> None:
+        e = Election(state="Ohio", race_type="US House", year=2024, district="5")
+        upsert_election(db, e)
+        row = db.execute(
+            "SELECT election_stage FROM elections WHERE election_id = ?",
+            (e.election_id,),
+        ).fetchone()
+        assert row[0] == "general"
+
+    def test_same_election_different_stages_get_different_ids(
+        self, db: sqlite3.Connection
+    ) -> None:
+        e1 = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="primary"
+        )
+        e2 = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="general"
+        )
+        eid1 = upsert_election(db, e1)
+        eid2 = upsert_election(db, e2)
+        assert eid1 != eid2
+
+    def test_upsert_same_stage_returns_same_id(self, db: sqlite3.Connection) -> None:
+        e1 = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="primary"
+        )
+        e2 = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="primary"
+        )
+        eid1 = upsert_election(db, e1)
+        eid2 = upsert_election(db, e2)
+        assert eid1 == eid2
+
+    def test_candidates_in_different_stages_are_independent(
+        self, db: sqlite3.Connection
+    ) -> None:
+        e_primary = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="primary"
+        )
+        e_general = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="general"
+        )
+        eid_p = upsert_election(db, e_primary)
+        eid_g = upsert_election(db, e_general)
+
+        c1 = Candidate(party="Republican", candidate_name="Alice", vote_pct=60.0)
+        c2 = Candidate(party="Republican", candidate_name="Alice", vote_pct=52.0)
+        cid_p = upsert_candidate(db, c1, eid_p)
+        cid_g = upsert_candidate(db, c2, eid_g)
+        assert cid_p != cid_g
+
+
+class TestMigrateSchema:
+    """Tests for schema migration (adding election_stage column)."""
+
+    def test_migrate_adds_election_stage_column(self) -> None:
+        conn = sqlite3.connect(":memory:")
+        conn.execute("PRAGMA foreign_keys = ON")
+        conn.row_factory = sqlite3.Row
+        # Create OLD schema without election_stage
+        conn.executescript("""\
+            CREATE TABLE elections (
+                election_id   INTEGER PRIMARY KEY,
+                state         TEXT    NOT NULL,
+                race_type     TEXT    NOT NULL,
+                year          INTEGER NOT NULL,
+                district      TEXT,
+                wikipedia_url TEXT,
+                UNIQUE(state, race_type, year, district)
+            );
+            CREATE TABLE candidates (
+                candidate_id   INTEGER PRIMARY KEY,
+                election_id    INTEGER NOT NULL REFERENCES elections(election_id),
+                party          TEXT    NOT NULL,
+                candidate_name TEXT    NOT NULL,
+                wikipedia_url  TEXT,
+                ballotpedia_url TEXT,
+                vote_pct       REAL,
+                is_winner      INTEGER NOT NULL DEFAULT 0,
+                UNIQUE(election_id, candidate_name)
+            );
+        """)
+        conn.execute(
+            "INSERT INTO elections (state, race_type, year, district) "
+            "VALUES ('Ohio', 'US House', 2024, '5')"
+        )
+        conn.execute(
+            "INSERT INTO candidates (election_id, party, candidate_name) "
+            "VALUES (1, 'Republican', 'Alice')"
+        )
+        conn.commit()
+
+        migrate_schema(conn)
+
+        cols = {
+            row[1] for row in conn.execute("PRAGMA table_info(elections)").fetchall()
+        }
+        assert "election_stage" in cols
+
+        row = conn.execute(
+            "SELECT election_stage FROM elections WHERE election_id = 1"
+        ).fetchone()
+        assert row[0] == "general"
+
+        # Verify FK still works
+        cand = conn.execute(
+            "SELECT candidate_name FROM candidates WHERE election_id = 1"
+        ).fetchone()
+        assert cand[0] == "Alice"
+
+    def test_migrate_is_noop_on_new_schema(self, db: sqlite3.Connection) -> None:
+        count_before = db.execute("SELECT COUNT(*) FROM elections").fetchone()[0]
+        migrate_schema(db)
+        count_after = db.execute("SELECT COUNT(*) FROM elections").fetchone()[0]
+        assert count_before == count_after
+
+
+class TestGetCandidatesMissingLinkElectionStage:
+    """Tests for election_stage filter in get_candidates_missing_link."""
+
+    def test_filter_by_election_stage(self, db: sqlite3.Connection) -> None:
+        e1 = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="primary"
+        )
+        e2 = Election(
+            state="Ohio", race_type="US Senate", year=2024, election_stage="general"
+        )
+        eid1 = upsert_election(db, e1)
+        eid2 = upsert_election(db, e2)
+        upsert_candidate(
+            db, Candidate(party="Republican", candidate_name="Alice"), eid1
+        )
+        upsert_candidate(db, Candidate(party="Republican", candidate_name="Bob"), eid2)
+        db.commit()
+
+        general_only = get_candidates_missing_link(
+            db, "campaign_site", election_stage="general"
+        )
+        assert len(general_only) == 1
+        assert general_only[0]["candidate_name"] == "Bob"
+
+        primary_only = get_candidates_missing_link(
+            db, "campaign_site", election_stage="primary"
+        )
+        assert len(primary_only) == 1
+        assert primary_only[0]["candidate_name"] == "Alice"
+
+        all_stages = get_candidates_missing_link(db, "campaign_site")
+        assert len(all_stages) == 2

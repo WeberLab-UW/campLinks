@@ -17,7 +17,8 @@ from camplinks.scrapers import register_scraper
 from camplinks.scrapers.base import BaseScraper
 from camplinks.wiki_parsing import (
     candidates_from_parsed,
-    is_general_election_table,
+    classify_election_table,
+    extract_primary_party,
     parse_candidate_row,
 )
 
@@ -72,9 +73,10 @@ class GovernorScraper(BaseScraper):
         soup: BeautifulSoup,
         year: int,
     ) -> list[tuple[Election, list[Candidate]]]:
-        """Parse general election results from a gubernatorial state page.
+        """Parse election results from a gubernatorial state page.
 
-        Gubernatorial races are statewide (district=None).
+        Gubernatorial races are statewide (district=None). Parses
+        general, primary, and runoff tables.
 
         Args:
             state: Human-readable state name.
@@ -82,22 +84,27 @@ class GovernorScraper(BaseScraper):
             year: Election year.
 
         Returns:
-            List containing a single (Election, candidates) tuple,
-            or empty list if no general election table found.
+            List of (Election, candidates) tuples for each stage found.
         """
         tables = soup.find_all(
             "table",
             class_=lambda c: c and "wikitable" in c and "plainrowheaders" in c,
         )
 
+        results: list[tuple[Election, list[Candidate]]] = []
         for table in tables:
-            if not is_general_election_table(table):
+            stage = classify_election_table(table)
+            if stage is None:
                 continue
+
+            primary_party = extract_primary_party(table) if stage != "general" else ""
 
             parsed: list[dict[str, str | float | bool | None]] = []
             for row in table.find_all("tr", class_="vcard"):
                 cand = parse_candidate_row(row)
                 if cand:
+                    if primary_party and not cand.get("party"):
+                        cand["party"] = primary_party
                     parsed.append(cand)
 
             candidates = candidates_from_parsed(parsed)
@@ -107,10 +114,11 @@ class GovernorScraper(BaseScraper):
                     race_type="Governor",
                     year=year,
                     district=None,
+                    election_stage=stage,
                 )
-                return [(election, candidates)]
+                results.append((election, candidates))
 
-        return []
+        return results
 
 
 register_scraper("governor", GovernorScraper)

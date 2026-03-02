@@ -17,7 +17,8 @@ from camplinks.models import Candidate, Election
 from camplinks.scrapers import register_scraper
 from camplinks.scrapers.base import BaseScraper
 from camplinks.wiki_parsing import (
-    is_general_election_table,
+    classify_election_table,
+    extract_primary_party,
     parse_candidate_row,
 )
 
@@ -70,10 +71,10 @@ class SenateScraper(BaseScraper):
         soup: BeautifulSoup,
         year: int,
     ) -> list[tuple[Election, list[Candidate]]]:
-        """Parse the general election results from a Senate state page.
+        """Parse election results from a Senate state page.
 
-        Senate races are statewide (district=None). Each state page
-        has one general election table with the same format as House.
+        Senate races are statewide (district=None). Parses general,
+        primary, and runoff tables.
 
         Args:
             state: Human-readable state name.
@@ -81,17 +82,20 @@ class SenateScraper(BaseScraper):
             year: Election year.
 
         Returns:
-            List containing a single (Election, candidates) tuple,
-            or empty list if no general election table found.
+            List of (Election, candidates) tuples for each stage found.
         """
         tables = soup.find_all(
             "table",
             class_=lambda c: c and "wikitable" in c and "plainrowheaders" in c,
         )
 
+        results: list[tuple[Election, list[Candidate]]] = []
         for table in tables:
-            if not is_general_election_table(table):
+            stage = classify_election_table(table)
+            if stage is None:
                 continue
+
+            primary_party = extract_primary_party(table) if stage != "general" else ""
 
             parsed: list[dict[str, str | float | bool | None]] = []
             for row in table.find_all("tr", class_="vcard"):
@@ -107,9 +111,12 @@ class SenateScraper(BaseScraper):
                 name = str(c.get("name", ""))
                 if not name:
                     continue
+                party = str(c.get("party", ""))
+                if not party and primary_party:
+                    party = primary_party
                 candidates.append(
                     Candidate(
-                        party=str(c.get("party", "")),
+                        party=party,
                         candidate_name=name,
                         wikipedia_url=str(c.get("wiki_url", "")),
                         vote_pct=float(vp)
@@ -126,10 +133,11 @@ class SenateScraper(BaseScraper):
                     race_type="US Senate",
                     year=year,
                     district=None,
+                    election_stage=stage,
                 )
-                return [(election, candidates)]
+                results.append((election, candidates))
 
-        return []
+        return results
 
 
 register_scraper("senate", SenateScraper)

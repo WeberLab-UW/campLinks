@@ -18,6 +18,11 @@ from camplinks.models import Candidate
 DISTRICT_NUM_RE = re.compile(r"(\d+)(?:st|nd|rd|th)")
 AT_LARGE_RE = re.compile(r"at.large", re.IGNORECASE)
 INCUMBENT_RE = re.compile(r"\s*\(incumbent\)")
+_PRIMARY_PARTY_RE = re.compile(
+    r"(republican|democratic|democrat|libertarian|green|independent|"
+    r"no[- ]party|constitution|reform|working families)",
+    re.IGNORECASE,
+)
 
 
 def find_preceding_heading(
@@ -74,10 +79,47 @@ def extract_district_number(heading_text: str) -> str:
     return m3.group(1) if m3 else "At-Large"
 
 
+def classify_election_table(table: Tag) -> str | None:
+    """Classify a wikitable as general, primary, runoff, or unknown.
+
+    Checks the caption and the preceding h3/h4 heading to determine
+    what election stage the table represents.
+
+    Args:
+        table: A ``<table>`` element.
+
+    Returns:
+        ``"general"``, ``"primary"``, ``"runoff"``, or None if
+        the table cannot be classified.
+    """
+    caption = table.find("caption")
+    if caption:
+        cap_text = caption.get_text(strip=True).lower()
+        if "runoff" in cap_text:
+            return "runoff"
+        if "primary" in cap_text:
+            return "primary"
+        if "election" in cap_text:
+            return "general"
+
+    heading = find_preceding_heading(table, ("h3", "h4"))
+    if heading:
+        h_text = heading.get_text(strip=True).lower()
+        if "runoff" in h_text:
+            return "runoff"
+        if "primary" in h_text:
+            return "primary"
+        if "general election" in h_text or "results" in h_text:
+            return "general"
+
+    return None
+
+
 def is_general_election_table(table: Tag) -> bool:
     """Heuristic: does this plainrowheaders table represent a general election?
 
-    Checks the caption and the preceding h3/h4 heading.
+    Thin wrapper around :func:`classify_election_table` for backward
+    compatibility.
 
     Args:
         table: A ``<table>`` element.
@@ -85,23 +127,34 @@ def is_general_election_table(table: Tag) -> bool:
     Returns:
         True if this appears to be a general-election results table.
     """
-    caption = table.find("caption")
-    if caption:
-        cap_text = caption.get_text(strip=True).lower()
-        if "primary" in cap_text or "runoff" in cap_text:
-            return False
-        if "election" in cap_text:
-            return True
+    return classify_election_table(table) == "general"
 
-    heading = find_preceding_heading(table, ("h3", "h4"))
-    if heading:
-        h_text = heading.get_text(strip=True).lower()
-        if "general election" in h_text or "results" in h_text:
-            return True
-        if "primary" in h_text or "runoff" in h_text:
-            return False
 
-    return False
+def extract_primary_party(table: Tag) -> str:
+    """Extract the party name from the heading above a primary election table.
+
+    Primary tables on Wikipedia are typically under h2 headings like
+    "Republican primary" or "Democratic primary".
+
+    Args:
+        table: A ``<table>`` element identified as a primary table.
+
+    Returns:
+        Party name (e.g. "Republican", "Democratic"), or empty string.
+    """
+    for heading_tags in (("h2",), ("h3",)):
+        heading = find_preceding_heading(table, heading_tags)
+        if heading:
+            h_text = heading.get_text(strip=True)
+            m = _PRIMARY_PARTY_RE.search(h_text)
+            if m:
+                party = m.group(1)
+                if party.lower() == "democrat":
+                    party = "Democratic"
+                else:
+                    party = party.capitalize()
+                return party
+    return ""
 
 
 def parse_candidate_row(

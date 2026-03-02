@@ -90,7 +90,10 @@ def extract_campaign_website(soup: BeautifulSoup) -> str:
     return ""
 
 
-def enrich_from_wikipedia(conn: sqlite3.Connection) -> int:
+def enrich_from_wikipedia(
+    conn: sqlite3.Connection,
+    election_stage: str | None = "general",
+) -> int:
     """Fetch campaign websites for all candidates with Wikipedia URLs.
 
     Queries candidates that have a wikipedia_url but no campaign_site
@@ -99,21 +102,27 @@ def enrich_from_wikipedia(conn: sqlite3.Connection) -> int:
 
     Args:
         conn: Open database connection.
+        election_stage: Optional filter by election stage. Defaults to
+            "general" to avoid enriching primary-only candidates.
 
     Returns:
         Number of campaign sites found.
     """
-    rows = conn.execute(
-        """\
+    query = """\
         SELECT c.candidate_id, c.wikipedia_url
         FROM candidates c
+        JOIN elections e ON c.election_id = e.election_id
         WHERE c.wikipedia_url != ''
           AND c.candidate_id NOT IN (
               SELECT cl.candidate_id FROM contact_links cl
               WHERE cl.link_type = 'campaign_site'
           )
-        """
-    ).fetchall()
+    """
+    params: list[str] = []
+    if election_stage is not None:
+        query += " AND e.election_stage = ?"
+        params.append(election_stage)
+    rows = conn.execute(query, params).fetchall()
 
     if not rows:
         logger.info("No candidates need Wikipedia enrichment.")
