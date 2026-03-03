@@ -8,7 +8,7 @@ Last updated: 2026-03-02
 |--------|-------|
 | Elections | 1,165 |
 | Candidates | 6,043 |
-| Contact Links | 4,327 |
+| Contact Links | 7,825 |
 
 ## Elections by Year and Race Type
 
@@ -43,48 +43,50 @@ Last updated: 2026-03-02
 | 2025 | 251 | 14 | 5 | 270 |
 | 2026 | 104 | 240 | 5 | 349 |
 
-## Campaign Site Coverage
+## Campaign Site Coverage (General Election Candidates)
 
 | Year | Race Type | Candidates | With Site | Coverage % |
 |------|-----------|------------|-----------|------------|
-| 2023 | Mayor | 313 | 3 | 1.0% |
-| 2024 | Governor | 264 | 0 | 0.0% |
-| 2024 | Mayor | 240 | 0 | 0.0% |
+| 2023 | Mayor | 220 | 111 | 50.5% |
+| 2024 | Governor | 84 | 67 | 79.8% |
+| 2024 | Mayor | 135 | 91 | 67.4% |
 | 2024 | US House | 839 | 807 | 96.2% |
 | 2025 | Attorney General | 2 | 2 | 100.0% |
 | 2025 | Governor | 8 | 8 | 100.0% |
-| 2025 | Mayor | 664 | 258 | 38.9% |
+| 2025 | Mayor | 529 | 369 | 69.8% |
 | 2025 | State House | 475 | 441 | 92.8% |
 | 2025 | State Senate | 7 | 7 | 100.0% |
 | 2025 | State Supreme Court | 4 | 4 | 100.0% |
 | 2025 | US House | 35 | 31 | 88.6% |
-| 2026 | Governor | 624 | 6 | 1.0% |
-| 2026 | State House | 1,856 | 113 | 6.1% |
-| 2026 | Other | 712 | 8 | 1.1% |
-
-Note: 0% / low coverage years need the search stage run (`--stage search`). Enrich stage has been run for all years.
+| 2026 | Attorney General | 1 | 1 | 100.0% |
+| 2026 | Governor | 182 | 137 | 75.3% |
+| 2026 | Mayor | 38 | 22 | 57.9% |
+| 2026 | State House | 581 | 474 | 81.6% |
+| 2026 | State Senate | 4 | 4 | 100.0% |
+| 2026 | State Supreme Court | 6 | 5 | 83.3% |
+| 2026 | US House | 37 | 27 | 73.0% |
 
 ## Contact Links by Type
 
 | Link Type | Count |
 |-----------|-------|
-| campaign_site | 1,688 |
-| campaign_facebook | 585 |
-| personal_linkedin | 513 |
-| personal_facebook | 505 |
-| campaign_instagram | 398 |
-| campaign_x | 387 |
+| campaign_site | 2,608 |
+| campaign_facebook | 1,196 |
+| personal_linkedin | 1,090 |
+| personal_facebook | 1,048 |
+| campaign_instagram | 806 |
+| campaign_x | 757 |
 | campaign_site_archived | 215 |
-| personal_website | 36 |
+| personal_website | 105 |
 
 ## Contact Links by Source
 
 | Source | Count |
 |--------|-------|
-| csv_import | 1,959 |
-| ballotpedia | 1,419 |
+| ballotpedia | 4,746 |
+| csv_import | 1,936 |
+| web_search | 560 |
 | wikipedia | 368 |
-| web_search | 366 |
 | wayback | 215 |
 
 ## Ballotpedia Governor Scraper
