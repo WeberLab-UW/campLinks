@@ -9827,7 +9827,1825 @@
   "Republican|Maryland|30|Seth A. Howard": {
     "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa17069.html",
     "personal facebook": "https://www.facebook.com/SethForDelegate?fref=search",
-    "personal linkedin": "https://www.linkedin.com/in/seth-howard-90a9a591/",
-    "_ballotpedia_url": "https://ballotpedia.org/Seth_Howard"
+    "personal linkedin": "https://www.linkedin.com/in/seth-howard-90a9a591/"
+  },
+  "Republican|Maryland|31|Brian Chisholm": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18029.html",
+    "personal facebook": "https://www.facebook.com/brian.a.chisholm.7",
+    "personal x": "https://x.com/Chisholmstrong",
+    "personal linkedin": "https://www.linkedin.com/in/brian-chisholm-82ab755/"
+  },
+  "Republican|Maryland|31|Mike Jacobs": {
+    "campaign website": "https://www.electmikejacobs.com/"
+  },
+  "Republican|Maryland|31|LaToya Nkongolo": {
+    "official website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/nkongolo01",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100011515440652",
+    "personal linkedin": "https://www.linkedin.com/in/latoya-nkongolo-3425a550/"
+  },
+  "Democratic|Maryland|31|Joan Cole": {
+    "campaign website": "https://www.joancole4md.com/"
+  },
+  "Democratic|Maryland|31|Heidi Schmidt": {
+    "campaign website": "https://www.voteheidischmidt.com/about"
+  },
+  "Democratic|Maryland|31|Ryan Shaban": {
+    "campaign website": "https://ryanshaban.com/issues/"
+  },
+  "Democratic|Maryland|32|TBD": {
+    "campaign website": "https://www.thetbdconference.com/"
+  },
+  "Republican|Maryland|32|Colin McEvers": {},
+  "Republican|Maryland|32|Marcus Snipes": {},
+  "Democratic|Maryland|33|TBD": {},
+  "Democratic|Maryland|33|Chuck Cook": {
+    "campaign website": "https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=724252"
+  },
+  "Democratic|Maryland|33|Heather Bagnall": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18073.html",
+    "personal website": "https://tastymonsterproductions.com/heather-bagnall",
+    "personal facebook": "https://www.facebook.com/TheExquisiteHeather",
+    "personal x": "https://x.com/HeatherBagnall",
+    "campaign website": "https://www.heatherbagnall.com/"
+  },
+  "Republican|Maryland|34|Elliott Joseph Herneker": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/"
+  },
+  "Republican|Maryland|34|TBD": {
+    "campaign website": "https://www.thetbdconference.com/"
+  },
+  "Democratic|Maryland|34|Anthony Lyon": {
+    "campaign website": "https://www.anthonylyon.com/"
+  },
+  "Republican|Maryland|35|TBD": {
+    "campaign website": "https://www.thetbdconference.com/"
+  },
+  "Democratic|Maryland|35|Gregory V. Anderson": {},
+  "Democratic|Maryland|35|Michael Eckels": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/"
+  },
+  "Republican|Maryland|36|Steven J. Arentz": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa15407.html",
+    "personal facebook": "https://www.facebook.com/steve.arentz.1",
+    "personal linkedin": "https://www.linkedin.com/in/steve-arentz-03042810/"
+  },
+  "Republican|Maryland|36|Jefferson L. Ghrist": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa14691.html",
+    "personal facebook": "https://www.facebook.com/Jeff.Ghrist",
+    "personal x": "https://x.com/jeffghrist",
+    "personal instagram": "https://www.instagram.com/jeffghrist/",
+    "personal linkedin": "https://www.linkedin.com/in/jeff-ghrist-a1255616/"
+  },
+  "Republican|Maryland|36|Jay Jacobs": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa15458.html",
+    "personal facebook": "https://www.facebook.com/jay.jacobs.100"
+  },
+  "Democratic|Maryland|36|Nevin Crouse": {
+    "campaign website": "https://wesmoore.com/"
+  },
+  "Democratic|Maryland|36|Michelle Ravert": {
+    "campaign website": "https://votemichelleravert.org/about"
+  },
+  "Democratic|Maryland|36|Crystal Woodward": {
+    "campaign website": "https://vote-usa.org/Intro.aspx?State=MD&Id=MDWoodwardCrystal"
+  },
+  "Democratic|Maryland|37|Sheree Sample-Hughes": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa14911.html",
+    "official facebook": "https://www.facebook.com/shereesamplehughes37a",
+    "official x": "https://x.com/DelegateSheree",
+    "official instagram": "https://www.instagram.com/delegate_samplehughes/",
+    "personal facebook": "https://www.facebook.com/sheree.samplehughes.5",
+    "personal instagram": "https://www.instagram.com/ssamplehughes/",
+    "campaign website": "https://www.elections.state.md.us/elections/archive/2024/Primary_candidates/gen_cand_lists_2024_1_ALL.csv"
+  },
+  "Republican|Maryland|37|Christopher T. Adams": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa17076.html",
+    "personal facebook": "https://www.facebook.com/christopher.adams.7311",
+    "personal linkedin": "https://www.linkedin.com/in/christopher-adams-15833a9/",
+    "campaign website": "https://vote-usa.org/Intro.aspx?State=MD&Id=MDAdamsChristopherT"
+  },
+  "Democratic|Maryland|37|Marco Garcia": {},
+  "Democratic|Maryland|37|Michele Johnson": {
+    "campaign website": "https://electionsmaryland.com/elections/2024/Primary_candidates/index.html"
+  },
+  "Republican|Maryland|38|TBD": {},
+  "Democratic|Maryland|38|Shelley Johnson": {
+    "campaign website": "http://shelleyjohnsonfor38a.com/"
+  },
+  "Republican|Maryland|38|Barry Beauchamp": {
+    "official website": "https://mgaleg.maryland.gov/mgawebsite/Members/Details/beauchamp01",
+    "personal facebook": "https://www.facebook.com/barry.beauchamp.1",
+    "campaign website": "https://www.barrybeauchamp.com/"
+  },
+  "Democratic|Maryland|38|Josh Hastings": {
+    "campaign website": "https://joshhastings.com/"
+  },
+  "Republican|Maryland|38|Wayne A. Hartman": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18033.html",
+    "official instagram": "https://www.instagram.com/delegatewaynehartman/",
+    "personal facebook": "https://www.facebook.com/wayne.hartman.714",
+    "campaign website": "https://vote-usa.org/Intro.aspx?State=MD&Id=MDHartmanWayneA"
+  },
+  "Democratic|Maryland|39|TBD": {},
+  "Democratic|Maryland|40|TBD": {
+    "campaign website": "https://www.thetbdconference.com/"
+  },
+  "Democratic|Maryland|41|TBD": {},
+  "Republican|Maryland|42|TBD": {
+    "campaign website": "https://www.thetbdconference.com/"
+  },
+  "Democratic|Maryland|42|Jyoti Mohan": {
+    "campaign website": "https://mohan4maryland.com/"
+  },
+  "Democratic|Maryland|42|Michele Guyton": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18039.html",
+    "personal facebook": "https://www.facebook.com/michele.j.guyton",
+    "personal youtube": "https://www.youtube.com/@micheleguyton3927"
+  },
+  "Republican|Maryland|42|Steve Patten": {},
+  "Democratic|Maryland|42|Corynne Courpas": {},
+  "Democratic|Maryland|43|Regina T. Boyce": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18041.html",
+    "personal linkedin": "https://www.linkedin.com/in/regina-t-boyce-mpa-22310611/",
+    "campaign website": "https://www.reginatboyce.com/"
+  },
+  "Democratic|Maryland|43|Cathi Forbes": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa18236.html",
+    "personal facebook": "https://www.facebook.com/cathiforbes",
+    "personal linkedin": "https://www.linkedin.com/in/cathiforbes/",
+    "campaign website": "https://www.cathiforbes.com/"
+  },
+  "Democratic|Maryland|44|Eric Ebersole": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa17056.html",
+    "personal facebook": "https://www.facebook.com/eric.ebersole.779",
+    "personal linkedin": "https://www.linkedin.com/in/eric-ebersole-71316946/",
+    "campaign website": "http://www.ericebersole.org/"
+  },
+  "Republican|Maryland|44|Chuck Linton": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/"
+  },
+  "Democratic|Maryland|44|TBD": {},
+  "Republican|Maryland|44|Domonic Martin": {
+    "campaign website": "https://www.domonicmartin.com/the-candidate"
+  },
+  "Democratic|Maryland|45|TBD": {
+    "campaign website": "https://www.thetbdconference.com/"
+  },
+  "Green|Maryland|45|Renaud De'Aundre Brown": {
+    "campaign website": "https://renaudbrowncitycouncil14.com/",
+    "campaign facebook": "https://www.facebook.com/p/Friends-for-Renaud-Brown-Md-D-14-City-Council-100078444037982",
+    "campaign instagram": "https://www.instagram.com/brownrenaud/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100076717235885",
+    "personal instagram": "https://www.instagram.com/1977sagg/",
+    "personal linkedin": "https://www.linkedin.com/in/renaud-d-brown-m-m-a5819612/"
+  },
+  "Democratic|Maryland|46|Robbyn Lewis": {
+    "official website": "https://msa.maryland.gov/msa/mdmanual/06hse/html/msa17356.html",
+    "personal facebook": "https://www.facebook.com/robbiegreenqueen",
+    "personal x": "https://x.com/foolforbaltimor",
+    "personal linkedin": "https://www.linkedin.com/in/robbynlewis/",
+    "campaign website": "https://www.robbynlewis.com/"
+  },
+  "Republican|Maryland|46|Jeremy Amason": {
+    "campaign website": "https://www.amason4md2026.com/",
+    "campaign facebook": "https://www.facebook.com/JeremyAmasonForDelegate",
+    "personal linkedin": "https://www.linkedin.com/in/jeremy-amason-932066282/"
+  },
+  "Democratic|Maryland|47|TBD": {
+    "campaign website": "https://www.thetbdconference.com/"
+  },
+  "Republican|Maryland|47|Fred Price": {
+    "campaign website": "https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=257708"
+  },
+  "Republican|Massachusetts|2025|Larry Quintal": {
+    "campaign website": "https://larryquintal.com/",
+    "campaign facebook": "https://www.facebook.com/votelarryquintal",
+    "personal facebook": "https://www.facebook.com/lquintal9"
+  },
+  "Democratic (DFL)|Minnesota|At-Large|Shelley Buck": {
+    "official website": "https://www.house.mn.gov/members/profile/15655",
+    "campaign website": "https://www.buckforhouse.com/",
+    "campaign facebook": "https://www.facebook.com/buckforhouse/",
+    "campaign instagram": "https://www.instagram.com/buckforhouse/",
+    "personal website": "https://minnesotareformer.com/author/shelleybuck/",
+    "personal facebook": "https://www.facebook.com/shelley.chloe",
+    "personal instagram": "https://www.instagram.com/shelcbuck/",
+    "personal linkedin": "https://www.linkedin.com/in/shelley-buck-pte-wicota-6a53b35a/"
+  },
+  "Republican|Minnesota|At-Large|Dan Walsh": {
+    "campaign website": "https://walshfor64a.org",
+    "campaign x": "https://x.com/Walshfor64A"
+  },
+  "Democratic|New York|At-Large|Michael S. Cashman": {
+    "official website": "https://nyassembly.gov/mem/Michael-Cashman/",
+    "campaign website": "https://cashmanforassembly.com/",
+    "campaign facebook": "https://www.facebook.com/CashmanForAssembly/",
+    "campaign x": "https://x.com/MichaelSCashman",
+    "campaign instagram": "https://www.instagram.com/mscashman/",
+    "personal facebook": "https://www.facebook.com/michael.cashman",
+    "personal linkedin": "https://www.linkedin.com/in/michaelscashman/"
+  },
+  "Republican|New York|At-Large|Brent M. Davison": {
+    "campaign website": "https://www.davisonforassembly.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61579758520035",
+    "campaign instagram": "https://www.instagram.com/davison_for_assembly/",
+    "personal facebook": "https://www.facebook.com/brent.m.davison",
+    "personal linkedin": "https://www.linkedin.com/in/brent-davison-60555b33/"
+  },
+  "Democratic|New York|At-Large|Diana Moreno[59]": {
+    "campaign website": "https://dianaforqueens.com/",
+    "campaign facebook": "https://www.facebook.com/dianaforqueens/",
+    "campaign x": "https://x.com/DianaforQueens",
+    "campaign instagram": "https://www.instagram.com/dianaforqueens",
+    "campaign youtube": "https://www.youtube.com/@DianaforQueens",
+    "campaign tiktok": "https://www.tiktok.com/@dianaforqueens",
+    "personal linkedin": "https://www.linkedin.com/in/dianaforqueens/"
+  },
+  "People First|New York|At-Large|Mary Jobaida[60]": {
+    "campaign website": "https://www.maryforassembly.com/",
+    "campaign facebook": "https://www.facebook.com/MaryJobaida/",
+    "campaign x": "https://x.com/maryforassembly",
+    "campaign instagram": "https://www.instagram.com/maryjobaida/",
+    "personal facebook": "https://www.facebook.com/mjobaida",
+    "personal x": "https://x.com/JobaidaMary",
+    "personal linkedin": "https://www.linkedin.com/in/maryjobaida/"
+  },
+  "Republican|New York|At-Large|Joseph Foley": {
+    "campaign website": "https://www.josephwfoley.com/",
+    "campaign x": "https://x.com/JosephFoley",
+    "campaign instagram": "https://www.instagram.com/foleynyc",
+    "campaign tiktok": "https://www.tiktok.com/@josephwfoley",
+    "personal facebook": "https://www.facebook.com/josephwfoley",
+    "personal instagram": "https://www.instagram.com/josephwfoley/",
+    "personal linkedin": "https://www.linkedin.com/in/josephwilliamfoley/"
+  },
+  "Republican|North Carolina|At-Large|TBD": {},
+  "Democratic|North Carolina|At-Large|Claude (Dorsey) Harris": {
+    "personal facebook": "https://www.facebook.com/dorsey.harris.9",
+    "personal x": "https://x.com/obxdorsey",
+    "personal linkedin": "https://www.linkedin.com/in/dorsey-harris-59664868/",
+    "campaign website": "https://justfacts.votesmart.org/candidate/biography/231874/claude-harris"
+  },
+  "Democratic|North Carolina|At-Large|Diannia Bright": {},
+  "Libertarian|North Carolina|At-Large|Angela Humphries": {
+    "campaign website": "https://www.angelahumphries.org/",
+    "campaign facebook": "https://www.facebook.com/people/Angela-Humphries-For-NC-House-District-3/100057086634623/",
+    "personal facebook": "https://www.facebook.com/angela.za.1000",
+    "personal x": "https://x.com/LibertarianofNC",
+    "personal instagram": "https://www.instagram.com/noncrappycrafts/",
+    "personal youtube": "https://www.youtube.com/@angelahumphries9887",
+    "personal linkedin": "https://www.linkedin.com/in/angela-humphries-282350198/",
+    "personal tiktok": "https://www.tiktok.com/@noncrappycrafts"
+  },
+  "Democratic|North Carolina|At-Large|Vernon Moore": {
+    "personal facebook": "https://www.facebook.com/vernon.moore.33",
+    "personal instagram": "https://www.instagram.com/vrmre951/",
+    "personal linkedin": "https://www.linkedin.com/in/vernon-moore-548b8976/",
+    "campaign website": "https://www.nc.gop/"
+  },
+  "Democratic|North Carolina|At-Large|Sam Davis III": {
+    "campaign website": "https://lykelect.com/post/sam-davis-iii/423f346a-bd40-4b8e-b1e4-f78275106a8e/"
+  },
+  "Republican|North Carolina|At-Large|Cory Thornton": {
+    "personal facebook": "https://www.facebook.com/cory.thornton.984",
+    "personal linkedin": "https://www.linkedin.com/in/cory-t-16775aa3/"
+  },
+  "Democratic|North Carolina|At-Large|Mark Speed": {
+    "campaign website": "https://www.electmarkspeed.com/",
+    "campaign facebook": "https://www.facebook.com/pages/category/Public---Government-Service/Elect-Mark-Speed-126343279207178/",
+    "campaign x": "https://x.com/ElectMarkSpeed"
+  },
+  "Democratic|North Carolina|At-Large|Gloristine Brown": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/794",
+    "campaign website": "https://www.gloristinebrown.com",
+    "campaign facebook": "https://www.facebook.com/GloristineBrownNC",
+    "personal facebook": "https://www.facebook.com/gloristine.brown",
+    "personal instagram": "https://www.instagram.com/gloristinewilliams/",
+    "personal linkedin": "https://www.linkedin.com/in/gloristine-brown-5187b144/"
+  },
+  "Republican|North Carolina|At-Large|Cathy Thorne Bynum": {},
+  "Republican|North Carolina|At-Large|John Bell": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/661",
+    "official youtube": "https://www.youtube.com/@johnbell4085",
+    "campaign website": "https://www.electjohnbell.com",
+    "campaign facebook": "https://www.facebook.com/john.bell.nchouse10/",
+    "campaign x": "https://x.com/JohnBellNC",
+    "campaign instagram": "https://www.instagram.com/johnbellnc/",
+    "personal facebook": "https://www.facebook.com/john.bell.9674",
+    "personal linkedin": "https://www.linkedin.com/in/john-bell-528694135/"
+  },
+  "Democratic|North Carolina|At-Large|Zyaire Webb": {
+    "campaign instagram": "https://www.instagram.com/votezwebb",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61574050610711",
+    "campaign website": "https://www.votewebb.org/"
+  },
+  "Democratic|North Carolina|At-Large|Allison Dahle": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/740",
+    "campaign website": "https://www.allisonforhouse.com",
+    "campaign facebook": "https://www.facebook.com/allisonforhouse",
+    "personal facebook": "https://www.facebook.com/allison.dahle",
+    "personal youtube": "https://www.youtube.com/@allisondahle8421",
+    "personal linkedin": "https://www.linkedin.com/in/allison-dahle-a186154/"
+  },
+  "Libertarian|North Carolina|At-Large|Matthew Kordon": {
+    "campaign website": "https://kordonforliberty.org/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61554543971146",
+    "campaign x": "https://x.com/Kordon4Liberty",
+    "campaign instagram": "https://www.instagram.com/kordon_for_liberty/",
+    "campaign youtube": "https://www.youtube.com/@KordonForLiberty",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100009769481160",
+    "personal linkedin": "https://www.linkedin.com/in/matthew-kordon-10b4a61a2/"
+  },
+  "Republican|North Carolina|At-Large|Chris Humphrey": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/747",
+    "campaign website": "https://www.chrishumphreync.com",
+    "campaign facebook": "https://www.facebook.com/RepChrisHumphrey",
+    "campaign x": "https://x.com/RepHumphrey",
+    "campaign instagram": "https://www.instagram.com/rep_humphrey/",
+    "personal facebook": "https://www.facebook.com/chris.humphrey.nc",
+    "personal x": "https://x.com/tchumphrey",
+    "personal linkedin": "https://www.linkedin.com/in/chrishumphrey1/"
+  },
+  "Democratic|North Carolina|At-Large|Don Hardy": {
+    "campaign facebook": "https://www.facebook.com/DonHardy4Mayor/",
+    "personal facebook": "https://www.facebook.com/dontario.hardy",
+    "personal instagram": "https://www.instagram.com/dontariohardy/",
+    "personal youtube": "https://www.youtube.com/@Dontario2012",
+    "personal linkedin": "https://www.linkedin.com/in/mayor-dontario-hardy-eps-7b0ba741/",
+    "personal tiktok": "https://www.tiktok.com/@dontariohardy"
+  },
+  "Democratic|North Carolina|At-Large|Jason Moore": {
+    "campaign website": "http://www.jasonmoorenc.com/",
+    "campaign facebook": "https://www.facebook.com/jasonmoorenc/",
+    "campaign instagram": "https://www.instagram.com/jasonmoorenc/",
+    "personal facebook": "https://www.facebook.com/jason.w.moore.3",
+    "personal x": "https://x.com/Moore_Realtor",
+    "personal instagram": "https://www.instagram.com/jasonwmoore/",
+    "personal linkedin": "https://www.linkedin.com/in/jasonwmoore/"
+  },
+  "Republican|North Carolina|At-Large|Wyatt Gable": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/837",
+    "campaign website": "https://www.electwyattgable.com",
+    "campaign facebook": "https://www.facebook.com/gablefornc/",
+    "campaign x": "https://x.com/GableForNC",
+    "campaign instagram": "https://www.instagram.com/gablefornc",
+    "personal facebook": "https://www.facebook.com/wyatt.gable.7/"
+  },
+  "Republican|North Carolina|At-Large|Phil Shepard": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/628",
+    "official facebook": "https://www.facebook.com/PhillipShepardNCHouse15/",
+    "personal facebook": "https://www.facebook.com/phillip.shepard.90",
+    "personal linkedin": "https://www.linkedin.com/in/phillip-shepard-b7697466/"
+  },
+  "Democratic|North Carolina|At-Large|Christopher Schulte": {
+    "campaign facebook": "https://www.facebook.com/ChrisSchulteForNC/",
+    "campaign x": "https://x.com/SchulteforNC",
+    "campaign instagram": "https://www.instagram.com/schultefornc",
+    "personal facebook": "https://www.facebook.com/schultec",
+    "personal linkedin": "https://www.linkedin.com/in/christopher-schulte-74a84aa2/",
+    "campaign website": "https://bluevoterguide.org/district/NC/North_Carolina_House_of_Representatives_District_15/5457/"
+  },
+  "Democratic|North Carolina|At-Large|Jim Harris": {
+    "campaign website": "https://lykelect.com/post/jim-harris/6c67564a-dcd8-4e9f-92f7-5a3db879bae1/"
+  },
+  "Democratic|North Carolina|At-Large|Dennis Breen": {
+    "personal linkedin": "https://www.linkedin.com/in/dennis-a-breen-01a94220/",
+    "campaign website": "https://voterrecords.com/voter/125080467/dennis-breen"
+  },
+  "Republican|North Carolina|At-Large|Latisha Grady": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585492403747",
+    "personal website": "https://latishagrady.com/about/",
+    "personal linkedin": "https://www.linkedin.com/in/latishagradyworkshard/",
+    "campaign website": "https://latishagrady.com/book/"
+  },
+  "Democratic|North Carolina|At-Large|Scott Nasif": {
+    "campaign website": "https://nasifffornc.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584777621059",
+    "campaign x": "https://x.com/nasiff4nc",
+    "campaign instagram": "https://www.instagram.com/nasiff4nc/",
+    "campaign tiktok": "https://www.tiktok.com/@nasiff4nc",
+    "personal linkedin": "https://www.linkedin.com/in/scott-nasiff-6155808/"
+  },
+  "Republican|North Carolina|At-Large|Dane Scalise": {
+    "campaign website": "https://electdane.com/"
+  },
+  "Democratic|North Carolina|At-Large|Tim Merrick": {
+    "campaign website": "https://merrick4schools.com",
+    "campaign facebook": "https://www.facebook.com/TimMerrick4NewHanoverCoSchoolBoard",
+    "campaign instagram": "https://www.instagram.com/timmerrick4nhcboe/"
+  },
+  "Republican|North Carolina|At-Large|Bryson Johnson": {
+    "campaign website": "https://brysonjohnson.wixsite.com/political-candidate",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584388450826",
+    "personal facebook": "https://www.facebook.com/bryson.johnson.90",
+    "personal linkedin": "https://www.linkedin.com/in/bryson-johnson-582334157"
+  },
+  "Democratic|North Carolina|At-Large|Jimmy Melvin": {
+    "personal facebook": "https://www.facebook.com/jimmy.melvin.754",
+    "campaign website": "https://www.nc.gop/"
+  },
+  "Republican|North Carolina|At-Large|Brent Roberson": {
+    "campaign x": "https://x.com/Brent4NCHouse",
+    "personal facebook": "https://www.facebook.com/brent.roberson.96",
+    "personal linkedin": "https://www.linkedin.com/in/brent-roberson-a68b3158/",
+    "campaign website": "https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=550589"
+  },
+  "Republican|North Carolina|At-Large|Blake Boykin": {
+    "campaign facebook": "https://www.facebook.com/BlakeBoykin4NCHouse/",
+    "personal facebook": "https://www.facebook.com/blake.boykin.31"
+  },
+  "Libertarian|North Carolina|At-Large|Nick Taylor": {
+    "personal facebook": "https://www.facebook.com/profile.php?id=100026296445990",
+    "campaign website": "https://www.nc.gop/"
+  },
+  "Democratic|North Carolina|At-Large|L'Bertrice Solomon": {
+    "campaign website": "https://www.solomonfornc.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584493747844",
+    "campaign instagram": "https://www.instagram.com/lbertricesolomon/"
+  },
+  "Republican|North Carolina|At-Large|Kenneth Bentley Jr.": {},
+  "Democratic|North Carolina|At-Large|D. Matthew Bailey": {},
+  "Democratic|North Carolina|At-Large|Vernetta Alston": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/765",
+    "campaign website": "https://www.vernettaalston.com",
+    "campaign facebook": "https://www.facebook.com/vernettaalstonNC/",
+    "personal facebook": "https://www.facebook.com/vernetta.alston",
+    "personal linkedin": "https://www.linkedin.com/in/vernetta-alston-7b4b5ba3/"
+  },
+  "Libertarian|North Carolina|At-Large|Ray Ubinger": {
+    "personal facebook": "https://www.facebook.com/profile.php?id=100005700649352",
+    "personal x": "https://x.com/RayUbinger",
+    "personal youtube": "https://www.youtube.com/@rayubinger9780",
+    "personal linkedin": "https://www.linkedin.com/in/ray-ubinger-5002b7344/",
+    "campaign website": "https://ivoterguide.com/candidate/53644/race/11246/election/1206?culture=en-us"
+  },
+  "Democratic|North Carolina|At-Large|Zack Forde-Hawkins": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/742",
+    "official x": "https://x.com/zackafhawkins",
+    "campaign website": "https://zackhawkinsnc.com",
+    "campaign facebook": "https://www.facebook.com/zackhawkinsnc",
+    "campaign instagram": "https://www.instagram.com/zackhawkinsnc",
+    "personal facebook": "https://www.facebook.com/zack.hawkins.10",
+    "personal linkedin": "https://www.linkedin.com/in/zack-hawkins-945b474/"
+  },
+  "Republican|North Carolina|At-Large|Matthew Orr": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61581873872200",
+    "campaign x": "https://x.com/MatthewOrrNC",
+    "personal facebook": "https://www.facebook.com/matthew.orr.340723/",
+    "personal instagram": "https://www.instagram.com/matthew.orr_/",
+    "personal linkedin": "https://www.linkedin.com/in/matthew-orr-nc/"
+  },
+  "Democratic|North Carolina|At-Large|Tim Longest": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/818",
+    "campaign facebook": "https://www.facebook.com/TimLongestNC/",
+    "campaign instagram": "https://www.instagram.com/timlongestnc",
+    "personal facebook": "https://www.facebook.com/tim.longest",
+    "personal linkedin": "https://www.linkedin.com/in/tim-longest-66889045/",
+    "campaign website": "https://greenvoterguidenc.org/candidate/tim-longest/"
+  },
+  "Libertarian|North Carolina|At-Large|Ed George": {
+    "campaign website": "https://electedgeorge.org/",
+    "campaign x": "https://x.com/edgeorgewv",
+    "personal linkedin": "https://www.linkedin.com/in/ed-george-4316228/"
+  },
+  "Democratic|North Carolina|At-Large|Evonne Hopkins": {
+    "campaign website": "https://www.hopkinsforhouse.com/",
+    "campaign facebook": "https://www.facebook.com/HopkinsforHouse",
+    "campaign x": "https://x.com/hopkinsforhouse",
+    "campaign instagram": "https://www.instagram.com/hopkinsforhouse/",
+    "campaign youtube": "https://www.youtube.com/@EvonneHopkinsforNC35",
+    "campaign tiktok": "https://www.tiktok.com/@hopkinsforhouse",
+    "personal facebook": "https://www.facebook.com/evonne.hopkins.7",
+    "personal linkedin": "https://www.linkedin.com/in/evonne-hopkins-2373a3302/"
+  },
+  "Republican|North Carolina|At-Large|Mary Insprucker": {
+    "campaign website": "https://maryforcarolina.com/",
+    "campaign facebook": "https://www.facebook.com/MaryforCarolina",
+    "campaign x": "https://x.com/MaryforCarolina",
+    "campaign instagram": "https://www.instagram.com/maryforcarolina/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100074513282740"
+  },
+  "Republican|North Carolina|At-Large|Erin Paré": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/770",
+    "official youtube": "https://www.youtube.com/@theofficeofrep.erinpare5094",
+    "campaign website": "https://www.erinfornc.com",
+    "campaign facebook": "https://www.facebook.com/erinparefornc",
+    "campaign x": "https://x.com/ErinforNC",
+    "campaign instagram": "https://www.instagram.com/parefornc/",
+    "personal website": "http://reperinpare.com/",
+    "personal facebook": "https://www.facebook.com/erin.pare",
+    "personal linkedin": "https://www.linkedin.com/in/erin-pare-4b4955241/"
+  },
+  "Republican|North Carolina|At-Large|Jorge Cordova": {
+    "campaign website": "https://vote4jorge.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61550112275962",
+    "personal linkedin": "https://www.linkedin.com/in/jorge-cordova-8822a444/"
+  },
+  "Libertarian|North Carolina|At-Large|Wayne Cockrell": {
+    "personal facebook": "https://www.facebook.com/wayne.cockrell",
+    "personal linkedin": "https://www.linkedin.com/in/wayne-cockrell-09876b12/"
+  },
+  "Libertarian|North Carolina|At-Large|Lucas Everett Jones": {
+    "campaign website": "https://bluevoterguide.org/state/north-carolina"
+  },
+  "Republican|North Carolina|At-Large|Bruce Forster": {
+    "personal facebook": "https://www.facebook.com/bruce.forster.71",
+    "personal linkedin": "https://www.linkedin.com/in/bruce-forster-247a7b10/"
+  },
+  "Republican|North Carolina|At-Large|Jackie Weyhenmeyer": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=37&off=0&elect=0"
+  },
+  "Republican|North Carolina|At-Large|Brenden Jones": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/723",
+    "official x": "https://x.com/BrendenJonesNC",
+    "campaign website": "https://repjonesfornc.com",
+    "campaign facebook": "https://www.facebook.com/BrendenJonesNC",
+    "campaign instagram": "https://www.instagram.com/brendenjonesnc",
+    "personal facebook": "https://www.facebook.com/brenden.jones.50",
+    "personal linkedin": "https://www.linkedin.com/in/brenden-jones-9a493441/"
+  },
+  "Democratic|North Carolina|At-Large|Brittany Newton": {
+    "campaign instagram": "https://www.instagram.com/brittanyfornchouse/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61585144013145",
+    "campaign website": "https://bluevoterguide.org/state/north-carolina"
+  },
+  "Republican|North Carolina|At-Large|John Lowery": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/1001",
+    "campaign website": "https://www.johnlowerync.com",
+    "campaign facebook": "https://www.facebook.com/JohnLoweryNC/",
+    "campaign x": "https://x.com/JohnLoweryNC",
+    "personal facebook": "https://www.facebook.com/jlowery2012",
+    "personal linkedin": "https://www.linkedin.com/in/john-lowery1/"
+  },
+  "Democratic|North Carolina|At-Large|Eshonda Hooper": {
+    "personal facebook": "https://www.facebook.com/eshonda.hooper",
+    "personal instagram": "https://www.instagram.com/hoopstar910/",
+    "personal tiktok": "https://www.tiktok.com/@eshondahooper",
+    "campaign website": "https://justfacts.votesmart.org/election/2024/L/NC/2024-state-legislative-election?stageId=G"
+  },
+  "Republican|North Carolina|At-Large|Daran Thomas": {},
+  "Democratic|North Carolina|At-Large|Tasherra Nichols McDuffie": {
+    "campaign facebook": "https://www.facebook.com/TashforCameron",
+    "personal website": "https://www.tashichic.com/biography",
+    "personal facebook": "https://www.facebook.com/tashilee83",
+    "personal x": "https://x.com/TashiChic",
+    "personal youtube": "https://www.youtube.com/@tasherranichols4540",
+    "personal linkedin": "https://www.linkedin.com/in/tashichic/",
+    "campaign website": "https://bluevoterguide.org/de/NC/candidate_Tasherra_Nichols_McDuffie/712581"
+  },
+  "Democratic|North Carolina|At-Large|Joe Parfitt": {
+    "campaign website": "https://www.joeparfitt.com/",
+    "campaign instagram": "https://www.instagram.com/joeparfitt4nc/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61585133547433",
+    "personal linkedin": "https://www.linkedin.com/in/joseph-parfitt-913b9a188/"
+  },
+  "Republican|North Carolina|At-Large|Howard Penny Jr.": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/768",
+    "official facebook": "https://www.facebook.com/HowardPennyNC",
+    "campaign website": "https://pennyfornchouse.com",
+    "personal facebook": "https://www.facebook.com/howard.penny.79"
+  },
+  "Democratic|North Carolina|At-Large|Kevin Thurman": {
+    "campaign website": "https://www.kevinthurmanfornchouse.com/home",
+    "campaign facebook": "https://www.facebook.com/KevinThurmanforNCHouse/",
+    "campaign x": "https://x.com/Thurman4NCHouse",
+    "campaign instagram": "https://www.instagram.com/kevinthurman4nchouse/",
+    "personal facebook": "https://www.facebook.com/ThurmanatorX",
+    "personal linkedin": "https://www.linkedin.com/in/kevin-thurman-55bab351/"
+  },
+  "Libertarian|North Carolina|At-Large|Christopher Sessions": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61554895763403",
+    "campaign x": "https://x.com/SessionsforSen",
+    "personal facebook": "https://www.facebook.com/christopher.sessions.3",
+    "personal linkedin": "https://www.linkedin.com/in/christopher-sessions-mba/",
+    "campaign website": "https://ivoterguide.com/candidate/79691/race/8463/election/1206?culture=en-us"
+  },
+  "Democratic|North Carolina|At-Large|John Kirkpatrick IV": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584107255771",
+    "personal facebook": "https://www.facebook.com/john.j.kirkpatrick.iv",
+    "personal instagram": "https://www.instagram.com/johnjkirkpatrickiv/",
+    "personal linkedin": "https://www.linkedin.com/in/john-j-kirkpatrick-iv-4a025b69/",
+    "campaign website": "https://lykelect.com/compare/north-carolina-union-county-board-of-education-district-01/7f3501c3-8b40-4d07-9ee3-cae0dd30eed6/"
+  },
+  "Democratic|North Carolina|At-Large|Allen Buansi": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/790",
+    "campaign website": "https://www.allenbuansi.com",
+    "campaign facebook": "https://www.facebook.com/AllenBuansiNC/",
+    "campaign x": "https://x.com/AllenBuansi",
+    "campaign instagram": "https://www.instagram.com/allenbuansi/",
+    "personal facebook": "https://www.facebook.com/allen.buansi",
+    "personal linkedin": "https://www.linkedin.com/in/allen-buansi-57426b10/"
+  },
+  "Libertarian|North Carolina|At-Large|Matthew Clements": {
+    "campaign facebook": "https://www.facebook.com/matthew4freedom",
+    "personal facebook": "https://www.facebook.com/clememp",
+    "personal linkedin": "https://www.linkedin.com/in/matthew-clements-1b02169/",
+    "campaign website": "https://www.nc.gop/"
+  },
+  "Democratic|North Carolina|At-Large|Tracy Clark": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/822",
+    "official youtube": "https://www.youtube.com/@RepTracyClark",
+    "campaign website": "https://tracyclarkfornc.com",
+    "personal linkedin": "https://www.linkedin.com/in/tracyboyerclark"
+  },
+  "Democratic|North Carolina|At-Large|Amos Quick": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/725",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100078697155244",
+    "personal instagram": "https://www.instagram.com/quickal3/",
+    "personal linkedin": "https://www.linkedin.com/in/amos-quick-68213b145/"
+  },
+  "Republican|North Carolina|At-Large|Alan Branson": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/821",
+    "official facebook": "https://www.facebook.com/profile.php?id=61559488653351",
+    "campaign website": "https://bransonfornc.com",
+    "campaign facebook": "https://www.facebook.com/Branson4Us/",
+    "personal facebook": "https://www.facebook.com/alan.branson.16",
+    "personal linkedin": "https://www.linkedin.com/in/jerry-branson-19a17a85"
+  },
+  "Republican|North Carolina|At-Large|Joseph Perrotta": {},
+  "Republican|North Carolina|At-Large|John Blust": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/234",
+    "campaign website": "https://www.blustfornchouse.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61554223573552",
+    "personal facebook": "https://www.facebook.com/john.blust.31"
+  },
+  "Democratic|North Carolina|At-Large|Shelly Headen": {
+    "campaign website": "https://headenfornc.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61583597213299",
+    "campaign instagram": "https://www.instagram.com/headenfornc/",
+    "personal facebook": "https://www.facebook.com/headenfamily5",
+    "personal x": "https://x.com/shelly_headen",
+    "personal instagram": "https://www.instagram.com/grabthevotenc/",
+    "personal youtube": "https://www.youtube.com/@shellyheaden2594",
+    "personal linkedin": "https://www.linkedin.com/in/shellyheaden/"
+  },
+  "Republican|North Carolina|At-Large|Ryan Moffitt": {
+    "campaign website": "https://www.moffittfornc.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584813847360",
+    "campaign x": "https://x.com/MoffittForNC",
+    "campaign instagram": "https://www.instagram.com/moffittfornc/",
+    "personal linkedin": "https://www.linkedin.com/in/ryan-moffitt-80636924/"
+  },
+  "Democratic|North Carolina|At-Large|Whitney Olive": {
+    "campaign website": "https://www.whitneyolive.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584685893078",
+    "campaign x": "https://x.com/OliveforNC",
+    "campaign instagram": "https://www.instagram.com/whitneyolivefornc/",
+    "campaign tiktok": "https://www.tiktok.com/@whitneyolivefornc",
+    "personal facebook": "https://www.facebook.com/whitney.olive",
+    "personal instagram": "https://www.instagram.com/whitneyolive83/",
+    "personal linkedin": "https://www.linkedin.com/in/whitney-olive-33877b33a/"
+  },
+  "Republican|North Carolina|At-Large|Dennis Riddell": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/665",
+    "campaign website": "https://riddell4nchouse64.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100057937756872",
+    "personal facebook": "https://www.facebook.com/dennis.riddell.9",
+    "personal youtube": "https://www.youtube.com/@dennisriddell9380",
+    "personal linkedin": "https://www.linkedin.com/in/dennis-riddell-71a7a416/"
+  },
+  "Democratic|North Carolina|At-Large|LeVon Barnes": {
+    "campaign website": "https://www.levonfornc.com",
+    "campaign facebook": "https://www.facebook.com/LeVonforNC",
+    "campaign x": "https://x.com/levonfornc",
+    "campaign instagram": "https://www.instagram.com/levonfornc/",
+    "personal facebook": "https://www.facebook.com/levon.barnes",
+    "personal x": "https://x.com/LeVonBarnes06",
+    "personal instagram": "https://www.instagram.com/iamlevonbarnes/",
+    "personal youtube": "https://www.youtube.com/@levonbarnes3602",
+    "personal linkedin": "https://www.linkedin.com/in/levonbarnes/"
+  },
+  "Democratic|North Carolina|At-Large|Gavin McGaughey": {
+    "campaign website": "https://www.gm4nc.com/",
+    "campaign instagram": "https://www.instagram.com/gavinmcgaughey4nc/",
+    "campaign tiktok": "https://www.tiktok.com/@mcgaughey4nc",
+    "personal facebook": "https://www.facebook.com/gm4nc"
+  },
+  "Democratic|North Carolina|At-Large|Derek Warriner": {
+    "campaign website": "https://derekwarriner.com/",
+    "campaign facebook": "https://www.facebook.com/DerekWarrinerNC68",
+    "campaign instagram": "https://www.instagram.com/derek.warrinernc68/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61579695987983",
+    "personal youtube": "https://www.youtube.com/@derekrwarriner",
+    "personal linkedin": "https://www.linkedin.com/in/derek-warriner-12a7a091/"
+  },
+  "Republican|North Carolina|At-Large|Dean Arp": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/640",
+    "official youtube": "https://www.youtube.com/@deanarp2050",
+    "campaign website": "https://www.deanarp.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100057960045072",
+    "personal facebook": "https://www.facebook.com/dean.arp.3",
+    "personal linkedin": "https://www.linkedin.com/in/dean-arp-p-e-s-e-3a36171a5/"
+  },
+  "Democratic|North Carolina|At-Large|Heidi Sinsley": {
+    "campaign website": "https://sinsleyfornc.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61583437679837",
+    "campaign instagram": "https://www.instagram.com/sinsleyfornc/",
+    "campaign tiktok": "https://www.tiktok.com/@sinsley.for.nc",
+    "personal facebook": "https://www.facebook.com/heidiroseross",
+    "personal x": "https://x.com/HeidiRoseEsq",
+    "personal instagram": "https://www.instagram.com/heidisinsley/",
+    "personal linkedin": "https://www.linkedin.com/in/heidi-sinsley-10b67743/"
+  },
+  "Democratic|North Carolina|At-Large|William (Bill) McCaskill": {
+    "campaign website": "https://lykelect.com/post/william-bill-mccaskill/3d88e061-70ec-4828-a611-3d7e6d0ec520/"
+  },
+  "Democratic|North Carolina|At-Large|Kanika Brown": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/795",
+    "campaign website": "https://electkanikabrown.com",
+    "campaign facebook": "https://www.facebook.com/KanikaBrownNC",
+    "campaign x": "https://x.com/KanikaBrownNC",
+    "campaign instagram": "https://www.instagram.com/kanikabrown18/",
+    "personal facebook": "https://www.facebook.com/kanika.brown.984",
+    "personal linkedin": "https://www.linkedin.com/in/kanika-brown-30438a148/"
+  },
+  "Democratic|North Carolina|At-Large|Amber Baker": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/782",
+    "campaign website": "https://vote4amberbaker.com",
+    "campaign x": "https://x.com/Amber_M_Baker",
+    "campaign instagram": "https://www.instagram.com/Vote4Amberbaker/",
+    "personal facebook": "https://www.facebook.com/amberm.baker",
+    "personal linkedin": "https://www.linkedin.com/in/amber-baker-phd-406b9727/"
+  },
+  "Democratic|North Carolina|At-Large|Thomas Monks": {
+    "campaign website": "https://tmonks4nc.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61569479372275",
+    "campaign x": "https://x.com/tmonks4nc",
+    "campaign instagram": "https://www.instagram.com/tmonks4nc/",
+    "campaign youtube": "https://www.youtube.com/@tmonks4nc",
+    "campaign tiktok": "https://www.tiktok.com/@tmonks4nc",
+    "personal facebook": "https://www.facebook.com/tjm1993",
+    "personal x": "https://x.com/thomasjmonks",
+    "personal instagram": "https://www.instagram.com/thomasjmonks/",
+    "personal linkedin": "https://www.linkedin.com/in/thomasjamesmonks/"
+  },
+  "Democratic|North Carolina|At-Large|Amy Taylor North": {
+    "campaign website": "https://www.northfornc.com/",
+    "campaign facebook": "https://www.facebook.com/northfornc",
+    "campaign x": "https://x.com/NorthforNC",
+    "campaign instagram": "https://www.instagram.com/north.for.nc/",
+    "campaign youtube": "https://www.youtube.com/@NorthforNC",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100014873437174",
+    "personal instagram": "https://www.instagram.com/amytaylornorth1/",
+    "personal linkedin": "https://www.linkedin.com/in/amy-taylor-north-0943b513a/"
+  },
+  "Republican|North Carolina|At-Large|Donny Lambeth": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/646",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100057735265955",
+    "personal facebook": "https://www.facebook.com/donny.lambeth",
+    "personal x": "https://x.com/DonnyLambeth",
+    "personal linkedin": "https://www.linkedin.com/in/donny-lambeth-37ab6015/"
+  },
+  "Democratic|North Carolina|At-Large|Jen Wiles": {
+    "campaign website": "https://jenwilesnchouse.com",
+    "campaign facebook": "https://www.facebook.com/jenwilesnchouse",
+    "campaign instagram": "https://www.instagram.com/jenwilesnchouse",
+    "campaign tiktok": "https://www.tiktok.com/@jenwilesnchouse",
+    "personal facebook": "https://www.facebook.com/jen.wiles.1987"
+  },
+  "Republican|North Carolina|At-Large|Greg Edds": {
+    "campaign website": "https://votegregedds.com/",
+    "campaign facebook": "https://www.facebook.com/gregeddsrowancounty",
+    "campaign instagram": "https://www.instagram.com/gregoryedds/",
+    "personal facebook": "https://www.facebook.com/greg.edds.3",
+    "personal linkedin": "https://www.linkedin.com/in/gregory-c-edds-clu-chfc-agent-23180515/"
+  },
+  "Democratic|North Carolina|At-Large|Scott Huffman": {
+    "campaign website": "https://www.scotthuffman.com/",
+    "campaign facebook": "https://www.facebook.com/HuffmanForNC",
+    "campaign x": "https://x.com/HuffmanForNC",
+    "campaign instagram": "https://www.instagram.com/huffmanfornc/",
+    "campaign tiktok": "https://www.tiktok.com/@huffmanfornc",
+    "personal facebook": "https://www.facebook.com/scooty2",
+    "personal linkedin": "https://www.linkedin.com/in/scott-huffman-28519b1/"
+  },
+  "Democratic|North Carolina|At-Large|Sabrina Harris": {},
+  "Democratic|North Carolina|At-Large|Matt Borja": {
+    "campaign website": "https://www.borjafornc.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61579264144113",
+    "campaign x": "https://x.com/MattBorja4NC",
+    "campaign instagram": "https://www.instagram.com/borjafornc/",
+    "campaign tiktok": "https://www.tiktok.com/@mattborjafornc",
+    "personal facebook": "https://www.facebook.com/matt.borja.7",
+    "personal x": "https://x.com/little_borja",
+    "personal instagram": "https://www.instagram.com/littleborja/",
+    "personal linkedin": "https://www.linkedin.com/in/matt-borja-526105170/"
+  },
+  "Democratic|North Carolina|At-Large|JacQuez Johnson": {
+    "campaign facebook": "https://www.facebook.com/JacQuezforNC",
+    "campaign instagram": "https://www.instagram.com/jacquezjohnson4nc/",
+    "personal facebook": "https://www.facebook.com/jacquezj3/",
+    "personal x": "https://x.com/jacquezfornc",
+    "personal instagram": "https://www.instagram.com/jacquezjohnsonn/",
+    "personal youtube": "https://www.youtube.com/@jacquezjohnson5928",
+    "personal linkedin": "https://www.linkedin.com/in/jacquez-johnson-7755a9193/",
+    "personal tiktok": "https://www.tiktok.com/@jacquez_j"
+  },
+  "Democratic|North Carolina|At-Large|Dylan Tucker": {
+    "campaign facebook": "https://www.facebook.com/DylanTuckerforNCHouse81/"
+  },
+  "Democratic|North Carolina|At-Large|Chris Bishopp": {},
+  "Democratic|North Carolina|At-Large|Cortez Ferrell": {},
+  "Democratic|North Carolina|At-Large|Chris Gilbert": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61554120874236",
+    "campaign instagram": "https://www.instagram.com/citizens_for_chrisgilbert_nc84/",
+    "campaign tiktok": "https://www.tiktok.com/@chris.gilbert.heh",
+    "personal facebook": "https://www.facebook.com/chris.gilbert.98499",
+    "campaign website": "https://www.ncfamilyvoter.com/candidate/gilbert-chris-e/"
+  },
+  "Democratic|North Carolina|At-Large|Suzanne Gavenus": {
+    "campaign website": "https://sites.google.com/view/suzanne-gavenus-4-nc-house-85/home",
+    "campaign facebook": "https://www.facebook.com/Suzanne.Gavenus.4NCHouse85/",
+    "campaign instagram": "https://www.instagram.com/suzannegavenus4house85/",
+    "personal facebook": "https://www.facebook.com/suzanne.gavenus",
+    "personal instagram": "https://www.instagram.com/sbgavenus/",
+    "personal youtube": "https://www.youtube.com/@SuzanneGavenus",
+    "personal linkedin": "https://www.linkedin.com/in/suzannegavenus/"
+  },
+  "Republican|North Carolina|At-Large|Hugh Blackwell": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/580",
+    "official facebook": "https://www.facebook.com/RepHughBlackwell/",
+    "personal facebook": "https://www.facebook.com/hugh.blackwell.9",
+    "personal linkedin": "https://www.linkedin.com/in/hugh-blackwell-27956a86/",
+    "campaign website": "https://ivoterguide.com/candidate/2148/race/8386/election/1206"
+  },
+  "Democratic|North Carolina|At-Large|Wesley Hendrix": {
+    "personal facebook": "https://www.facebook.com/hendrix0302",
+    "campaign website": "https://lykelect.com/post/wesley-e-hendrix/8ce7d53a-7ad8-46f5-8525-7b72fd9f50f5/"
+  },
+  "Republican|North Carolina|At-Large|Destin Hall": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/719",
+    "official facebook": "https://www.facebook.com/destinhallnorthcarolina/",
+    "campaign website": "https://www.destinhall.org",
+    "campaign facebook": "https://www.facebook.com/destinhallnc/",
+    "campaign x": "https://x.com/DestinHall",
+    "personal website": "https://www.repdestinhall.com/",
+    "personal facebook": "https://www.facebook.com/destin.hall.9",
+    "personal linkedin": "https://www.linkedin.com/in/destinhall/"
+  },
+  "Democratic|North Carolina|At-Large|Iris Bender": {
+    "campaign facebook": "https://www.facebook.com/IrisBenderforNC/",
+    "campaign instagram": "https://www.instagram.com/irisbenderfornc/",
+    "campaign tiktok": "https://www.tiktok.com/@iris.bender.for.n",
+    "personal facebook": "https://www.facebook.com/davidniris.bender",
+    "personal linkedin": "https://www.linkedin.com/in/iraida-bender-82195149/"
+  },
+  "Republican|North Carolina|At-Large|Ray Craig": {
+    "campaign website": "https://www.nc.gop/"
+  },
+  "Democratic|North Carolina|At-Large|Robert (Spider) Thompson": {
+    "campaign website": "https://ivoterguide.com/candidate/78452/race/20809/election/1206?culture=en-us"
+  },
+  "Democratic|North Carolina|At-Large|Ken Badgett": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100079291905702",
+    "personal facebook": "https://www.facebook.com/ken.badgett",
+    "personal x": "https://x.com/KenBadgett",
+    "personal linkedin": "https://www.linkedin.com/in/ken-badgett-074517a/",
+    "campaign website": "https://www.ncfamilyvoter.com/wp-content/uploads/2024/09/NCHouse90-Badgett-1.pdf"
+  },
+  "Democratic|North Carolina|At-Large|Lucille Puckett": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61586132188141",
+    "personal facebook": "https://www.facebook.com/lucille.puckett.54",
+    "personal instagram": "https://www.instagram.com/candy022402/",
+    "personal linkedin": "https://www.linkedin.com/in/lucille-puckett-73273527/",
+    "personal tiktok": "https://www.tiktok.com/@lucille_puckett",
+    "campaign website": "https://www.electlucillepuckett.com/"
+  },
+  "Democratic|North Carolina|At-Large|Terry Brown": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/783",
+    "campaign website": "https://www.voteterrybrown.com",
+    "campaign facebook": "https://www.facebook.com/TerryBrownCLT/",
+    "campaign x": "https://x.com/TerryBrownCLT",
+    "campaign instagram": "https://www.instagram.com/terrybrownclt",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100016602135939",
+    "personal linkedin": "https://www.linkedin.com/in/terry-brown-jr/"
+  },
+  "Democratic|North Carolina|At-Large|Charlie Wallin": {
+    "campaign website": "https://wallinfornc.com/"
+  },
+  "Republican|North Carolina|At-Large|Blair Eddins": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/825",
+    "official facebook": "https://www.facebook.com/profile.php?id=61566632742647",
+    "campaign website": "https://www.eddinsfornc.com",
+    "campaign facebook": "https://www.facebook.com/eddinsfornc",
+    "campaign instagram": "https://www.instagram.com/eddins_for_nc"
+  },
+  "Democratic|North Carolina|At-Large|Andy Warren": {
+    "campaign website": "https://www.nc.gop/"
+  },
+  "Democratic|North Carolina|At-Large|Michael Robinson": {
+    "campaign website": "https://www.markrobinsonfornc.com/"
+  },
+  "Republican|North Carolina|At-Large|Jay Adams": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/697",
+    "campaign website": "https://jayadamsnchouse.com",
+    "campaign facebook": "https://www.facebook.com/JayAdamsRepresentative/",
+    "personal facebook": "https://www.facebook.com/Jaybird49",
+    "personal linkedin": "https://www.linkedin.com/in/jay-adams-541b6718/"
+  },
+  "Democratic|North Carolina|At-Large|Park Inglefield": {
+    "campaign website": "https://www.parkinglefield.com/",
+    "campaign facebook": "https://www.facebook.com/voteparknc",
+    "campaign instagram": "https://www.instagram.com/votepark/",
+    "campaign tiktok": "https://www.tiktok.com/@votepark",
+    "personal linkedin": "https://www.linkedin.com/in/parkinglefield/"
+  },
+  "Republican|North Carolina|At-Large|Heather Rhyne": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/823",
+    "campaign website": "https://heatherrhyne.com",
+    "personal facebook": "https://www.facebook.com/heather.h.rhyne",
+    "personal x": "https://x.com/hhrhyne"
+  },
+  "Democratic|North Carolina|At-Large|Greg McBryde": {
+    "campaign website": "https://vote-usa.org/Intro.aspx?State=NC&Id=NCMcBrydeGreg"
+  },
+  "Democratic|North Carolina|At-Large|Beth Helfrich": {
+    "campaign website": "https://bethhelfrichnc.com/"
+  },
+  "Republican|North Carolina|At-Large|John Rhodes": {
+    "personal website": "https://johnrhodes.com/",
+    "personal facebook": "https://www.facebook.com/john.rhodes.589100",
+    "personal linkedin": "https://www.linkedin.com/in/johnwrhodes/",
+    "campaign website": "https://bluevoterguide.org/state/north-carolina"
+  },
+  "Democratic|North Carolina|At-Large|Carolyn Logan": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/750",
+    "campaign website": "http://www.carolynlogannc.com",
+    "campaign facebook": "https://www.facebook.com/carolynlogannc101",
+    "campaign x": "https://x.com/LoganForNCHouse",
+    "personal facebook": "https://www.facebook.com/carolyn.logan.562",
+    "personal instagram": "https://www.instagram.com/carolynlogan101/",
+    "personal linkedin": "https://www.linkedin.com/in/carolyn-logan-312a6768/"
+  },
+  "Republican|North Carolina|At-Large|Daniel Schmidt": {},
+  "Democratic|North Carolina|At-Large|Laura Budd": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/796",
+    "campaign website": "https://www.electlaurabudd.com",
+    "campaign facebook": "https://www.facebook.com/electlaurabudd/",
+    "campaign x": "https://x.com/ElectLauraBudd",
+    "campaign instagram": "https://www.instagram.com/laurabuddnchouse/#",
+    "personal facebook": "https://www.facebook.com/laura.budd.16",
+    "personal instagram": "https://www.instagram.com/laurahbudd/",
+    "personal linkedin": "https://www.linkedin.com/in/laura-h-budd/"
+  },
+  "Republican|North Carolina|At-Large|Trina Boyd": {
+    "personal facebook": "https://www.facebook.com/trina.boykins.33/",
+    "personal instagram": "https://www.instagram.com/womeninpowerinc/",
+    "personal youtube": "https://www.youtube.com/@trinabusinessexpert676",
+    "personal linkedin": "https://www.linkedin.com/in/trina-boyd-23b881226/",
+    "personal tiktok": "https://www.tiktok.com/@womeninpowerinc",
+    "campaign website": "https://www.nc.gop/"
+  },
+  "Democratic|North Carolina|At-Large|Ken McCool": {
+    "campaign website": "https://kenmccool.com/",
+    "campaign facebook": "https://www.facebook.com/votekenmccool/",
+    "campaign x": "https://x.com/KenMcCool1",
+    "campaign instagram": "https://www.instagram.com/mccoolfornc/",
+    "campaign tiktok": "https://www.tiktok.com/@commissionermccool",
+    "personal facebook": "https://www.facebook.com/ken.mccool.75",
+    "personal instagram": "https://www.instagram.com/mccool_ken/",
+    "personal linkedin": "https://www.linkedin.com/in/ken-mccool-573752124/"
+  },
+  "Republican|North Carolina|At-Large|John Torbett": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/606",
+    "official facebook": "https://www.facebook.com/RepTorbett/",
+    "campaign website": "https://johntorbett.com",
+    "campaign x": "https://x.com/JohnTorbett",
+    "personal facebook": "https://www.facebook.com/rep.john.a.torbett",
+    "personal instagram": "https://www.instagram.com/johntorbett/",
+    "personal linkedin": "https://www.linkedin.com/in/hon-john-a-torbett-501133b/"
+  },
+  "Democratic|North Carolina|At-Large|Sydnie Hutchinson": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61557177504020",
+    "campaign instagram": "https://www.instagram.com/sydniehutchinsonfornchouse108/",
+    "campaign tiktok": "https://www.tiktok.com/@shutch27",
+    "personal facebook": "https://www.facebook.com/sydnie.hutchinson",
+    "personal x": "https://x.com/sydnie92",
+    "personal instagram": "https://www.instagram.com/sutch27/",
+    "personal linkedin": "https://www.linkedin.com/in/sydnie-hutchnison-830040138/",
+    "campaign website": "https://bluevoterguide.org/district/NC/North_Carolina_House_of_Representatives_District_108/6071/"
+  },
+  "Republican|North Carolina|At-Large|Donnie Loftis": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/788",
+    "official facebook": "https://www.facebook.com/Hon-Donnie-Loftis-107480325079198/",
+    "campaign website": "https://donniefornc.com",
+    "campaign facebook": "https://www.facebook.com/repdonnieloftis",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100013423590594",
+    "personal x": "https://x.com/DonnieLoftis2",
+    "personal linkedin": "https://www.linkedin.com/in/donnie-l-b15b443a/"
+  },
+  "Democratic|North Carolina|At-Large|Mark Carver": {
+    "personal facebook": "https://www.facebook.com/profile.php?id=1007107834",
+    "personal linkedin": "https://www.linkedin.com/in/mark-carver-36244a39/",
+    "campaign website": "https://markdcarverfornchouse109.com/"
+  },
+  "Democratic|North Carolina|At-Large|Mary Silver": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585283547613"
+  },
+  "Democratic|North Carolina|At-Large|Jerry Blake": {},
+  "Democratic|North Carolina|At-Large|Mason Rhodes": {},
+  "Democratic|North Carolina|At-Large|Eric Ager": {
+    "official website": "https://www.ncleg.gov/Members/Biography/H/819",
+    "campaign website": "https://ericager4nc.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100083211796195",
+    "personal facebook": "https://www.facebook.com/eric.ager",
+    "personal linkedin": "https://www.linkedin.com/in/eric-ager/"
+  },
+  "Republican|North Carolina|At-Large|Anthony Penland": {
+    "campaign website": "https://www.chiefpenland.com/",
+    "campaign facebook": "https://www.facebook.com/ElectAnthonyPenland/",
+    "campaign x": "https://x.com/ChiefPenland",
+    "campaign instagram": "https://www.instagram.com/chiefpenland/",
+    "personal linkedin": "https://www.linkedin.com/in/anthony-penland-b574b636/"
+  },
+  "Democratic|North Carolina|At-Large|Lynne Russo": {
+    "campaign website": "https://www.lynnerussofornc.com",
+    "campaign facebook": "https://www.facebook.com/LynneRussoforNCHouse",
+    "campaign x": "https://x.com/LynneRusso4NC",
+    "campaign instagram": "https://www.instagram.com/lynnerusso",
+    "campaign youtube": "https://www.youtube.com/@LynneRussoforNC",
+    "campaign tiktok": "https://www.tiktok.com/@lynnerusso4nc",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61579068642517"
+  },
+  "Democratic|North Carolina|At-Large|Danny Davis": {
+    "campaign website": "https://davis4nchouse.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584423850859",
+    "campaign x": "https://x.com/Davis4NCHouse",
+    "campaign instagram": "https://www.instagram.com/Davis4NCHouse",
+    "campaign youtube": "https://www.youtube.com/@Davis4NCHouse",
+    "campaign tiktok": "https://www.tiktok.com/@Davis4NCHouse"
+  },
+  "Democratic|North Carolina|At-Large|Mark Burrows": {
+    "campaign website": "https://markburrowsnc.com/",
+    "campaign facebook": "https://www.facebook.com/MarkBurrowsNC/",
+    "campaign instagram": "https://www.instagram.com/markburrowsnc",
+    "personal linkedin": "https://www.linkedin.com/in/mark-burrows/"
+  },
+  "Democratic|North Carolina|At-Large|Caleb Brown": {
+    "campaign website": "https://www.calebbrownfornc120.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61581654390620",
+    "campaign instagram": "https://www.instagram.com/calebbrownfornc120/",
+    "campaign tiktok": "https://www.tiktok.com/@caleb.brown.for.n",
+    "personal facebook": "https://www.facebook.com/caleb.brown.4860",
+    "personal linkedin": "https://www.linkedin.com/in/caleb-brown-31752854/"
+  },
+  "Democratic|Pennsylvania|At-Large|Ana Tiburcio": {
+    "personal facebook": "https://www.facebook.com/ana.tiburcioencarnacion",
+    "personal instagram": "https://www.instagram.com/ana_t09/",
+    "personal youtube": "https://www.youtube.com/@anatiburcio965",
+    "personal linkedin": "https://www.linkedin.com/in/ana-tiburcio-8bba6571/"
+  },
+  "Republican|Pennsylvania|At-Large|Robert E. Smith Jr.": {
+    "campaign website": "https://lykelect.com/post/robert-e-smith-jr/eab35c95-a102-4d94-8e59-03e0954317b7/"
+  },
+  "Democratic|Pennsylvania|At-Large|Jennifer Mazzocco": {
+    "campaign website": "https://www.jenforpa.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61583695331290",
+    "campaign x": "https://x.com/jenforpa",
+    "campaign instagram": "https://www.instagram.com/jenforpa/",
+    "personal facebook": "https://www.facebook.com/jengiarrusso",
+    "personal x": "https://x.com/jennygfrmthblok",
+    "personal instagram": "https://www.instagram.com/jengiarrusso/"
+  },
+  "Republican|Pennsylvania|At-Large|Joseph Leckenby": {
+    "personal instagram": "https://www.instagram.com/leckenbyj77/",
+    "personal linkedin": "https://www.linkedin.com/in/joseph-leckenby-266114148/",
+    "campaign website": "https://www.josephleckenby.com/"
+  },
+  "Republican|Pennsylvania|At-Large|Andrea Verobish": {
+    "campaign website": "https://voteverobish.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585953555126",
+    "personal facebook": "https://www.facebook.com/andrea.carnicella",
+    "personal linkedin": "https://www.linkedin.com/in/andrea-verobish-42441a19/"
+  },
+  "Democratic|Pennsylvania|At-Large|Caleb McCoy": {
+    "campaign website": "https://www.therealmccoyforpa.com/",
+    "campaign instagram": "https://www.instagram.com/therealmccoyforpa/",
+    "campaign tiktok": "https://www.tiktok.com/@the.real.mccoy.fo",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61586894797147"
+  },
+  "Republican|Pennsylvania|At-Large|Catherine Wallen": {
+    "campaign website": "https://www.taxpayersforwallen.com/",
+    "personal facebook": "https://www.facebook.com/cathwallen",
+    "personal linkedin": "https://www.linkedin.com/in/wallen-catherine-ab61a733/"
+  },
+  "Democratic|Pennsylvania|At-Large|Todd Crawley": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61587121230234",
+    "personal facebook": "https://www.facebook.com/todd.crawley.71"
+  },
+  "Republican|Texas|At-Large|TBD": {},
+  "Democratic|Texas|At-Large|Sean Huffman": {
+    "campaign website": "https://huffmanforhd1.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61574221276104",
+    "campaign instagram": "https://www.instagram.com/huffmanforhd1/",
+    "campaign youtube": "https://www.youtube.com/@Huffmanforhd1",
+    "personal facebook": "https://www.facebook.com/sean.huffman2",
+    "personal x": "https://x.com/huffyparis",
+    "personal instagram": "https://www.instagram.com/huffyparis/",
+    "personal linkedin": "https://www.linkedin.com/in/sean-huffman-82554122/"
+  },
+  "Democratic|Texas|At-Large|Fatima La'Juan Muse": {
+    "campaign website": "https://www.fatimamuse.com/"
+  },
+  "Democratic|Texas|At-Large|Mark A. Moseley": {
+    "campaign website": "https://www.theofficialfacetofaceprojectofcampaignvideosforvotereducation.com/candidates-for-state-house-of-representatives-d1-50"
+  },
+  "Democratic|Texas|At-Large|Hector Garza": {
+    "campaign website": "https://judgehectorgarza.com/rsvp"
+  },
+  "Democratic|Texas|At-Large|Lorenzo Johnson": {
+    "campaign website": "https://www.theofficialfacetofaceprojectofcampaignvideosforvotereducation.com/candidates-for-state-house-of-representatives-d1-50"
+  },
+  "Democratic|Texas|At-Large|Jeff Chavez": {
+    "campaign website": "https://www.chavezfortexas.org",
+    "personal facebook": "https://www.facebook.com/chavezchavez2000",
+    "personal instagram": "https://www.instagram.com/chavezjeff/"
+  },
+  "Democratic|Texas|At-Large|Shelly Tatum": {
+    "campaign website": "https://www.tatum4texas9.com/"
+  },
+  "Democratic|Texas|At-Large|Michael Myers": {
+    "campaign facebook": "https://www.facebook.com/profile.php/?id=61583172465327",
+    "campaign instagram": "https://www.instagram.com/myersforhd10/"
+  },
+  "Republican|Texas|At-Large|Joanne Shofner": {
+    "official website": "https://house.texas.gov/members/4755",
+    "campaign website": "https://joannefortexans.com",
+    "campaign facebook": "https://www.facebook.com/joannefortexans/",
+    "campaign x": "https://x.com/joannefortexans",
+    "campaign instagram": "https://www.instagram.com/joannefortexans",
+    "personal instagram": "https://www.instagram.com/joannewshofner/",
+    "personal linkedin": "https://www.linkedin.com/in/joanne-shofner-a8b311288/"
+  },
+  "Democratic|Texas|At-Large|Roxanne Lathan": {
+    "campaign website": "https://www.roxanne4texans.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61581618671297",
+    "campaign x": "https://x.com/RoxanneforHD11",
+    "campaign instagram": "https://www.instagram.com/rlathan.4thepeople",
+    "campaign youtube": "https://www.youtube.com/@Roxanne4Texans",
+    "campaign tiktok": "https://www.tiktok.com/@roxanneforhd11",
+    "personal instagram": "https://www.instagram.com/roxanne.lathan.33/",
+    "personal linkedin": "https://www.linkedin.com/in/roxanne-lathan-081001367/"
+  },
+  "Democratic|Texas|At-Large|Andie Ho": {
+    "campaign website": "https://andiefortexas.com"
+  },
+  "Democratic|Texas|At-Large|Albert Hunter": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61557897306193",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100008172312517",
+    "campaign website": "https://voteforallkids.org/wp-content/uploads/2024/10/Q-and-A-with-Albert-Hunter.pdf"
+  },
+  "Libertarian|Texas|At-Large|Jeff Miller": {
+    "campaign website": "https://www.vote-miller.org/"
+  },
+  "Republican|Texas|At-Large|Brad Bailey": {
+    "campaign website": "https://bradbaileycampaign.com/",
+    "campaign facebook": "https://www.facebook.com/BradBaileyTW/"
+  },
+  "Democratic|Texas|At-Large|Moniqua S. Scott": {
+    "campaign website": "https://www.scottforhd15.com/",
+    "campaign facebook": "https://www.facebook.com/ScottforHD15"
+  },
+  "Libertarian|Texas|At-Large|Jessi Cowart": {
+    "campaign website": "https://www.cowartfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/CowartforTexas/",
+    "campaign x": "https://x.com/JessiCowartTX",
+    "campaign instagram": "https://www.instagram.com/cowartfortexas/"
+  },
+  "Democratic|Texas|At-Large|Bobby Clayton": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=48&off=0&elect=0&minper=0"
+  },
+  "Democratic|Texas|At-Large|Valorie Barton": {
+    "campaign website": "https://www.valoriebarton.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61573496668784",
+    "campaign tiktok": "https://www.tiktok.com/@valoriebartontxhd18"
+  },
+  "Democratic|Texas|At-Large|Matthias-Jonah Early": {
+    "campaign website": "https://bluevoterguide.org/TX/candidate_Matthias-Jonah_Early/711946"
+  },
+  "Republican|Texas|At-Large|Ray Callas": {
+    "campaign website": "https://www.raycallasfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/RayCallasForTexas",
+    "campaign x": "https://x.com/RayCallas4TX",
+    "personal facebook": "https://www.facebook.com/ray.callas",
+    "personal x": "https://x.com/DocRayC",
+    "personal instagram": "https://www.instagram.com/raycallasmd/",
+    "personal youtube": "https://www.youtube.com/@GasManMD",
+    "personal linkedin": "https://www.linkedin.com/in/ray-callas-ab662884/"
+  },
+  "Democratic|Texas|At-Large|Jacqueline \"Jacky\" Hernandez": {
+    "campaign website": "https://votejacky21.com/",
+    "campaign facebook": "https://www.facebook.com/votejacky21/",
+    "campaign instagram": "https://www.instagram.com/votejacky21",
+    "campaign tiktok": "https://www.tiktok.com/@votejacky21"
+  },
+  "Democratic|Texas|At-Large|Christian Manuel": {
+    "official website": "https://house.texas.gov/members/member-page/?district=22",
+    "campaign website": "https://christian4tx.com",
+    "campaign facebook": "https://www.facebook.com/christianfortexas/",
+    "campaign instagram": "https://www.instagram.com/christian4texas"
+  },
+  "Republican|Texas|At-Large|Greg Bonnen": {
+    "official website": "https://house.texas.gov/members/member-page/?district=24",
+    "campaign website": "https://drgregbonnen.com/",
+    "campaign facebook": "https://www.facebook.com/DrGregBonnen",
+    "campaign x": "https://x.com/DrGregBonnen",
+    "campaign instagram": "https://www.instagram.com/drgregbonnen/"
+  },
+  "Democratic|Texas|At-Large|Frank N. Carr": {
+    "campaign website": "https://fncarr4tx.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585100283610",
+    "campaign x": "https://x.com/F_N_Carr"
+  },
+  "Republican|Texas|At-Large|Max Alalibo": {
+    "campaign website": "https://maxwellalalibo.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100070666817926",
+    "personal facebook": "https://www.facebook.com/ibifrisolam.maxalalibo",
+    "personal instagram": "https://www.instagram.com/ibifrisolam/",
+    "personal linkedin": "https://www.linkedin.com/in/ibifrisolam-max-alalibo-167aa19a/"
+  },
+  "Democratic|Texas|At-Large|Karen Reeder": {
+    "campaign website": "https://www.votereeder-brazoria.com/"
+  },
+  "Republican|Texas|At-Large|Ryan Guillen": {
+    "official website": "https://house.texas.gov/members/member-page/?district=31",
+    "campaign website": "https://www.ryanguillen.com",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100011432371838",
+    "personal linkedin": "https://www.linkedin.com/in/ryan-guillen-1343659/"
+  },
+  "Democratic|Texas|At-Large|Jennifer \"JJ\" Dominguez": {
+    "campaign website": "https://JJDominguez4TX.com",
+    "campaign facebook": "https://www.facebook.com/jjdominguez4tx/",
+    "campaign instagram": "https://www.instagram.com/jjdominguez4tx/"
+  },
+  "Democratic|Texas|At-Large|Gabriel Lazano Marroquin": {
+    "campaign website": "https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do"
+  },
+  "Republican|Texas|At-Large|Katrina Pierson": {
+    "campaign website": "https://teachthevote.atpe.org/Candidates/Katrina-Pierson"
+  },
+  "Democratic|Texas|At-Large|Orlando Lopez": {
+    "campaign website": "https://www.lopezfortxhd33.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61584036202628",
+    "campaign x": "https://x.com/Lopez4TXHD33",
+    "campaign instagram": "https://www.instagram.com/lopez.4.tx.hd.33/"
+  },
+  "Republican|Texas|At-Large|Denise Villalobos": {
+    "official website": "https://house.texas.gov/members/4770",
+    "campaign website": "https://denisevillalobos.com",
+    "campaign facebook": "https://www.facebook.com/DVillalobos20",
+    "personal facebook": "https://www.facebook.com/denise.etheridge.58",
+    "personal linkedin": "https://www.linkedin.com/in/denise-villalobos-pmp"
+  },
+  "Democratic|Texas|At-Large|Stephanie Guerrero Saenz": {
+    "campaign facebook": "https://www.facebook.com/sd20Stephanie/",
+    "campaign website": "https://bluevoterguide.org/TX/candidate_Stephanie_Saenz/711958"
+  },
+  "Republican|Texas|At-Large|Oscar Rosa": {},
+  "Republican|Texas|At-Large|Laura E. Cisneros": {
+    "campaign facebook": "https://www.facebook.com/drlauracisneroscd34/"
+  },
+  "Democratic|Texas|At-Large|Armando Martinez": {
+    "official website": "https://house.texas.gov/members/member-page/?district=39",
+    "campaign instagram": "https://www.instagram.com/andoconmando/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=1217054724",
+    "personal linkedin": "https://www.linkedin.com/in/armando-mando-martinez-ando-con-mando-3baa4211/"
+  },
+  "Democratic|Texas|At-Large|Richard Raymond": {
+    "official website": "https://house.texas.gov/members/member-page/?district=42",
+    "campaign website": "https://richardraymond.com",
+    "campaign facebook": "https://www.facebook.com/RepRichardPenaRaymond",
+    "personal facebook": "https://www.facebook.com/richard.p.raymond",
+    "personal linkedin": "https://www.linkedin.com/in/richard-raymond-376b7412/"
+  },
+  "Republican|Texas|At-Large|Teresa Johnson-Hernandez": {
+    "campaign website": "https://teresafortexas.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61578869701361",
+    "campaign x": "https://x.com/DrTeresaforTx",
+    "campaign instagram": "https://www.instagram.com/teresafortexas/",
+    "campaign tiktok": "https://www.tiktok.com/@teresafortexas",
+    "personal x": "https://x.com/DrTJHDZ"
+  },
+  "Republican|Texas|At-Large|José Manuel Lozano": {
+    "official website": "https://house.texas.gov/members/member-page/?district=43",
+    "campaign website": "https://www.lozanofortexas.com/",
+    "campaign facebook": "https://www.facebook.com/RepJMLozano",
+    "personal facebook": "https://www.facebook.com/JMPepeLozano"
+  },
+  "Democratic|Texas|At-Large|Jeffrey T. Jackson": {
+    "campaign website": "https://www.theofficialfacetofaceprojectofcampaignvideosforvotereducation.com/candidates-for-state-house-of-representatives-d1-50"
+  },
+  "Republican|Texas|At-Large|Tennyson G. Moreno": {
+    "campaign website": "https://www.tennysonmoreno.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100076119588911",
+    "campaign instagram": "https://www.instagram.com/tennysonmorenotx",
+    "campaign tiktok": "https://www.tiktok.com/@tennysonmorenotx",
+    "personal facebook": "https://www.facebook.com/tennyson.moreno",
+    "personal instagram": "https://www.instagram.com/realtennysongmoreno/",
+    "personal linkedin": "https://www.linkedin.com/in/tennysonmoreno/"
+  },
+  "Democratic|Texas|At-Large|Sheryl Cole": {
+    "official website": "https://house.texas.gov/members/member-page/?district=46",
+    "campaign website": "https://www.sherylcole.com/",
+    "campaign facebook": "https://www.facebook.com/SherylforTexas",
+    "campaign instagram": "https://www.instagram.com/sherylfortexas/",
+    "personal facebook": "https://www.facebook.com/sheryl.cole.73",
+    "personal linkedin": "https://www.linkedin.com/in/sheryl-cole-71b98445/"
+  },
+  "Republican|Texas|At-Large|Jennifer Mushtaler": {
+    "campaign website": "https://drjenfortexas.com",
+    "campaign instagram": "https://www.instagram.com/drjenfortexas/"
+  },
+  "Democratic|Texas|At-Large|Donna Howard": {
+    "official website": "https://house.texas.gov/members/member-page/?district=48",
+    "official instagram": "https://www.instagram.com/teamhowardtx/",
+    "personal facebook": "https://www.facebook.com/donna.howard.1675"
+  },
+  "Republican|Texas|At-Large|Anthony Gupta": {
+    "campaign website": "https://justfacts.votesmart.org/candidate/biography/231507/anthony-gupta"
+  },
+  "Green|Texas|At-Large|Arshia Papari": {
+    "campaign website": "https://arshiafortexas.org/",
+    "campaign facebook": "https://www.facebook.com/p/Arshia-Papari-for-Texas-State-Representative-HD49-61578633950719/",
+    "campaign instagram": "https://www.instagram.com/arshiafortexas/",
+    "personal linkedin": "https://www.linkedin.com/in/arshiapapari/"
+  },
+  "Republican|Texas|At-Large|Howard Olsen": {
+    "campaign website": "https://justfacts.votesmart.org/candidate/biography/231508/howard-olsen-iv"
+  },
+  "Democratic|Texas|At-Large|Lulu Flores": {
+    "official website": "https://house.texas.gov/members/member-page/?district=51",
+    "personal x": "https://x.com/lulufloresatx",
+    "personal linkedin": "https://www.linkedin.com/in/lulu-flores-350a02",
+    "campaign website": "https://www.voteluluflores.com/"
+  },
+  "Republican|Texas|At-Large|Jessica Martinez": {
+    "campaign website": "https://vote-usa.org/Intro.aspx?State=TX&Id=TXMartinezJessica"
+  },
+  "Democratic|Texas|At-Large|Chris Jimenez": {
+    "campaign website": "https://www.chrisjimenezforhd52.com",
+    "campaign facebook": "https://www.facebook.com/chrisjimenezforhd52/",
+    "campaign instagram": "https://www.instagram.com/chrisjimenezforhd52/",
+    "campaign tiktok": "https://www.tiktok.com/@chrisjimenezforhd52",
+    "personal linkedin": "https://www.linkedin.com/in/landman1/"
+  },
+  "Republican|Texas|At-Large|Wes Virdell": {
+    "official website": "https://house.texas.gov/members/4775",
+    "campaign website": "https://virdellfortexas.com",
+    "campaign facebook": "https://www.facebook.com/wesvirdellfortexas/",
+    "campaign x": "https://x.com/wesvirdelltx",
+    "personal facebook": "https://www.facebook.com/wesley.virdell",
+    "personal youtube": "https://www.youtube.com/@wesvirdell9236",
+    "personal linkedin": "https://www.linkedin.com/in/wesley-virdell-a6979420a/"
+  },
+  "Democratic|Texas|At-Large|Kathryn Hartmann": {
+    "campaign website": "https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do"
+  },
+  "Libertarian|Texas|At-Large|Brain Holk": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=48&off=0&elect=0&minper=0"
+  },
+  "Democratic|Texas|At-Large|Dawn Richardson": {
+    "campaign website": "https://www.dawn4texas.org/",
+    "campaign facebook": "https://www.facebook.com/dawnrichardsondistrict54/",
+    "personal instagram": "https://www.instagram.com/ms.d259",
+    "personal linkedin": "https://www.linkedin.com/in/dawn-richardson-a3ba5214/"
+  },
+  "Democratic|Texas|At-Large|Amelia Rabroker": {
+    "campaign website": "https://www.ameliafortexas.com/",
+    "campaign facebook": "https://www.facebook.com/ameliafortexas",
+    "campaign instagram": "https://www.instagram.com/ameliafortexas/",
+    "campaign tiktok": "https://www.tiktok.com/@ameliafortexas",
+    "personal facebook": "https://www.facebook.com/amelia.rabroker/"
+  },
+  "Democratic|Texas|At-Large|Ray Smith": {},
+  "Libertarian|Texas|At-Large|Darren Hamilton": {
+    "campaign website": "https://www.hamiltonfortexas.com/",
+    "campaign tiktok": "https://www.tiktok.com/@darrenhamilton287",
+    "personal facebook": "https://www.facebook.com/darren.hamilton.121",
+    "personal youtube": "https://www.youtube.com/@LibertarianDad/",
+    "personal linkedin": "https://www.linkedin.com/in/darren-hamilton-b74599247/"
+  },
+  "Democratic|Texas|At-Large|Chris Oldham": {
+    "campaign website": "https://oldham4texas.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61586357722256",
+    "campaign x": "https://x.com/oldham4texas"
+  },
+  "Democratic|Texas|At-Large|Krissy Guess": {
+    "campaign website": "https://www.theofficialfacetofaceprojectofcampaignvideosforvotereducation.com/candidates-for-state-house-of-representatives-d51-100"
+  },
+  "Republican|Texas|At-Large|Shelley Luther": {
+    "official website": "https://house.texas.gov/members/4645",
+    "campaign website": "https://luther4texas.com",
+    "campaign facebook": "https://www.facebook.com/RepShelleyLuther",
+    "campaign x": "https://x.com/ShelleyLuther",
+    "campaign instagram": "https://www.instagram.com/shelleyluthercts/",
+    "personal facebook": "https://www.facebook.com/shelleyluthertexas",
+    "personal linkedin": "https://www.linkedin.com/in/shelley-luther-879b2420/"
+  },
+  "Democratic|Texas|At-Large|Catherine Thorne": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=48&off=0&elect=0&minper=0"
+  },
+  "Republican|Texas|At-Large|Ben Bumgarner": {
+    "official website": "https://house.texas.gov/members/63",
+    "official instagram": "https://www.instagram.com/repbenbumgarner/",
+    "campaign website": "https://votebumgarner.com",
+    "campaign facebook": "https://www.facebook.com/BenBumgarnerforTexasRepHD63/",
+    "campaign x": "https://x.com/Bumgarner4HD63",
+    "personal facebook": "https://www.facebook.com/benjamin.bumgarner.581",
+    "personal instagram": "https://www.instagram.com/bigfranben/",
+    "personal linkedin": "https://www.linkedin.com/in/benjamin-bumgarner-a19308135/"
+  },
+  "Democratic|Texas|At-Large|Denise Wooten": {
+    "campaign website": "https://www.wooten-for-texas.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100076356917597",
+    "campaign instagram": "https://www.instagram.com/hdenisewooten/",
+    "personal website": "https://hdenisewooten.com/dr_-denise-wooten",
+    "personal instagram": "https://www.instagram.com/denise_wooten58/"
+  },
+  "Democratic|Texas|At-Large|Detrick Beburr": {
+    "campaign website": "https://www.deburrfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/deburrfortexas/",
+    "campaign instagram": "https://www.instagram.com/deburrfortexas",
+    "personal facebook": "https://www.facebook.com/detrick.deburr",
+    "personal x": "https://x.com/detrickdeburr",
+    "personal linkedin": "https://www.linkedin.com/in/detrickdeburr/"
+  },
+  "Democratic|Texas|At-Large|Sandeep Srivastava": {
+    "campaign facebook": "https://www.facebook.com/sandeepfortexas/",
+    "campaign x": "https://x.com/sandeepfortexas",
+    "campaign instagram": "https://www.instagram.com/sandeepforcongress",
+    "personal facebook": "https://www.facebook.com/sandeep.srivastava.18",
+    "personal linkedin": "https://www.linkedin.com/in/sandeep-srivastava-90777449/"
+  },
+  "Republican|Texas|At-Large|David Spiller": {
+    "official website": "https://house.texas.gov/members/member-page/?district=68",
+    "official youtube": "https://www.youtube.com/@representativedavidspiller4726",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100069525410865",
+    "personal linkedin": "https://www.linkedin.com/in/david-spiller-13382588/",
+    "campaign website": "https://teachthevote.atpe.org/Candidates/David-Spiller"
+  },
+  "Democratic|Texas|At-Large|Jasmine Henderson": {
+    "campaign website": "https://hendersonforhd68.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585109505584"
+  },
+  "Republican|Texas|At-Large|James Frank": {
+    "official website": "https://house.texas.gov/members/member-page/?district=69",
+    "campaign website": "https://votejamesfrank.com/"
+  },
+  "Democratic|Texas|At-Large|Leilani Barnett": {
+    "campaign website": "https://www.barnettfortexas.org/",
+    "personal facebook": "https://www.facebook.com/leilani.barnett/",
+    "personal instagram": "https://www.instagram.com/writerleilani/"
+  },
+  "Democratic|Texas|At-Large|Mihaela Plesa": {
+    "official website": "https://house.texas.gov/members/member-page/?district=70",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100073431504625",
+    "personal linkedin": "https://www.linkedin.com/in/mihaela-plesa-26640348/",
+    "campaign website": "https://plesafortexas.com/"
+  },
+  "Democratic|Texas|At-Large|Chance Ferguson": {
+    "campaign website": "https://chancefergusonfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/Chance4Texas/",
+    "campaign tiktok": "https://www.tiktok.com/@chance4texas",
+    "personal facebook": "https://www.facebook.com/chance.ferguson.96"
+  },
+  "Republican|Texas|At-Large|Drew Darby": {
+    "official website": "https://house.texas.gov/members/member-page/?district=72",
+    "campaign website": "https://drewdarby.com/endorsements/"
+  },
+  "Democratic|Texas|At-Large|Shiloh Salazar": {
+    "campaign facebook": "https://www.facebook.com/HCYoungDem",
+    "personal tiktok": "https://www.tiktok.com/@shiloh.for.texas"
+  },
+  "Democratic|Texas|At-Large|Merrie Fox": {
+    "campaign website": "https://www.foxfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61574787627291",
+    "campaign instagram": "https://www.instagram.com/foxfortexas/",
+    "campaign youtube": "https://www.youtube.com/@MerrieFoxCampaignChannel",
+    "campaign tiktok": "https://www.tiktok.com/@foxfortexas",
+    "personal facebook": "https://www.facebook.com/merrie.fox.16",
+    "personal instagram": "https://www.instagram.com/merrie_alena/",
+    "personal linkedin": "https://www.linkedin.com/in/merrie-fox-77b5541b3/"
+  },
+  "Democratic|Texas|At-Large|Mary González": {
+    "official website": "https://house.texas.gov/members/member-page/?district=75",
+    "personal facebook": "https://www.facebook.com/profile.php?id=7912230",
+    "personal linkedin": "https://www.linkedin.com/in/mary-gonzalez-17432660/",
+    "campaign website": "https://teachthevote.atpe.org/Candidates/Mary-Gonzalez"
+  },
+  "Democratic|Texas|At-Large|Vincent Perez": {
+    "official website": "https://house.texas.gov/members/4710",
+    "campaign website": "https://www.vinceperez.com",
+    "campaign facebook": "https://www.facebook.com/vincemperez",
+    "campaign instagram": "https://www.instagram.com/vincemperez",
+    "personal linkedin": "https://www.linkedin.com/in/vincent-perez-b7b42348/"
+  },
+  "Republican|Texas|At-Large|Humberto Perez": {
+    "campaign x": "https://x.com/Perez4Mayor",
+    "campaign instagram": "https://www.instagram.com/mr_president2",
+    "campaign website": "https://perezfortexas.com/"
+  },
+  "Republican|Texas|At-Large|Jesus Romero": {
+    "personal linkedin": "https://www.linkedin.com/in/jesse-romero-6b340b79/"
+  },
+  "Republican|Texas|At-Large|Don McLaughlin": {
+    "official website": "https://house.texas.gov/members/4655",
+    "campaign website": "https://donfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/donfortexas",
+    "campaign x": "https://x.com/donfortexas",
+    "campaign instagram": "https://www.instagram.com/donfortexas/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61551620669189",
+    "personal instagram": "https://www.instagram.com/donjr1961/"
+  },
+  "Republican|Texas|At-Large|Brooks Landgraf": {
+    "official website": "https://house.texas.gov/members/member-page/?district=81",
+    "campaign website": "https://www.brookslandgraf.com/",
+    "campaign facebook": "https://www.facebook.com/BrooksLandgraf",
+    "campaign instagram": "https://www.instagram.com/brookslandgraf/",
+    "personal facebook": "https://www.facebook.com/brooks.landgraf.texas",
+    "personal linkedin": "https://www.linkedin.com/in/brooks-landgraf-3600012/"
+  },
+  "Democratic|Texas|At-Large|Ceasar Sanchez": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=48&off=0&elect=0&minper=0"
+  },
+  "Republican|Texas|At-Large|Tom Craddick": {
+    "official website": "https://house.texas.gov/members/member-page/?district=82",
+    "campaign website": "https://tomcraddick.com/",
+    "personal x": "https://x.com/TomCraddick2"
+  },
+  "Democratic|Texas|At-Large|Cathy Broadrick": {
+    "campaign website": "https://broadrickfortexas.com/"
+  },
+  "Republican|Texas|At-Large|Dustin Burrows": {
+    "campaign website": "https://ivoterguide.com/candidate/25321/race/4288/election/1079"
+  },
+  "Democratic|Texas|At-Large|Malik Williams": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61583335543727",
+    "campaign instagram": "https://www.instagram.com/Malikfor83",
+    "campaign tiktok": "https://www.tiktok.com/@malikfor83",
+    "personal facebook": "https://www.facebook.com/malik.w.williams.8/",
+    "personal linkedin": "https://www.linkedin.com/in/williams-malik",
+    "campaign website": "https://bluevoterguide.org/TX/candidate_Malik_Williams/711992"
+  },
+  "Republican|Texas|At-Large|Carl Tepper": {
+    "official website": "https://house.texas.gov/members/member-page/?district=84",
+    "campaign website": "https://tepperfortexas.com/",
+    "personal facebook": "https://www.facebook.com/chtepper",
+    "personal instagram": "https://www.instagram.com/chtepper/",
+    "personal linkedin": "https://www.linkedin.com/in/carl-tepper-6ba995178/"
+  },
+  "Democratic|Texas|At-Large|Maggie Durham": {},
+  "Democratic|Texas|At-Large|Cullin Knutson": {
+    "campaign website": "https://www.cullinfortexas.com",
+    "campaign facebook": "https://www.facebook.com/CullinKnutsonforStateRepresentative/",
+    "campaign instagram": "https://www.instagram.com/cullinfortexas/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61584319965636",
+    "personal linkedin": "https://www.linkedin.com/in/cullin-knutson-957931aa/"
+  },
+  "Democratic|Texas|At-Large|Diana Loya": {
+    "campaign website": "https://www.dianaloyahd87.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585180027581"
+  },
+  "Democratic|Texas|At-Large|Heather J. Wallace": {
+    "campaign website": "https://www.wallacefortexas-district88.org/"
+  },
+  "Democratic|Texas|At-Large|Angie Carraway": {
+    "campaign website": "https://www.citizensforcarraway.com/",
+    "campaign facebook": "https://www.facebook.com/citizensforcarraway",
+    "campaign x": "https://x.com/CarrawayHQ",
+    "campaign instagram": "https://www.instagram.com/citizensforcarraway/"
+  },
+  "Democratic|Texas|At-Large|Yisak Worku": {
+    "campaign website": "https://yisakfortexas.com/",
+    "campaign instagram": "https://www.instagram.com/ywtxhd91/"
+  },
+  "Democratic|Texas|At-Large|Salman Bhojani": {
+    "official website": "https://house.texas.gov/members/member-page/?district=92",
+    "campaign website": "https://www.bhojanifortexas.com/",
+    "campaign facebook": "https://www.facebook.com/SalmanBhojaniTX/",
+    "campaign x": "https://x.com/SalmanBhojaniTX",
+    "campaign instagram": "https://www.instagram.com/SalmanBhojaniTx",
+    "campaign youtube": "https://www.youtube.com/@SalmanBhojaniTX",
+    "personal facebook": "https://www.facebook.com/sbhojani/",
+    "personal linkedin": "https://www.linkedin.com/in/salman-bhojani-2a24b8a",
+    "personal tiktok": "https://www.tiktok.com/@salmanbhojanitx"
+  },
+  "Democratic|Texas|At-Large|Ericka Lomick": {},
+  "Democratic|Texas|At-Large|Nicole Collier": {
+    "official website": "https://house.texas.gov/members/member-page/?district=95",
+    "official facebook": "https://www.facebook.com/NicoleCollierTX",
+    "official x": "https://x.com/NicoleCollier95",
+    "official tiktok": "https://www.tiktok.com/@nicolecollier95",
+    "personal website": "https://www.texasrepcollier.com/",
+    "personal facebook": "https://www.facebook.com/nicole.collier.18",
+    "personal linkedin": "https://www.linkedin.com/in/nicole-c-0289a52/",
+    "campaign website": "https://teachthevote.atpe.org/Candidates/Nicole-Collier"
+  },
+  "Republican|Texas|At-Large|Ellen Fleishmann": {
+    "campaign website": "https://www.ellen4texas.com/",
+    "campaign facebook": "https://www.facebook.com/EllenforTexas/",
+    "campaign x": "https://x.com/Ellen4Texas"
+  },
+  "Democratic|Texas|At-Large|Ebony M. Turner": {
+    "campaign website": "https://www.ebforhd96.com/",
+    "personal facebook": "https://www.facebook.com/ebony.m.turner"
+  },
+  "Republican|Texas|At-Large|Charlie Geren": {
+    "official website": "https://house.texas.gov/members/member-page/?district=99",
+    "campaign website": "https://www.charliegeren.com/",
+    "campaign facebook": "https://www.facebook.com/repcharliegeren",
+    "campaign x": "https://x.com/charliegeren",
+    "campaign youtube": "https://www.youtube.com/@charliegeren8446",
+    "personal facebook": "https://www.facebook.com/charlie.geren.1",
+    "personal linkedin": "https://www.linkedin.com/in/charlie-geren-a51013111/"
+  },
+  "Democratic|Texas|At-Large|Michelle Winder": {
+    "campaign website": "https://bluevoterguide.org/TX/candidate_Michelle_Winder/712004"
+  },
+  "Republican|Texas|At-Large|Jordan Scott Hoffnagle": {
+    "campaign website": "https://hoffnaglefortexas.org/index.html"
+  },
+  "Democratic|Texas|At-Large|Ana-Maria Ramos": {
+    "official website": "https://house.texas.gov/members/member-page/?district=102",
+    "campaign website": "https://www.ramos4texas.com/",
+    "campaign facebook": "https://www.facebook.com/ramos4texashd102",
+    "campaign x": "https://x.com/Ramos4Texas",
+    "campaign instagram": "https://www.instagram.com/ramos4texashd102"
+  },
+  "Republican|Texas|At-Large|Bonnie Abadie": {
+    "campaign facebook": "https://www.facebook.com/bonnieabadieforhd102",
+    "campaign x": "https://x.com/bonnieabadie"
+  },
+  "Republican|Texas|At-Large|Melanie Medley-Thomas": {
+    "campaign website": "https://vote-usa.org/Intro.aspx?State=TX&Id=TXMedleyThomasMelanie"
+  },
+  "Democratic|Texas|At-Large|Jessica González": {
+    "official website": "https://house.texas.gov/members/member-page/?district=104",
+    "campaign website": "https://jessicafortexas.com/",
+    "campaign instagram": "https://www.instagram.com/jessicafortexas",
+    "campaign tiktok": "https://www.tiktok.com/@jessicatx104",
+    "personal facebook": "https://www.facebook.com/jess.a.gonzalez/",
+    "personal linkedin": "https://www.linkedin.com/in/jessica-gonzalez-a2b9197/"
+  },
+  "Democratic|Texas|At-Large|Terry Meza": {
+    "official website": "https://house.texas.gov/members/member-page/?district=105",
+    "official x": "https://x.com/TerryforTexas",
+    "campaign facebook": "https://www.facebook.com/TerryforTexas",
+    "personal facebook": "https://www.facebook.com/mezalaw",
+    "campaign website": "https://terrymeza.com/"
+  },
+  "Democratic|Texas|At-Large|Linda Garcia": {
+    "official website": "https://house.texas.gov/members/4485",
+    "official facebook": "https://www.facebook.com/lindafortexas",
+    "campaign website": "https://www.lindafortexas.com",
+    "campaign instagram": "https://www.instagram.com/linda4texas"
+  },
+  "Democratic|Texas|At-Large|Allison Mitchell": {
+    "campaign website": "https://www.allisonmitchellfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/allisonmitchellfortexas/",
+    "campaign x": "https://x.com/AllisonForTexas",
+    "campaign instagram": "https://www.instagram.com/allisonmitchellfortexas",
+    "campaign youtube": "https://www.youtube.com/@AllisonMitchellForTexas",
+    "campaign tiktok": "https://www.tiktok.com/@allisonmitchellfortexas",
+    "personal facebook": "https://www.facebook.com/allison.mitchell.423254",
+    "personal instagram": "https://www.instagram.com/allisonmitchellofficial/",
+    "personal linkedin": "https://www.linkedin.com/in/allison-mitchell-8b283812/"
+  },
+  "Democratic|Texas|At-Large|Aicha Davis": {
+    "official website": "https://house.texas.gov/members/4465",
+    "campaign website": "http://www.davisfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/aicha4education/",
+    "campaign x": "https://x.com/AichaForTexas",
+    "campaign instagram": "https://www.instagram.com/aicha_davis/",
+    "personal facebook": "https://www.facebook.com/aichamiyt.davis",
+    "personal instagram": "https://www.instagram.com/aichamiyt/"
+  },
+  "Republican|Texas|At-Large|Will Campbell": {
+    "campaign website": "https://www.willcampbellfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585840402389",
+    "campaign x": "https://x.com/WillForTexas",
+    "campaign youtube": "https://www.youtube.com/@WillCampbellforTexas",
+    "personal linkedin": "https://www.linkedin.com/in/wacthe3/"
+  },
+  "Democratic|Texas|At-Large|Zach Herbert": {
+    "campaign website": "https://zach4texas.com/",
+    "campaign facebook": "https://www.facebook.com/zach4texas",
+    "campaign x": "https://x.com/zach4texas",
+    "campaign instagram": "https://www.instagram.com/zach4texas",
+    "personal facebook": "https://www.facebook.com/zdherbert",
+    "personal x": "https://x.com/ZachHerbert4",
+    "personal instagram": "https://www.instagram.com/zherbert/",
+    "personal linkedin": "https://www.linkedin.com/in/dallas-car-wreck-lawyer/"
+  },
+  "Democratic|Texas|At-Large|Rhetta Bowers": {
+    "official website": "https://house.texas.gov/members/member-page/?district=113",
+    "campaign facebook": "https://www.facebook.com/RhettaForTexas",
+    "campaign instagram": "https://www.instagram.com/rhettaforhd113/",
+    "personal facebook": "https://www.facebook.com/rhetta.bowers",
+    "personal instagram": "https://www.instagram.com/rhettabee/",
+    "personal linkedin": "https://www.linkedin.com/in/rhetta-bowers-63832829/",
+    "campaign website": "https://rhettabowers.com/"
+  },
+  "Republican|Texas|At-Large|Stephen W. Stanley": {
+    "campaign website": "https://stanleyfortexashouse.com/",
+    "campaign facebook": "https://www.facebook.com/stanleyfortexashouse/",
+    "personal facebook": "https://www.facebook.com/stephen.stanley.75"
+  },
+  "Democratic|Texas|At-Large|John Bryant": {
+    "official website": "https://house.texas.gov/members/member-page/?district=114",
+    "campaign facebook": "https://www.facebook.com/johnbryantfortexas",
+    "campaign instagram": "https://www.instagram.com/johnbryantfortexas/",
+    "campaign website": "https://www.johnbryantfortexas.com/"
+  },
+  "Republican|Texas|At-Large|Tim McDonough": {
+    "campaign website": "https://timforhouse.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61582333057293",
+    "campaign x": "https://x.com/TimMcDonou77835",
+    "personal x": "https://x.com/TEXIT2025",
+    "personal linkedin": "https://www.linkedin.com/in/timothy-mcdonough-ph-d-848a71/"
+  },
+  "Democratic|Texas|At-Large|Cassandra Hernandez": {
+    "official website": "https://house.texas.gov/members/4495",
+    "campaign website": "https://cassandrafortexas.com",
+    "campaign facebook": "https://www.facebook.com/casfortx",
+    "campaign instagram": "https://www.instagram.com/casfortx/"
+  },
+  "Republican|Texas|At-Large|Danny Rosellini": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100071518820747",
+    "campaign instagram": "https://www.instagram.com/dannyrosellini/",
+    "personal linkedin": "https://www.linkedin.com/in/danny-rosellini-68407719a/",
+    "campaign website": "https://justfacts.votesmart.org/candidate/biography/231812/danny-rosellini"
+  },
+  "Republican|Texas|At-Large|Rhett Rosenquest Smith": {
+    "personal facebook": "https://www.facebook.com/RhettSmith2012/",
+    "campaign website": "https://teachthevote.atpe.org/Our-Blog/Blog-Archive/2022/Results-of-key-TX-races-in-Nov-2022-midterm"
+  },
+  "Republican|Texas|At-Large|Ben Mostyn": {
+    "campaign website": "https://mostynfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/votebenmostyn",
+    "campaign x": "https://x.com/BenMostynTX",
+    "campaign instagram": "https://www.instagram.com/mostynfortexas/",
+    "campaign youtube": "https://www.youtube.com/@MostynForTexas",
+    "personal facebook": "https://www.facebook.com/TheBenMostyn"
+  },
+  "Democratic|Texas|At-Large|Kristian Carranza": {
+    "campaign website": "https://kristianfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/KristianForTX/",
+    "campaign x": "https://x.com/kristianfortx",
+    "campaign instagram": "https://www.instagram.com/kristianfortx",
+    "personal facebook": "https://www.facebook.com/kristiancarranza90",
+    "personal linkedin": "https://www.linkedin.com/in/kristian-carranza-197478168/"
+  },
+  "Republican|Texas|At-Large|Melva Perez": {
+    "campaign website": "https://melvafortexas.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61579029221802",
+    "campaign x": "https://x.com/MelvaPerez29326",
+    "campaign instagram": "https://www.instagram.com/melvariveraperez_txhd119/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=61584729497386",
+    "personal linkedin": "https://www.linkedin.com/in/melva-rivera-perez/"
+  },
+  "Democratic|Texas|At-Large|Zach Dunn": {
+    "campaign website": "https://zackdunn.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585172043657",
+    "campaign x": "https://x.com/DunnForTexas",
+    "campaign instagram": "https://www.instagram.com/dunnfortexas",
+    "personal facebook": "https://www.facebook.com/zack.dunn6",
+    "personal linkedin": "https://www.linkedin.com/in/zackdunn/"
+  },
+  "Democratic|Texas|At-Large|Shelly Nickels": {
+    "campaign website": "https://shellynickels.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61583537294405",
+    "campaign x": "https://x.com/Snickels122",
+    "campaign instagram": "https://www.instagram.com/shellynickelsfortx122/",
+    "personal facebook": "https://www.facebook.com/shelly.nickels",
+    "personal youtube": "https://www.youtube.com/@iheartpuffins",
+    "personal linkedin": "https://www.linkedin.com/in/shelly-nickels-md-mha-0165a4223/"
+  },
+  "Democratic|Texas|At-Large|Josey Garcia": {
+    "official website": "https://house.texas.gov/members/member-page/?district=124",
+    "official instagram": "https://www.instagram.com/repjoseygarcia",
+    "personal linkedin": "https://www.linkedin.com/in/josey-garcia-369195298"
+  },
+  "Republican|Texas|At-Large|Sylvia Soto": {
+    "campaign facebook": "https://www.facebook.com/vote4soto/",
+    "personal facebook": "https://www.facebook.com/sylvia.soto.988",
+    "personal instagram": "https://www.instagram.com/vote4sylviasoto/",
+    "personal linkedin": "https://www.linkedin.com/in/thesylviasoto/",
+    "campaign website": "https://ivoterguide.com/candidate/78329/race/3813/election/1214"
+  },
+  "Independent|Texas|At-Large|L.D. Howard[91]": {
+    "campaign website": "https://teamldhowardfortexas.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61581115433707",
+    "campaign instagram": "https://www.instagram.com/ldhowardfortx/",
+    "campaign youtube": "https://www.youtube.com/@L.D.Howard",
+    "personal facebook": "https://www.facebook.com/lakeisha.howard.79",
+    "personal instagram": "https://www.instagram.com/lakeishadhoward/",
+    "personal tiktok": "https://www.tiktok.com/@ldhoward22"
+  },
+  "Republican|Texas|At-Large|Charles Cunningham": {
+    "official website": "https://house.texas.gov/members/member-page/?district=127",
+    "campaign facebook": "https://www.facebook.com/CharlesCunninghamTX/",
+    "_ballotpedia_url": "https://ballotpedia.org/Charles_Cunningham",
+    "campaign website": "https://ivoterguide.com/candidate/60849/race/15214/election/1214?culture=en-us"
   }
 }
