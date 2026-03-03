@@ -11645,7 +11645,1362 @@
   "Republican|Texas|At-Large|Charles Cunningham": {
     "official website": "https://house.texas.gov/members/member-page/?district=127",
     "campaign facebook": "https://www.facebook.com/CharlesCunninghamTX/",
-    "_ballotpedia_url": "https://ballotpedia.org/Charles_Cunningham",
     "campaign website": "https://ivoterguide.com/candidate/60849/race/15214/election/1214?culture=en-us"
-  }
+  },
+  "Democratic|Texas|At-Large|Michelle Williams": {
+    "campaign website": "https://michelleforstaterep.com/",
+    "campaign facebook": "https://www.facebook.com/michellefor127/",
+    "campaign x": "https://x.com/michellefor127",
+    "campaign instagram": "https://www.instagram.com/michellefor127/",
+    "campaign youtube": "https://www.youtube.com/@MichelleWilliamsfor127"
+  },
+  "Democratic|Texas|At-Large|Desiree Klaus": {
+    "campaign website": "https://www.desireeklaustx.com/",
+    "campaign facebook": "https://www.facebook.com/desireeklausfortexas/",
+    "campaign instagram": "https://www.instagram.com/desireeklausfortexas",
+    "campaign tiktok": "https://www.tiktok.com/@desireeklausfortexas",
+    "personal facebook": "https://www.facebook.com/desiree.martinezklaus",
+    "personal x": "https://x.com/desiree_klaus",
+    "personal instagram": "https://www.instagram.com/desireecklaus/",
+    "personal youtube": "https://www.youtube.com/@desireeklaus3106",
+    "personal linkedin": "https://www.linkedin.com/in/desireeklaus/"
+  },
+  "Democratic|Texas|At-Large|Albert Wittliff": {
+    "campaign website": "https://www.votewittliff.com/",
+    "campaign instagram": "https://www.instagram.com/votewittliff129/",
+    "personal linkedin": "https://www.linkedin.com/in/awittliff/"
+  },
+  "Republican|Texas|At-Large|Tom Oliverson": {
+    "official website": "https://house.texas.gov/members/member-page/?district=130",
+    "campaign facebook": "https://www.facebook.com/TomOliverson",
+    "campaign x": "https://x.com/TomOliverson",
+    "campaign instagram": "https://www.instagram.com/drtomoliversontx",
+    "personal linkedin": "https://www.linkedin.com/in/thomas-oliverson-md-64499996/",
+    "campaign website": "https://tomoliverson.com/"
+  },
+  "Republican|Texas|At-Large|Scott Whitmarsh": {},
+  "Republican|Texas|At-Large|Mike Schofield": {
+    "official website": "https://house.texas.gov/members/member-page/?district=132",
+    "official x": "https://x.com/RepSchofield",
+    "personal facebook": "https://www.facebook.com/mike.schofield.1232",
+    "personal linkedin": "https://www.linkedin.com/in/mike-schofield-555a93124/",
+    "campaign website": "https://www.teachthevote.org/races/candidate/mike-schofield?modal=true"
+  },
+  "Democratic|Texas|At-Large|Sara McGee": {
+    "campaign website": "https://mcgeefortx.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61568283133325",
+    "campaign x": "https://x.com/SaraForTexLege",
+    "campaign instagram": "https://www.instagram.com/sara_for_texas_house/",
+    "campaign tiktok": "https://www.tiktok.com/@sara.mcgee.for.te"
+  },
+  "Republican|Texas|At-Large|Mano DeAyala": {
+    "official website": "https://house.texas.gov/members/133",
+    "official facebook": "https://www.facebook.com/repmanodeayala",
+    "campaign website": "https://manoforstaterep.com",
+    "campaign facebook": "https://www.facebook.com/staterepmanodeayala",
+    "campaign x": "https://x.com/ManoForTexas",
+    "campaign instagram": "https://www.instagram.com/mano_deayala133/",
+    "personal linkedin": "https://www.linkedin.com/in/mano-deayala-2b35448/"
+  },
+  "Democratic|Texas|At-Large|Josh Wallenstein": {
+    "campaign website": "https://josh4texas.com/",
+    "campaign facebook": "https://www.facebook.com/Vote4JoshWallenstein/",
+    "campaign x": "https://x.com/JoshWallenstein",
+    "personal facebook": "https://www.facebook.com/josh.wallenstein.7/",
+    "personal instagram": "https://www.instagram.com/joshwallenstein/",
+    "personal linkedin": "https://www.linkedin.com/in/joshwallenstein/"
+  },
+  "Democratic|Texas|At-Large|Ann Johnson": {
+    "official website": "https://house.texas.gov/members/member-page/?district=134",
+    "campaign facebook": "https://www.facebook.com/VoteAnnJohnson",
+    "campaign x": "https://x.com/VoteAnnJohnson",
+    "campaign instagram": "https://www.instagram.com/voteannjohnson",
+    "personal facebook": "https://www.facebook.com/ann.johnson.397948",
+    "personal linkedin": "https://www.linkedin.com/in/ann-johnson-066879202/",
+    "campaign website": "https://teachthevote.atpe.org/Candidates/Ann-Johnson"
+  },
+  "Democratic|Texas|At-Large|Odus Evbaghrau": {
+    "campaign website": "https://odusfortexas.com",
+    "campaign facebook": "https://www.facebook.com/OdusEEvbagharu/",
+    "campaign x": "https://x.com/OdusEEvbagharu",
+    "campaign instagram": "https://www.instagram.com/oduseevbagharu",
+    "campaign youtube": "https://www.youtube.com/@OdusForTexas",
+    "campaign tiktok": "https://www.tiktok.com/@oduseevbagharu",
+    "personal facebook": "https://www.facebook.com/odus.evbagharu",
+    "personal x": "https://x.com/Prayer_365",
+    "personal linkedin": "https://www.linkedin.com/in/odus-evbagharu"
+  },
+  "Republican|Texas|At-Large|Liz Ramos": {
+    "campaign website": "http://lizramosfortexas.com/",
+    "campaign instagram": "https://www.instagram.com/lizramosfortexas/",
+    "personal facebook": "https://www.facebook.com/liz.gonzalez.104"
+  },
+  "Republican|Texas|At-Large|Theodore Schramm": {
+    "campaign website": "https://www.theodoretx.com/"
+  },
+  "Democratic|Texas|At-Large|Gene Wu": {
+    "official website": "https://house.texas.gov/members/2865",
+    "campaign website": "https://genefortexas.com",
+    "campaign facebook": "https://www.facebook.com/votewu/",
+    "campaign x": "https://x.com/GeneforTexas",
+    "campaign instagram": "https://www.instagram.com/genefortexas/",
+    "personal website": "https://www.pdhlaw.com/attorneys/gene-wu/",
+    "personal facebook": "https://www.facebook.com/genefortexas"
+  },
+  "Democratic|Texas|At-Large|Tyler Smith": {
+    "campaign website": "https://tylerfortx.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61578271930122",
+    "campaign x": "https://x.com/tylerfortexas",
+    "campaign instagram": "https://www.instagram.com/tylerfortexas",
+    "personal facebook": "https://www.facebook.com/thereateejay",
+    "personal x": "https://x.com/tylersmithfc",
+    "personal instagram": "https://www.instagram.com/realtylerjsmith/",
+    "personal linkedin": "https://www.linkedin.com/in/tyler-smith-30655914a"
+  },
+  "Republican|Texas|At-Large|Kyle Harding": {
+    "campaign website": "https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=48&off=0&elect=0&minper=0"
+  },
+  "Republican|Texas|At-Large|Lucia Garcia DeLeon": {
+    "official website": "https://sylviagarcia.house.gov/",
+    "official facebook": "https://www.facebook.com/RepSylviaGarcia",
+    "official x": "https://x.com/RepSylviaGarcia",
+    "official instagram": "https://www.instagram.com/repsylviagarcia/",
+    "official youtube": "https://www.youtube.com/@RepSylviaGarcia",
+    "campaign website": "https://www.sylviaforcongress.com",
+    "campaign facebook": "https://www.facebook.com/SylviaRGarcia",
+    "campaign x": "https://x.com/LaCongresista",
+    "campaign instagram": "https://www.instagram.com/lacongresista/",
+    "personal linkedin": "https://www.linkedin.com/in/sylvia-garcia-6172b0187/"
+  },
+  "Republican|Texas|At-Large|Julie Hunt": {
+    "campaign website": "https://beyondthehunt.com/"
+  },
+  "Republican|Texas|At-Large|Frank Salazar": {
+    "campaign website": "https://vote-usa.org/CompareCandidates.aspx?State=TX&Election=TX20260303PR&Office=TXStateHouse143"
+  },
+  "Republican|Texas|At-Large|David Flores": {
+    "campaign website": "https://david4texas.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61582729053681",
+    "personal facebook": "https://www.facebook.com/david.flores.33671",
+    "personal linkedin": "https://www.linkedin.com/in/david-flores-558146114/"
+  },
+  "Republican|Texas|At-Large|Inocensia Moreno": {
+    "campaign website": "https://candidate.texas-election.com/Elections/getQualifiedCandidatesInfo.do"
+  },
+  "Republican|Texas|At-Large|Alexandria Nicole Butler": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61575370102743",
+    "campaign website": "https://alexandriabutlercampaign.org/"
+  },
+  "Democratic|Texas|At-Large|Jolanda Jones": {
+    "official website": "https://house.texas.gov/members/member-page/?district=147",
+    "official facebook": "https://www.facebook.com/profile.php?id=61572848060567",
+    "official instagram": "https://www.instagram.com/repjolandajones147/",
+    "campaign website": "https://www.jolandajones.com",
+    "campaign facebook": "https://www.facebook.com/JolandaJonesForTexas",
+    "campaign youtube": "https://www.youtube.com/@JolandaJonesCampaign",
+    "personal facebook": "https://www.facebook.com/AuthenticJolandaJones",
+    "personal instagram": "https://www.instagram.com/jolandajones/",
+    "personal linkedin": "https://www.linkedin.com/in/jolanda-jones-2529902a/"
+  },
+  "Republican|Texas|At-Large|Theodis Daniel": {
+    "campaign website": "https://www.theodisfortexas.com/"
+  },
+  "Republican|Texas|At-Large|Amanda LaBrie": {
+    "campaign website": "https://amandalabrie.com/",
+    "campaign facebook": "https://www.facebook.com/AmandaLaBrie4TexasHD148",
+    "campaign instagram": "https://www.instagram.com/amandalabrie148/",
+    "personal linkedin": "https://www.linkedin.com/in/amandaelabrie/"
+  },
+  "Republican|Texas|At-Large|Dave Bennett": {
+    "campaign website": "https://bennettforstaterep.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61581704156125",
+    "campaign x": "https://x.com/BennettForTexas"
+  },
+  "Republican|Texas|At-Large|Valoree Swanson": {
+    "official website": "https://house.texas.gov/members/member-page/?district=150",
+    "campaign facebook": "https://www.facebook.com/ValoreeSwansonforTexas",
+    "personal facebook": "https://www.facebook.com/valoree.swanson",
+    "campaign website": "https://www.valoreeswanson.com/home/"
+  },
+  "Republican|United|1|TBD": {},
+  "Democratic|United|2|TBD": {},
+  "Democratic|United|3|TBD": {},
+  "Democratic|United|4|TBD": {},
+  "Democratic|United|5|TBD": {},
+  "Independent|United|5|Jonathan Burruss": {},
+  "Independent|United|5|Brian Jordan": {
+    "campaign website": "https://www.brianjordanforcongress.com/"
+  },
+  "Democratic|United|6|TBD": {},
+  "Green|United|6|Moshe Landman": {
+    "campaign website": "https://www.MosheLandman.us",
+    "campaign facebook": "https://www.facebook.com/MosheYLandman/",
+    "campaign x": "https://x.com/MosheLandman",
+    "campaign youtube": "https://www.youtube.com/@MosheLandman",
+    "personal facebook": "https://www.facebook.com/MosheLandman",
+    "personal x": "https://x.com/LandmanMos34860",
+    "personal instagram": "https://www.instagram.com/moshe_mortgagecalculator/",
+    "personal linkedin": "https://www.linkedin.com/in/moshelandman/",
+    "personal tiktok": "https://www.tiktok.com/@moshelandman"
+  },
+  "Democratic|United|7|TBD": {},
+  "Republican|United|7|Scott Collier(presumptive)": {
+    "official website": "https://mfume.house.gov/",
+    "official facebook": "https://www.facebook.com/RepKweisiMfume",
+    "official x": "https://x.com/RepKweisiMfume",
+    "official instagram": "https://www.instagram.com/repkweisimfume/",
+    "official youtube": "https://www.youtube.com/@repkweisimfume8242",
+    "campaign website": "https://mfumeforcongress.com",
+    "campaign facebook": "https://www.facebook.com/MfumeForCongress",
+    "campaign x": "https://x.com/Mfume4Congress",
+    "campaign instagram": "https://www.instagram.com/MfumeForCongress",
+    "personal facebook": "https://www.facebook.com/kweisi.mfume.754",
+    "personal linkedin": "https://www.linkedin.com/in/hon-kweisi-mfume-16582b85/"
+  },
+  "Democratic|United|8|TBD": {},
+  "Green|United|8|Nancy Wallace": {
+    "personal facebook": "https://www.facebook.com/profile.php?id=100011468562511",
+    "campaign website": "https://www.nancywallace.us/meet-nancy/"
+  },
+  "Republican|New York|At-Large|Charlotte Friedman": {
+    "campaign website": "https://charlotte4nysenate.com/",
+    "campaign x": "https://x.com/Charlotte4NYC",
+    "campaign instagram": "https://www.instagram.com/charlotte4nyc/",
+    "campaign youtube": "https://www.youtube.com/@Charlotte4NYC"
+  },
+  "Democratic|New York|At-Large|Jeremy Zellner": {
+    "campaign website": "https://jeremyzellner.com/about-jeremy/"
+  },
+  "Republican|New York|At-Large|Dan Gagliardo": {
+    "campaign website": "https://www.gagliardoforsenate.com/",
+    "campaign facebook": "https://www.facebook.com/dangagliardoforsenate",
+    "campaign instagram": "https://www.instagram.com/gagliardoforsenate/",
+    "campaign youtube": "https://www.youtube.com/@DanGagliardoForSenate",
+    "personal facebook": "https://www.facebook.com/dan.gagliardo.1",
+    "personal instagram": "https://www.instagram.com/gagliardodan/",
+    "personal youtube": "https://www.youtube.com/@donanddanshow",
+    "personal linkedin": "https://www.linkedin.com/in/dan-gagliardo-54110aa/"
+  },
+  "|Arkansas||Nicholas Bronni": {
+    "official website": "https://arcourts.gov/courts/supreme-court/justices/associate-justice-karen-r-baker-position-6",
+    "campaign website": "https://www.bronniforar.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61550641625256",
+    "campaign x": "https://x.com/BronniForAR",
+    "personal facebook": "https://www.facebook.com/nbronni",
+    "personal x": "https://x.com/BronniNicholas",
+    "personal linkedin": "https://www.linkedin.com/in/nicholas-bronni-a4ba4233/"
+  },
+  "|Arkansas||John Adams": {
+    "personal facebook": "https://www.facebook.com/juantomasadams/",
+    "personal linkedin": "https://www.linkedin.com/in/john-t-adams-4b83a86/",
+    "campaign website": "https://arkelect.com/candidates/3691"
+  },
+  "|Arkansas||Total votes": {},
+  "Democratic|Maryland|2|TBD": {},
+  "Democratic|Maryland|3|TBD": {},
+  "Democratic|Maryland|5|TBD": {},
+  "Independent|Maryland|5|Jonathan Burruss": {},
+  "Independent|Maryland|5|Brian Jordan": {
+    "campaign website": "https://www.brianjordanforcongress.com/"
+  },
+  "Democratic|Maryland|6|TBD": {},
+  "Green|Maryland|6|Moshe Landman": {
+    "campaign website": "https://www.MosheLandman.us",
+    "campaign facebook": "https://www.facebook.com/MosheYLandman/",
+    "campaign x": "https://x.com/MosheLandman",
+    "campaign youtube": "https://www.youtube.com/@MosheLandman",
+    "personal facebook": "https://www.facebook.com/MosheLandman",
+    "personal x": "https://x.com/LandmanMos34860",
+    "personal instagram": "https://www.instagram.com/moshe_mortgagecalculator/",
+    "personal linkedin": "https://www.linkedin.com/in/moshelandman/",
+    "personal tiktok": "https://www.tiktok.com/@moshelandman"
+  },
+  "Republican|Maryland|7|Scott Collier(presumptive)": {
+    "official website": "https://mfume.house.gov/",
+    "official facebook": "https://www.facebook.com/RepKweisiMfume",
+    "official x": "https://x.com/RepKweisiMfume",
+    "official instagram": "https://www.instagram.com/repkweisimfume/",
+    "official youtube": "https://www.youtube.com/@repkweisimfume8242",
+    "campaign website": "https://mfumeforcongress.com",
+    "campaign facebook": "https://www.facebook.com/MfumeForCongress",
+    "campaign x": "https://x.com/Mfume4Congress",
+    "campaign instagram": "https://www.instagram.com/MfumeForCongress",
+    "personal facebook": "https://www.facebook.com/kweisi.mfume.754",
+    "personal linkedin": "https://www.linkedin.com/in/hon-kweisi-mfume-16582b85/"
+  },
+  "Green|Maryland|8|Nancy Wallace": {
+    "personal facebook": "https://www.facebook.com/profile.php?id=100011468562511",
+    "campaign website": "https://wallaceforgovernor.us/meet-nancy/"
+  },
+  "Republican|Georgia|14|Star Black": {
+    "campaign website": "https://starblackforcongress.com/"
+  },
+  "Republican|Georgia|14|Reagan Box": {
+    "personal facebook": "https://www.facebook.com/reagan.box/",
+    "personal linkedin": "https://www.linkedin.com/in/reagan-box-938a78261/",
+    "personal tiktok": "https://www.tiktok.com/@reagan.box4",
+    "campaign website": "https://reaganboxforcongress.com/"
+  },
+  "Republican|Georgia|14|Beau Brown": {
+    "personal facebook": "https://www.facebook.com/beau.brown.9"
+  },
+  "Republican|Georgia|14|Marty Brown(withdrawn)": {
+    "personal linkedin": "https://www.linkedin.com/in/marty-brown-3a06872a/",
+    "campaign website": "https://www.shawnforgeorgia.com/"
+  },
+  "Republican|Georgia|14|Jared Craig(withdrawn)": {
+    "campaign website": "https://Jared4Congress.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61585449000755&rdid=cmKeHaQHRq3fwtB5",
+    "personal facebook": "https://www.facebook.com/JBCraiglaw",
+    "personal linkedin": "https://www.linkedin.com/in/jared-craig-61703520/"
+  },
+  "Republican|Georgia|14|Eric Cunningham": {
+    "campaign website": "https://www.ericcunninghamforcongress.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100076315502858",
+    "campaign x": "https://x.com/EricBCunningham",
+    "personal facebook": "https://www.facebook.com/eric.cunningham.908",
+    "personal linkedin": "https://www.linkedin.com/in/eric-cunningham-a0aa0339/"
+  },
+  "Democratic|Georgia|14|Jim Davis": {
+    "campaign website": "https://jimdavisforcongress.com/",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61586150824533#",
+    "campaign youtube": "https://www.youtube.com/@jimdavisforcongress",
+    "personal facebook": "https://www.facebook.com/JimDavisRome",
+    "personal instagram": "https://www.instagram.com/jimdavis110ev/"
+  },
+  "Republican|Georgia|14|Clayton Fuller": {
+    "personal facebook": "https://www.facebook.com/clayton.fuller.923",
+    "personal linkedin": "https://www.linkedin.com/in/clayton-fuller-a0a472ab/",
+    "campaign website": "https://clayfullerforgeorgia.com/"
+  },
+  "Republican|Georgia|14|Tom Gray": {
+    "campaign website": "https://tomgray.com/",
+    "campaign facebook": "https://www.facebook.com/tomgrayforga/",
+    "campaign instagram": "https://www.instagram.com/tomgrayforga/",
+    "personal linkedin": "https://www.linkedin.com/in/tom-gray-93567530b/"
+  },
+  "Democratic|Georgia|14|Shawn Harris": {
+    "campaign website": "https://www.shawnforgeorgia.com/",
+    "campaign facebook": "https://www.facebook.com/shawnforgeorgia",
+    "campaign x": "https://x.com/shawnforgeorgia",
+    "campaign instagram": "https://www.instagram.com/shawnforgeorgia/",
+    "personal facebook": "https://www.facebook.com/shawn.a.harris.798"
+  },
+  "Republican|Georgia|14|Larry Hilley(withdrawn)": {
+    "campaign website": "https://www.hilley4congress.com/"
+  },
+  "Democratic|Georgia|14|Jonathan Hobbs": {
+    "campaign website": "https://hobbs4ga.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61586931203766",
+    "campaign instagram": "https://www.instagram.com/hobbs4ga/",
+    "personal facebook": "https://www.facebook.com/jonxhobbs",
+    "personal youtube": "https://www.youtube.com/@IP_solution",
+    "personal linkedin": "https://www.linkedin.com/in/jon-hobbs/"
+  },
+  "Republican|Georgia|14|Trey Kelly(withdrawn)": {
+    "official website": "https://www.legis.ga.gov/members/house/825?session=1033",
+    "campaign website": "https://kelleyforhouse.com/",
+    "campaign facebook": "https://www.facebook.com/kelleyforhouse",
+    "personal facebook": "https://www.facebook.com/trey.kelley.31",
+    "personal instagram": "https://www.instagram.com/reptreykelley/",
+    "personal linkedin": "https://www.linkedin.com/in/trey-kelley-43391016/"
+  },
+  "Republican|Georgia|14|Nicky Lama": {
+    "personal facebook": "https://www.facebook.com/nicolas.lama.47/",
+    "personal instagram": "https://www.instagram.com/Nick_lama1",
+    "campaign website": "https://electrepublicans.org/candidates/nicky-lama/"
+  },
+  "Independent|Georgia|14|Rob Ruszkowski": {
+    "personal facebook": "https://www.facebook.com/RobertRuszkowski/",
+    "personal linkedin": "https://www.linkedin.com/in/robert-ruszkowski-rush-2976786b",
+    "campaign website": "https://rushcongress.com/"
+  },
+  "Republican|Georgia|14|Brian Stover": {
+    "campaign website": "https://www.brianstoverforcongress.com/",
+    "campaign facebook": "https://www.facebook.com/electbrianstover",
+    "campaign x": "https://x.com/Stover4Congress",
+    "campaign instagram": "https://www.instagram.com/brianstoverforcongress/",
+    "campaign youtube": "https://www.youtube.com/@BrianStover4Congress",
+    "personal facebook": "https://www.facebook.com/brian.stover.359"
+  },
+  "Republican|Georgia|14|Megahn Strickland": {
+    "campaign website": "https://www.branch.vote/races/2026-georgia-march-special-election-ga-state-us-representative-ga-14/candidates/megahn-strickland"
+  },
+  "Republican|Georgia|14|Jim Tully": {
+    "campaign website": "https://jimtullyforgeorgia.com/"
+  },
+  "Republican|Georgia|14|Jennifer Turnipseed": {
+    "personal facebook": "https://www.facebook.com/jenna.turnipseed",
+    "personal x": "https://x.com/Turnipseed40300",
+    "personal instagram": "https://www.instagram.com/jenna.turnipseed/",
+    "personal linkedin": "https://www.linkedin.com/in/jenna-turnipseed-10037028/",
+    "campaign website": "https://turnipseedforcongress.com/"
+  },
+  "Libertarian|Georgia|14|Andrew Underwood": {
+    "campaign website": "https://andrew4georgia.com"
+  },
+  "Republican|New Jersey|11|Joe Hathaway": {
+    "campaign website": "http://joehathawayforcongress.com/",
+    "campaign facebook": "https://www.facebook.com/hathawayforcongress",
+    "campaign x": "https://x.com/HathawayForNJ11",
+    "campaign instagram": "https://www.instagram.com/hathawayforcongress/",
+    "campaign youtube": "https://www.youtube.com/@JoeHathawayForCongress",
+    "personal facebook": "https://www.facebook.com/joe.hathaway.7330",
+    "personal instagram": "https://www.instagram.com/joe_hathaway/",
+    "personal linkedin": "https://www.linkedin.com/in/joe-r-hathaway/"
+  },
+  "Independent|New Jersey|11|Alan Bond": {
+    "campaign website": "https://www.hopefortomorrownj.org/"
+  },
+  "Nonpartisan|Chicago, Illinois||Paul Vallas": {},
+  "Nonpartisan|Chicago, Illinois||Brandon Johnson": {
+    "official website": "https://www.chicago.gov/city/en/depts/mayor.html",
+    "official facebook": "https://www.facebook.com/profile.php?id=100092157126212",
+    "official x": "https://x.com/ChicagosMayor",
+    "official instagram": "https://www.instagram.com/chicagosmayor/",
+    "official youtube": "https://www.youtube.com/@MayorJohnson",
+    "campaign facebook": "https://www.facebook.com/Brandon4Chicago",
+    "campaign x": "https://x.com/brandon4chicago",
+    "campaign youtube": "https://www.youtube.com/@BrandonForChicago",
+    "personal facebook": "https://www.facebook.com/brandon.johnson.3551380",
+    "personal linkedin": "https://www.linkedin.com/in/chicagosmayor/"
+  },
+  "Nonpartisan|Chicago, Illinois||Lori Lightfoot": {
+    "campaign website": "https://lightfootforchicago.com/",
+    "campaign facebook": "https://www.facebook.com/LightfootForChicago",
+    "campaign x": "https://x.com/LoriLightfoot",
+    "campaign instagram": "https://www.instagram.com/LightfootForChi/",
+    "personal linkedin": "https://www.linkedin.com/in/lori-lightfoot-27a60aa"
+  },
+  "Nonpartisan|Chicago, Illinois||Jesus Garcia": {
+    "official website": "https://chuygarcia.house.gov/",
+    "official facebook": "https://www.facebook.com/RepChuyGarcia",
+    "official x": "https://x.com/RepChuyGarcia",
+    "official instagram": "https://www.instagram.com/repchuygarcia/",
+    "official youtube": "https://www.youtube.com/RepChuyGarcia",
+    "campaign website": "https://chuyforcongress.com",
+    "campaign facebook": "https://www.facebook.com/ChuyForCongress",
+    "campaign x": "https://x.com/Chuy4Congress",
+    "campaign instagram": "https://www.instagram.com/chuyforchicago_",
+    "personal linkedin": "https://www.linkedin.com/company/chuyforcongress/about/"
+  },
+  "Nonpartisan|Chicago, Illinois||Willie Wilson": {
+    "campaign website": "https://www.electwilliewilson.com/",
+    "campaign facebook": "https://www.facebook.com/DrWillieWilson",
+    "campaign x": "https://x.com/DrWillieWilson",
+    "campaign youtube": "https://www.youtube.com/c/DrWillieWilson/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100013213500871"
+  },
+  "Nonpartisan|Chicago, Illinois||Ja'Mal Green": {
+    "campaign website": "https://www.gogreenchicago.com/",
+    "campaign x": "https://x.com/JaymalGreen",
+    "campaign youtube": "https://www.youtube.com/@Jamalgreen1",
+    "personal website": "https://www.jaymalgreen.com/",
+    "personal facebook": "https://www.facebook.com/Jaymalgreen1"
+  },
+  "Nonpartisan|Chicago, Illinois||Kambium Buckner": {
+    "official website": "https://www.ilga.gov/House/Members/Details/3366",
+    "official facebook": "https://www.facebook.com/RepKamBuckner/",
+    "official x": "https://x.com/RepKamBuckner",
+    "official instagram": "https://www.instagram.com/repkam_buckner",
+    "campaign website": "https://www.kambuckner.com/",
+    "personal website": "https://www.illinois26.com",
+    "personal linkedin": "https://www.linkedin.com/in/kam-buckner-7b29613a/"
+  },
+  "Nonpartisan|Chicago, Illinois||Sophia King": {},
+  "Nonpartisan|Chicago, Illinois||Roderick Sawyer": {
+    "campaign website": "https://sawyer4chicago.com/"
+  },
+  "Write-in|Chicago, Illinois||Johnny Logalbo": {},
+  "Write-in|Chicago, Illinois||Keith Judge": {
+    "campaign website": "https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=590533"
+  },
+  "Write-in|Chicago, Illinois||Stephen Hodge": {},
+  "Write-in|Chicago, Illinois||Ryan Friedman": {
+    "campaign website": "https://www.ryanfriedmanmotorcars.com/"
+  },
+  "Write-in|Chicago, Illinois||Stephanie Ann Mustari": {
+    "campaign website": "https://www.mufasaaa.com/mayor",
+    "personal linkedin": "https://www.linkedin.com/in/mufasaaa/"
+  },
+  "Write-in|Chicago, Illinois||Bridgett Palmer": {},
+  "Nonpartisan|Chicago, Illinois||Toni Preckwinkle": {
+    "official facebook": "https://www.facebook.com/PresidentPreckwinkle/",
+    "campaign website": "https://tonipreckwinkle.org",
+    "personal facebook": "https://www.facebook.com/PresidentPreckwinkle",
+    "personal x": "https://x.com/ToniPreckwinkle",
+    "personal instagram": "https://www.instagram.com/tonipreckwinkle/"
+  },
+  "Nonpartisan|Chicago, Illinois||Susana Mendoza": {
+    "official website": "https://illinoiscomptroller.gov/about/susana-a-mendoza/",
+    "official facebook": "https://www.facebook.com/ILComptroller/",
+    "official x": "https://x.com/ILComptroller",
+    "official instagram": "https://www.instagram.com/ilcomptroller/",
+    "official youtube": "https://www.youtube.com/@ILComptroller",
+    "official tiktok": "https://www.tiktok.com/@illinoiscomptroller",
+    "campaign website": "https://susanamendoza.com/"
+  },
+  "Nonpartisan|Chicago, Illinois||Amara Enyia": {
+    "campaign website": "https://amaraenyia.com/",
+    "campaign facebook": "https://www.facebook.com/amaraforchicago/",
+    "campaign x": "https://x.com/amaraforchicago"
+  },
+  "Nonpartisan|Chicago, Illinois||Jerry Joyce": {
+    "campaign website": "https://jerryjoyce2019.com/",
+    "campaign facebook": "https://www.facebook.com/jerryjoyce4mayor",
+    "campaign x": "https://x.com/joyce4mayor"
+  },
+  "Nonpartisan|Chicago, Illinois||Gery Chico": {
+    "campaign website": "https://chicoformayor.com/",
+    "campaign facebook": "https://www.facebook.com/GeryJChico",
+    "campaign x": "https://x.com/GeryChico"
+  },
+  "Nonpartisan|Chicago, Illinois||Garry McCarthy": {
+    "campaign website": "http://garryformayor.com/",
+    "campaign facebook": "https://www.facebook.com/GMFM2019/",
+    "campaign x": "https://x.com/Garry4Chicago"
+  },
+  "Nonpartisan|Chicago, Illinois||La Shawn Ford": {
+    "official website": "https://www.ilga.gov/House/Members/Details/3272",
+    "official facebook": "https://www.facebook.com/FordLaShawnK",
+    "official instagram": "https://www.instagram.com/lashawnkford/",
+    "campaign website": "https://fordforcongress.com/",
+    "campaign facebook": "https://www.facebook.com/fordforcongress",
+    "campaign x": "https://x.com/ford4congress",
+    "campaign instagram": "https://www.instagram.com/fordforthe7th/#",
+    "personal website": "https://lashawnkford.com",
+    "personal facebook": "https://www.facebook.com/RepresentativeLashawnFord",
+    "personal instagram": "https://www.instagram.com/la_shawn_k_ford/",
+    "personal youtube": "https://www.youtube.com/@chicagoheal978",
+    "personal linkedin": "https://www.linkedin.com/in/la-shawn-k-ford-21915526/"
+  },
+  "Nonpartisan|Chicago, Illinois||Bob Fioretti": {
+    "campaign website": "https://www.bobforillinois.com/",
+    "campaign facebook": "https://www.facebook.com/FiorettiForCook",
+    "campaign x": "https://x.com/BobFiorettiChi",
+    "campaign instagram": "https://www.instagram.com/bobfioretti_2026/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100008793181996",
+    "personal instagram": "https://www.instagram.com/bobfioretti/",
+    "personal linkedin": "https://www.linkedin.com/in/bobfioretti/"
+  },
+  "Nonpartisan|Chicago, Illinois||John Kozlar": {
+    "campaign website": "http://www.johnkozlar.com/",
+    "campaign facebook": "https://www.facebook.com/JohnKozlarforMayor/",
+    "campaign x": "https://x.com/JohnKozlar"
+  },
+  "Nonpartisan|Chicago, Illinois||Neal Sáles-Griffin": {
+    "campaign website": "https://www.nealformayor.com/",
+    "campaign facebook": "https://www.facebook.com/nealformayor",
+    "campaign x": "https://x.com/nealsales",
+    "personal website": "https://www.nealsalesgriffin.com/"
+  },
+  "|Chicago, Illinois||Other/Write-in votes": {},
+  "Nonpartisan|Houston, Texas||John Whitmire": {
+    "official website": "https://www.houstontx.gov/mayor/bio.html",
+    "official facebook": "https://www.facebook.com/profile.php?id=61554917624563",
+    "official x": "https://x.com/houmayor",
+    "official instagram": "https://www.instagram.com/HoustonMayor",
+    "campaign facebook": "https://www.facebook.com/whitmirejohn1",
+    "campaign instagram": "https://www.instagram.com/johnwhitmire1/",
+    "personal facebook": "https://www.facebook.com/john.whitmire.568",
+    "personal x": "https://x.com/whitmire_john"
+  },
+  "Nonpartisan|Houston, Texas||Sheila Jackson Lee": {
+    "campaign website": "https://www.sheilajacksonlee.com/",
+    "campaign facebook": "https://www.facebook.com/SheilaJacksonLeeforHouston",
+    "campaign x": "https://x.com/SJacksonLee",
+    "campaign instagram": "https://www.instagram.com/SheilaJacksonLee/",
+    "campaign tiktok": "https://www.tiktok.com/@sheilaforhouston",
+    "personal facebook": "https://www.facebook.com/sheilajacksonlee18",
+    "personal linkedin": "https://www.linkedin.com/in/sheila-jackson-lee-0705122a6/"
+  },
+  "Nonpartisan|Houston, Texas||Gilbert Garcia": {
+    "campaign website": "https://garciahamiltonassociates.com/about-us/people/gilbert-a-garcia/"
+  },
+  "Nonpartisan|Houston, Texas||Jack Christie": {
+    "personal website": "http://christieforhouston.net/"
+  },
+  "Nonpartisan|Houston, Texas||Lee Kaplan": {},
+  "Nonpartisan|Houston, Texas||Robert Gallegos": {
+    "personal facebook": "https://www.facebook.com/robert.gallegos.3701",
+    "personal instagram": "https://www.instagram.com/robertgallegos54/",
+    "personal linkedin": "https://www.linkedin.com/in/robert-gallegos-98730815/"
+  },
+  "Nonpartisan|Houston, Texas||M.J. Khan": {
+    "personal website": "http://www.mjkhan.com/"
+  },
+  "Nonpartisan|Houston, Texas||Annie Garcia": {
+    "campaign website": "https://mamaformayor.com",
+    "campaign facebook": "https://www.facebook.com/RunAnnieRun",
+    "campaign x": "https://x.com/AnnieMamaGarcia",
+    "personal facebook": "https://www.facebook.com/annie.garcia.520"
+  },
+  "Nonpartisan|Houston, Texas||Julian Martinez": {
+    "campaign website": "https://www.jmartinez2024.com/"
+  },
+  "Nonpartisan|Houston, Texas||Roy Vasquez": {
+    "campaign website": "https://royvasquezformayor.com",
+    "campaign facebook": "https://www.facebook.com/royforhouston",
+    "campaign instagram": "https://www.instagram.com/royforhouston"
+  },
+  "Nonpartisan|Houston, Texas||M. Griffin": {},
+  "Nonpartisan|Houston, Texas||Kathy Lee Tatum": {},
+  "Nonpartisan|Houston, Texas||David Lowy": {},
+  "Nonpartisan|Houston, Texas||Chanel Mbala": {},
+  "Nonpartisan|Houston, Texas||Naoufal Houjami": {
+    "personal linkedin": "https://www.linkedin.com/in/naoufal-houjami-9bb118167"
+  },
+  "Nonpartisan|Houston, Texas||Gaylon Caldwell": {},
+  "Nonpartisan|Houston, Texas||B. Ivy": {},
+  "Write-in|Houston, Texas||Robin Williams": {
+    "campaign website": "https://robinwilliamsformayor.com/100-days-in-office"
+  },
+  "D|Philadelphia, Pennsylvania||Cherelle Parker": {
+    "official website": "https://www.phila.gov/departments/mayor/",
+    "official facebook": "https://www.facebook.com/PhillyMayor",
+    "official x": "https://x.com/PhillyMayor",
+    "official instagram": "https://www.instagram.com/phillymayor/",
+    "campaign website": "https://cherelleparker.com/",
+    "campaign x": "https://x.com/PeopleforParker",
+    "personal facebook": "https://www.facebook.com/CherelleParkerPhilly",
+    "personal linkedin": "https://www.linkedin.com/in/cherelle-parker-55087834/"
+  },
+  "R|Philadelphia, Pennsylvania||David Oh": {
+    "campaign facebook": "https://www.facebook.com/DavidOhPhilly/",
+    "campaign x": "https://x.com/davidohphilly",
+    "campaign instagram": "https://www.instagram.com/davidohphilly/",
+    "campaign youtube": "https://www.youtube.com/@DavidOhPhilly1",
+    "personal website": "http://davidoh.com/",
+    "personal linkedin": "https://www.linkedin.com/in/david-oh-42577/"
+  },
+  "|Philadelphia, Pennsylvania||Other/Write-in votes": {},
+  "Nonpartisan|Dallas, Texas||Eric Johnson": {
+    "official website": "https://dallascityhall.com/government/citymayor/pages/default.aspx",
+    "official facebook": "https://www.facebook.com/DallasMayor",
+    "official x": "https://x.com/DallasMayor",
+    "personal linkedin": "https://www.linkedin.com/in/johnsonfordallas/"
+  },
+  "Write-in|Dallas, Texas||Kendal Richardson": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61573809394477#",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100093340893365",
+    "personal instagram": "https://www.instagram.com/bornchozen/"
+  },
+  "D|Jacksonville, Florida||Donna Deegan": {
+    "official website": "https://www.jacksonville.gov/mayor/meet-the-mayor",
+    "official facebook": "https://www.facebook.com/mayordeeganjax",
+    "official x": "https://x.com/MayorDeegan",
+    "campaign website": "https://www.donnaformayor.com",
+    "campaign facebook": "https://www.facebook.com/donnaformayor",
+    "campaign x": "https://x.com/donnadeegan",
+    "campaign instagram": "https://www.instagram.com/donnaformayor",
+    "campaign youtube": "https://www.youtube.com/@donnaformayor",
+    "personal facebook": "https://www.facebook.com/donna.deegan",
+    "personal youtube": "https://www.youtube.com/@DonnaDeegan1",
+    "personal linkedin": "https://www.linkedin.com/in/donna-deegan-2710919/",
+    "personal tiktok": "https://www.tiktok.com/@donna_deegan"
+  },
+  "R|Jacksonville, Florida||Daniel Davis": {
+    "campaign website": "https://danieldavisjacksonville.com/",
+    "campaign facebook": "https://www.facebook.com/danieldavisfl",
+    "campaign x": "https://x.com/DanielDavisFL"
+  },
+  "R|Jacksonville, Florida||Al Ferraro": {
+    "campaign website": "https://www.ferraroformayor.com/",
+    "campaign facebook": "https://www.facebook.com/Ferraro.For.Mayor",
+    "campaign instagram": "https://www.instagram.com/ferraro.for.mayor/"
+  },
+  "D|Jacksonville, Florida||Audrey Gibson": {
+    "personal facebook": "https://www.facebook.com/profile.php?id=100062285096060",
+    "personal x": "https://x.com/AudreyGibsn2eet",
+    "personal linkedin": "https://www.linkedin.com/in/audrey-gibson-88837a51/"
+  },
+  "R|Jacksonville, Florida||LeAnna Cumber": {
+    "campaign website": "https://leannaformayor.com/",
+    "campaign facebook": "https://www.facebook.com/LeAnnaGutierrezCumber",
+    "campaign x": "https://x.com/LeAnnaCumber",
+    "campaign youtube": "https://www.youtube.com/@leannaformayor935"
+  },
+  "R|Jacksonville, Florida||Frank Keasler": {
+    "campaign website": "https://keasler4mayor.com"
+  },
+  "Independent|Jacksonville, Florida||Omega Allen": {
+    "campaign website": "https://omegaallen4mayor.com/",
+    "campaign facebook": "https://www.facebook.com/OMEGAFORMAYOR/",
+    "campaign instagram": "https://www.instagram.com/omega.allen/",
+    "campaign youtube": "https://www.youtube.com/@omegaallen3387",
+    "personal facebook": "https://www.facebook.com/omegaallen/",
+    "personal x": "https://x.com/Omega1433",
+    "personal linkedin": "https://www.linkedin.com/in/dr-omega-allen-23797b22a?original_referer=https%3A%2F%2Fwww.google.com%2F"
+  },
+  "Write-in|Jacksonville, Florida||Brian Griffin": {
+    "campaign facebook": "https://www.facebook.com/Brian-Griffin-for-Jacksonville-Mayor-308407826612934",
+    "campaign website": "https://voterrecords.com/voter/10983453/brian-griffin"
+  },
+  "R|Jacksonville, Florida||Lenny Curry": {
+    "personal website": "http://www.lennycurryformayor.com/"
+  },
+  "R|Jacksonville, Florida||Anna Brosche": {},
+  "R|Jacksonville, Florida||Jimmy Hill": {},
+  "Write-in|Jacksonville, Florida||Johnny Sparks": {},
+  "|Jacksonville, Florida||Other/Write-in votes": {},
+  "Nonpartisan|Fort Worth, Texas||Jennifer Castillo": {
+    "campaign facebook": "https://www.facebook.com/castilloformayor",
+    "campaign x": "https://x.com/castillo4mayor",
+    "campaign instagram": "https://www.instagram.com/castilloformayor",
+    "campaign youtube": "https://www.youtube.com/@castilloformayorftw",
+    "personal linkedin": "https://www.linkedin.com/in/moneyinc/"
+  },
+  "Nonpartisan|Fort Worth, Texas||Ken Bowens Jr.": {
+    "campaign website": "https://www.bowensfordistrict5.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100090134322866",
+    "personal facebook": "https://www.facebook.com/fortworth.talons",
+    "personal x": "https://x.com/KenBonnerJr",
+    "personal instagram": "https://www.instagram.com/keepgrindingken/"
+  },
+  "Nonpartisan|Fort Worth, Texas||Adrian Smith": {
+    "personal facebook": "https://www.facebook.com/adrian.smith.5682944"
+  },
+  "Nonpartisan|Columbus, Ohio||Andrew Ginther": {
+    "official website": "https://new.columbus.gov/Government/Mayors-Office/About-Mayor-Andrew-J.-Ginther",
+    "official facebook": "https://www.facebook.com/MayorGinther",
+    "official x": "https://x.com/MayorGinther",
+    "official instagram": "https://www.instagram.com/mayor_ginther/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100070766601849",
+    "personal linkedin": "https://www.linkedin.com/in/andrew-ginther-71562911/"
+  },
+  "Nonpartisan|Columbus, Ohio||Joseph Motil": {
+    "campaign facebook": "https://www.facebook.com/joemotilforcitycouncil/",
+    "personal facebook": "https://www.facebook.com/joe.motil.35",
+    "personal x": "https://x.com/mojotil",
+    "personal instagram": "https://www.instagram.com/mojotil65/",
+    "personal linkedin": "https://www.linkedin.com/in/joe-motil-58534058/"
+  },
+  "Write-in|Columbus, Ohio||Carrie Griffin": {},
+  "Write-in|Columbus, Ohio||Allison Willford": {
+    "campaign website": "https://writeinwillford.com/"
+  },
+  "|Columbus, Ohio||Other/Write-in votes": {
+    "official website": "https://new.columbus.gov/Government/Mayors-Office/About-Mayor-Andrew-J.-Ginther",
+    "official facebook": "https://www.facebook.com/MayorGinther",
+    "official x": "https://x.com/MayorGinther",
+    "official instagram": "https://www.instagram.com/mayor_ginther/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100070766601849",
+    "personal linkedin": "https://www.linkedin.com/in/andrew-ginther-71562911/"
+  },
+  "D|Indianapolis, Indiana||Joe Hogsett": {
+    "official website": "https://www.indy.gov/agency/office-of-the-mayor",
+    "official x": "https://x.com/IndyMayorJoe",
+    "campaign facebook": "https://www.facebook.com/mayorjoeforindy",
+    "campaign x": "https://x.com/MayorJoeForIndy",
+    "campaign instagram": "https://www.instagram.com/mayorjoeforindy/",
+    "personal linkedin": "https://www.linkedin.com/in/joehogsett/"
+  },
+  "R|Indianapolis, Indiana||Jefferson Shreve": {
+    "official website": "https://shreve.house.gov",
+    "official facebook": "https://www.facebook.com/RepJeffersonShreve/",
+    "official x": "https://x.com/RepShreve",
+    "official instagram": "https://www.instagram.com/repshreve",
+    "campaign facebook": "https://www.facebook.com/ShreveForCongress/",
+    "campaign x": "https://x.com/JeffersonShreve",
+    "campaign instagram": "https://www.instagram.com/shreveforcongress/",
+    "personal facebook": "https://www.facebook.com/jefferson.shreve",
+    "personal youtube": "https://www.youtube.com/@jeffersonshreve4969",
+    "personal linkedin": "https://www.linkedin.com/in/jeffersonshreve/"
+  },
+  "R|Charlotte, North Carolina||Misun Kim": {
+    "campaign website": "https://www.misunkimforcharlotte.com/",
+    "personal facebook": "https://www.facebook.com/misun.kim.37",
+    "personal x": "https://x.com/MisunKim002",
+    "personal instagram": "https://www.instagram.com/misun.kim.37/",
+    "personal linkedin": "https://www.linkedin.com/in/misun-kim-7424b363/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Freddie O'Connell": {
+    "official website": "https://www.nashville.gov/departments/mayor/people/freddie-oconnell",
+    "official instagram": "https://www.instagram.com/mayorofnashvilletn/",
+    "campaign website": "https://www.readyforfreddie.com",
+    "campaign facebook": "https://www.facebook.com/FreddieForNashville",
+    "campaign x": "https://x.com/freddieoconnell",
+    "campaign instagram": "https://www.instagram.com/freddiefornashville",
+    "campaign youtube": "https://www.youtube.com/@readyforfreddie",
+    "personal linkedin": "https://www.linkedin.com/in/freddie/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Alice Rolli": {
+    "campaign website": "https://alicerolli.com/",
+    "campaign facebook": "https://www.facebook.com/VoteAliceRolli",
+    "campaign x": "https://x.com/AliceRolli1",
+    "campaign instagram": "https://www.instagram.com/votealicerolli/",
+    "campaign youtube": "https://www.youtube.com/channel/UCfx_V3BxMeltqmjdr88x69A",
+    "personal facebook": "https://www.facebook.com/aliceanna/",
+    "personal instagram": "https://www.instagram.com/aliceannanash/",
+    "personal linkedin": "https://www.linkedin.com/in/aliceganierrolli/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Matthew Wiltshire": {
+    "campaign youtube": "https://www.youtube.com/channel/UC7MAcZzZHOErM1qI_Bga3OA",
+    "personal linkedin": "https://www.linkedin.com/in/wiltshire/",
+    "campaign website": "https://wiltshire.com/homepage"
+  },
+  "Nonpartisan|Nashville, Tennessee||Jeff Yarbro": {
+    "official website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S21",
+    "campaign facebook": "https://www.facebook.com/jeff.yarbro/",
+    "campaign instagram": "https://www.instagram.com/jeffyarbro/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=519392055",
+    "personal x": "https://x.com/yarbro",
+    "personal linkedin": "https://www.linkedin.com/in/jeff-yarbro-61a4122/",
+    "personal tiktok": "https://www.tiktok.com/@jeffyarbro"
+  },
+  "Nonpartisan|Nashville, Tennessee||Heidi Campbell": {
+    "official website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=S20",
+    "campaign website": "https://voteheidicampbell.com/",
+    "campaign facebook": "https://www.facebook.com/campbell4tn",
+    "campaign x": "https://x.com/Campbell4TN",
+    "campaign instagram": "https://www.instagram.com/campbell4tn/",
+    "campaign youtube": "https://www.youtube.com/@campbell4tn/addons",
+    "personal facebook": "https://www.facebook.com/heidi.c.pflaum",
+    "personal instagram": "https://www.instagram.com/thebergle/",
+    "personal linkedin": "https://www.linkedin.com/in/heidi-campbell-b249bb"
+  },
+  "Nonpartisan|Nashville, Tennessee||Sharon Hurt": {
+    "campaign website": "https://www.sharonfornashville.com/",
+    "campaign facebook": "https://www.facebook.com/SharonForNashville/",
+    "campaign x": "https://x.com/SharonForNash",
+    "campaign instagram": "https://www.instagram.com/sharonfornashville/",
+    "personal linkedin": "https://www.linkedin.com/in/sharon-hurt-4234628/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Vivian Wilhoite": {
+    "campaign website": "https://KeepVivian.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61556563145008",
+    "campaign x": "https://x.com/Vivian4Service",
+    "campaign instagram": "https://www.instagram.com/Vivianforservice",
+    "campaign youtube": "https://www.youtube.com/@KeepVivian"
+  },
+  "Unofficially withdrew|Nashville, Tennessee||Jim Gingrich": {},
+  "Nonpartisan|Nashville, Tennessee||Natisha Brooks": {
+    "personal facebook": "https://www.facebook.com/natisha.brooks.37/",
+    "personal linkedin": "https://www.linkedin.com/in/natisha-brooks-b2b8b383/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Stephanie Johnson": {},
+  "Nonpartisan|Nashville, Tennessee||Fran Bush": {},
+  "Nonpartisan|Nashville, Tennessee||Bernie Cox": {
+    "campaign website": "https://www.berniecox.com/",
+    "campaign x": "https://x.com/berniecx",
+    "campaign instagram": "https://www.instagram.com/cox_bernie/",
+    "personal linkedin": "https://www.linkedin.com/in/bernie-cox-07a13319/"
+  },
+  "|Nashville, Tennessee||Other/Write-in votes": {},
+  "Nonpartisan|Nashville, Tennessee||John Cooper": {
+    "campaign website": "https://johncooperfornashville.com/"
+  },
+  "Nonpartisan|Nashville, Tennessee||David Briley": {
+    "campaign website": "https://www.davidbriley.com/",
+    "campaign facebook": "https://www.facebook.com/CDavidBriley",
+    "campaign x": "https://x.com/DavidBriley",
+    "campaign instagram": "https://www.instagram.com/cdavidbriley/",
+    "personal website": "http://www.davidbriley.com/",
+    "personal linkedin": "https://www.linkedin.com/in/davidbriley/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Carol Swain": {
+    "personal facebook": "https://www.facebook.com/Carolmswain.1"
+  },
+  "Nonpartisan|Nashville, Tennessee||John Ray Clemmons": {
+    "official website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H55",
+    "campaign facebook": "https://www.facebook.com/johnrayfortn/",
+    "campaign x": "https://x.com/JRClemmons",
+    "campaign instagram": "https://www.instagram.com/jrclemmons",
+    "personal facebook": "https://www.facebook.com/jrclemmons",
+    "personal youtube": "https://www.youtube.com/@johnrayclemmons6551",
+    "personal linkedin": "https://www.linkedin.com/in/johnrayclemmons/",
+    "personal tiktok": "https://www.tiktok.com/@jrclemmonstn"
+  },
+  "Nonpartisan|Nashville, Tennessee||Julia Clark-Johnson": {},
+  "Nonpartisan|Nashville, Tennessee||Jimmy Lawrence": {
+    "campaign website": "https://www.jimmylawrence.com/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Nolan Starnes": {
+    "campaign website": "https://davidsoncountytn.easyvotecampaignfinance.com/register"
+  },
+  "Nonpartisan|Nashville, Tennessee||Jon Sewell": {},
+  "Nonpartisan|Nashville, Tennessee||Erica Gilmore": {
+    "campaign facebook": "https://www.facebook.com/NashvilleTrustee",
+    "personal website": "http://www.ericagilmore.com/",
+    "personal facebook": "https://www.facebook.com/ericasgilmore/",
+    "personal x": "https://x.com/ericasgilmore",
+    "personal instagram": "https://www.instagram.com/ericasgilmore/",
+    "campaign website": "https://www.ericagilmore.com/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Harold Love": {
+    "official website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H58",
+    "official facebook": "https://www.facebook.com/haroldlovejr/",
+    "official x": "https://x.com/HaroldLoveJr",
+    "official instagram": "https://www.instagram.com/haroldlovejr/",
+    "personal website": "http://www.leechapel.org/senior-pastor",
+    "personal facebook": "https://www.facebook.com/harold.love.52",
+    "personal linkedin": "https://www.linkedin.com/in/harold-love-048b2210/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Ralph Bristol": {
+    "personal facebook": "https://www.facebook.com/ralph.bristol",
+    "campaign website": "https://davidsoncountytn.easyvotecampaignfinance.com/register"
+  },
+  "Nonpartisan|Nashville, Tennessee||Jeff Obafemi Carr": {
+    "campaign facebook": "https://www.facebook.com/carrformayor1/",
+    "personal facebook": "https://www.facebook.com/jayzonvictor",
+    "campaign website": "https://thecarrwindow.com/"
+  },
+  "Nonpartisan|Nashville, Tennessee||David Hiland": {
+    "campaign facebook": "https://www.facebook.com/DavidHilandForMayor/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100006993162809",
+    "campaign website": "https://davidsoncountytn.easyvotecampaignfinance.com/register"
+  },
+  "Nonpartisan|Nashville, Tennessee||Ludye Wallace": {
+    "campaign website": "https://www.ludyeonduty.com",
+    "campaign facebook": "https://www.facebook.com/ludyeonduty",
+    "campaign x": "https://x.com/LUDYEONDUTY",
+    "campaign instagram": "https://www.instagram.com/ludye_on_duty/",
+    "campaign tiktok": "https://www.tiktok.com/@ludyeonduty",
+    "personal facebook": "https://www.facebook.com/ludye.wallace",
+    "personal linkedin": "https://www.linkedin.com/in/ludye-n-wallace-51b8ba28/"
+  },
+  "Nonpartisan|Nashville, Tennessee||Carlin Alford": {},
+  "Nonpartisan|Nashville, Tennessee||Albert Hacker": {},
+  "Nonpartisan|Nashville, Tennessee||Jeffrey Napier": {
+    "campaign facebook": "https://www.facebook.com/jeff4mayor/"
+  },
+  "Nonpartisan|Denver, Colorado||Michael Johnston": {
+    "official website": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Mayors-Office/About",
+    "official facebook": "https://www.facebook.com/denvermayorsoffice",
+    "official x": "https://x.com/denversmayor",
+    "campaign website": "https://mikejohnstonformayor.com/",
+    "campaign facebook": "https://www.facebook.com/MikeJohnstonCO",
+    "campaign x": "https://x.com/MikeJohnstonCO",
+    "campaign instagram": "https://www.instagram.com/mikejohnstonco/",
+    "personal linkedin": "https://www.linkedin.com/in/mike-johnston-6738b212/"
+  },
+  "Nonpartisan|Denver, Colorado||Kelly Brough": {
+    "campaign website": "https://kellybrough.com/",
+    "campaign facebook": "https://www.facebook.com/kellybroughformayor/",
+    "campaign x": "https://x.com/KellyBroughDen",
+    "campaign instagram": "https://www.instagram.com/kellybroughdenver/",
+    "campaign youtube": "https://www.youtube.com/@kellybroughformayor"
+  },
+  "Nonpartisan|Denver, Colorado||Lisa Calderón": {
+    "campaign website": "https://lisafordenver.com/",
+    "campaign facebook": "https://www.facebook.com/LisaforDenver",
+    "campaign x": "https://x.com/LisaforDenver",
+    "campaign instagram": "https://www.instagram.com/lisafordenver/"
+  },
+  "Nonpartisan|Denver, Colorado||Andy Rougeot": {
+    "campaign website": "https://andyfordenver.com",
+    "campaign facebook": "https://www.facebook.com/AndyforDenver",
+    "campaign x": "https://x.com/AndyforDenver",
+    "campaign instagram": "https://www.instagram.com/andyfordenver/",
+    "campaign youtube": "https://www.youtube.com/@andyfordenver7348",
+    "personal linkedin": "https://www.linkedin.com/in/andre-rougeot-0507aab5/"
+  },
+  "Nonpartisan|Denver, Colorado||Leslie Herod": {
+    "campaign website": "https://www.leslieformayor.com/",
+    "campaign facebook": "https://www.facebook.com/LeslieForDenver/",
+    "campaign x": "https://x.com/leslieherod",
+    "personal facebook": "https://www.facebook.com/leslie.herod",
+    "personal instagram": "https://www.instagram.com/leslieherod/",
+    "personal youtube": "https://www.youtube.com/@teamherod4981",
+    "personal linkedin": "https://www.linkedin.com/in/leslie-herod-672ba4243/",
+    "personal tiktok": "https://www.tiktok.com/@leslieherod"
+  },
+  "Nonpartisan|Denver, Colorado||Chris Hansen": {
+    "campaign website": "https://www.hansenforcolorado.com",
+    "campaign facebook": "https://www.facebook.com/hansenforcolorado",
+    "campaign x": "https://x.com/Hansen4Colorado",
+    "campaign instagram": "https://www.instagram.com/hansenforcolorado",
+    "campaign youtube": "https://www.youtube.com/@chrishansenforcolorado2576",
+    "personal facebook": "https://www.facebook.com/christopher.hansen.1023",
+    "personal instagram": "https://www.instagram.com/christopher.hansen.1023/",
+    "personal linkedin": "https://www.linkedin.com/in/cjhansen/"
+  },
+  "Nonpartisan|Denver, Colorado||Deborah Ortega": {
+    "campaign website": "https://www.debbieortega.com/",
+    "campaign facebook": "https://www.facebook.com/ortegafordenver",
+    "campaign x": "https://x.com/Ortega4Mayor",
+    "campaign youtube": "https://www.youtube.com/@debbieortegaformayor"
+  },
+  "Nonpartisan|Denver, Colorado||Ean Tafoya": {
+    "campaign website": "https://eantafoya.com/tafoyafordenver/",
+    "campaign facebook": "https://www.facebook.com/believeean",
+    "campaign x": "https://x.com/EanThomasTafoya",
+    "campaign instagram": "https://www.instagram.com/eanthomastafoya",
+    "campaign youtube": "https://www.youtube.com/user/MrTafoyaet",
+    "personal linkedin": "https://www.linkedin.com/in/eanthomastafoya/details/experience/"
+  },
+  "Nonpartisan|Denver, Colorado||Terrance Roberts": {
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100051290422131",
+    "campaign x": "https://x.com/TRobforDenver",
+    "campaign instagram": "https://www.instagram.com/terrancerobertsformayor/",
+    "campaign tiktok": "https://www.tiktok.com/@terrancerobertsformayor"
+  },
+  "Nonpartisan|Denver, Colorado||Thomas Wolf": {
+    "campaign website": "https://www.wolfdenvermayor.com/",
+    "campaign facebook": "https://www.facebook.com/thomaswolfdenvermayor",
+    "campaign x": "https://x.com/wolf4dnvrmayor",
+    "campaign instagram": "https://www.instagram.com/wolf4denvermayor/",
+    "personal facebook": "https://www.facebook.com/thomas.a.wolf.9",
+    "personal instagram": "https://www.instagram.com/wolftom66/",
+    "personal linkedin": "https://www.linkedin.com/in/1thomaswolf/"
+  },
+  "Nonpartisan|Denver, Colorado||Trinidad Rodriguez": {
+    "campaign website": "https://www.trinidad4denver.com",
+    "campaign facebook": "https://www.facebook.com/Trinidad4DenverMayor",
+    "campaign x": "https://x.com/trinidad4denver",
+    "campaign instagram": "https://www.instagram.com/trinidad_for_denver/"
+  },
+  "Nonpartisan|Denver, Colorado||Aurelio Martinez": {
+    "campaign website": "https://aureliofordenver.com/",
+    "campaign x": "https://x.com/Aurelio65087502",
+    "campaign instagram": "https://www.instagram.com/xalcoatl/",
+    "personal facebook": "https://www.facebook.com/aurelio.facebk/",
+    "personal linkedin": "https://www.linkedin.com/in/aurelio-martinez"
+  },
+  "Nonpartisan|Denver, Colorado||Al Gardner": {
+    "campaign website": "http://algardnerformayor.com/"
+  },
+  "Nonpartisan|Denver, Colorado||James Walsh": {
+    "campaign website": "https://jimwalshformayor.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=100088159945682",
+    "campaign x": "https://x.com/JamesForDenver",
+    "campaign instagram": "https://www.instagram.com/walshformayor/"
+  },
+  "Nonpartisan|Denver, Colorado||Renate Behrens": {},
+  "Nonpartisan|Denver, Colorado||Robert Treta": {},
+  "Write-in|Denver, Colorado||Abass Yaya Bamba": {
+    "personal linkedin": "https://www.linkedin.com/in/dr-abass-yaya-bamba-6801056/"
+  },
+  "Write-in|Denver, Colorado||Jesse Parris": {
+    "campaign facebook": "https://www.facebook.com/people/Jesse-Lashawn-Parris-For-Colorado-State-House-District-8/61558647844161/",
+    "campaign x": "https://x.com/JesseParris5280"
+  },
+  "Write-in|Denver, Colorado||Paul Fiorino": {
+    "campaign website": "https://fiorinoforcolorado.com/",
+    "campaign x": "https://x.com/votefiorino",
+    "campaign instagram": "https://www.instagram.com/denvercoloradotelevision/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100017098903288",
+    "personal youtube": "https://www.youtube.com/@mayorfiorino7074",
+    "personal linkedin": "https://www.linkedin.com/in/paul-fiorino-184b7a9/"
+  },
+  "Write-in|Denver, Colorado||Matt Brady": {
+    "campaign website": "https://matthewjohnbrady.com/personal"
+  },
+  "Write-in|Denver, Colorado||Danny F. Lopez": {
+    "campaign facebook": "https://www.facebook.com/dannyflopezforcitycouncil/",
+    "campaign website": "https://voterrecords.com/voter/270202/danny-lopez"
+  },
+  "Nonpartisan|Denver, Colorado||Michael Hancock": {
+    "personal website": "http://hancockfordenver.com/"
+  },
+  "Nonpartisan|Denver, Colorado||Jamie Giellis": {},
+  "Nonpartisan|Denver, Colorado||Penfield Tate": {
+    "campaign website": "https://tateforcitycouncilatlarge.com/",
+    "campaign facebook": "https://www.facebook.com/tatefordenvercitycouncil/",
+    "campaign instagram": "https://www.instagram.com/tatefordenver/",
+    "personal facebook": "https://www.facebook.com/penfield.tate/",
+    "personal youtube": "https://www.youtube.com/@penfieldtate2220",
+    "personal linkedin": "https://www.linkedin.com/in/penfield-tate-61694515b/"
+  },
+  "Nonpartisan|Denver, Colorado||Kalyn Heffernan": {},
+  "Nonpartisan|Denver, Colorado||Stephan Evans": {
+    "official website": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Mayors-Office/About",
+    "official facebook": "https://www.facebook.com/denvermayorsoffice",
+    "official x": "https://x.com/denversmayor",
+    "campaign website": "https://mikejohnstonformayor.com/",
+    "campaign facebook": "https://www.facebook.com/MikeJohnstonCO",
+    "campaign x": "https://x.com/MikeJohnstonCO",
+    "campaign instagram": "https://www.instagram.com/mikejohnstonco/",
+    "personal linkedin": "https://www.linkedin.com/in/mike-johnston-6738b212/"
+  },
+  "Write-in|Denver, Colorado||Kenneth Simpson": {
+    "campaign website": "https://voterrecords.com/voter/793837/kenneth-simpson"
+  },
+  "Write-in|Denver, Colorado||Leatha Scott": {},
+  "Nonpartisan|Memphis, Tennessee||Paul Young": {
+    "official website": "https://www.memphistn.gov/mayor/",
+    "official instagram": "https://www.instagram.com/mayorpaulyoung/",
+    "campaign website": "https://www.youngformemphis.com/",
+    "campaign facebook": "https://www.facebook.com/youngformemphis",
+    "campaign x": "https://x.com/youngformemphis",
+    "campaign youtube": "https://www.youtube.com/@youngformemphis",
+    "personal facebook": "https://www.facebook.com/MayorPaulYoung",
+    "personal linkedin": "https://www.linkedin.com/company/paul-young-for-mayor"
+  },
+  "Nonpartisan|Memphis, Tennessee||Floyd Bonner": {
+    "personal facebook": "https://www.facebook.com/profile.php?id=100014354048306",
+    "personal linkedin": "https://www.linkedin.com/in/floyd-bonner-6a121b3a"
+  },
+  "Nonpartisan|Memphis, Tennessee||Willie Herenton": {},
+  "Nonpartisan|Memphis, Tennessee||Van Turner": {},
+  "Nonpartisan|Memphis, Tennessee||JW Gibson": {},
+  "Nonpartisan|Memphis, Tennessee||Michelle McKissack": {
+    "personal facebook": "https://www.facebook.com/michellerobinsonmckissack",
+    "personal linkedin": "https://www.linkedin.com/in/michelle-mckissack-b1077636"
+  },
+  "Nonpartisan|Memphis, Tennessee||Joe Brown": {},
+  "Nonpartisan|Memphis, Tennessee||Karen Camper": {
+    "official website": "https://wapp.capitol.tn.gov/apps/legislatorinfo/member.aspx?district=H87",
+    "official facebook": "https://www.facebook.com/KarenDCamper/",
+    "official x": "https://x.com/KarenDCamper",
+    "official instagram": "https://www.instagram.com/karendcamper/",
+    "campaign website": "https://www.leaderkarencamper.com/",
+    "personal facebook": "https://www.facebook.com/karen.camper.9",
+    "personal x": "https://x.com/KarenCamper6",
+    "personal linkedin": "https://www.linkedin.com/in/karen-camper-bb072454/"
+  },
+  "Nonpartisan|Memphis, Tennessee||James Harvey": {},
+  "Nonpartisan|Memphis, Tennessee||Brandon Price": {},
+  "Nonpartisan|Memphis, Tennessee||Carnita Atwater": {
+    "campaign website": "https://www.atwaterforgovernor.com",
+    "campaign facebook": "https://www.facebook.com/profile.php?id=61575035267969",
+    "personal facebook": "https://www.facebook.com/profile.php?id=1503668560",
+    "personal instagram": "https://www.instagram.com/carnitaatwater/",
+    "personal linkedin": "https://www.linkedin.com/in/carnita-atwater-a4346a14/"
+  },
+  "Nonpartisan|Memphis, Tennessee||Tekeva Shaw": {},
+  "Nonpartisan|Memphis, Tennessee||Jennings Bernard": {},
+  "Nonpartisan|Memphis, Tennessee||Reggie Hall": {},
+  "Nonpartisan|Memphis, Tennessee||Kendra Calico": {},
+  "Nonpartisan|Memphis, Tennessee||Derek Winn": {},
+  "Nonpartisan|Memphis, Tennessee||Justina Ragland": {},
+  "D|Tucson, Arizona||Regina Romero": {
+    "official website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/Mayor",
+    "official facebook": "https://www.facebook.com/MayorReginaRomero",
+    "official x": "https://x.com/TucsonRomero",
+    "official instagram": "https://www.instagram.com/tucsonromero/",
+    "personal facebook": "https://www.facebook.com/tucson.romero",
+    "personal linkedin": "https://www.linkedin.com/in/regina-romero-89b682b/"
+  },
+  "R|Tucson, Arizona||Janet Wittenbraker": {
+    "campaign website": "https://www.janetfortucson.com/",
+    "campaign facebook": "https://www.facebook.com/janetfortucson",
+    "campaign instagram": "https://instagram.com/janetforpimad3",
+    "personal linkedin": "https://www.linkedin.com/in/janet-wittenbraker-129518aa/"
+  },
+  "Independent|Tucson, Arizona||Edward Ackerley": {},
+  "L|Tucson, Arizona||Arthur Kerschen": {
+    "official website": "https://www.tucsonaz.gov/Government/Mayor-Council-and-City-Manager/Mayor",
+    "official facebook": "https://www.facebook.com/MayorReginaRomero",
+    "official x": "https://x.com/TucsonRomero",
+    "official instagram": "https://www.instagram.com/tucsonromero/",
+    "personal facebook": "https://www.facebook.com/tucson.romero",
+    "personal linkedin": "https://www.linkedin.com/in/regina-romero-89b682b/"
+  },
+  "|Tucson, Arizona||Other/Write-in votes": {},
+  "Nonpartisan|Kansas City, Missouri||Quinton Lucas": {
+    "official website": "https://www.kcmo.gov/city-hall/city-officials/mayor-quinton-lucas",
+    "official x": "https://x.com/MayorLucasKC",
+    "campaign website": "https://quintonlucas.org",
+    "personal facebook": "https://www.facebook.com/quinton.lucas/",
+    "personal instagram": "https://www.instagram.com/quinton_lucas/",
+    "personal linkedin": "https://www.linkedin.com/in/quinton-lucas-5839b026/"
+  },
+  "Nonpartisan|Kansas City, Missouri||Clay Chastain": {
+    "personal facebook": "https://www.facebook.com/clay.chastain.338",
+    "personal linkedin": "https://www.linkedin.com/in/clay-chastain-a8a76715b/"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Yemi Mobolade": {
+    "official website": "https://coloradosprings.gov/mayor-yemi-mobolade",
+    "official facebook": "https://www.facebook.com/MayorofCOS",
+    "official x": "https://x.com/MayorofCOS",
+    "official youtube": "https://www.youtube.com/@mayorofcos",
+    "campaign website": "https://www.yemiformayor.com",
+    "personal facebook": "https://www.facebook.com/Yemi.Mobolade",
+    "personal x": "https://x.com/yemimobolade",
+    "personal instagram": "https://www.instagram.com/yemimobolade/",
+    "personal linkedin": "https://www.linkedin.com/in/yemimobolade/"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Wayne W. Williams": {
+    "campaign website": "https://winwithwayne.org/",
+    "campaign facebook": "https://www.facebook.com/WayneWilliamsforColorado",
+    "campaign youtube": "https://www.youtube.com/channel/UCcyyV3DcrI4bOmHrWPxmViw",
+    "personal website": "http://www.winwithwayne.org/",
+    "personal x": "https://x.com/Williams4Clerk"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Sallie Clark": {},
+  "Nonpartisan|Colorado Springs, Colorado||Darryl Glenn": {
+    "campaign website": "https://www.darrylglenn4colorado.com/",
+    "personal facebook": "https://www.facebook.com/DarrylLGlenn",
+    "personal x": "https://x.com/DarrylLGlenn"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Longinos Gonzalez Jr.": {
+    "campaign website": "https://www.longinosformayor.com/",
+    "personal linkedin": "https://www.linkedin.com/in/longinos-gonzalez-3800b233"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Johnathan Tiegen": {
+    "campaign website": "https://tigformayor.com"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Andrew Dalby": {
+    "campaign website": "https://www.andrewdalby.com"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Tom Strand": {
+    "campaign facebook": "https://www.facebook.com/standwithtomstrand/",
+    "personal linkedin": "https://www.linkedin.com/in/tom-strand-b76758b/"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Lawrence Martinez": {},
+  "Nonpartisan|Colorado Springs, Colorado||Christopher Mitchell": {
+    "campaign website": "https://patriotcowboyrevolution.com/",
+    "campaign facebook": "https://www.facebook.com/PatriotCowboy/",
+    "campaign x": "https://x.com/PatriotForCD5",
+    "personal facebook": "https://www.facebook.com/majesticcowboy"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Kallan Rodebaugh": {
+    "campaign website": "https://kallan4mayor2023.com"
+  },
+  "Nonpartisan|Colorado Springs, Colorado||Jim Miller": {
+    "campaign website": "https://jimmillerforcolorado.com",
+    "campaign facebook": "https://www.facebook.com/people/Jim-Miller-for-Colorado-Springs/61573478562456/",
+    "campaign x": "https://x.com/JimMiller4Mayor",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100089485134154",
+    "personal youtube": "https://www.youtube.com/@jimmiller-colorado"
+  },
+  "Nonpartisan|Wichita, Kansas||Lily Wu": {
+    "official website": "https://www.wichita.gov/mayor",
+    "official facebook": "https://www.facebook.com/MayorLilyWu",
+    "official instagram": "https://www.instagram.com/lilywukansas/",
+    "campaign website": "https://lilywuformayor.com/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100005302724215",
+    "personal linkedin": "https://www.linkedin.com/in/lilywu"
+  },
+  "Nonpartisan|Wichita, Kansas||Brandon Whipple": {
+    "campaign website": "https://www.votewhipple.com/",
+    "campaign facebook": "https://www.facebook.com/VoteWhipple/",
+    "campaign instagram": "https://www.instagram.com/bwhippleks/",
+    "personal facebook": "https://www.facebook.com/bjwhipple",
+    "personal linkedin": "https://www.linkedin.com/in/dr-brandon-whipple-04a2782b/",
+    "personal tiktok": "https://www.tiktok.com/@BWhippleKS"
+  },
+  "|Wichita, Kansas||Other/Write-in votes": {},
+  "Nonpartisan|Arlington, Texas||Amy Cearnal": {
+    "campaign website": "https://www.amyforarlington.com/",
+    "campaign facebook": "https://www.facebook.com/amyforarlington"
+  },
+  "Nonpartisan|Aurora, Colorado||Mike Coffman": {},
+  "Nonpartisan|Aurora, Colorado||Juan Marcano": {
+    "campaign website": "https://www.marcanoforaurora.com",
+    "campaign facebook": "https://www.facebook.com/marcano4aurora",
+    "campaign x": "https://x.com/marcano4aurora",
+    "campaign instagram": "https://www.instagram.com/marcano4aurora",
+    "personal facebook": "https://www.facebook.com/thejuanmarcano"
+  },
+  "Nonpartisan|Aurora, Colorado||Jeffrey Sanford": {
+    "campaign facebook": "https://www.facebook.com/jeff.sanford.candidate.for.city.of.aurora"
+  },
+  "Nonpartisan|Tampa, Florida||Jane Castor": {
+    "official website": "https://www.tampa.gov/mayor",
+    "official facebook": "https://www.facebook.com/JaneCastorFL",
+    "official x": "https://x.com/JaneCastor",
+    "official instagram": "https://www.instagram.com/janecastor/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100011354603115",
+    "personal linkedin": "https://www.linkedin.com/in/jane-castor-28678b44/"
+  },
+  "Write-in|Tampa, Florida||Belinda Noah": {},
+  "|Tampa, Florida||Other/Write-in votes": {},
+  "Nonpartisan|Orlando, Florida||Buddy Dyer": {
+    "official website": "https://www.orlando.gov/Our-Government/Mayor-City-Council/Buddy-Dyer",
+    "official facebook": "https://www.facebook.com/orlandomayor",
+    "official x": "https://x.com/orlandomayor",
+    "official instagram": "https://www.instagram.com/mayorbuddydyer/",
+    "campaign facebook": "https://www.facebook.com/BuddyDyerForOrlando",
+    "campaign x": "https://x.com/buddyfororlando",
+    "campaign instagram": "https://www.instagram.com/buddyfororlando/",
+    "personal facebook": "https://www.facebook.com/buddy.dyer.9",
+    "personal linkedin": "https://www.linkedin.com/in/buddy-dyer-38b5aba/",
+    "campaign website": "https://buddy.vote/"
+  },
+  "Nonpartisan|Orlando, Florida||Steve Dixon": {},
+  "Nonpartisan|Orlando, Florida||Samuel Ings": {
+    "campaign website": "https://www.ingsfororlandomayor.com/",
+    "campaign instagram": "https://www.instagram.com/samuel_b_ings/",
+    "personal facebook": "https://www.facebook.com/samuelbings",
+    "personal linkedin": "https://www.linkedin.com/in/sam-ings-4b47a86/"
+  },
+  "Nonpartisan|Orlando, Florida||Tony Vargas": {},
+  "Nonpartisan|Lincoln, Nebraska||Leirion Gaylor Baird": {
+    "official website": "https://www.lincoln.ne.gov/City/Mayor",
+    "official facebook": "https://www.facebook.com/MayorLeirion",
+    "official x": "https://x.com/MayorLeirion",
+    "official instagram": "https://www.instagram.com/mayorleirion/",
+    "personal facebook": "https://www.facebook.com/leirion"
+  },
+  "Nonpartisan|Lincoln, Nebraska||Suzanne Geist": {
+    "personal facebook": "https://www.facebook.com/suzanne.h.geist",
+    "personal linkedin": "https://www.linkedin.com/in/suzanne-geist-a1011970/",
+    "campaign website": "https://geist4lincoln.com/"
+  },
+  "|Lincoln, Nebraska||Other/Write-in votes": {},
+  "Nonpartisan|Lincoln, Nebraska||Cyndi Lamm": {},
+  "Nonpartisan|Durham, North Carolina||Mike Woodard": {
+    "campaign website": "https://mikewoodard.com/",
+    "campaign x": "https://x.com/MikeWoodard",
+    "campaign instagram": "https://www.instagram.com/ncsenator22/",
+    "personal facebook": "https://www.facebook.com/mwoodard63"
+  },
+  "Nonpartisan|Madison, Wisconsin||Satya Rhodes-Conway": {
+    "official website": "https://www.cityofmadison.com/mayor",
+    "official facebook": "https://www.facebook.com/satyaformadison",
+    "official x": "https://x.com/MayorOfMadison",
+    "personal facebook": "https://www.facebook.com/satya.rhodesconway",
+    "personal instagram": "https://www.instagram.com/satyarhodesconway",
+    "personal linkedin": "https://www.linkedin.com/in/satyarhodesconway/"
+  },
+  "Nonpartisan|Madison, Wisconsin||Gloria Reyes": {
+    "personal website": "https://www.gloriareyesforschoolboard.com/"
+  },
+  "|Madison, Wisconsin||Other/Write-in votes": {
+    "campaign website": "https://election.lab.ufl.edu/data-downloads/resultsdata/2022/precinct/documentation22.txt"
+  },
+  "D|Fort Wayne, Indiana||Tom Henry": {
+    "campaign website": "https://www.tomhenryformayor.org/on-the-issues/",
+    "campaign facebook": "https://www.facebook.com/TomHenry4Mayor/",
+    "campaign x": "https://x.com/TomHenry4Mayor",
+    "campaign instagram": "https://www.instagram.com/tomhenry4mayor",
+    "personal website": "http://www.tomhenryformayor.org/",
+    "personal facebook": "https://www.facebook.com/profile.php?id=100035389276629",
+    "personal linkedin": "https://www.linkedin.com/in/thomas-henry-51a956148/"
+  },
+  "R|Fort Wayne, Indiana||Thomas Didier": {
+    "campaign website": "https://www.tomdidierfortwayne.com",
+    "campaign facebook": "https://www.facebook.com/tomdidierftwayne",
+    "campaign x": "https://x.com/DidierFortWayne",
+    "campaign instagram": "https://www.instagram.com/tomdidierfortwayne",
+    "campaign youtube": "https://www.youtube.com/@tomdidierfortwayne",
+    "personal facebook": "https://www.facebook.com/thomas.f.didier",
+    "personal linkedin": "https://www.linkedin.com/company/tom-didier-fort-wayne/"
+  },
+  "Nonpartisan|Garland, Texas||Scott LeMay": {
+    "personal facebook": "https://www.facebook.com/scott.lemay.9"
+  },
+  "Nonpartisan|Boise, Idaho||Lauren McLean": {
+    "official website": "https://www.cityofboise.org/departments/mayor/about-the-mayor/",
+    "official facebook": "https://www.facebook.com/boisemayor",
+    "official x": "https://x.com/boisemayor",
+    "official instagram": "https://www.instagram.com/boise_mayor/",
+    "personal facebook": "https://www.facebook.com/laurensteinmclean",
+    "personal instagram": "https://www.instagram.com/laurenmcleanfromboise/",
+    "personal linkedin": "https://www.linkedin.com/in/laurenmclean/",
+    "campaign website": "https://mcleanforboise.com/about-lauren"
+  },
+  "Nonpartisan|Boise, Idaho||Mike Masterson": {},
+  "Nonpartisan|Boise, Idaho||Joe Evans": {
+    "campaign website": "https://joeevansforidaho.com",
+    "campaign facebook": "https://www.facebook.com/joeforidaho",
+    "campaign x": "https://x.com/idjoe4idaho",
+    "personal x": "https://x.com/joerevans",
+    "personal instagram": "https://www.instagram.com/joerevans",
+    "personal linkedin": "https://www.linkedin.com/in/joerevans/"
+  },
+  "Nonpartisan|Boise, Idaho||Aaron Reis": {},
+  "Nonpartisan|Spokane, Washington||Lisa Brown": {
+    "official website": "https://my.spokanecity.org/mayor/",
+    "official facebook": "https://www.facebook.com/LisaBrown4Mayor/",
+    "official x": "https://x.com/MayorSpokane",
+    "official instagram": "https://www.instagram.com/mayorofspokane/",
+    "personal linkedin": "https://www.linkedin.com/in/lisa-j-brown-9a493b55/"
+  },
+  "Nonpartisan|Spokane, Washington||Nadine Woodward": {
+    "personal linkedin": "https://www.linkedin.com/in/nadine-woodward-0b871b32/"
+  },
+  "|Spokane, Washington||Other/Write-in votes": {}
 }
