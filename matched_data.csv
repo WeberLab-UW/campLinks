@@ -1,0 +1,1004 @@
+,Unnamed: 0,cand_name,year,election_type,state,district,party,incumbency_status,race_outcome,contributions,percentage_votes,in_db,campaign_site,campaign_facebook,campaign_x,campaign_instagram,personal_website,personal_facebook,personal_linkedin
+0,0,NICK BEGICH,2024,federal:house,AK,0,REPUBLICAN,unknown,Won,unknown,0.484137701,F,False,False,False,False,False,False,False
+1,1,MARY SATTLER PELTOLA,2024,federal:house,AK,0,DEMOCRAT,unknown,Lost,unknown,0.463740499,F,False,False,False,False,False,False,False
+2,2,BARRY MOORE,2024,federal:house,AL,1,REPUBLICAN,unknown,Won,unknown,0.784040818,T,True,False,False,False,False,False,False
+3,3,TOM HOLMES,2024,federal:house,AL,1,DEMOCRAT,unknown,Lost,unknown,0.215031499,T,True,True,False,False,False,True,True
+4,4,SHOMARI FIGURES,2024,federal:house,AL,2,DEMOCRAT,unknown,Won,unknown,0.545582275,T,True,False,False,False,False,False,False
+5,5,CAROLEENE DOBSON,2024,federal:house,AL,2,REPUBLICAN,unknown,Lost,unknown,0.453661702,T,True,True,True,True,True,False,True
+6,6,MIKE ROGERS,2024,federal:house,AL,3,REPUBLICAN,unknown,Won,unknown,0.979277774,T,True,False,False,False,False,False,False
+7,7,ROBERT B. ADERHOLT,2024,federal:house,AL,4,REPUBLICAN,unknown,Won,unknown,0.987857719,F,False,False,False,False,False,False,False
+8,8,DALE W. STRONG,2024,federal:house,AL,5,REPUBLICAN,unknown,Won,unknown,0.953934682,F,False,False,False,False,False,False,False
+9,9,GARY J. PALMER,2024,federal:house,AL,6,REPUBLICAN,unknown,Won,unknown,0.703183556,F,False,False,False,False,False,False,False
+10,10,ELIZABETH ANDERSON,2024,federal:house,AL,6,DEMOCRAT,unknown,Lost,unknown,0.295720159,T,True,False,False,False,False,False,True
+11,11,TERRI A. SEWELL,2024,federal:house,AL,7,DEMOCRAT,unknown,Won,unknown,0.636801719,F,False,False,False,False,False,False,False
+12,12,ROBIN LITAKER,2024,federal:house,AL,7,REPUBLICAN,unknown,Lost,unknown,0.362567356,T,True,True,True,True,False,True,True
+13,13,"ERIC A. \""RICK\"" CRAWFORD",2024,federal:house,AR,1,REPUBLICAN,unknown,Won,unknown,0.728771563,F,False,False,False,False,False,False,False
+14,14,RODNEY GOVENS,2024,federal:house,AR,1,DEMOCRAT,unknown,Lost,unknown,0.239964518,T,True,True,True,True,False,True,True
+15,15,J. FRENCH HILL,2024,federal:house,AR,2,REPUBLICAN,unknown,Won,unknown,0.589347864,F,False,False,False,False,False,False,False
+16,16,MARCUS A. JONES,2024,federal:house,AR,2,DEMOCRAT,unknown,Lost,unknown,0.410652136,F,False,False,False,False,False,False,False
+17,17,STEVE WOMACK,2024,federal:house,AR,3,REPUBLICAN,unknown,Won,unknown,0.638031247,T,True,False,False,False,False,False,False
+18,18,CAITLIN DRAPER,2024,federal:house,AR,3,DEMOCRAT,unknown,Lost,unknown,0.317692073,T,True,True,True,True,False,True,True
+19,19,BRUCE WESTERMAN,2024,federal:house,AR,4,REPUBLICAN,unknown,Won,unknown,0.729116791,T,True,False,False,False,False,False,False
+20,20,RISIE HOWARD,2024,federal:house,AR,4,DEMOCRAT,unknown,Lost,unknown,0.270883209,T,True,False,True,False,False,False,False
+21,21,DAVID SCHWEIKERT,2024,federal:house,AZ,1,REPUBLICAN,unknown,Won,unknown,0.51907002,T,True,False,False,False,False,False,False
+22,22,AMISH SHAH,2024,federal:house,AZ,1,DEMOCRAT,unknown,Lost,unknown,0.48092998,T,True,False,False,False,False,False,False
+23,23,ELIJAH CRANE,2024,federal:house,AZ,2,REPUBLICAN,unknown,Won,unknown,0.544773898,F,False,False,False,False,False,False,False
+24,24,JONATHAN NEZ,2024,federal:house,AZ,2,DEMOCRAT,unknown,Lost,unknown,0.455090778,T,True,False,False,False,False,False,False
+25,25,YASSAMIN ANSARI,2024,federal:house,AZ,3,DEMOCRAT,unknown,Won,unknown,0.7093559,T,True,False,False,False,False,False,False
+26,26,JEFF ZINK,2024,federal:house,AZ,3,REPUBLICAN,unknown,Lost,unknown,0.265780813,T,False,False,False,False,False,False,False
+27,27,GREG STANTON,2024,federal:house,AZ,4,DEMOCRAT,unknown,Won,unknown,0.527367021,T,True,False,False,False,False,False,False
+28,28,KELLY COOPER,2024,federal:house,AZ,4,REPUBLICAN,unknown,Lost,unknown,0.454503878,T,True,False,False,False,False,False,False
+29,29,ANDY BIGGS,2024,federal:house,AZ,5,REPUBLICAN,unknown,Won,unknown,0.603881807,T,True,False,False,False,False,False,False
+30,30,KATRINA SCHAFFNER,2024,federal:house,AZ,5,DEMOCRAT,unknown,Lost,unknown,0.396118193,T,True,True,True,True,False,True,True
+31,31,JUAN CISCOMANI,2024,federal:house,AZ,6,REPUBLICAN,unknown,Won,unknown,0.499967534,T,True,False,False,False,False,False,False
+32,32,KIRSTEN ENGEL,2024,federal:house,AZ,6,DEMOCRAT,unknown,Lost,unknown,0.474871295,T,True,False,False,False,False,False,False
+33,33,RAúL M. GRIJALVA,2024,federal:house,AZ,7,DEMOCRAT,unknown,Won,unknown,0.634490851,F,False,False,False,False,False,False,False
+34,34,"DANIEL FRANCIS BUTIEREZ, SR.",2024,federal:house,AZ,7,REPUBLICAN,unknown,Lost,unknown,0.365509149,F,False,False,False,False,False,False,False
+35,35,"ABRAHAM \""ABE\"" HAMADEH",2024,federal:house,AZ,8,REPUBLICAN,unknown,Won,unknown,0.565007203,F,False,False,False,False,False,False,False
+36,36,GREGORY WHITTEN,2024,federal:house,AZ,8,DEMOCRAT,unknown,Lost,unknown,0.434992797,T,True,True,True,True,False,False,True
+37,37,PAUL A. GOSAR,2024,federal:house,AZ,9,REPUBLICAN,unknown,Won,unknown,0.65297745,F,False,False,False,False,False,False,False
+38,38,QUACY SMITH,2024,federal:house,AZ,9,DEMOCRAT,unknown,Lost,unknown,0.34702255,T,True,True,True,True,False,True,True
+39,39,DOUG LAMALFA,2024,federal:house,CA,1,REPUBLICAN,unknown,Won,unknown,0.653426391,T,True,False,False,False,False,False,False
+40,40,ROSE PENELOPE YEE,2024,federal:house,CA,1,DEMOCRAT,unknown,Lost,unknown,0.346573609,T,True,True,True,True,False,True,True
+41,41,JARED HUFFMAN,2024,federal:house,CA,2,DEMOCRAT,unknown,Won,unknown,0.718837671,T,True,False,False,False,False,False,False
+42,42,CHRIS COULOMBE,2024,federal:house,CA,2,REPUBLICAN,unknown,Lost,unknown,0.281162329,T,True,True,True,True,False,True,True
+43,43,KEVIN KILEY,2024,federal:house,CA,3,REPUBLICAN,unknown,Won,unknown,0.554673903,T,True,False,False,False,False,False,False
+44,44,JESSICA MORSE,2024,federal:house,CA,3,DEMOCRAT,unknown,Lost,unknown,0.445326097,T,True,False,False,False,False,False,False
+45,45,MIKE THOMPSON,2024,federal:house,CA,4,DEMOCRAT,unknown,Won,unknown,0.664555854,T,True,False,False,False,False,False,False
+46,46,JOHN MUNN,2024,federal:house,CA,4,REPUBLICAN,unknown,Lost,unknown,0.335444146,T,True,True,False,False,False,False,False
+47,47,TOM MCCLINTOCK,2024,federal:house,CA,5,REPUBLICAN,unknown,Won,unknown,0.617651847,T,True,False,False,False,False,False,False
+48,48,"MICHAEL J. \""MIKE\"" BARKLEY",2024,federal:house,CA,5,DEMOCRAT,unknown,Lost,unknown,0.382348153,F,False,False,False,False,False,False,False
+49,49,AMI BERA,2024,federal:house,CA,6,DEMOCRAT,unknown,Won,unknown,0.576189945,T,True,False,False,False,False,False,False
+50,50,CHRISTINE BISH,2024,federal:house,CA,6,REPUBLICAN,unknown,Lost,unknown,0.423810055,T,True,True,True,True,False,True,True
+51,51,DORIS O. MATSUI,2024,federal:house,CA,7,DEMOCRAT,unknown,Won,unknown,0.667508537,F,False,False,False,False,False,False,False
+52,52,TOM SILVA,2024,federal:house,CA,7,REPUBLICAN,unknown,Lost,unknown,0.332491463,T,True,False,False,False,True,False,False
+53,53,JOHN GARAMENDI,2024,federal:house,CA,8,DEMOCRAT,unknown,Won,unknown,0.739706259,T,True,False,False,False,False,False,False
+54,54,RUDY RECILE,2024,federal:house,CA,8,REPUBLICAN,unknown,Lost,unknown,0.260293741,T,True,True,True,False,False,True,True
+55,55,JOSH HARDER,2024,federal:house,CA,9,DEMOCRAT,unknown,Won,unknown,0.517920726,T,True,False,False,False,False,False,False
+56,56,KEVIN LINCOLN,2024,federal:house,CA,9,REPUBLICAN,unknown,Lost,unknown,0.482079274,T,True,True,True,True,False,True,True
+57,57,MARK DESAULNIER,2024,federal:house,CA,10,DEMOCRAT,unknown,Won,unknown,0.664734573,T,True,False,False,False,False,False,False
+58,58,KATHERINE PICCININI,2024,federal:house,CA,10,REPUBLICAN,unknown,Lost,unknown,0.335265427,T,True,True,False,True,False,True,False
+59,59,NANCY PELOSI,2024,federal:house,CA,11,DEMOCRAT,unknown,Won,unknown,0.810342336,T,True,False,False,False,False,False,False
+60,60,BRUCE LOU,2024,federal:house,CA,11,REPUBLICAN,unknown,Lost,unknown,0.189657664,T,True,True,True,True,False,True,True
+61,61,LATEEFAH SIMON,2024,federal:house,CA,12,DEMOCRAT,unknown,Won,unknown,0.654274357,T,True,False,False,False,False,False,False
+62,62,JENNIFER TRAN,2024,federal:house,CA,12,DEMOCRAT,unknown,Lost,unknown,0.345725643,F,False,False,False,False,False,False,False
+63,63,ADAM GRAY,2024,federal:house,CA,13,DEMOCRAT,unknown,Won,unknown,0.500443294,T,True,False,False,False,False,False,False
+64,64,JOHN S. DUARTE,2024,federal:house,CA,13,REPUBLICAN,unknown,Lost,unknown,0.499556706,F,False,False,False,False,False,False,False
+65,65,ERIC SWALWELL,2024,federal:house,CA,14,DEMOCRAT,unknown,Won,unknown,0.677536651,T,True,False,False,False,False,False,False
+66,66,VIN KRUTTIVENTI,2024,federal:house,CA,14,REPUBLICAN,unknown,Lost,unknown,0.322463349,T,True,True,True,True,True,True,True
+67,67,KEVIN MULLIN,2024,federal:house,CA,15,DEMOCRAT,unknown,Won,unknown,0.730970077,T,True,False,False,False,False,False,False
+68,68,ANNA CHENG KRAMER,2024,federal:house,CA,15,REPUBLICAN,unknown,Lost,unknown,0.269029923,T,True,True,True,True,False,True,True
+69,69,SAM LICCARDO,2024,federal:house,CA,16,DEMOCRAT,unknown,Won,unknown,0.582161983,T,True,False,False,False,False,False,False
+70,70,EVAN LOW,2024,federal:house,CA,16,DEMOCRAT,unknown,Lost,unknown,0.417838017,F,False,False,False,False,False,False,False
+71,71,RO KHANNA,2024,federal:house,CA,17,DEMOCRAT,unknown,Won,unknown,0.676647952,T,True,False,False,False,False,False,False
+72,72,ANITA CHEN,2024,federal:house,CA,17,REPUBLICAN,unknown,Lost,unknown,0.323352048,T,True,True,True,True,False,True,False
+73,73,ZOE LOFGREN,2024,federal:house,CA,18,DEMOCRAT,unknown,Won,unknown,0.646258742,T,True,False,False,False,False,False,False
+74,74,PETER D. HERNANDEZ,2024,federal:house,CA,18,REPUBLICAN,unknown,Lost,unknown,0.353741258,F,False,False,False,False,False,False,False
+75,75,JIMMY PANETTA,2024,federal:house,CA,19,DEMOCRAT,unknown,Won,unknown,0.692956741,T,True,False,False,False,False,False,False
+76,76,JASON MICHAEL ANDERSON,2024,federal:house,CA,19,REPUBLICAN,unknown,Lost,unknown,0.307043259,F,False,False,False,False,False,False,False
+77,77,VINCE FONG,2024,federal:house,CA,20,REPUBLICAN,unknown,Won,unknown,0.65051872,T,True,False,False,False,False,False,False
+78,78,MIKE BOUDREAUX,2024,federal:house,CA,20,REPUBLICAN,unknown,Lost,unknown,0.34948128,F,False,False,False,False,False,False,False
+79,79,JIM COSTA,2024,federal:house,CA,21,DEMOCRAT,unknown,Won,unknown,0.525737607,T,True,False,False,False,False,False,False
+80,80,MICHAEL MAHER,2024,federal:house,CA,21,REPUBLICAN,unknown,Lost,unknown,0.474262393,T,True,True,True,True,False,True,True
+81,81,DAVID G. VALADAO,2024,federal:house,CA,22,REPUBLICAN,unknown,Won,unknown,0.534210511,F,False,False,False,False,False,False,False
+82,82,RUDY SALAS,2024,federal:house,CA,22,DEMOCRAT,unknown,Lost,unknown,0.465789489,T,True,False,False,False,False,False,False
+83,83,JAY OBERNOLTE,2024,federal:house,CA,23,REPUBLICAN,unknown,Won,unknown,0.601421942,T,True,False,False,False,False,False,False
+84,84,DEREK MARSHALL,2024,federal:house,CA,23,DEMOCRAT,unknown,Lost,unknown,0.398578058,T,True,False,False,False,False,False,False
+85,85,SALUD O. CARBAJAL,2024,federal:house,CA,24,DEMOCRAT,unknown,Won,unknown,0.626969829,F,False,False,False,False,False,False,False
+86,86,THOMAS COLE,2024,federal:house,CA,24,REPUBLICAN,unknown,Lost,unknown,0.373030171,T,True,True,False,False,False,False,True
+87,87,RAUL RUIZ,2024,federal:house,CA,25,DEMOCRAT,unknown,Won,unknown,0.562528823,T,True,False,False,False,False,False,False
+88,88,IAN M. WEEKS,2024,federal:house,CA,25,REPUBLICAN,unknown,Lost,unknown,0.437471177,F,False,False,False,False,False,False,False
+89,89,JULIA BROWNLEY,2024,federal:house,CA,26,DEMOCRAT,unknown,Won,unknown,0.560543335,T,True,False,False,False,False,False,False
+90,90,MICHAEL KOSLOW,2024,federal:house,CA,26,REPUBLICAN,unknown,Lost,unknown,0.439456665,T,True,True,True,True,False,True,True
+91,91,GEORGE WHITESIDES,2024,federal:house,CA,27,DEMOCRAT,unknown,Won,unknown,0.513312673,T,True,False,False,False,False,False,False
+92,92,MIKE GARCIA,2024,federal:house,CA,27,REPUBLICAN,unknown,Lost,unknown,0.486687327,T,True,False,False,False,False,False,False
+93,93,JUDY CHU,2024,federal:house,CA,28,DEMOCRAT,unknown,Won,unknown,0.649286857,T,True,False,False,False,False,False,False
+94,94,APRIL A. VERLATO,2024,federal:house,CA,28,REPUBLICAN,unknown,Lost,unknown,0.350713143,F,False,False,False,False,False,False,False
+95,95,LUZ MARIA RIVAS,2024,federal:house,CA,29,DEMOCRAT,unknown,Won,unknown,0.697767138,F,False,False,False,False,False,False,False
+96,96,BENITO BENNY BERNAL,2024,federal:house,CA,29,REPUBLICAN,unknown,Lost,unknown,0.302232862,F,False,False,False,False,False,False,False
+97,97,LAURA FRIEDMAN,2024,federal:house,CA,30,DEMOCRAT,unknown,Won,unknown,0.683760135,T,True,False,False,False,False,False,False
+98,98,ALEX BALEKIAN,2024,federal:house,CA,30,REPUBLICAN,unknown,Lost,unknown,0.316239865,T,True,True,True,True,False,True,True
+99,99,GIL CISNEROS,2024,federal:house,CA,31,DEMOCRAT,unknown,Won,unknown,0.597275268,T,True,False,False,False,False,False,False
+100,100,DANIEL JOSE BOCIC MARTINEZ,2024,federal:house,CA,31,REPUBLICAN,unknown,Lost,unknown,0.402724732,F,False,False,False,False,False,False,False
+101,101,BRAD SHERMAN,2024,federal:house,CA,32,DEMOCRAT,unknown,Won,unknown,0.662015576,T,True,False,False,False,False,False,False
+102,102,LARRY THOMPSON,2024,federal:house,CA,32,REPUBLICAN,unknown,Lost,unknown,0.337984424,T,True,False,False,False,False,False,False
+103,103,PETE AGUILAR,2024,federal:house,CA,33,DEMOCRAT,unknown,Won,unknown,0.588134176,T,True,False,False,False,False,False,False
+104,104,TOM HERMAN,2024,federal:house,CA,33,REPUBLICAN,unknown,Lost,unknown,0.411865824,T,True,True,False,False,False,False,False
+105,105,JIMMY GOMEZ,2024,federal:house,CA,34,DEMOCRAT,unknown,Won,unknown,0.556421384,T,True,False,False,False,False,False,False
+106,106,DAVID KIM,2024,federal:house,CA,34,DEMOCRAT,unknown,Lost,unknown,0.443578616,F,False,False,False,False,False,False,False
+107,107,NORMA J. TORRES,2024,federal:house,CA,35,DEMOCRAT,unknown,Won,unknown,0.584072274,F,False,False,False,False,False,False,False
+108,108,MIKE CARGILE,2024,federal:house,CA,35,REPUBLICAN,unknown,Lost,unknown,0.415927726,T,True,True,True,True,False,True,True
+109,109,TED LIEU,2024,federal:house,CA,36,DEMOCRAT,unknown,Won,unknown,0.687181378,T,True,False,False,False,False,False,False
+110,110,MELISSA TOOMIM,2024,federal:house,CA,36,REPUBLICAN,unknown,Lost,unknown,0.312818622,T,True,False,True,True,False,True,True
+111,111,SYDNEY KAMLAGER-DOVE,2024,federal:house,CA,37,DEMOCRAT,unknown,Won,unknown,0.78297382,T,True,False,False,False,False,False,False
+112,112,JUAN REY,2024,federal:house,CA,37,NO PARTY PREFERENCE,unknown,Lost,unknown,0.21702618,F,False,False,False,False,False,False,False
+113,113,LINDA T. SáNCHEZ,2024,federal:house,CA,38,DEMOCRAT,unknown,Won,unknown,0.598380737,F,False,False,False,False,False,False,False
+114,114,ERIC J. CHING,2024,federal:house,CA,38,REPUBLICAN,unknown,Lost,unknown,0.401619263,F,False,False,False,False,False,False,False
+115,115,MARK TAKANO,2024,federal:house,CA,39,DEMOCRAT,unknown,Won,unknown,0.566885831,T,True,False,False,False,False,False,False
+116,116,DAVID SERPA,2024,federal:house,CA,39,REPUBLICAN,unknown,Lost,unknown,0.433114169,T,True,True,True,True,False,True,True
+117,117,YOUNG KIM,2024,federal:house,CA,40,REPUBLICAN,unknown,Won,unknown,0.552603386,T,True,False,False,False,False,False,False
+118,118,JOE KERR,2024,federal:house,CA,40,DEMOCRAT,unknown,Lost,unknown,0.447396614,T,True,True,True,True,False,True,True
+119,119,KEN CALVERT,2024,federal:house,CA,41,REPUBLICAN,unknown,Won,unknown,0.516909535,T,True,False,False,False,False,False,False
+120,120,WILL ROLLINS,2024,federal:house,CA,41,DEMOCRAT,unknown,Lost,unknown,0.483090465,T,True,True,True,True,False,False,True
+121,121,ROBERT GARCIA,2024,federal:house,CA,42,DEMOCRAT,unknown,Won,unknown,0.68141358,T,True,False,False,False,False,False,False
+122,122,JOHN BRISCOE,2024,federal:house,CA,42,REPUBLICAN,unknown,Lost,unknown,0.31858642,T,True,False,False,False,False,False,False
+123,123,MAXINE WATERS,2024,federal:house,CA,43,DEMOCRAT,unknown,Won,unknown,0.750731598,T,True,False,False,False,False,False,False
+124,124,STEVE WILLIAMS,2024,federal:house,CA,43,REPUBLICAN,unknown,Lost,unknown,0.249268402,T,True,False,False,False,False,True,True
+125,125,NANETTE DIAZ BARRAGáN,2024,federal:house,CA,44,DEMOCRAT,unknown,Won,unknown,0.713725677,F,False,False,False,False,False,False,False
+126,126,ROGER GROH,2024,federal:house,CA,44,REPUBLICAN,unknown,Lost,unknown,0.286274323,T,True,False,True,False,False,False,False
+127,127,DEREK TRAN,2024,federal:house,CA,45,DEMOCRAT,unknown,Won,unknown,0.501033637,T,True,False,False,False,False,False,False
+128,128,MICHELLE STEEL,2024,federal:house,CA,45,REPUBLICAN,unknown,Lost,unknown,0.498966363,T,True,False,False,False,False,False,False
+129,129,J. LUIS CORREA,2024,federal:house,CA,46,DEMOCRAT,unknown,Won,unknown,0.634254965,F,False,False,False,False,False,False,False
+130,130,DAVID PAN,2024,federal:house,CA,46,REPUBLICAN,unknown,Lost,unknown,0.365745035,T,True,True,True,True,False,False,True
+131,131,DAVE MIN,2024,federal:house,CA,47,DEMOCRAT,unknown,Won,unknown,0.51438964,T,True,False,False,False,False,False,False
+132,132,SCOTT BAUGH,2024,federal:house,CA,47,REPUBLICAN,unknown,Lost,unknown,0.48561036,T,True,False,False,False,False,False,False
+133,133,DARRELL ISSA,2024,federal:house,CA,48,REPUBLICAN,unknown,Won,unknown,0.592925144,T,True,False,False,False,False,False,False
+134,134,STEPHEN HOULAHAN,2024,federal:house,CA,48,DEMOCRAT,unknown,Lost,unknown,0.407074856,T,True,True,True,True,False,True,True
+135,135,MIKE LEVIN,2024,federal:house,CA,49,DEMOCRAT,unknown,Won,unknown,0.521735338,T,True,False,False,False,False,False,False
+136,136,MATT GUNDERSON,2024,federal:house,CA,49,REPUBLICAN,unknown,Lost,unknown,0.478264662,T,True,True,True,True,False,True,True
+137,137,SCOTT H. PETERS,2024,federal:house,CA,50,DEMOCRAT,unknown,Won,unknown,0.642748028,F,False,False,False,False,False,False,False
+138,138,PETER J. BONO,2024,federal:house,CA,50,REPUBLICAN,unknown,Lost,unknown,0.357251972,F,False,False,False,False,False,False,False
+139,139,SARA JACOBS,2024,federal:house,CA,51,DEMOCRAT,unknown,Won,unknown,0.606974089,T,True,False,False,False,False,False,False
+140,140,BILL WELLS,2024,federal:house,CA,51,REPUBLICAN,unknown,Lost,unknown,0.393025911,T,False,False,False,False,False,False,False
+141,141,JUAN VARGAS,2024,federal:house,CA,52,DEMOCRAT,unknown,Won,unknown,0.663092277,T,True,False,False,False,False,False,False
+142,142,JUSTIN LEE,2024,federal:house,CA,52,REPUBLICAN,unknown,Lost,unknown,0.336907723,T,False,False,False,False,False,False,False
+143,143,DIANA DEGETTE,2024,federal:house,CO,1,DEMOCRAT,unknown,Won,unknown,0.765343399,T,True,False,False,False,False,False,False
+144,144,VALDAMAR ARCHULETA,2024,federal:house,CO,1,REPUBLICAN,unknown,Lost,unknown,0.215766411,T,True,True,True,True,False,True,True
+145,145,JOE NEGUSE,2024,federal:house,CO,2,DEMOCRAT,unknown,Won,unknown,0.683589665,T,True,False,False,False,False,False,False
+146,146,MARSHALL DAWSON,2024,federal:house,CO,2,REPUBLICAN,unknown,Lost,unknown,0.289351608,T,True,False,False,False,True,False,True
+147,147,JEFF HURD,2024,federal:house,CO,3,REPUBLICAN,unknown,Won,unknown,0.507985099,T,True,False,False,False,False,False,False
+148,148,ADAM FRISCH,2024,federal:house,CO,3,DEMOCRAT,unknown,Lost,unknown,0.458170357,T,True,False,False,False,False,False,False
+149,149,LAUREN BOEBERT,2024,federal:house,CO,4,REPUBLICAN,unknown,Won,unknown,0.536420824,F,False,False,False,False,False,False,False
+150,150,TRISHA CALVARESE,2024,federal:house,CO,4,DEMOCRAT,unknown,Lost,unknown,0.420379762,T,True,True,True,True,False,True,True
+151,151,JEFF CRANK,2024,federal:house,CO,5,REPUBLICAN,unknown,Won,unknown,0.546623031,T,True,False,False,False,False,False,False
+152,152,RIVER GASSEN,2024,federal:house,CO,5,DEMOCRAT,unknown,Lost,unknown,0.408666473,T,True,True,True,True,False,False,True
+153,153,JASON CROW,2024,federal:house,CO,6,DEMOCRAT,unknown,Won,unknown,0.589681748,T,True,False,False,False,False,False,False
+154,154,JOHN E. FABBRICATORE,2024,federal:house,CO,6,REPUBLICAN,unknown,Lost,unknown,0.384538623,F,False,False,False,False,False,False,False
+155,155,BRITTANY PETTERSEN,2024,federal:house,CO,7,DEMOCRAT,unknown,Won,unknown,0.553302376,T,True,False,False,False,False,False,False
+156,156,SERGEI MATVEYUK,2024,federal:house,CO,7,REPUBLICAN,unknown,Lost,unknown,0.411471808,T,True,True,True,True,False,True,True
+157,157,GABE EVANS,2024,federal:house,CO,8,REPUBLICAN,unknown,Won,unknown,0.489544866,T,True,False,False,False,False,False,False
+158,158,YADIRA CARAVEO,2024,federal:house,CO,8,DEMOCRAT,unknown,Lost,unknown,0.482204091,T,True,False,False,False,False,False,False
+159,159,JOHN B. LARSON,2024,federal:house,CT,1,DEMOCRAT,unknown,Won,unknown,0.598483427,F,False,False,False,False,False,False,False
+160,160,JIM GRIFFIN,2024,federal:house,CT,1,REPUBLICAN,unknown,Lost,unknown,0.348173274,F,False,False,False,False,False,False,False
+161,161,JOE COURTNEY,2024,federal:house,CT,2,DEMOCRAT,unknown,Won,unknown,0.580145567,T,True,False,False,False,False,False,False
+162,162,MIKE FRANCE,2024,federal:house,CT,2,REPUBLICAN,unknown,Lost,unknown,0.419835818,T,True,True,True,True,False,True,True
+163,163,ROSA L. DELAURO,2024,federal:house,CT,3,DEMOCRAT,unknown,Won,unknown,0.588842981,F,False,False,False,False,False,False,False
+164,164,MICHAEL MASSEY,2024,federal:house,CT,3,REPUBLICAN,unknown,Lost,unknown,0.3955181,T,True,True,True,True,False,True,False
+165,165,JAMES A. HIMES,2024,federal:house,CT,4,DEMOCRAT,unknown,Won,unknown,0.610572376,F,False,False,False,False,False,False,False
+166,166,MICHAEL GOLDSTEIN,2024,federal:house,CT,4,REPUBLICAN,unknown,Lost,unknown,0.373393299,T,True,False,False,False,False,True,True
+167,167,JAHANA HAYES,2024,federal:house,CT,5,DEMOCRAT,unknown,Won,unknown,0.507507294,T,True,True,True,False,False,True,True
+168,168,GEORGE LOGAN,2024,federal:house,CT,5,REPUBLICAN,unknown,Lost,unknown,0.465804713,T,False,False,False,False,False,False,False
+169,169,TOTAL,2024,federal:house,DC,0,,unknown,Won,unknown,0.5,incorrect year,False,False,False,False,False,False,False
+170,170,ELEANOR HOLMES NORTON,2024,federal:house,DC,0,DEMOCRAT,unknown,Lost,unknown,0.382973411,T,True,False,False,False,False,False,False
+171,171,SARAH MCBRIDE,2024,federal:house,DE,0,DEMOCRAT,unknown,Won,unknown,0.5786272,T,True,False,False,False,False,False,False
+172,172,JOHN J. WHALEN III,2024,federal:house,DE,0,REPUBLICAN,unknown,Lost,unknown,0.4213728,F,False,False,False,False,False,False,False
+173,173,MATT GAETZ,2024,federal:house,FL,1,REPUBLICAN,unknown,Won,unknown,0.660361176,T,True,False,False,False,False,False,False
+174,174,GAY VALIMONT,2024,federal:house,FL,1,DEMOCRAT,unknown,Lost,unknown,0.339638824,T,False,False,False,False,False,True,False
+175,175,NEAL P. DUNN,2024,federal:house,FL,2,REPUBLICAN,unknown,Won,unknown,0.616379139,F,False,False,False,False,False,False,False
+176,176,YEN BAILEY,2024,federal:house,FL,2,DEMOCRAT,unknown,Lost,unknown,0.383620861,T,True,True,True,True,False,True,False
+177,177,KAT CAMMACK,2024,federal:house,FL,3,REPUBLICAN,unknown,Won,unknown,0.616093211,T,True,False,False,False,False,False,False
+178,178,TOM WELLS,2024,federal:house,FL,3,DEMOCRAT,unknown,Lost,unknown,0.383906789,T,True,False,False,False,False,False,False
+179,179,AARON BEAN,2024,federal:house,FL,4,REPUBLICAN,unknown,Won,unknown,0.572588059,T,True,False,False,False,False,False,False
+180,180,"LASHONDA \""L. J.\"" HOLLOWAY",2024,federal:house,FL,4,DEMOCRAT,unknown,Lost,unknown,0.427223966,F,False,False,False,False,False,False,False
+181,181,JOHN H. RUTHERFORD,2024,federal:house,FL,5,REPUBLICAN,unknown,Won,unknown,0.630732625,F,False,False,False,False,False,False,False
+182,182,JAY MCGOVERN,2024,federal:house,FL,5,DEMOCRAT,unknown,Lost,unknown,0.369213138,T,True,False,True,True,False,True,True
+183,183,MICHAEL WALTZ,2024,federal:house,FL,6,REPUBLICAN,unknown,Won,unknown,0.665336371,T,True,True,True,True,False,True,True
+184,184,JAMES DAVID STOCKTON III,2024,federal:house,FL,6,DEMOCRAT,unknown,Lost,unknown,0.334640235,F,False,False,False,False,False,False,False
+185,185,CORY MILLS,2024,federal:house,FL,7,REPUBLICAN,unknown,Won,unknown,0.565264562,T,True,False,False,False,False,False,False
+186,186,JENNIFER ADAMS,2024,federal:house,FL,7,DEMOCRAT,unknown,Lost,unknown,0.434735438,T,True,False,False,False,False,False,False
+187,187,MIKE HARIDOPOLOS,2024,federal:house,FL,8,REPUBLICAN,unknown,Won,unknown,0.622384826,T,True,False,False,False,False,False,False
+188,188,SANDY KENNEDY,2024,federal:house,FL,8,DEMOCRAT,unknown,Lost,unknown,0.377615174,T,True,True,True,True,False,True,True
+189,189,DARREN SOTO,2024,federal:house,FL,9,DEMOCRAT,unknown,Won,unknown,0.551341,T,True,False,False,False,False,False,False
+190,190,THOMAS CHALIFOUX,2024,federal:house,FL,9,REPUBLICAN,unknown,Lost,unknown,0.425801716,T,True,True,True,False,False,True,True
+191,191,MAXWELL FROST,2024,federal:house,FL,10,DEMOCRAT,unknown,Won,unknown,0.623738893,F,False,False,False,False,False,False,False
+192,192,WILLIE J. MONTAGUE,2024,federal:house,FL,10,REPUBLICAN,unknown,Lost,unknown,0.376261107,T,True,True,False,False,False,True,True
+193,193,DANIEL WEBSTER,2024,federal:house,FL,11,REPUBLICAN,unknown,Won,unknown,0.603756029,T,True,False,False,False,False,False,False
+194,194,BARBIE HARDEN HALL,2024,federal:house,FL,11,DEMOCRAT,unknown,Lost,unknown,0.396243971,T,True,True,True,True,False,True,True
+195,195,GUS M. BILIRAKIS,2024,federal:house,FL,12,REPUBLICAN,unknown,Won,unknown,0.710388099,F,False,False,False,False,False,False,False
+196,196,"ROCK ABOUJAOUDE, JR.",2024,federal:house,FL,12,DEMOCRAT,unknown,Lost,unknown,0.289611901,F,False,False,False,False,False,False,False
+197,197,ANNA PAULINA LUNA,2024,federal:house,FL,13,REPUBLICAN,unknown,Won,unknown,0.548201743,T,True,False,False,False,False,False,False
+198,198,WHITNEY FOX,2024,federal:house,FL,13,DEMOCRAT,unknown,Lost,unknown,0.451732658,T,True,True,True,True,False,True,True
+199,199,KATHY CASTOR,2024,federal:house,FL,14,DEMOCRAT,unknown,Won,unknown,0.56947899,T,True,False,False,False,False,False,False
+200,200,"ROBERT \""ROCKY\"" ROCHFORD",2024,federal:house,FL,14,REPUBLICAN,unknown,Lost,unknown,0.415903023,F,False,False,False,False,False,False,False
+201,201,LAUREL M. LEE,2024,federal:house,FL,15,REPUBLICAN,unknown,Won,unknown,0.561796977,F,False,False,False,False,False,False,False
+202,202,"PATRICIA \""PAT\"" KEMP",2024,federal:house,FL,15,DEMOCRAT,unknown,Lost,unknown,0.438203023,F,False,False,False,False,False,False,False
+203,203,VERN BUCHANAN,2024,federal:house,FL,16,REPUBLICAN,unknown,Won,unknown,0.594788786,T,True,False,False,False,False,False,False
+204,204,JAN SCHNEIDER,2024,federal:house,FL,16,DEMOCRAT,unknown,Lost,unknown,0.405211214,T,True,False,False,False,False,False,False
+205,205,W. GREGORY STEUBE,2024,federal:house,FL,17,REPUBLICAN,unknown,Won,unknown,0.639029569,F,False,False,False,False,False,False,False
+206,206,MANNY LOPEZ,2024,federal:house,FL,17,DEMOCRAT,unknown,Lost,unknown,0.360952884,T,True,True,True,True,False,True,True
+207,207,SCOTT FRANKLIN,2024,federal:house,FL,18,REPUBLICAN,unknown,Won,unknown,0.653031986,T,True,False,False,False,False,False,False
+208,208,ANDREA DORIA KALE,2024,federal:house,FL,18,DEMOCRAT,unknown,Lost,unknown,0.346968014,T,True,False,False,False,False,False,True
+209,209,BYRON DONALDS,2024,federal:house,FL,19,REPUBLICAN,unknown,Won,unknown,0.663164528,T,True,False,False,False,False,False,False
+210,210,KARI L. LERNER,2024,federal:house,FL,19,DEMOCRAT,unknown,Lost,unknown,0.336835472,F,False,False,False,False,False,False,False
+211,211,SHEILA CHERFILUS-MCCORMICK,2024,federal:house,FL,20,DEMOCRAT,unknown,Won,unknown,-1,F,False,False,False,False,False,False,False
+212,212,BRIAN J. MAST,2024,federal:house,FL,21,REPUBLICAN,unknown,Won,unknown,0.618217512,F,False,False,False,False,False,False,False
+213,213,THOMAS WITKOP,2024,federal:house,FL,21,DEMOCRAT,unknown,Lost,unknown,0.38174015,T,True,True,True,True,False,True,True
+214,214,LOIS FRANKEL,2024,federal:house,FL,22,DEMOCRAT,unknown,Won,unknown,0.549556229,T,True,False,False,False,False,False,False
+215,215,DAN FRANZESE,2024,federal:house,FL,22,REPUBLICAN,unknown,Lost,unknown,0.450443771,T,True,False,False,False,False,False,True
+216,216,JARED MOSKOWITZ,2024,federal:house,FL,23,DEMOCRAT,unknown,Won,unknown,0.5244512,T,True,False,False,False,False,False,False
+217,217,"JOSEPH \""JOE\"" KAUFMAN",2024,federal:house,FL,23,REPUBLICAN,unknown,Lost,unknown,0.4755488,F,False,False,False,False,False,False,False
+218,218,FREDERICA S. WILSON,2024,federal:house,FL,24,DEMOCRAT,unknown,Won,unknown,0.682360603,F,False,False,False,False,False,False,False
+219,219,JESUS GABRIEL NAVARRO,2024,federal:house,FL,24,REPUBLICAN,unknown,Lost,unknown,0.317562363,F,False,False,False,False,False,False,False
+220,220,DEBBIE WASSERMAN SCHULTZ,2024,federal:house,FL,25,DEMOCRAT,unknown,Won,unknown,0.544717082,T,True,False,False,False,False,False,False
+221,221,CHRIS EDDY,2024,federal:house,FL,25,REPUBLICAN,unknown,Lost,unknown,0.455163451,T,True,True,True,True,False,True,True
+222,222,MARIO DIAZ-BALART,2024,federal:house,FL,26,REPUBLICAN,unknown,Won,unknown,0.709172596,F,False,False,False,False,False,False,False
+223,223,JOEY ATKINS,2024,federal:house,FL,26,DEMOCRAT,unknown,Lost,unknown,0.290827404,T,True,True,False,True,False,True,False
+224,224,MARIA ELVIRA SALAZAR,2024,federal:house,FL,27,REPUBLICAN,unknown,Won,unknown,0.603755453,T,True,False,False,False,False,False,False
+225,225,LUCIA BAEZ-GELLER,2024,federal:house,FL,27,DEMOCRAT,unknown,Lost,unknown,0.396244547,T,True,True,True,True,False,True,True
+226,226,CARLOS A. GIMENEZ,2024,federal:house,FL,28,REPUBLICAN,unknown,Won,unknown,0.645659731,F,False,False,False,False,False,False,False
+227,227,PHIL EHR,2024,federal:house,FL,28,DEMOCRAT,unknown,Lost,unknown,0.354340269,T,True,True,True,True,False,True,True
+228,228,"EARL L. \""BUDDY\"" CARTER",2024,federal:house,GA,1,REPUBLICAN,unknown,Won,unknown,0.619844488,F,False,False,False,False,False,False,False
+229,229,PATTI HEWITT,2024,federal:house,GA,1,DEMOCRAT,unknown,Lost,unknown,0.380155512,T,True,True,True,True,False,True,True
+230,230,"SANFORD D. BISHOP, JR.",2024,federal:house,GA,2,DEMOCRAT,unknown,Won,unknown,0.563287797,F,False,False,False,False,False,False,False
+231,231,A. WAYNE JOHNSON,2024,federal:house,GA,2,REPUBLICAN,unknown,Lost,unknown,0.436712203,F,False,False,False,False,False,False,False
+232,232,BRIAN JACK,2024,federal:house,GA,3,REPUBLICAN,unknown,Won,unknown,0.663054749,T,True,False,False,False,False,False,False
+233,233,MAURA KELLER,2024,federal:house,GA,3,DEMOCRAT,unknown,Lost,unknown,0.336945251,T,True,True,False,False,False,True,True
+234,234,"HENRY C. \""HANK\"" JOHNSON, JR.",2024,federal:house,GA,4,DEMOCRAT,unknown,Won,unknown,0.75583216,F,False,False,False,False,False,False,False
+235,235,EUGENE YU,2024,federal:house,GA,4,REPUBLICAN,unknown,Lost,unknown,0.24416784,T,True,False,False,False,False,True,True
+236,236,NIKEMA WILLIAMS,2024,federal:house,GA,5,DEMOCRAT,unknown,Won,unknown,0.856787056,T,True,False,False,False,False,False,False
+237,237,"JOHN \""BONGO\"" SALVESEN",2024,federal:house,GA,5,REPUBLICAN,unknown,Lost,unknown,0.143212944,F,False,False,False,False,False,False,False
+238,238,LUCY MCBATH,2024,federal:house,GA,6,DEMOCRAT,unknown,Won,unknown,0.746832338,T,True,False,False,False,False,False,False
+239,239,JEFF CRISWELL,2024,federal:house,GA,6,REPUBLICAN,unknown,Lost,unknown,0.253167662,T,True,True,True,False,False,True,False
+240,240,RICHARD MCCORMICK,2024,federal:house,GA,7,REPUBLICAN,unknown,Won,unknown,0.648518482,F,False,False,False,False,False,False,False
+241,241,BOB CHRISTIAN,2024,federal:house,GA,7,DEMOCRAT,unknown,Lost,unknown,0.351481518,T,True,True,True,True,False,False,False
+242,242,AUSTIN SCOTT,2024,federal:house,GA,8,REPUBLICAN,unknown,Won,unknown,0.689166947,T,True,False,False,False,False,False,False
+243,243,DARRIUS BUTLER,2024,federal:house,GA,8,DEMOCRAT,unknown,Lost,unknown,0.310833053,T,True,True,True,True,False,True,True
+244,244,ANDREW S. CLYDE,2024,federal:house,GA,9,REPUBLICAN,unknown,Won,unknown,0.690048267,F,False,False,False,False,False,False,False
+245,245,TAMBREI CASH,2024,federal:house,GA,9,DEMOCRAT,unknown,Lost,unknown,0.309951733,T,True,True,True,True,False,True,True
+246,246,MIKE COLLINS,2024,federal:house,GA,10,REPUBLICAN,unknown,Won,unknown,0.630518593,T,True,False,False,False,False,False,False
+247,247,"ALEXANDRA \""LEXY\"" DOHERTY",2024,federal:house,GA,10,DEMOCRAT,unknown,Lost,unknown,0.369481407,F,False,False,False,False,False,False,False
+248,248,BARRY LOUDERMILK,2024,federal:house,GA,11,REPUBLICAN,unknown,Won,unknown,0.673086181,T,True,False,False,False,False,False,False
+249,249,"KATY \""KATE\"" L. STAMPER",2024,federal:house,GA,11,DEMOCRAT,unknown,Lost,unknown,0.326913819,F,False,False,False,False,False,False,False
+250,250,RICK W. ALLEN,2024,federal:house,GA,12,REPUBLICAN,unknown,Won,unknown,0.603192231,F,False,False,False,False,False,False,False
+251,251,"ELIZABETH \""LIZ\"" JOHNSON",2024,federal:house,GA,12,DEMOCRAT,unknown,Lost,unknown,0.396807769,F,False,False,False,False,False,False,False
+252,252,DAVID SCOTT,2024,federal:house,GA,13,DEMOCRAT,unknown,Won,unknown,0.718341759,T,True,False,False,False,False,False,False
+253,253,JONATHAN CHAVEZ,2024,federal:house,GA,13,REPUBLICAN,unknown,Lost,unknown,0.281658241,T,True,False,False,False,False,False,False
+254,254,MARJORIE TAYLOR GREENE,2024,federal:house,GA,14,REPUBLICAN,unknown,Won,unknown,0.643687947,T,True,False,False,False,False,False,False
+255,255,SHAWN HARRIS,2024,federal:house,GA,14,DEMOCRAT,unknown,Lost,unknown,0.356312053,T,True,False,False,False,False,True,False
+256,256,ED CASE,2024,federal:house,HI,1,DEMOCRAT,unknown,Won,unknown,0.653206434,T,True,False,False,False,False,False,False
+257,257,PATRICK C. LARGEY,2024,federal:house,HI,1,REPUBLICAN,unknown,Lost,unknown,0.256025486,F,False,False,False,False,False,False,False
+258,258,JILL N. TOKUDA,2024,federal:house,HI,2,DEMOCRAT,unknown,Won,unknown,0.613916338,F,False,False,False,False,False,False,False
+259,259,STEVE BOND,2024,federal:house,HI,2,REPUBLICAN,unknown,Lost,unknown,0.278692338,T,True,False,False,False,False,False,False
+260,260,MARIANNETTE MILLER-MEEKS,2024,federal:house,IA,1,REPUBLICAN,unknown,Won,unknown,0.49979714,T,True,False,False,False,False,False,False
+261,261,CHRISTINA BOHANNAN,2024,federal:house,IA,1,DEMOCRAT,unknown,Lost,unknown,0.497867552,T,True,False,False,False,False,False,False
+262,262,ASHLEY HINSON,2024,federal:house,IA,2,REPUBLICAN,unknown,Won,unknown,0.570789771,T,True,False,False,False,False,False,False
+263,263,SARAH CORKERY,2024,federal:house,IA,2,DEMOCRAT,unknown,Lost,unknown,0.415213233,T,True,False,False,False,False,False,False
+264,264,ZACHARY NUNN,2024,federal:house,IA,3,REPUBLICAN,unknown,Won,unknown,0.517663869,F,False,False,False,False,False,False,False
+265,265,LANON BACCAM,2024,federal:house,IA,3,DEMOCRAT,unknown,Lost,unknown,0.479437159,T,True,False,False,False,False,False,False
+266,266,RANDY FEENSTRA,2024,federal:house,IA,4,REPUBLICAN,unknown,Won,unknown,0.670160289,T,True,False,False,False,False,False,False
+267,267,RYAN MELTON,2024,federal:house,IA,4,DEMOCRAT,unknown,Lost,unknown,0.326824923,T,True,True,True,True,False,True,True
+268,268,RUSS FULCHER,2024,federal:house,ID,1,REPUBLICAN,unknown,Won,unknown,0.676872779,T,True,False,False,False,False,False,False
+269,269,KAYLEE PETERSON,2024,federal:house,ID,1,DEMOCRAT,unknown,Lost,unknown,0.24260764,F,False,False,False,False,False,False,False
+270,270,MICHAEL K. SIMPSON,2024,federal:house,ID,2,REPUBLICAN,unknown,Won,unknown,0.583689214,F,False,False,False,False,False,False,False
+271,271,DAVID ROTH,2024,federal:house,ID,2,DEMOCRAT,unknown,Lost,unknown,0.294573806,T,True,True,True,True,False,False,True
+272,272,JONATHAN L. JACKSON,2024,federal:house,IL,1,DEMOCRAT,unknown,Won,unknown,0.658430935,F,False,False,False,False,False,False,False
+273,273,MARCUS LEWIS,2024,federal:house,IL,1,REPUBLICAN,unknown,Lost,unknown,0.341426888,T,True,False,False,False,False,True,True
+274,274,ROBIN L. KELLY,2024,federal:house,IL,2,DEMOCRAT,unknown,Won,unknown,0.675458783,F,False,False,False,False,False,False,False
+275,275,ASHLEY RAMOS,2024,federal:house,IL,2,REPUBLICAN,unknown,Lost,unknown,0.324327308,T,True,False,False,False,False,False,False
+276,276,DELIA C. RAMIREZ,2024,federal:house,IL,3,DEMOCRAT,unknown,Won,unknown,0.672641858,F,False,False,False,False,False,False,False
+277,277,JOHN BOORAS,2024,federal:house,IL,3,REPUBLICAN,unknown,Lost,unknown,0.326988781,T,True,True,True,True,False,True,True
+278,278,"JESúS G. \""CHUY\"" GARCíA",2024,federal:house,IL,4,DEMOCRAT,unknown,Won,unknown,0.675124518,F,False,False,False,False,False,False,False
+279,279,LUPE CASTILLO,2024,federal:house,IL,4,REPUBLICAN,unknown,Lost,unknown,0.27288804,T,False,False,False,False,False,True,False
+280,280,MIKE QUIGLEY,2024,federal:house,IL,5,DEMOCRAT,unknown,Won,unknown,0.689695438,T,True,False,False,False,False,False,False
+281,281,TOMMY HANSON,2024,federal:house,IL,5,REPUBLICAN,unknown,Lost,unknown,0.310279835,T,True,True,False,True,False,False,False
+282,282,SEAN CASTEN,2024,federal:house,IL,6,DEMOCRAT,unknown,Won,unknown,0.541952713,T,True,False,False,False,False,False,False
+283,283,NIKI CONFORTI,2024,federal:house,IL,6,REPUBLICAN,unknown,Lost,unknown,0.457810274,T,True,True,True,True,False,True,True
+284,284,DANNY K. DAVIS,2024,federal:house,IL,7,DEMOCRAT,unknown,Won,unknown,0.832514823,F,False,False,False,False,False,False,False
+285,285,CHAD KOPPIE,2024,federal:house,IL,7,REPUBLICAN,unknown,Lost,unknown,0.166938672,T,True,True,True,False,False,True,False
+286,286,RAJA KRISHNAMOORTHI,2024,federal:house,IL,8,DEMOCRAT,unknown,Won,unknown,0.570555609,T,True,False,False,False,False,False,False
+287,287,MARK RICE,2024,federal:house,IL,8,REPUBLICAN,unknown,Lost,unknown,0.429444391,T,True,True,False,True,False,False,True
+288,288,JANICE D. SCHAKOWSKY,2024,federal:house,IL,9,DEMOCRAT,unknown,Won,unknown,0.683892713,F,False,False,False,False,False,False,False
+289,289,SETH ALAN COHEN,2024,federal:house,IL,9,REPUBLICAN,unknown,Lost,unknown,0.316107287,F,False,False,False,False,False,False,False
+290,290,BRADLEY SCOTT SCHNEIDER,2024,federal:house,IL,10,DEMOCRAT,unknown,Won,unknown,0.599344975,F,False,False,False,False,False,False,False
+291,291,JIM CARRIS,2024,federal:house,IL,10,REPUBLICAN,unknown,Lost,unknown,0.399928576,T,True,True,True,True,False,True,True
+292,292,BILL FOSTER,2024,federal:house,IL,11,DEMOCRAT,unknown,Won,unknown,0.5555571,T,True,False,False,False,False,False,False
+293,293,JERRY EVANS,2024,federal:house,IL,11,REPUBLICAN,unknown,Lost,unknown,0.44380623,T,True,False,False,False,False,False,False
+294,294,MIKE BOST,2024,federal:house,IL,12,REPUBLICAN,unknown,Won,unknown,0.741927323,T,True,False,False,False,False,False,False
+295,295,BRIAN ROBERTS,2024,federal:house,IL,12,DEMOCRAT,unknown,Lost,unknown,0.258072677,T,True,False,False,False,False,False,False
+296,296,NIKKI BUDZINSKI,2024,federal:house,IL,13,DEMOCRAT,unknown,Won,unknown,0.580694992,T,True,False,False,False,False,False,False
+297,297,JOSHUA LOYD,2024,federal:house,IL,13,REPUBLICAN,unknown,Lost,unknown,0.418564492,T,True,True,True,True,False,True,True
+298,298,LAUREN UNDERWOOD,2024,federal:house,IL,14,DEMOCRAT,unknown,Won,unknown,0.551006371,T,True,False,False,False,False,False,False
+299,299,"JAMES T. \""JIM\"" MARTER",2024,federal:house,IL,14,REPUBLICAN,unknown,Lost,unknown,0.44893656,F,False,False,False,False,False,False,False
+300,300,MARY E. MILLER,2024,federal:house,IL,15,REPUBLICAN,unknown,Won,unknown,0.995458267,F,False,False,False,False,False,False,False
+301,301,WILLIAM BONNETT,2024,federal:house,IL,15,,unknown,Lost,unknown,0.004541733,F,False,False,False,False,False,False,False
+302,302,DARIN LAHOOD,2024,federal:house,IL,16,REPUBLICAN,unknown,Won,unknown,0.99941178,T,True,False,False,False,False,False,False
+303,303,SCOTT SUMMERS,2024,federal:house,IL,16,,unknown,Lost,unknown,0.00058822,F,False,False,False,False,False,False,False
+304,304,ERIC SORENSEN,2024,federal:house,IL,17,DEMOCRAT,unknown,Won,unknown,0.544263941,T,True,False,False,False,False,False,False
+305,305,JOE MCGRAW,2024,federal:house,IL,17,REPUBLICAN,unknown,Lost,unknown,0.455736059,F,False,False,False,False,False,False,False
+306,306,FRANK J. MRVAN,2024,federal:house,IN,1,DEMOCRAT,unknown,Won,unknown,0.534411864,T,True,False,False,False,False,False,False
+307,307,RANDY NIEMEYER,2024,federal:house,IN,1,REPUBLICAN,unknown,Lost,unknown,0.449475247,T,True,True,True,True,False,True,True
+308,308,RUDY YAKYM III,2024,federal:house,IN,2,REPUBLICAN,unknown,Won,unknown,0.62741584,F,False,False,False,False,False,False,False
+309,309,LORI A. CAMP,2024,federal:house,IN,2,DEMOCRAT,unknown,Lost,unknown,0.346082045,F,False,False,False,False,False,False,False
+310,310,MARLIN A. STUTZMAN,2024,federal:house,IN,3,REPUBLICAN,unknown,Won,unknown,0.650489987,F,False,False,False,False,False,False,False
+311,311,KILEY M. ADOLPH,2024,federal:house,IN,3,DEMOCRAT,unknown,Lost,unknown,0.314153284,F,False,False,False,False,False,False,False
+312,312,JAMES R. BAIRD,2024,federal:house,IN,4,REPUBLICAN,unknown,Won,unknown,0.648322749,F,False,False,False,False,False,False,False
+313,313,DERRICK HOLDER,2024,federal:house,IN,4,DEMOCRAT,unknown,Lost,unknown,0.309309476,T,True,False,False,False,False,False,False
+314,314,VICTORIA SPARTZ,2024,federal:house,IN,5,REPUBLICAN,unknown,Won,unknown,0.565954165,T,True,False,False,False,False,False,False
+315,315,DEBORAH A. PICKETT,2024,federal:house,IN,5,DEMOCRAT,unknown,Lost,unknown,0.380157237,F,False,False,False,False,False,False,False
+316,316,JEFFERSON SHREVE,2024,federal:house,IN,6,REPUBLICAN,unknown,Won,unknown,0.639413291,T,True,False,False,False,False,False,False
+317,317,"CYNTHIA \""CINDE\"" WIRTH",2024,federal:house,IN,6,DEMOCRAT,unknown,Lost,unknown,0.317047147,F,False,False,False,False,False,False,False
+318,318,ANDRé CARSON,2024,federal:house,IN,7,DEMOCRAT,unknown,Won,unknown,0.683403883,T,True,False,False,False,False,False,False
+319,319,JOHN P. SCHMITZ,2024,federal:house,IN,7,REPUBLICAN,unknown,Lost,unknown,0.289518938,F,False,False,False,False,False,False,False
+320,320,MARK MESSMER,2024,federal:house,IN,8,REPUBLICAN,unknown,Won,unknown,0.679600041,T,True,False,False,False,False,False,False
+321,321,ERIK HURT,2024,federal:house,IN,8,DEMOCRAT,unknown,Lost,unknown,0.294503342,T,True,False,False,False,False,False,False
+322,322,ERIN HOUCHIN,2024,federal:house,IN,9,REPUBLICAN,unknown,Won,unknown,0.644661565,T,True,False,False,False,False,False,False
+323,323,"TIMOTHY \""TIM\"" PECK",2024,federal:house,IN,9,DEMOCRAT,unknown,Lost,unknown,0.32799403,F,False,False,False,False,False,False,False
+324,324,TRACEY MANN,2024,federal:house,KS,1,REPUBLICAN,unknown,Won,unknown,0.691369581,T,True,False,False,False,False,False,False
+325,325,PAUL BUSKIRK,2024,federal:house,KS,1,DEMOCRAT,unknown,Lost,unknown,0.308630419,T,True,True,True,False,False,True,False
+326,326,DEREK SCHMIDT,2024,federal:house,KS,2,REPUBLICAN,unknown,Won,unknown,0.570902461,T,True,False,False,False,False,False,False
+327,327,NANCY BOYDA,2024,federal:house,KS,2,DEMOCRAT,unknown,Lost,unknown,0.382100072,T,True,False,False,False,False,False,False
+328,328,SHARICE DAVIDS,2024,federal:house,KS,3,DEMOCRAT,unknown,Won,unknown,0.533570791,T,True,False,False,False,False,False,False
+329,329,PRASANTH REDDY,2024,federal:house,KS,3,REPUBLICAN,unknown,Lost,unknown,0.426025785,T,True,True,True,True,False,False,True
+330,330,RON ESTES,2024,federal:house,KS,4,REPUBLICAN,unknown,Won,unknown,0.650498038,T,True,False,False,False,False,False,False
+331,331,ESAU FREEMAN,2024,federal:house,KS,4,DEMOCRAT,unknown,Lost,unknown,0.349501962,T,True,False,False,False,False,False,False
+332,332,JAMES COMER,2024,federal:house,KY,1,REPUBLICAN,unknown,Won,unknown,0.74715967,T,True,False,False,False,False,False,False
+333,333,ERIN MARSHALL,2024,federal:house,KY,1,DEMOCRAT,unknown,Lost,unknown,0.25284033,T,True,True,True,True,False,False,True
+334,334,BRETT GUTHRIE,2024,federal:house,KY,2,REPUBLICAN,unknown,Won,unknown,0.731017334,T,True,False,False,False,False,False,False
+335,335,HANK LINDERMAN,2024,federal:house,KY,2,DEMOCRAT,unknown,Lost,unknown,0.268982666,T,True,False,False,False,False,False,False
+336,336,MORGAN MCGARVEY,2024,federal:house,KY,3,DEMOCRAT,unknown,Won,unknown,0.619464168,T,True,False,False,False,False,False,False
+337,337,MIKE CRAVEN,2024,federal:house,KY,3,REPUBLICAN,unknown,Lost,unknown,0.38038028,T,False,False,False,False,False,True,False
+338,338,THOMAS MASSIE,2024,federal:house,KY,4,REPUBLICAN,unknown,Won,unknown,0.995953734,T,True,False,False,False,False,False,False
+339,339,BENJAMIN AUGUST MIDDENDORF,2024,federal:house,KY,4,,unknown,Lost,unknown,0.004046266,F,False,False,False,False,False,False,False
+340,340,HAROLD ROGERS,2024,federal:house,KY,5,REPUBLICAN,unknown,Won,unknown,1,F,False,False,False,False,False,False,False
+341,341,ANDY BARR,2024,federal:house,KY,6,REPUBLICAN,unknown,Won,unknown,0.630371656,T,True,False,False,False,False,False,False
+342,342,RANDY CRAVENS,2024,federal:house,KY,6,DEMOCRAT,unknown,Lost,unknown,0.369628344,T,True,True,True,False,False,True,True
+343,343,STEVE SCALISE,2024,federal:house,LA,1,REPUBLICAN,unknown,Won,unknown,0.667678631,T,True,False,False,False,False,False,False
+344,344,MEL MANUEL,2024,federal:house,LA,1,DEMOCRAT,unknown,Lost,unknown,0.240162697,T,True,True,True,True,False,True,True
+345,345,TROY A. CARTER,2024,federal:house,LA,2,DEMOCRAT,unknown,Won,unknown,0.602944453,F,False,False,False,False,False,False,False
+346,346,CHRISTY LYNCH,2024,federal:house,LA,2,REPUBLICAN,unknown,Lost,unknown,0.136445554,T,True,True,True,True,False,True,False
+347,347,CLAY HIGGINS,2024,federal:house,LA,3,REPUBLICAN,unknown,Won,unknown,0.705618027,T,True,False,False,False,False,False,False
+348,348,PRISCILLA GONZALEZ,2024,federal:house,LA,3,DEMOCRAT,unknown,Lost,unknown,0.186583594,T,True,True,True,True,False,False,True
+349,349,MIKE JOHNSON,2024,federal:house,LA,4,REPUBLICAN,unknown,Won,unknown,0.858196625,T,True,False,False,False,False,False,False
+350,350,JOSHUA MOROTT,2024,federal:house,LA,4,REPUBLICAN,unknown,Lost,unknown,0.141803375,F,False,False,False,False,False,False,False
+351,351,JULIA LETLOW,2024,federal:house,LA,5,REPUBLICAN,unknown,Won,unknown,0.628533286,T,True,False,False,False,False,False,False
+352,352,"MICHAEL VALLIEN, JR.",2024,federal:house,LA,5,DEMOCRAT,unknown,Lost,unknown,0.259436425,F,False,False,False,False,False,False,False
+353,353,CLEO FIELDS,2024,federal:house,LA,6,DEMOCRAT,unknown,Won,unknown,0.507791361,T,True,False,False,False,False,False,False
+354,354,ELBERT GUILLORY,2024,federal:house,LA,6,REPUBLICAN,unknown,Lost,unknown,0.377447785,T,True,False,False,False,False,False,False
+355,355,RICHARD E. NEAL,2024,federal:house,MA,1,DEMOCRAT,unknown,Won,unknown,0.580057402,F,False,False,False,False,False,False,False
+356,356,NADIA DONYA MILLERON,2024,federal:house,MA,1,INDEPENDENT,unknown,Lost,unknown,0.346883807,F,False,False,False,False,False,False,False
+357,357,JAMES P. MCGOVERN,2024,federal:house,MA,2,DEMOCRAT,unknown,Won,unknown,0.645818404,F,False,False,False,False,False,False,False
+358,358,CORNELIUS SHEA,2024,federal:house,MA,2,INDEPENDENT,unknown,Lost,unknown,0.292972412,F,False,False,False,False,False,False,False
+359,359,LORI TRAHAN,2024,federal:house,MA,3,DEMOCRAT,unknown,Won,unknown,0.729843001,T,True,False,False,False,False,False,False
+360,360,BLANKS,2024,federal:house,MA,3,,unknown,Lost,unknown,0.251239391,F,False,False,False,False,False,False,False
+361,361,JAKE AUCHINCLOSS,2024,federal:house,MA,4,DEMOCRAT,unknown,Won,unknown,0.703018626,T,True,False,False,False,False,False,False
+362,362,BLANKS,2024,federal:house,MA,4,,unknown,Lost,unknown,0.276625573,F,False,False,False,False,False,False,False
+363,363,KATHERINE M. CLARK,2024,federal:house,MA,5,DEMOCRAT,unknown,Won,unknown,0.755038833,F,False,False,False,False,False,False,False
+364,364,BLANKS,2024,federal:house,MA,5,,unknown,Lost,unknown,0.231263547,F,False,False,False,False,False,False,False
+365,365,SETH MOULTON,2024,federal:house,MA,6,DEMOCRAT,unknown,Won,unknown,0.732343304,T,True,False,False,False,False,False,False
+366,366,BLANKS,2024,federal:house,MA,6,,unknown,Lost,unknown,0.251260338,F,False,False,False,False,False,False,False
+367,367,AYANNA PRESSLEY,2024,federal:house,MA,7,DEMOCRAT,unknown,Won,unknown,0.819558324,T,True,False,False,False,False,False,False
+368,368,BLANKS,2024,federal:house,MA,7,,unknown,Lost,unknown,0.156052035,F,False,False,False,False,False,False,False
+369,369,STEPHEN F. LYNCH,2024,federal:house,MA,8,DEMOCRAT,unknown,Won,unknown,0.667305231,F,False,False,False,False,False,False,False
+370,370,ROBERT G. BURKE,2024,federal:house,MA,8,REPUBLICAN,unknown,Lost,unknown,0.27814776,F,False,False,False,False,False,False,False
+371,371,WILLIAM R. KEATING,2024,federal:house,MA,9,DEMOCRAT,unknown,Won,unknown,0.541674102,F,False,False,False,False,False,False,False
+372,372,DAN SULLIVAN,2024,federal:house,MA,9,REPUBLICAN,unknown,Lost,unknown,0.416734574,T,True,False,False,False,False,False,False
+373,373,ANDY HARRIS,2024,federal:house,MD,1,REPUBLICAN,unknown,Won,unknown,0.594087007,T,True,False,False,False,False,False,False
+374,374,BLANE H. MILLER III,2024,federal:house,MD,1,DEMOCRAT,unknown,Lost,unknown,0.373746021,F,False,False,False,False,False,False,False
+375,375,"JOHN \""JOHNNY O\"" OLSZEWSKI, JR.",2024,federal:house,MD,2,DEMOCRAT,unknown,Won,unknown,0.581602104,F,False,False,False,False,False,False,False
+376,376,KIM KLACIK,2024,federal:house,MD,2,REPUBLICAN,unknown,Lost,unknown,0.395221859,F,False,False,False,False,False,False,False
+377,377,SARAH ELFRETH,2024,federal:house,MD,3,DEMOCRAT,unknown,Won,unknown,0.592888277,T,True,False,False,False,False,False,False
+378,378,ROBERT J. STEINBERGER,2024,federal:house,MD,3,REPUBLICAN,unknown,Lost,unknown,0.378722445,F,False,False,False,False,False,False,False
+379,379,GLENN IVEY,2024,federal:house,MD,4,DEMOCRAT,unknown,Won,unknown,0.884215965,T,True,False,False,False,False,False,False
+380,380,GEORGE MCDERMOTT,2024,federal:house,MD,4,REPUBLICAN,unknown,Lost,unknown,0.112388825,T,True,False,False,False,False,True,True
+381,381,STENY H. HOYER,2024,federal:house,MD,5,DEMOCRAT,unknown,Won,unknown,0.67753695,F,False,False,False,False,False,False,False
+382,382,MICHELLE TALKINGTON,2024,federal:house,MD,5,REPUBLICAN,unknown,Lost,unknown,0.32007654,T,True,True,True,True,False,True,True
+383,383,APRIL MCCLAIN DELANEY,2024,federal:house,MD,6,DEMOCRAT,unknown,Won,unknown,0.530470708,T,True,False,False,False,False,False,False
+384,384,NEIL C. PARROTT,2024,federal:house,MD,6,REPUBLICAN,unknown,Lost,unknown,0.467240537,F,False,False,False,False,False,False,False
+385,385,KWEISI MFUME,2024,federal:house,MD,7,DEMOCRAT,unknown,Won,unknown,0.802548451,T,True,False,False,False,False,False,False
+386,386,SCOTT M. COLLIER,2024,federal:house,MD,7,REPUBLICAN,unknown,Lost,unknown,0.171639605,F,False,False,False,False,False,False,False
+387,387,JAMIE RASKIN,2024,federal:house,MD,8,DEMOCRAT,unknown,Won,unknown,0.768040072,T,True,False,False,False,False,False,False
+388,388,CHERYL RILEY,2024,federal:house,MD,8,REPUBLICAN,unknown,Lost,unknown,0.204619794,T,True,True,True,False,True,False,True
+389,389,CHELLIE PINGREE,2024,federal:house,ME,1,DEMOCRAT,unknown,Won,unknown,0.587027942,T,True,False,False,False,False,False,False
+390,390,RONALD C. RUSSELL,2024,federal:house,ME,1,REPUBLICAN,unknown,Lost,unknown,0.363896788,F,False,False,False,False,False,False,False
+391,391,CONTINUING BALLOTS,2024,federal:house,ME,2,,unknown,Won,unknown,0.492863724,F,False,False,False,False,False,False,False
+392,392,JARED F. GOLDEN,2024,federal:house,ME,2,DEMOCRAT,unknown,Lost,unknown,0.248134751,F,False,False,False,False,False,False,False
+393,393,JACK BERGMAN,2024,federal:house,MI,1,REPUBLICAN,unknown,Won,unknown,0.591520252,T,True,False,False,False,False,False,False
+394,394,CALLIE BARR,2024,federal:house,MI,1,DEMOCRAT,unknown,Lost,unknown,0.379176586,T,True,True,True,True,False,True,True
+395,395,JOHN R. MOOLENAAR,2024,federal:house,MI,2,REPUBLICAN,unknown,Won,unknown,0.651422238,F,False,False,False,False,False,False,False
+396,396,MICHAEL LYNCH,2024,federal:house,MI,2,DEMOCRAT,unknown,Lost,unknown,0.316938514,T,True,True,False,False,False,False,False
+397,397,HILLARY J. SCHOLTEN,2024,federal:house,MI,3,DEMOCRAT,unknown,Won,unknown,0.536559367,F,False,False,False,False,False,False,False
+398,398,PAUL HUDSON,2024,federal:house,MI,3,REPUBLICAN,unknown,Lost,unknown,0.437679787,T,True,False,False,False,False,False,False
+399,399,BILL HUIZENGA,2024,federal:house,MI,4,REPUBLICAN,unknown,Won,unknown,0.550680222,T,True,False,False,False,False,False,False
+400,400,JESSICA SWARTZ,2024,federal:house,MI,4,DEMOCRAT,unknown,Lost,unknown,0.433615849,T,True,False,False,False,True,True,False
+401,401,TIM WALBERG,2024,federal:house,MI,5,REPUBLICAN,unknown,Won,unknown,0.656820599,T,True,False,False,False,False,False,False
+402,402,LIBBI URBAN,2024,federal:house,MI,5,DEMOCRAT,unknown,Lost,unknown,0.327616157,T,True,True,True,True,False,True,False
+403,403,DEBBIE DINGELL,2024,federal:house,MI,6,DEMOCRAT,unknown,Won,unknown,0.620247691,T,True,False,False,False,False,False,False
+404,404,HEATHER SMILEY,2024,federal:house,MI,6,REPUBLICAN,unknown,Lost,unknown,0.350001985,T,True,True,True,False,False,True,True
+405,405,TOM BARRETT,2024,federal:house,MI,7,REPUBLICAN,unknown,Won,unknown,0.502807643,T,True,False,False,False,False,False,False
+406,406,CURTIS HERTEL,2024,federal:house,MI,7,DEMOCRAT,unknown,Lost,unknown,0.465631875,F,False,False,False,False,False,False,False
+407,407,KRISTEN MCDONALD RIVET,2024,federal:house,MI,8,DEMOCRAT,unknown,Won,unknown,0.512525038,T,True,False,False,False,False,False,False
+408,408,PAUL JUNGE,2024,federal:house,MI,8,REPUBLICAN,unknown,Lost,unknown,0.446134087,T,True,True,True,True,False,False,True
+409,409,LISA C. MCCLAIN,2024,federal:house,MI,9,REPUBLICAN,unknown,Won,unknown,0.667594258,F,False,False,False,False,False,False,False
+410,410,CLINTON ST. MOSLEY,2024,federal:house,MI,9,DEMOCRAT,unknown,Lost,unknown,0.295016637,T,True,False,False,False,False,False,False
+411,411,JOHN JAMES,2024,federal:house,MI,10,REPUBLICAN,unknown,Won,unknown,0.511254382,T,True,False,False,False,False,False,False
+412,412,CARL J. MARLINGA,2024,federal:house,MI,10,DEMOCRAT,unknown,Lost,unknown,0.449947214,F,False,False,False,False,False,False,False
+413,413,HALEY M. STEVENS,2024,federal:house,MI,11,DEMOCRAT,unknown,Won,unknown,0.58219568,F,False,False,False,False,False,False,False
+414,414,NICK SOMBERG,2024,federal:house,MI,11,REPUBLICAN,unknown,Lost,unknown,0.396119886,T,True,True,False,False,False,True,True
+415,415,RASHIDA TLAIB,2024,federal:house,MI,12,DEMOCRAT,unknown,Won,unknown,0.696986787,T,True,False,False,False,False,False,False
+416,416,JAMES D. HOOPER,2024,federal:house,MI,12,REPUBLICAN,unknown,Lost,unknown,0.254443616,F,False,False,False,False,False,False,False
+417,417,SHRI THANEDAR,2024,federal:house,MI,13,DEMOCRAT,unknown,Won,unknown,0.686425265,T,True,False,False,False,False,False,False
+418,418,MARTELL D. BIVINGS,2024,federal:house,MI,13,REPUBLICAN,unknown,Lost,unknown,0.245351299,F,False,False,False,False,False,False,False
+419,419,BRAD FINSTAD,2024,federal:house,MN,1,REPUBLICAN,unknown,Won,unknown,0.585085845,T,True,False,False,False,False,False,False
+420,420,RACHEL BOHMAN,2024,federal:house,MN,1,DEMOCRATIC-FARMER-LABOR,unknown,Lost,unknown,0.414127611,T,True,True,True,True,False,True,False
+421,421,ANGIE CRAIG,2024,federal:house,MN,2,DEMOCRAT,unknown,Won,unknown,0.555332971,T,True,False,False,False,False,False,False
+422,422,JOE TEIRAB,2024,federal:house,MN,2,REPUBLICAN,unknown,Lost,unknown,0.420831546,T,True,True,True,True,False,True,True
+423,423,KELLY MORRISON,2024,federal:house,MN,3,DEMOCRATIC-FARMER-LABOR,unknown,Won,unknown,0.584251107,T,True,False,False,False,False,False,False
+424,424,TAD JUDE,2024,federal:house,MN,3,REPUBLICAN,unknown,Lost,unknown,0.414523034,T,True,True,True,True,False,True,True
+425,425,BETTY MCCOLLUM,2024,federal:house,MN,4,DEMOCRAT,unknown,Won,unknown,0.672501613,T,True,False,False,False,False,False,False
+426,426,MAY LOR XIONG,2024,federal:house,MN,4,REPUBLICAN,unknown,Lost,unknown,0.32577283,T,True,True,True,True,False,True,True
+427,427,ILHAN OMAR,2024,federal:house,MN,5,DEMOCRAT,unknown,Won,unknown,0.743678197,T,True,False,False,False,False,False,False
+428,428,DALIA AL-AQIDI,2024,federal:house,MN,5,REPUBLICAN,unknown,Lost,unknown,0.245588198,T,True,True,True,True,False,True,True
+429,429,TOM EMMER,2024,federal:house,MN,6,REPUBLICAN,unknown,Won,unknown,0.624483789,T,True,False,False,False,False,False,False
+430,430,JEANNE HENDRICKS,2024,federal:house,MN,6,DEMOCRATIC-FARMER-LABOR,unknown,Lost,unknown,0.374159656,T,True,True,True,True,False,True,True
+431,431,MICHELLE FISCHBACH,2024,federal:house,MN,7,REPUBLICAN,unknown,Won,unknown,0.704458273,T,True,False,False,False,False,False,False
+432,432,"A J \""JOHN\"" PETERS",2024,federal:house,MN,7,DEMOCRATIC-FARMER-LABOR,unknown,Lost,unknown,0.294432921,F,False,False,False,False,False,False,False
+433,433,PETE STAUBER,2024,federal:house,MN,8,REPUBLICAN,unknown,Won,unknown,0.579920589,T,True,False,False,False,False,False,False
+434,434,JEN SCHULTZ,2024,federal:house,MN,8,DEMOCRATIC-FARMER-LABOR,unknown,Lost,unknown,0.419168608,F,False,False,False,False,False,False,False
+435,435,WESLEY BELL,2024,federal:house,MO,1,DEMOCRAT,unknown,Won,unknown,0.759318504,T,True,False,False,False,False,False,False
+436,436,ANDREW JONES,2024,federal:house,MO,1,REPUBLICAN,unknown,Lost,unknown,0.183727401,T,True,True,True,False,False,True,False
+437,437,ANN WAGNER,2024,federal:house,MO,2,REPUBLICAN,unknown,Won,unknown,0.544930811,T,True,False,False,False,False,False,False
+438,438,RAY HARTMANN,2024,federal:house,MO,2,DEMOCRAT,unknown,Lost,unknown,0.424975256,T,True,True,False,True,False,True,True
+439,439,BOB ONDER,2024,federal:house,MO,3,REPUBLICAN,unknown,Won,unknown,0.613102382,T,True,False,False,False,False,False,False
+440,440,BETHANY E. MANN,2024,federal:house,MO,3,DEMOCRAT,unknown,Lost,unknown,0.352981045,F,False,False,False,False,False,False,False
+441,441,MARK ALFORD,2024,federal:house,MO,4,REPUBLICAN,unknown,Won,unknown,0.710661314,T,True,False,False,False,False,False,False
+442,442,JEANETTE CASS,2024,federal:house,MO,4,DEMOCRAT,unknown,Lost,unknown,0.264066328,T,True,True,True,True,False,True,False
+443,443,EMANUEL CLEAVER,2024,federal:house,MO,5,DEMOCRAT,unknown,Won,unknown,0.602237225,T,True,False,False,False,False,False,False
+444,444,SEAN E. SMITH,2024,federal:house,MO,5,REPUBLICAN,unknown,Lost,unknown,0.364406244,F,False,False,False,False,False,False,False
+445,445,SAM GRAVES,2024,federal:house,MO,6,REPUBLICAN,unknown,Won,unknown,0.706876056,T,True,False,False,False,False,False,False
+446,446,PAM MAY,2024,federal:house,MO,6,DEMOCRAT,unknown,Lost,unknown,0.269197145,T,True,True,False,False,False,False,False
+447,447,ERIC BURLISON,2024,federal:house,MO,7,REPUBLICAN,unknown,Won,unknown,0.715558298,T,True,False,False,False,False,False,False
+448,448,MISSI HESKETH,2024,federal:house,MO,7,DEMOCRAT,unknown,Lost,unknown,0.262743702,T,True,False,False,False,False,False,False
+449,449,JASON SMITH,2024,federal:house,MO,8,REPUBLICAN,unknown,Won,unknown,0.761798441,T,True,False,False,False,False,False,False
+450,450,RANDI MCCALLIAN,2024,federal:house,MO,8,DEMOCRAT,unknown,Lost,unknown,0.218075964,T,True,True,True,True,False,True,True
+451,451,TRENT KELLY,2024,federal:house,MS,1,REPUBLICAN,unknown,Won,unknown,0.698091706,T,True,False,False,False,False,False,False
+452,452,DIANNE DODSON BLACK,2024,federal:house,MS,1,DEMOCRAT,unknown,Lost,unknown,0.301908294,F,False,False,False,False,False,False,False
+453,453,BENNIE G. THOMPSON,2024,federal:house,MS,2,DEMOCRAT,unknown,Won,unknown,0.620151931,F,False,False,False,False,False,False,False
+454,454,RON ELLER,2024,federal:house,MS,2,REPUBLICAN,unknown,Lost,unknown,0.379848069,T,True,True,True,True,False,False,True
+455,455,MICHAEL GUEST,2024,federal:house,MS,3,REPUBLICAN,unknown,Won,unknown,1,T,True,False,False,False,False,False,False
+456,456,MIKE EZELL,2024,federal:house,MS,4,REPUBLICAN,unknown,Won,unknown,0.739498601,T,True,False,False,False,False,False,False
+457,457,CRAIG ELLIOT RAYBON,2024,federal:house,MS,4,DEMOCRAT,unknown,Lost,unknown,0.260501399,F,False,False,False,False,False,False,False
+458,458,RYAN K. ZINKE,2024,federal:house,MT,1,REPUBLICAN,unknown,Won,unknown,0.522949985,F,False,False,False,False,False,False,False
+459,459,MONICA TRANEL,2024,federal:house,MT,1,DEMOCRAT,unknown,Lost,unknown,0.446162487,T,True,False,False,False,False,False,False
+460,460,TROY DOWNING,2024,federal:house,MT,2,REPUBLICAN,unknown,Won,unknown,0.659899472,T,True,False,False,False,False,False,False
+461,461,JOHN B. DRISCOLL,2024,federal:house,MT,2,DEMOCRAT,unknown,Lost,unknown,0.340100528,F,False,False,False,False,False,False,False
+462,462,DONALD G. DAVIS,2024,federal:house,NC,1,DEMOCRAT,unknown,Won,unknown,0.495161085,F,False,False,False,False,False,False,False
+463,463,LAURIE BUCKHOUT,2024,federal:house,NC,1,REPUBLICAN,unknown,Lost,unknown,0.47840159,T,True,True,True,True,False,True,True
+464,464,DEBORAH K. ROSS,2024,federal:house,NC,2,DEMOCRAT,unknown,Won,unknown,0.662517231,F,False,False,False,False,False,False,False
+465,465,ALAN D. SWAIN,2024,federal:house,NC,2,REPUBLICAN,unknown,Lost,unknown,0.316050868,F,False,False,False,False,False,False,False
+466,466,GREGORY F. MURPHY,2024,federal:house,NC,3,REPUBLICAN,unknown,Won,unknown,0.773828781,F,False,False,False,False,False,False,False
+467,467,GHEORGHE CORMOS,2024,federal:house,NC,3,LIBERTARIAN,unknown,Lost,unknown,0.226171219,F,False,False,False,False,False,False,False
+468,468,VALERIE P. FOUSHEE,2024,federal:house,NC,4,DEMOCRAT,unknown,Won,unknown,0.718466346,F,False,False,False,False,False,False,False
+469,469,ERIC BLANKENBURG,2024,federal:house,NC,4,REPUBLICAN,unknown,Lost,unknown,0.261402118,T,True,True,True,True,False,True,True
+470,470,VIRGINIA FOXX,2024,federal:house,NC,5,REPUBLICAN,unknown,Won,unknown,0.594728147,T,True,False,False,False,False,False,False
+471,471,CHUCK HUBBARD,2024,federal:house,NC,5,DEMOCRAT,unknown,Lost,unknown,0.405271853,T,True,True,True,True,False,True,False
+472,472,ADDISON MCDOWELL,2024,federal:house,NC,6,REPUBLICAN,unknown,Won,unknown,0.691637021,T,True,False,False,False,False,False,False
+473,473,KEVIN E. HAYES,2024,federal:house,NC,6,CONSTITUTION,unknown,Lost,unknown,0.308362979,F,False,False,False,False,False,False,False
+474,474,DAVID ROUZER,2024,federal:house,NC,7,REPUBLICAN,unknown,Won,unknown,0.585933283,T,True,False,False,False,False,False,False
+475,475,MARLANDO D. PRIDGEN,2024,federal:house,NC,7,DEMOCRAT,unknown,Lost,unknown,0.414066717,F,False,False,False,False,False,False,False
+476,476,MARK HARRIS,2024,federal:house,NC,8,REPUBLICAN,unknown,Won,unknown,0.59607992,T,True,False,False,False,False,False,False
+477,477,JUSTIN E. DUES,2024,federal:house,NC,8,DEMOCRAT,unknown,Lost,unknown,0.40392008,F,False,False,False,False,False,False,False
+478,478,RICHARD HUDSON,2024,federal:house,NC,9,REPUBLICAN,unknown,Won,unknown,0.562999059,T,True,False,False,False,False,False,False
+479,479,NIGEL WILLIAM BRISTOW,2024,federal:house,NC,9,DEMOCRAT,unknown,Lost,unknown,0.377541365,T,True,True,True,False,False,False,False
+480,480,PAT HARRIGAN,2024,federal:house,NC,10,REPUBLICAN,unknown,Won,unknown,0.574912404,T,True,False,False,False,False,False,False
+481,481,"RALPH R. SCOTT, JR.",2024,federal:house,NC,10,DEMOCRAT,unknown,Lost,unknown,0.382062725,F,False,False,False,False,False,False,False
+482,482,CHUCK EDWARDS,2024,federal:house,NC,11,REPUBLICAN,unknown,Won,unknown,0.567706226,T,True,False,False,False,False,False,False
+483,483,CALEB RUDOW,2024,federal:house,NC,11,DEMOCRAT,unknown,Lost,unknown,0.432293774,T,True,False,False,False,False,False,False
+484,484,ALMA S. ADAMS,2024,federal:house,NC,12,DEMOCRAT,unknown,Won,unknown,0.740194723,F,False,False,False,False,False,False,False
+485,485,ADDUL ALI,2024,federal:house,NC,12,REPUBLICAN,unknown,Lost,unknown,0.259805277,T,True,False,False,False,False,False,False
+486,486,BRAD KNOTT,2024,federal:house,NC,13,REPUBLICAN,unknown,Won,unknown,0.586428073,T,True,False,False,False,False,False,False
+487,487,FRANK PIERCE,2024,federal:house,NC,13,DEMOCRAT,unknown,Lost,unknown,0.413571927,T,True,False,False,False,False,False,False
+488,488,TIM MOORE,2024,federal:house,NC,14,REPUBLICAN,unknown,Won,unknown,0.580644277,T,True,False,False,False,False,False,False
+489,489,PAM GENANT,2024,federal:house,NC,14,DEMOCRAT,unknown,Lost,unknown,0.419355723,T,True,True,True,True,False,True,True
+490,490,JULIE FEDORCHAK,2024,federal:house,ND,0,REPUBLICAN,unknown,Won,unknown,0.692356867,T,True,False,False,False,False,False,False
+491,491,TRYGVE HAMMER,2024,federal:house,ND,0,DEMOCRATIC-NONPARTISAN LEAGUE,unknown,Lost,unknown,0.303599074,T,True,False,False,False,False,False,False
+492,492,MIKE FLOOD,2024,federal:house,NE,1,REPUBLICAN,unknown,Won,unknown,0.601040835,T,True,False,False,False,False,False,False
+493,493,CAROL BLOOD,2024,federal:house,NE,1,DEMOCRAT,unknown,Lost,unknown,0.398959165,T,True,False,False,False,False,False,False
+494,494,DON BACON,2024,federal:house,NE,2,REPUBLICAN,unknown,Won,unknown,0.509265117,T,True,False,False,False,False,False,False
+495,495,TONY VARGAS,2024,federal:house,NE,2,DEMOCRAT,unknown,Lost,unknown,0.490734883,T,True,False,False,False,False,False,False
+496,496,ADRIAN SMITH,2024,federal:house,NE,3,REPUBLICAN,unknown,Won,unknown,0.804183401,T,True,False,False,False,False,False,False
+497,497,DANIEL EBERS,2024,federal:house,NE,3,DEMOCRAT,unknown,Lost,unknown,0.195816599,T,True,True,False,False,False,True,False
+498,498,CHRIS PAPPAS,2024,federal:house,NH,1,DEMOCRAT,unknown,Won,unknown,0.524716609,T,True,False,False,False,False,False,False
+499,499,RUSSELL PRESCOTT,2024,federal:house,NH,1,REPUBLICAN,unknown,Lost,unknown,0.446358525,T,False,False,False,False,False,False,False
+500,500,MAGGIE GOODLANDER,2024,federal:house,NH,2,DEMOCRAT,unknown,Won,unknown,0.510687122,T,True,False,False,False,False,False,False
+501,501,LILY TANG WILLIAMS,2024,federal:house,NH,2,REPUBLICAN,unknown,Lost,unknown,0.453183213,T,True,True,True,True,False,False,False
+502,502,DONALD NORCROSS,2024,federal:house,NJ,1,DEMOCRAT,unknown,Won,unknown,0.578319393,T,True,False,False,False,False,False,False
+503,503,"THEODORE \""TEDDY\"" LIDDELL",2024,federal:house,NJ,1,REPUBLICAN,unknown,Lost,unknown,0.399905833,F,False,False,False,False,False,False,False
+504,504,JEFFERSON VAN DREW,2024,federal:house,NJ,2,REPUBLICAN,unknown,Won,unknown,0.58109359,F,False,False,False,False,False,False,False
+505,505,JOSEPH F. SALERNO,2024,federal:house,NJ,2,DEMOCRAT,unknown,Lost,unknown,0.412025725,F,False,False,False,False,False,False,False
+506,506,HERB CONAWAY,2024,federal:house,NJ,3,DEMOCRAT,unknown,Won,unknown,0.532391352,T,True,False,False,False,False,False,False
+507,507,RAJESH MOHAN,2024,federal:house,NJ,3,REPUBLICAN,unknown,Lost,unknown,0.44653793,T,True,False,False,False,False,False,False
+508,508,CHRISTOPHER H. SMITH,2024,federal:house,NJ,4,REPUBLICAN,unknown,Won,unknown,0.673853709,F,False,False,False,False,False,False,False
+509,509,MATTHEW JENKINS,2024,federal:house,NJ,4,DEMOCRAT,unknown,Lost,unknown,0.316575687,T,True,False,False,False,False,False,False
+510,510,JOSH GOTTHEIMER,2024,federal:house,NJ,5,DEMOCRAT,unknown,Won,unknown,0.545600947,T,True,False,False,False,False,False,False
+511,511,MARY JO GUINCHARD,2024,federal:house,NJ,5,REPUBLICAN,unknown,Lost,unknown,0.432814247,F,False,False,False,False,False,False,False
+512,512,"FRANK PALLONE, JR.",2024,federal:house,NJ,6,DEMOCRAT,unknown,Won,unknown,0.560703501,F,False,False,False,False,False,False,False
+513,513,SCOTT FEGLER,2024,federal:house,NJ,6,REPUBLICAN,unknown,Lost,unknown,0.40344638,T,True,True,True,True,False,True,True
+514,514,"THOMAS H. KEAN, JR.",2024,federal:house,NJ,7,REPUBLICAN,unknown,Won,unknown,0.51769132,F,False,False,False,False,False,False,False
+515,515,SUE ALTMAN,2024,federal:house,NJ,7,DEMOCRAT,unknown,Lost,unknown,0.463666962,T,True,False,False,False,False,True,True
+516,516,ROBERT MENENDEZ,2024,federal:house,NJ,8,DEMOCRAT,unknown,Won,unknown,0.591741417,F,False,False,False,False,False,False,False
+517,517,ANTHONY VALDES,2024,federal:house,NJ,8,REPUBLICAN,unknown,Lost,unknown,0.346362412,T,True,False,True,False,False,True,False
+518,518,NELLIE POU,2024,federal:house,NJ,9,DEMOCRAT,unknown,Won,unknown,0.507810889,T,True,False,False,False,False,False,False
+519,519,BILLY PREMPEH,2024,federal:house,NJ,9,REPUBLICAN,unknown,Lost,unknown,0.458883403,T,True,True,True,True,False,True,True
+520,520,LAMONICA MCIVER,2024,federal:house,NJ,10,DEMOCRAT,unknown,Won,unknown,0.744223701,T,True,False,False,False,False,False,False
+521,521,CARMEN BUCCO,2024,federal:house,NJ,10,REPUBLICAN,unknown,Lost,unknown,0.222445283,T,True,True,False,False,False,True,False
+522,522,MIKIE SHERRILL,2024,federal:house,NJ,11,DEMOCRAT,unknown,Won,unknown,0.565288723,T,True,False,False,False,False,False,False
+523,523,JOSEPH BELNOME,2024,federal:house,NJ,11,REPUBLICAN,unknown,Lost,unknown,0.417918939,T,True,True,True,True,False,True,True
+524,524,BONNIE WATSON COLEMAN,2024,federal:house,NJ,12,DEMOCRAT,unknown,Won,unknown,0.612046882,T,True,False,False,False,False,False,False
+525,525,DARIUS MAYFIELD,2024,federal:house,NJ,12,REPUBLICAN,unknown,Lost,unknown,0.364428278,T,True,True,True,True,False,True,True
+526,526,MELANIE A. STANSBURY,2024,federal:house,NM,1,DEMOCRAT,unknown,Won,unknown,0.563686546,F,False,False,False,False,False,False,False
+527,527,STEVE JONES,2024,federal:house,NM,1,REPUBLICAN,unknown,Lost,unknown,0.436313454,T,True,False,False,False,False,False,False
+528,528,GABE VASQUEZ,2024,federal:house,NM,2,DEMOCRAT,unknown,Won,unknown,0.520789833,T,True,False,False,False,False,False,False
+529,529,YVETTE HERRELL,2024,federal:house,NM,2,REPUBLICAN,unknown,Lost,unknown,0.479210167,T,True,True,True,True,False,True,False
+530,530,TERESA LEGER FERNANDEZ,2024,federal:house,NM,3,DEMOCRAT,unknown,Won,unknown,0.562852992,T,True,False,False,False,False,False,False
+531,531,SHARON E. CLAHCHISCHILLIAGE,2024,federal:house,NM,3,REPUBLICAN,unknown,Lost,unknown,0.437147008,F,False,False,False,False,False,False,False
+532,532,DINA TITUS,2024,federal:house,NV,1,DEMOCRAT,unknown,Won,unknown,0.519930381,T,True,False,False,False,False,False,False
+533,533,MARK ROBERTSON,2024,federal:house,NV,1,REPUBLICAN,unknown,Lost,unknown,0.444875952,T,True,True,True,True,False,True,True
+534,534,MARK E. AMODEI,2024,federal:house,NV,2,REPUBLICAN,unknown,Won,unknown,0.550369885,F,False,False,False,False,False,False,False
+535,535,GREG KIDD,2024,federal:house,NV,2,NO POLITICAL PARTY,unknown,Lost,unknown,0.360534956,F,False,False,False,False,False,False,False
+536,536,SUSIE LEE,2024,federal:house,NV,3,DEMOCRAT,unknown,Won,unknown,0.513722247,T,True,False,False,False,False,False,False
+537,537,DREW JOHNSON,2024,federal:house,NV,3,REPUBLICAN,unknown,Lost,unknown,0.486277753,T,True,False,False,False,False,False,False
+538,538,STEVEN HORSFORD,2024,federal:house,NV,4,DEMOCRAT,unknown,Won,unknown,0.526558822,T,True,False,False,False,False,False,False
+539,539,JOHN LEE,2024,federal:house,NV,4,REPUBLICAN,unknown,Lost,unknown,0.445690325,T,True,False,False,False,False,False,False
+540,540,NICK LALOTA,2024,federal:house,NY,1,REPUBLICAN,unknown,Won,unknown,0.489641551,T,True,False,False,False,False,False,False
+541,541,JOHN P. AVLON,2024,federal:house,NY,1,DEMOCRAT,unknown,Lost,unknown,0.442933431,F,False,False,False,False,False,False,False
+542,542,ANDREW R. GARBARINO,2024,federal:house,NY,2,REPUBLICAN,unknown,Won,unknown,0.531830391,F,False,False,False,False,False,False,False
+543,543,ROB LUBIN,2024,federal:house,NY,2,DEMOCRAT,unknown,Lost,unknown,0.383117553,T,True,True,True,True,False,True,True
+544,544,THOMAS R. SUOZZI,2024,federal:house,NY,3,DEMOCRAT,unknown,Won,unknown,0.510819995,F,False,False,False,False,False,False,False
+545,545,"MICHAEL J. LIPETRI, JR.",2024,federal:house,NY,3,REPUBLICAN,unknown,Lost,unknown,0.443914475,F,False,False,False,False,False,False,False
+546,546,LAURA A. GILLEN,2024,federal:house,NY,4,DEMOCRAT,unknown,Won,unknown,0.507482997,F,False,False,False,False,False,False,False
+547,547,ANTHONY D’ESPOSITO,2024,federal:house,NY,4,REPUBLICAN,unknown,Lost,unknown,0.45175198,F,False,False,False,False,False,False,False
+548,548,GREGORY W. MEEKS,2024,federal:house,NY,5,DEMOCRAT,unknown,Won,unknown,0.726796872,F,False,False,False,False,False,False,False
+549,549,PAUL KING,2024,federal:house,NY,5,REPUBLICAN,unknown,Lost,unknown,0.244627507,T,False,False,False,False,False,False,False
+550,550,GRACE MENG,2024,federal:house,NY,6,DEMOCRAT,unknown,Won,unknown,0.604987669,T,True,False,False,False,False,False,False
+551,551,THOMAS J. ZMICH,2024,federal:house,NY,6,REPUBLICAN,unknown,Lost,unknown,0.350566209,F,False,False,False,False,False,False,False
+552,552,NYDIA M. VELáZQUEZ,2024,federal:house,NY,7,DEMOCRAT,unknown,Won,unknown,0.65443978,F,False,False,False,False,False,False,False
+553,553,BILL KREGLER,2024,federal:house,NY,7,REPUBLICAN,unknown,Lost,unknown,0.194121175,F,False,False,False,False,False,False,False
+554,554,HAKEEM S. JEFFRIES,2024,federal:house,NY,8,DEMOCRAT,unknown,Won,unknown,0.75081768,F,False,False,False,False,False,False,False
+555,555,JOHN J. DELANEY,2024,federal:house,NY,8,REPUBLICAN,unknown,Lost,unknown,0.216122143,F,False,False,False,False,False,False,False
+556,556,YVETTE D. CLARKE,2024,federal:house,NY,9,DEMOCRAT,unknown,Won,unknown,0.734637701,F,False,False,False,False,False,False,False
+557,557,MENACHEM M. RAITPORT,2024,federal:house,NY,9,REPUBLICAN,unknown,Lost,unknown,0.218253228,F,False,False,False,False,False,False,False
+558,558,DANIEL S. GOLDMAN,2024,federal:house,NY,10,DEMOCRAT,unknown,Won,unknown,0.81006144,F,False,False,False,False,False,False,False
+559,559,ALEXANDER DODENHOFF,2024,federal:house,NY,10,REPUBLICAN,unknown,Lost,unknown,0.147531388,F,False,False,False,False,False,False,False
+560,560,NICOLE MALLIOTAKIS,2024,federal:house,NY,11,REPUBLICAN,unknown,Won,unknown,0.584977534,T,True,True,True,True,False,False,False
+561,561,ANDREA S. MORSE,2024,federal:house,NY,11,DEMOCRAT,unknown,Lost,unknown,0.357569691,F,False,False,False,False,False,False,False
+562,562,JERROLD NADLER,2024,federal:house,NY,12,DEMOCRAT,unknown,Won,unknown,0.750296278,F,False,False,False,False,False,False,False
+563,563,MICHAEL K. ZUMBLUSKAS,2024,federal:house,NY,12,REPUBLICAN,unknown,Lost,unknown,0.194398494,F,False,False,False,False,False,False,False
+564,564,ADRIANO ESPAILLAT,2024,federal:house,NY,13,DEMOCRAT,unknown,Won,unknown,0.830239345,T,True,False,False,False,False,False,False
+565,565,RUBEN D. VARGAS,2024,federal:house,NY,13,REPUBLICAN,unknown,Lost,unknown,0.146460979,F,False,False,False,False,False,False,False
+566,566,ALEXANDRIA OCASIO-CORTEZ,2024,federal:house,NY,14,DEMOCRAT,unknown,Won,unknown,0.61530192,T,True,True,True,True,False,False,True
+567,567,TINA FORTE,2024,federal:house,NY,14,REPUBLICAN,unknown,Lost,unknown,0.281260549,T,True,True,True,True,False,True,False
+568,568,RITCHIE TORRES,2024,federal:house,NY,15,DEMOCRAT,unknown,Won,unknown,0.762102925,T,True,False,False,False,False,False,False
+569,569,GONZALO DURAN,2024,federal:house,NY,15,REPUBLICAN,unknown,Lost,unknown,0.189917882,T,True,False,False,False,False,False,False
+570,570,GEORGE S. LATIMER,2024,federal:house,NY,16,DEMOCRAT,unknown,Won,unknown,0.713480771,F,False,False,False,False,False,False,False
+571,571,MIRIAM LEVITT FLISSER,2024,federal:house,NY,16,REPUBLICAN,unknown,Lost,unknown,0.283231556,F,False,False,False,False,False,False,False
+572,572,MICHAEL LAWLER,2024,federal:house,NY,17,REPUBLICAN,unknown,Won,unknown,0.476733033,F,False,False,False,False,False,False,False
+573,573,MONDAIRE L. JONES,2024,federal:house,NY,17,DEMOCRAT,unknown,Lost,unknown,0.458222225,F,False,False,False,False,False,False,False
+574,574,PATRICK RYAN,2024,federal:house,NY,18,DEMOCRAT,unknown,Won,unknown,0.522318067,F,False,False,False,False,False,False,False
+575,575,ALISON ESPOSITO,2024,federal:house,NY,18,REPUBLICAN,unknown,Lost,unknown,0.381808452,T,True,True,True,True,False,True,True
+576,576,JOSH RILEY,2024,federal:house,NY,19,DEMOCRAT,unknown,Won,unknown,0.450648349,T,True,True,True,True,False,False,True
+577,577,MARCUS J. MOLINARO,2024,federal:house,NY,19,REPUBLICAN,unknown,Lost,unknown,0.434620491,F,False,False,False,False,False,False,False
+578,578,PAUL TONKO,2024,federal:house,NY,20,DEMOCRAT,unknown,Won,unknown,0.551263602,T,True,True,True,True,False,False,False
+579,579,KEVIN M. WALTZ,2024,federal:house,NY,20,REPUBLICAN,unknown,Lost,unknown,0.334600834,F,False,False,False,False,False,False,False
+580,580,ELISE M. STEFANIK,2024,federal:house,NY,21,REPUBLICAN,unknown,Won,unknown,0.560647086,F,False,False,False,False,False,False,False
+581,581,PAULA COLLINS,2024,federal:house,NY,21,DEMOCRAT,unknown,Lost,unknown,0.347891808,T,True,True,True,True,False,True,True
+582,582,JOHN W. MANNION,2024,federal:house,NY,22,DEMOCRAT,unknown,Won,unknown,0.499994394,F,False,False,False,False,False,False,False
+583,583,BRANDON WILLIAMS,2024,federal:house,NY,22,REPUBLICAN,unknown,Lost,unknown,0.398220812,T,True,True,True,True,False,False,True
+584,584,NICHOLAS A. LANGWORTHY,2024,federal:house,NY,23,REPUBLICAN,unknown,Won,unknown,0.569572464,F,False,False,False,False,False,False,False
+585,585,THOMAS A. CARLE,2024,federal:house,NY,23,DEMOCRAT,unknown,Lost,unknown,0.341850509,F,False,False,False,False,False,False,False
+586,586,CLAUDIA TENNEY,2024,federal:house,NY,24,REPUBLICAN,unknown,Won,unknown,0.57616574,T,True,True,True,True,False,False,True
+587,587,DAVID WAGENHAUSER,2024,federal:house,NY,24,DEMOCRAT,unknown,Lost,unknown,0.343112405,T,True,True,True,True,False,True,False
+588,588,JOSEPH D. MORELLE,2024,federal:house,NY,25,DEMOCRAT,unknown,Won,unknown,0.55598628,F,False,False,False,False,False,False,False
+589,589,GREGG A. SADWICK,2024,federal:house,NY,25,REPUBLICAN,unknown,Lost,unknown,0.391519911,F,False,False,False,False,False,False,False
+590,590,TIMOTHY M. KENNEDY,2024,federal:house,NY,26,DEMOCRAT,unknown,Won,unknown,0.593419316,F,False,False,False,False,False,False,False
+591,591,ANTHONY G. MARECKI,2024,federal:house,NY,26,REPUBLICAN,unknown,Lost,unknown,0.295779075,F,False,False,False,False,False,False,False
+592,592,GREG LANDSMAN,2024,federal:house,OH,1,DEMOCRAT,unknown,Won,unknown,0.545830792,T,True,False,False,False,False,False,False
+593,593,ORLANDO SONZA,2024,federal:house,OH,1,REPUBLICAN,unknown,Lost,unknown,0.454169208,T,False,False,False,False,False,False,False
+594,594,DAVID J. TAYLOR,2024,federal:house,OH,2,REPUBLICAN,unknown,Won,unknown,0.735598548,F,False,False,False,False,False,False,False
+595,595,SAMANTHA MEADOWS,2024,federal:house,OH,2,DEMOCRAT,unknown,Lost,unknown,0.264390482,T,True,True,True,True,False,False,False
+596,596,JOYCE BEATTY,2024,federal:house,OH,3,DEMOCRAT,unknown,Won,unknown,0.707408736,T,True,False,False,False,False,False,False
+597,597,MICHAEL YOUNG,2024,federal:house,OH,3,REPUBLICAN,unknown,Lost,unknown,0.292591264,T,True,False,False,False,False,False,False
+598,598,JIM JORDAN,2024,federal:house,OH,4,REPUBLICAN,unknown,Won,unknown,0.684608294,T,True,False,False,False,False,False,False
+599,599,TAMIE WILSON,2024,federal:house,OH,4,DEMOCRAT,unknown,Lost,unknown,0.315391706,T,True,False,False,False,False,True,True
+600,600,ROBERT E. LATTA,2024,federal:house,OH,5,REPUBLICAN,unknown,Won,unknown,0.675104382,F,False,False,False,False,False,False,False
+601,601,KEITH MUNDY,2024,federal:house,OH,5,DEMOCRAT,unknown,Lost,unknown,0.324895618,T,True,False,False,False,False,False,False
+602,602,MICHAEL A. RULLI,2024,federal:house,OH,6,REPUBLICAN,unknown,Won,unknown,0.667417713,F,False,False,False,False,False,False,False
+603,603,MICHAEL L. KRIPCHAK,2024,federal:house,OH,6,DEMOCRAT,unknown,Lost,unknown,0.332582287,F,False,False,False,False,False,False,False
+604,604,MAX L. MILLER,2024,federal:house,OH,7,REPUBLICAN,unknown,Won,unknown,0.510761269,F,False,False,False,False,False,False,False
+605,605,MATT DIEMER,2024,federal:house,OH,7,DEMOCRAT,unknown,Lost,unknown,0.361197489,F,False,False,False,False,False,False,False
+606,606,WARREN DAVIDSON,2024,federal:house,OH,8,REPUBLICAN,unknown,Won,unknown,0.628102124,T,True,False,False,False,False,False,False
+607,607,VANESSA ENOCH,2024,federal:house,OH,8,DEMOCRAT,unknown,Lost,unknown,0.371897876,T,True,False,False,False,False,True,True
+608,608,MARCY KAPTUR,2024,federal:house,OH,9,DEMOCRAT,unknown,Won,unknown,0.482677008,T,True,False,False,False,False,False,False
+609,609,DEREK MERRIN,2024,federal:house,OH,9,REPUBLICAN,unknown,Lost,unknown,0.476328309,T,True,False,False,False,False,False,False
+610,610,MICHAEL R. TURNER,2024,federal:house,OH,10,REPUBLICAN,unknown,Won,unknown,0.576391923,F,False,False,False,False,False,False,False
+611,611,AMY COX,2024,federal:house,OH,10,DEMOCRAT,unknown,Lost,unknown,0.392236194,T,True,True,True,False,False,False,False
+612,612,SHONTEL M. BROWN,2024,federal:house,OH,11,DEMOCRAT,unknown,Won,unknown,0.78330958,F,False,False,False,False,False,False,False
+613,613,ALAN RAPOPORT,2024,federal:house,OH,11,REPUBLICAN,unknown,Lost,unknown,0.196400287,T,True,True,True,False,False,True,True
+614,614,TROY BALDERSON,2024,federal:house,OH,12,REPUBLICAN,unknown,Won,unknown,0.685055814,T,True,False,False,False,False,False,False
+615,615,JERRAD CHRISTIAN,2024,federal:house,OH,12,DEMOCRAT,unknown,Lost,unknown,0.314944186,T,True,False,True,True,False,False,True
+616,616,EMILIA STRONG SYKES,2024,federal:house,OH,13,DEMOCRAT,unknown,Won,unknown,0.511053599,F,False,False,False,False,False,False,False
+617,617,KEVIN COUGHLIN,2024,federal:house,OH,13,REPUBLICAN,unknown,Lost,unknown,0.488946401,T,True,False,False,False,False,False,False
+618,618,DAVID P. JOYCE,2024,federal:house,OH,14,REPUBLICAN,unknown,Won,unknown,0.634158986,F,False,False,False,False,False,False,False
+619,619,BRIAN BOB KENDERES,2024,federal:house,OH,14,DEMOCRAT,unknown,Lost,unknown,0.365841014,F,False,False,False,False,False,False,False
+620,620,MIKE CAREY,2024,federal:house,OH,15,REPUBLICAN,unknown,Won,unknown,0.564596879,T,True,False,False,False,False,False,False
+621,621,ADAM MILLER,2024,federal:house,OH,15,DEMOCRAT,unknown,Lost,unknown,0.435403121,T,True,True,True,True,False,True,True
+622,622,KEVIN HERN,2024,federal:house,OK,1,REPUBLICAN,unknown,Won,unknown,0.604260466,T,True,False,False,False,False,False,False
+623,623,DENNIS BAKER,2024,federal:house,OK,1,DEMOCRAT,unknown,Lost,unknown,0.345288495,T,True,False,False,False,False,True,False
+624,624,JOSH BRECHEEN,2024,federal:house,OK,2,REPUBLICAN,unknown,Won,unknown,0.74175843,T,True,False,False,False,False,False,False
+625,625,BRANDON WADE,2024,federal:house,OK,2,DEMOCRAT,unknown,Lost,unknown,0.214441243,T,True,False,False,False,False,False,False
+626,626,FRANK D. LUCAS,2024,federal:house,OK,3,REPUBLICAN,unknown,Won,unknown,-1,F,False,False,False,False,False,False,False
+627,627,TOM COLE,2024,federal:house,OK,4,REPUBLICAN,unknown,Won,unknown,0.652462044,T,True,False,False,False,False,False,False
+628,628,MARY BRANNON,2024,federal:house,OK,4,DEMOCRAT,unknown,Lost,unknown,0.282703533,T,True,True,True,True,False,True,False
+629,629,STEPHANIE I. BICE,2024,federal:house,OK,5,REPUBLICAN,unknown,Won,unknown,0.606932919,F,False,False,False,False,False,False,False
+630,630,MADISON HORN,2024,federal:house,OK,5,DEMOCRAT,unknown,Lost,unknown,0.393067081,T,False,False,False,False,True,True,True
+631,631,SUZANNE BONAMICI,2024,federal:house,OR,1,DEMOCRAT,unknown,Won,unknown,0.686256183,T,True,False,False,False,False,False,False
+632,632,BOB TODD,2024,federal:house,OR,1,REPUBLICAN,unknown,Lost,unknown,0.280995821,T,True,False,True,False,False,False,False
+633,633,CLIFF BENTZ,2024,federal:house,OR,2,REPUBLICAN,unknown,Won,unknown,0.63899866,T,True,False,False,False,False,False,False
+634,634,DAN RUBY,2024,federal:house,OR,2,DEMOCRAT,unknown,Lost,unknown,0.328138292,T,True,True,True,True,False,True,True
+635,635,MAXINE E. DEXTER,2024,federal:house,OR,3,DEMOCRAT,unknown,Won,unknown,0.677111215,F,False,False,False,False,False,False,False
+636,636,JOANNA HARBOUR,2024,federal:house,OR,3,REPUBLICAN,unknown,Lost,unknown,0.252248265,T,True,True,True,True,False,True,True
+637,637,VAL T. HOYLE,2024,federal:house,OR,4,DEMOCRAT,unknown,Won,unknown,0.517106913,F,False,False,False,False,False,False,False
+638,638,MONIQUE DESPAIN,2024,federal:house,OR,4,REPUBLICAN,unknown,Lost,unknown,0.43940174,T,True,True,True,True,False,False,True
+639,639,JANELLE S. BYNUM,2024,federal:house,OR,5,DEMOCRAT,unknown,Won,unknown,0.476871014,F,False,False,False,False,False,False,False
+640,640,LORI CHAVEZ-DEREMER,2024,federal:house,OR,5,REPUBLICAN,unknown,Lost,unknown,0.449596679,T,True,True,True,True,False,True,True
+641,641,ANDREA SALINAS,2024,federal:house,OR,6,DEMOCRAT,unknown,Won,unknown,0.533434592,T,True,False,False,False,False,False,False
+642,642,MIKE ERICKSON,2024,federal:house,OR,6,REPUBLICAN,unknown,Lost,unknown,0.464907909,T,True,False,False,False,False,False,False
+643,643,BRIAN K. FITZPATRICK,2024,federal:house,PA,1,REPUBLICAN,unknown,Won,unknown,0.564030969,F,False,False,False,False,False,False,False
+644,644,ASHLEY EHASZ,2024,federal:house,PA,1,DEMOCRAT,unknown,Lost,unknown,0.435969031,T,True,True,True,True,False,True,False
+645,645,BRENDAN F. BOYLE,2024,federal:house,PA,2,DEMOCRAT,unknown,Won,unknown,0.714605639,F,False,False,False,False,False,False,False
+646,646,AARON BASHIR,2024,federal:house,PA,2,REPUBLICAN,unknown,Lost,unknown,0.285394361,F,False,False,False,False,False,False,False
+647,647,DWIGHT EVANS,2024,federal:house,PA,3,DEMOCRAT,unknown,Won,unknown,1,T,True,False,False,False,False,False,False
+648,648,MADELEINE DEAN,2024,federal:house,PA,4,DEMOCRAT,unknown,Won,unknown,0.590674895,T,True,False,False,False,False,False,False
+649,649,DAVID WINKLER,2024,federal:house,PA,4,REPUBLICAN,unknown,Lost,unknown,0.409325105,T,True,True,True,True,False,True,False
+650,650,MARY GAY SCANLON,2024,federal:house,PA,5,DEMOCRAT,unknown,Won,unknown,0.652884965,T,True,False,False,False,False,False,False
+651,651,ALFEIA GOODWIN,2024,federal:house,PA,5,REPUBLICAN,unknown,Lost,unknown,0.347115035,F,False,False,False,False,False,False,False
+652,652,CHRISSY HOULAHAN,2024,federal:house,PA,6,DEMOCRAT,unknown,Won,unknown,0.561998078,T,True,False,False,False,False,False,False
+653,653,NEIL YOUNG,2024,federal:house,PA,6,REPUBLICAN,unknown,Lost,unknown,0.438001922,F,False,False,False,False,False,False,False
+654,654,RYAN E. MACKENZIE,2024,federal:house,PA,7,REPUBLICAN,unknown,Won,unknown,0.505035779,F,False,False,False,False,False,False,False
+655,655,SUSAN WILD,2024,federal:house,PA,7,DEMOCRAT,unknown,Lost,unknown,0.494964221,T,True,False,False,False,False,False,False
+656,656,"ROB BRESNAHAN, JR.",2024,federal:house,PA,8,REPUBLICAN,unknown,Won,unknown,0.50811792,F,False,False,False,False,False,False,False
+657,657,MATT CARTWRIGHT,2024,federal:house,PA,8,DEMOCRAT,unknown,Lost,unknown,0.49188208,T,True,False,False,False,False,False,False
+658,658,DANIEL MEUSER,2024,federal:house,PA,9,REPUBLICAN,unknown,Won,unknown,0.70509911,F,False,False,False,False,False,False,False
+659,659,AMANDA WALDMAN,2024,federal:house,PA,9,DEMOCRAT,unknown,Lost,unknown,0.29490089,T,True,True,True,True,False,True,True
+660,660,SCOTT PERRY,2024,federal:house,PA,10,REPUBLICAN,unknown,Won,unknown,0.506321413,T,True,False,False,False,False,False,False
+661,661,JANELLE STELSON,2024,federal:house,PA,10,DEMOCRAT,unknown,Lost,unknown,0.493678587,T,True,False,False,False,False,False,False
+662,662,LLOYD SMUCKER,2024,federal:house,PA,11,REPUBLICAN,unknown,Won,unknown,0.628970551,T,True,False,False,False,False,False,False
+663,663,JIM ATKINSON,2024,federal:house,PA,11,DEMOCRAT,unknown,Lost,unknown,0.371029449,T,True,True,False,True,False,False,True
+664,664,SUMMER L. LEE,2024,federal:house,PA,12,DEMOCRAT,unknown,Won,unknown,0.564118704,F,False,False,False,False,False,False,False
+665,665,JAMES HAYES,2024,federal:house,PA,12,REPUBLICAN,unknown,Lost,unknown,0.435881296,T,True,False,False,False,False,True,True
+666,666,JOHN JOYCE,2024,federal:house,PA,13,REPUBLICAN,unknown,Won,unknown,0.741995112,T,True,False,False,False,False,False,False
+667,667,BETH FARNHAM,2024,federal:house,PA,13,DEMOCRAT,unknown,Lost,unknown,0.258004888,T,True,True,False,True,False,False,False
+668,668,GUY RESCHENTHALER,2024,federal:house,PA,14,REPUBLICAN,unknown,Won,unknown,0.665732323,T,True,False,False,False,False,False,False
+669,669,CHRIS DZIADOS,2024,federal:house,PA,14,DEMOCRAT,unknown,Lost,unknown,0.334267677,T,True,True,True,True,False,False,False
+670,670,GLENN THOMPSON,2024,federal:house,PA,15,REPUBLICAN,unknown,Won,unknown,0.714656729,T,True,False,False,False,False,False,False
+671,671,ZACH WOMER,2024,federal:house,PA,15,DEMOCRAT,unknown,Lost,unknown,0.285343271,F,False,False,False,False,False,False,False
+672,672,MIKE KELLY,2024,federal:house,PA,16,REPUBLICAN,unknown,Won,unknown,0.636527827,T,True,False,False,False,False,False,False
+673,673,PRESTON NOURI,2024,federal:house,PA,16,DEMOCRAT,unknown,Lost,unknown,0.363472173,T,True,True,True,True,False,True,True
+674,674,CHRISTOPHER R. DELUZIO,2024,federal:house,PA,17,DEMOCRAT,unknown,Won,unknown,0.538756439,F,False,False,False,False,False,False,False
+675,675,ROB MERCURI,2024,federal:house,PA,17,REPUBLICAN,unknown,Lost,unknown,0.461243561,T,True,True,True,True,False,True,True
+676,676,GABE AMO,2024,federal:house,RI,1,DEMOCRAT,unknown,Won,unknown,0.630215541,T,True,False,False,False,False,False,False
+677,677,ALLEN RODNEY WATERS,2024,federal:house,RI,1,REPUBLICAN,unknown,Lost,unknown,0.319928726,F,False,False,False,False,False,False,False
+678,678,SETH MAGAZINER,2024,federal:house,RI,2,DEMOCRAT,unknown,Won,unknown,0.582355397,T,True,False,False,False,False,False,False
+679,679,STEPHEN JOSEPH CORVI,2024,federal:house,RI,2,REPUBLICAN,unknown,Lost,unknown,0.415139669,F,False,False,False,False,False,False,False
+680,680,NANCY MACE,2024,federal:house,SC,1,REPUBLICAN,unknown,Won,unknown,0.582178583,T,True,False,False,False,False,False,False
+681,681,MICHAEL B. MOORE,2024,federal:house,SC,1,DEMOCRAT,unknown,Lost,unknown,0.416048027,T,False,False,False,False,False,False,False
+682,682,JOE WILSON,2024,federal:house,SC,2,REPUBLICAN,unknown,Won,unknown,0.595336139,T,True,False,False,False,False,False,False
+683,683,DAVID ROBINSON II,2024,federal:house,SC,2,DEMOCRAT,unknown,Lost,unknown,0.402451553,F,False,False,False,False,False,False,False
+684,684,SHERI BIGGS,2024,federal:house,SC,3,REPUBLICAN,unknown,Won,unknown,0.716589802,T,True,False,False,False,False,False,False
+685,685,BRYON L. BEST,2024,federal:house,SC,3,DEMOCRAT,unknown,Lost,unknown,0.25304791,F,False,False,False,False,False,False,False
+686,686,WILLIAM R. TIMMONS IV,2024,federal:house,SC,4,REPUBLICAN,unknown,Won,unknown,0.597308423,F,False,False,False,False,False,False,False
+687,687,KATHRYN HARVEY,2024,federal:house,SC,4,DEMOCRAT,unknown,Lost,unknown,0.372317516,T,True,True,True,True,False,True,True
+688,688,RALPH NORMAN,2024,federal:house,SC,5,REPUBLICAN,unknown,Won,unknown,0.635098175,T,True,False,False,False,False,False,False
+689,689,EVANGELINE HUNDLEY,2024,federal:house,SC,5,DEMOCRAT,unknown,Lost,unknown,0.363352059,T,True,True,True,True,False,True,True
+690,690,JAMES E. CLYBURN,2024,federal:house,SC,6,DEMOCRAT,unknown,Won,unknown,0.594998971,F,False,False,False,False,False,False,False
+691,691,DUKE BUCKNER,2024,federal:house,SC,6,REPUBLICAN,unknown,Lost,unknown,0.367217144,T,True,True,True,True,False,True,True
+692,692,RUSSELL FRY,2024,federal:house,SC,7,REPUBLICAN,unknown,Won,unknown,0.648952688,T,True,False,False,False,False,False,False
+693,693,MAL HYMAN,2024,federal:house,SC,7,DEMOCRAT,unknown,Lost,unknown,0.349748467,T,True,True,True,True,False,False,True
+694,694,DUSTY JOHNSON,2024,federal:house,SD,0,REPUBLICAN,unknown,Won,unknown,0.720444752,T,True,False,False,False,False,False,False
+695,695,SHERYL JOHNSON,2024,federal:house,SD,0,DEMOCRAT,unknown,Lost,unknown,0.279555248,T,True,True,True,True,False,True,False
+696,696,DIANA HARSHBARGER,2024,federal:house,TN,1,REPUBLICAN,unknown,Won,unknown,0.780817022,T,True,False,False,False,False,False,False
+697,697,KEVIN JENKINS,2024,federal:house,TN,1,DEMOCRAT,unknown,Lost,unknown,0.193886111,T,True,True,False,True,False,False,True
+698,698,TIM BURCHETT,2024,federal:house,TN,2,REPUBLICAN,unknown,Won,unknown,0.692580462,T,True,False,False,False,False,False,False
+699,699,JANE GEORGE,2024,federal:house,TN,2,DEMOCRAT,unknown,Lost,unknown,0.307419538,T,True,True,True,True,False,True,True
+700,700,"CHARLES J. \""CHUCK\"" FLEISCHMANN",2024,federal:house,TN,3,REPUBLICAN,unknown,Won,unknown,0.675135873,F,False,False,False,False,False,False,False
+701,701,JACK ALLEN,2024,federal:house,TN,3,DEMOCRAT,unknown,Lost,unknown,0.293556324,T,True,True,True,True,False,True,True
+702,702,SCOTT DESJARLAIS,2024,federal:house,TN,4,REPUBLICAN,unknown,Won,unknown,0.699535522,T,True,False,False,False,False,False,False
+703,703,VICTORIA ISABEL BRODERICK,2024,federal:house,TN,4,DEMOCRAT,unknown,Lost,unknown,0.26761584,F,False,False,False,False,False,False,False
+704,704,ANDREW OGLES,2024,federal:house,TN,5,REPUBLICAN,unknown,Won,unknown,0.568525203,F,False,False,False,False,False,False,False
+705,705,MARYAM ABOLFAZLI,2024,federal:house,TN,5,DEMOCRAT,unknown,Lost,unknown,0.39473655,T,True,True,True,True,False,True,True
+706,706,JOHN W. ROSE,2024,federal:house,TN,6,REPUBLICAN,unknown,Won,unknown,0.679987458,F,False,False,False,False,False,False,False
+707,707,LORE BERGMAN,2024,federal:house,TN,6,DEMOCRAT,unknown,Lost,unknown,0.320012542,T,True,True,False,True,False,False,False
+708,708,MARK E. GREEN,2024,federal:house,TN,7,REPUBLICAN,unknown,Won,unknown,0.5950362,F,False,False,False,False,False,False,False
+709,709,MEGAN BARRY,2024,federal:house,TN,7,DEMOCRAT,unknown,Lost,unknown,0.38047952,T,True,False,False,False,False,False,False
+710,710,DAVID KUSTOFF,2024,federal:house,TN,8,REPUBLICAN,unknown,Won,unknown,0.723443119,T,True,False,False,False,False,False,False
+711,711,SARAH FREEMAN,2024,federal:house,TN,8,DEMOCRAT,unknown,Lost,unknown,0.255910808,T,True,False,False,False,False,False,False
+712,712,STEVE COHEN,2024,federal:house,TN,9,DEMOCRAT,unknown,Won,unknown,0.713097276,T,True,False,False,False,False,False,False
+713,713,CHARLOTTE BERGMANN,2024,federal:house,TN,9,REPUBLICAN,unknown,Lost,unknown,0.256639383,F,False,False,False,False,False,False,False
+714,714,NATHANIEL MORAN,2024,federal:house,TX,1,REPUBLICAN,unknown,Won,unknown,1,T,True,False,False,False,False,False,False
+715,715,DAN CRENSHAW,2024,federal:house,TX,2,REPUBLICAN,unknown,Won,unknown,0.656598844,T,True,False,False,False,False,False,False
+716,716,PETER FILLER,2024,federal:house,TX,2,DEMOCRAT,unknown,Lost,unknown,0.343401156,T,True,True,True,True,False,True,True
+717,717,KEITH SELF,2024,federal:house,TX,3,REPUBLICAN,unknown,Won,unknown,0.624545958,T,True,False,False,False,False,False,False
+718,718,SANDEEP SRIVASTAVA,2024,federal:house,TX,3,DEMOCRAT,unknown,Lost,unknown,0.375454042,T,True,True,True,True,False,True,True
+719,719,PAT FALLON,2024,federal:house,TX,4,REPUBLICAN,unknown,Won,unknown,0.683848525,T,True,False,False,False,False,False,False
+720,720,SIMON CARDELL,2024,federal:house,TX,4,DEMOCRAT,unknown,Lost,unknown,0.316151475,T,True,True,True,True,False,True,False
+721,721,LANCE GOODEN,2024,federal:house,TX,5,REPUBLICAN,unknown,Won,unknown,0.640836687,T,True,False,False,False,False,False,False
+722,722,"RUTH \""TRUTH\"" TORRES",2024,federal:house,TX,5,DEMOCRAT,unknown,Lost,unknown,0.359163313,F,False,False,False,False,False,False,False
+723,723,JAKE ELLZEY,2024,federal:house,TX,6,REPUBLICAN,unknown,Won,unknown,0.656752945,T,True,False,False,False,False,False,False
+724,724,JOHN LOVE III,2024,federal:house,TX,6,DEMOCRAT,unknown,Lost,unknown,0.343247055,T,True,True,False,False,False,True,False
+725,725,LIZZIE FLETCHER,2024,federal:house,TX,7,DEMOCRAT,unknown,Won,unknown,0.612833424,T,True,False,False,False,False,False,False
+726,726,CAROLINE KANE,2024,federal:house,TX,7,REPUBLICAN,unknown,Lost,unknown,0.387166576,T,True,False,False,True,False,True,True
+727,727,MORGAN LUTTRELL,2024,federal:house,TX,8,REPUBLICAN,unknown,Won,unknown,0.682170339,T,True,False,False,False,False,False,False
+728,728,LAURA JONES,2024,federal:house,TX,8,DEMOCRAT,unknown,Lost,unknown,0.317829661,T,True,True,True,True,False,True,True
+729,729,AL GREEN,2024,federal:house,TX,9,DEMOCRAT,unknown,Won,unknown,1,T,True,False,False,False,False,False,False
+730,730,MICHAEL T. MCCAUL,2024,federal:house,TX,10,REPUBLICAN,unknown,Won,unknown,0.636048163,F,False,False,False,False,False,False,False
+731,731,THERESA BOISSEAU,2024,federal:house,TX,10,DEMOCRAT,unknown,Lost,unknown,0.340062906,T,True,False,False,False,False,False,False
+732,732,AUGUST PFLUGER,2024,federal:house,TX,11,REPUBLICAN,unknown,Won,unknown,1,T,True,False,False,False,False,False,False
+733,733,CRAIG GOLDMAN,2024,federal:house,TX,12,REPUBLICAN,unknown,Won,unknown,0.634538058,T,True,False,False,False,False,False,False
+734,734,TREY J. HUNT,2024,federal:house,TX,12,DEMOCRAT,unknown,Lost,unknown,0.365461942,F,False,False,False,False,False,False,False
+735,735,RONNY JACKSON,2024,federal:house,TX,13,REPUBLICAN,unknown,Won,unknown,1,T,True,False,False,False,False,False,False
+736,736,"RANDY K. WEBER, SR.",2024,federal:house,TX,14,REPUBLICAN,unknown,Won,unknown,0.686882542,F,False,False,False,False,False,False,False
+737,737,RHONDA HART,2024,federal:house,TX,14,DEMOCRAT,unknown,Lost,unknown,0.313117458,T,True,True,False,True,False,False,True
+738,738,MONICA DE LA CRUZ,2024,federal:house,TX,15,REPUBLICAN,unknown,Won,unknown,0.571142562,T,True,False,False,False,False,False,False
+739,739,MICHELLE VALLEJO,2024,federal:house,TX,15,DEMOCRAT,unknown,Lost,unknown,0.428857438,T,True,True,True,True,False,True,True
+740,740,VERONICA ESCOBAR,2024,federal:house,TX,16,DEMOCRAT,unknown,Won,unknown,0.594992483,T,True,False,False,False,False,False,False
+741,741,IRENE ARMENDARIZ JACKSON,2024,federal:house,TX,16,REPUBLICAN,unknown,Lost,unknown,0.404301085,F,False,False,False,False,False,False,False
+742,742,PETE SESSIONS,2024,federal:house,TX,17,REPUBLICAN,unknown,Won,unknown,0.663481559,T,True,False,False,False,False,False,False
+743,743,MARK LORENZEN,2024,federal:house,TX,17,DEMOCRAT,unknown,Lost,unknown,0.336518441,T,True,True,True,True,False,False,False
+744,744,SYLVESTER TURNER,2024,federal:house,TX,18,DEMOCRAT,unknown,Won,unknown,0.694193489,T,True,False,False,False,False,False,False
+745,745,LANA CENTONZE,2024,federal:house,TX,18,REPUBLICAN,unknown,Lost,unknown,0.305459034,T,True,True,True,True,False,True,False
+746,746,JODEY C. ARRINGTON,2024,federal:house,TX,19,REPUBLICAN,unknown,Won,unknown,0.806945096,F,False,False,False,False,False,False,False
+747,747,NATHAN LEWIS,2024,federal:house,TX,19,INDEPENDENT,unknown,Lost,unknown,0.103091506,F,False,False,False,False,False,False,False
+748,748,JOAQUIN CASTRO,2024,federal:house,TX,20,DEMOCRAT,unknown,Won,unknown,1,T,True,False,False,False,False,False,False
+749,749,CHIP ROY,2024,federal:house,TX,21,REPUBLICAN,unknown,Won,unknown,0.618503223,T,True,False,False,False,False,False,False
+750,750,KRISTIN HOOK,2024,federal:house,TX,21,DEMOCRAT,unknown,Lost,unknown,0.360592651,T,True,True,False,False,False,True,False
+751,751,TROY E. NEHLS,2024,federal:house,TX,22,REPUBLICAN,unknown,Won,unknown,0.621228357,F,False,False,False,False,False,False,False
+752,752,MARQUETTE GREENE-SCOTT,2024,federal:house,TX,22,DEMOCRAT,unknown,Lost,unknown,0.378771643,T,True,True,False,True,False,True,False
+753,753,TONY GONZALES,2024,federal:house,TX,23,REPUBLICAN,unknown,Won,unknown,0.622972633,T,True,False,False,False,False,False,False
+754,754,S. LIMON,2024,federal:house,TX,23,DEMOCRAT,unknown,Lost,unknown,0.377027367,F,False,False,False,False,False,False,False
+755,755,BETH VAN DUYNE,2024,federal:house,TX,24,REPUBLICAN,unknown,Won,unknown,0.603006696,T,True,False,False,False,False,False,False
+756,756,SAM EPPLER,2024,federal:house,TX,24,DEMOCRAT,unknown,Lost,unknown,0.396993304,T,True,True,True,True,False,True,True
+757,757,ROGER WILLIAMS,2024,federal:house,TX,25,REPUBLICAN,unknown,Won,unknown,0.993725043,T,True,False,False,False,False,False,False
+758,758,CHAD HAGG,2024,federal:house,TX,25,,unknown,Lost,unknown,0.006274957,F,False,False,False,False,False,False,False
+759,759,BRANDON GILL,2024,federal:house,TX,26,REPUBLICAN,unknown,Won,unknown,0.620698355,T,True,False,False,False,False,False,False
+760,760,ERNEST R. LINEBERGER III,2024,federal:house,TX,26,DEMOCRAT,unknown,Lost,unknown,0.356715676,F,False,False,False,False,False,False,False
+761,761,MICHAEL CLOUD,2024,federal:house,TX,27,REPUBLICAN,unknown,Won,unknown,0.660430188,T,True,False,False,False,False,False,False
+762,762,TANYA LLOYD,2024,federal:house,TX,27,DEMOCRAT,unknown,Lost,unknown,0.339569812,T,True,True,True,True,False,False,False
+763,763,HENRY CUELLAR,2024,federal:house,TX,28,DEMOCRAT,unknown,Won,unknown,0.527943767,T,True,False,False,False,False,False,False
+764,764,JAY FURMAN,2024,federal:house,TX,28,REPUBLICAN,unknown,Lost,unknown,0.472056233,T,True,True,True,True,False,False,False
+765,765,SYLVIA R. GARCIA,2024,federal:house,TX,29,DEMOCRAT,unknown,Won,unknown,0.652911457,F,False,False,False,False,False,False,False
+766,766,ALAN GARZA,2024,federal:house,TX,29,REPUBLICAN,unknown,Lost,unknown,0.347088543,T,False,False,False,False,False,False,False
+767,767,JASMINE CROCKETT,2024,federal:house,TX,30,DEMOCRAT,unknown,Won,unknown,0.848920863,T,True,False,False,False,False,False,False
+768,768,"JRMAR \""J J\"" JEFFERSON",2024,federal:house,TX,30,LIBERTARIAN,unknown,Lost,unknown,0.151079137,F,False,False,False,False,False,False,False
+769,769,JOHN R. CARTER,2024,federal:house,TX,31,REPUBLICAN,unknown,Won,unknown,0.64430457,F,False,False,False,False,False,False,False
+770,770,STUART WHITLOW,2024,federal:house,TX,31,DEMOCRAT,unknown,Lost,unknown,0.35569543,T,True,True,True,True,False,False,True
+771,771,JULIE JOHNSON,2024,federal:house,TX,32,DEMOCRAT,unknown,Won,unknown,0.604549522,T,True,False,False,False,False,False,False
+772,772,DARRELL DAY,2024,federal:house,TX,32,REPUBLICAN,unknown,Lost,unknown,0.369695953,T,True,True,True,True,False,True,True
+773,773,MARC A. VEASEY,2024,federal:house,TX,33,DEMOCRAT,unknown,Won,unknown,0.687853966,F,False,False,False,False,False,False,False
+774,774,PATRICK DAVID GILLESPIE,2024,federal:house,TX,33,REPUBLICAN,unknown,Lost,unknown,0.312146034,F,False,False,False,False,False,False,False
+775,775,VICENTE GONZALEZ,2024,federal:house,TX,34,DEMOCRAT,unknown,Won,unknown,0.512917762,T,True,False,False,False,False,False,False
+776,776,MAYRA FLORES,2024,federal:house,TX,34,REPUBLICAN,unknown,Lost,unknown,0.487082238,T,True,True,True,True,False,True,False
+777,777,GREG CASAR,2024,federal:house,TX,35,DEMOCRAT,unknown,Won,unknown,0.67363177,T,True,False,False,False,False,False,False
+778,778,STEVEN WRIGHT,2024,federal:house,TX,35,REPUBLICAN,unknown,Lost,unknown,0.32636823,T,True,True,False,False,False,True,True
+779,779,BRIAN BABIN,2024,federal:house,TX,36,REPUBLICAN,unknown,Won,unknown,0.693590961,T,True,False,False,False,False,False,False
+780,780,DAYNA STEELE,2024,federal:house,TX,36,DEMOCRAT,unknown,Lost,unknown,0.306409039,T,True,True,False,False,False,True,True
+781,781,LLOYD DOGGETT,2024,federal:house,TX,37,DEMOCRAT,unknown,Won,unknown,0.742188073,T,True,False,False,False,False,False,False
+782,782,JENNY GARCIA SHARON,2024,federal:house,TX,37,REPUBLICAN,unknown,Lost,unknown,0.235776293,T,True,False,True,True,False,False,False
+783,783,WESLEY HUNT,2024,federal:house,TX,38,REPUBLICAN,unknown,Won,unknown,0.627341261,T,True,False,False,False,False,False,False
+784,784,MELISSA MCDONOUGH,2024,federal:house,TX,38,DEMOCRAT,unknown,Lost,unknown,0.372384498,T,True,True,False,True,False,True,True
+785,785,BLAKE D. MOORE,2024,federal:house,UT,1,REPUBLICAN,unknown,Won,unknown,0.631260334,F,False,False,False,False,False,False,False
+786,786,BILL CAMPBELL,2024,federal:house,UT,1,DEMOCRAT,unknown,Lost,unknown,0.320635701,T,True,True,True,True,False,True,True
+787,787,CELESTE MALOY,2024,federal:house,UT,2,REPUBLICAN,unknown,Won,unknown,0.580022496,T,True,False,False,False,False,False,False
+788,788,NATHANIEL E. WOODWARD,2024,federal:house,UT,2,DEMOCRAT,unknown,Lost,unknown,0.342286583,F,False,False,False,False,False,False,False
+789,789,MIKE KENNEDY,2024,federal:house,UT,3,REPUBLICAN,unknown,Won,unknown,0.663870607,T,True,False,False,False,False,False,False
+790,790,GLENN J. WRIGHT,2024,federal:house,UT,3,DEMOCRAT,unknown,Lost,unknown,0.336129393,F,False,False,False,False,False,False,False
+791,791,BURGESS OWENS,2024,federal:house,UT,4,REPUBLICAN,unknown,Won,unknown,0.634169077,T,True,False,False,False,False,False,False
+792,792,KATRINA FALLICK-WANG,2024,federal:house,UT,4,DEMOCRAT,unknown,Lost,unknown,0.302028224,T,True,True,False,True,False,True,True
+793,793,ROBERT J. WITTMAN,2024,federal:house,VA,1,REPUBLICAN,unknown,Won,unknown,0.563068744,F,False,False,False,False,False,False,False
+794,794,LESLIE C. MEHTA,2024,federal:house,VA,1,DEMOCRAT,unknown,Lost,unknown,0.435252429,F,False,False,False,False,False,False,False
+795,795,JENNIFER A. KIGGANS,2024,federal:house,VA,2,REPUBLICAN,unknown,Won,unknown,0.507381907,F,False,False,False,False,False,False,False
+796,796,MISSY COTTER SMASAL,2024,federal:house,VA,2,DEMOCRAT,unknown,Lost,unknown,0.468962716,T,True,False,False,False,False,False,False
+797,797,"ROBERT C. \""BOBBY\"" SCOTT",2024,federal:house,VA,3,DEMOCRAT,unknown,Won,unknown,0.699516853,F,False,False,False,False,False,False,False
+798,798,JOHN SITKA III,2024,federal:house,VA,3,REPUBLICAN,unknown,Lost,unknown,0.298352084,T,False,False,False,False,False,False,False
+799,799,JENNIFER L. MCCLELLAN,2024,federal:house,VA,4,DEMOCRAT,unknown,Won,unknown,0.673447703,F,False,False,False,False,False,False,False
+800,800,"WILLIAM J. \""BILL\"" MOHER III",2024,federal:house,VA,4,REPUBLICAN,unknown,Lost,unknown,0.324397882,F,False,False,False,False,False,False,False
+801,801,JOHN J. MCGUIRE III,2024,federal:house,VA,5,REPUBLICAN,unknown,Won,unknown,0.572605939,F,False,False,False,False,False,False,False
+802,802,GLORIA TINSLEY WITT,2024,federal:house,VA,5,DEMOCRAT,unknown,Lost,unknown,0.422699667,F,False,False,False,False,False,False,False
+803,803,BEN CLINE,2024,federal:house,VA,6,REPUBLICAN,unknown,Won,unknown,0.63123073,T,True,False,False,False,False,False,False
+804,804,KEN L. MITCHELL,2024,federal:house,VA,6,DEMOCRAT,unknown,Lost,unknown,0.347911113,F,False,False,False,False,False,False,False
+805,805,EUGENE S. VINDMAN,2024,federal:house,VA,7,DEMOCRAT,unknown,Won,unknown,0.511795902,F,False,False,False,False,False,False,False
+806,806,DERRICK M. ANDERSON,2024,federal:house,VA,7,REPUBLICAN,unknown,Lost,unknown,0.485395131,F,False,False,False,False,False,False,False
+807,807,"DONALD S. BEYER, JR.",2024,federal:house,VA,8,DEMOCRAT,unknown,Won,unknown,0.71524426,F,False,False,False,False,False,False,False
+808,808,JERRY W. TORRES,2024,federal:house,VA,8,REPUBLICAN,unknown,Lost,unknown,0.246606671,F,False,False,False,False,False,False,False
+809,809,H. MORGAN GRIFFITH,2024,federal:house,VA,9,REPUBLICAN,unknown,Won,unknown,0.724867382,F,False,False,False,False,False,False,False
+810,810,KAREN G. H. BAKER,2024,federal:house,VA,9,DEMOCRAT,unknown,Lost,unknown,0.273267109,F,False,False,False,False,False,False,False
+811,811,SUHAS SUBRAMANYAM,2024,federal:house,VA,10,DEMOCRAT,unknown,Won,unknown,0.52088317,T,True,False,False,False,False,False,False
+812,812,MIKE W. CLANCY,2024,federal:house,VA,10,REPUBLICAN,unknown,Lost,unknown,0.475392967,F,False,False,False,False,False,False,False
+813,813,GERALD E. CONNOLLY,2024,federal:house,VA,11,DEMOCRAT,unknown,Won,unknown,0.666841384,F,False,False,False,False,False,False,False
+814,814,MIKE L. VAN METER,2024,federal:house,VA,11,REPUBLICAN,unknown,Lost,unknown,0.328636277,F,False,False,False,False,False,False,False
+815,815,BECCA BALINT,2024,federal:house,VT,0,DEMOCRAT,unknown,Won,unknown,0.585698003,T,True,False,False,False,False,False,False
+816,816,MARK COESTER,2024,federal:house,VT,0,"REPUBLICAN, LIBERTARIAN",unknown,Lost,unknown,0.280115853,T,False,False,False,False,False,False,False
+817,817,SUZAN K. DELBENE,2024,federal:house,WA,1,DEMOCRAT,unknown,Won,unknown,0.62999573,F,False,False,False,False,False,False,False
+818,818,JEB BREWER,2024,federal:house,WA,1,REPUBLICAN,unknown,Lost,unknown,0.367489422,T,True,True,False,True,False,True,True
+819,819,RICK LARSEN,2024,federal:house,WA,2,DEMOCRAT,unknown,Won,unknown,0.638279851,T,True,False,False,False,False,False,False
+820,820,CODY HART,2024,federal:house,WA,2,REPUBLICAN,unknown,Lost,unknown,0.358566865,T,True,True,False,False,False,False,False
+821,821,MARIE GLUESENKAMP PEREZ,2024,federal:house,WA,3,DEMOCRAT,unknown,Won,unknown,0.517371797,T,True,False,False,False,False,False,False
+822,822,JOE KENT,2024,federal:house,WA,3,REPUBLICAN,unknown,Lost,unknown,0.47860564,T,False,False,False,False,False,False,False
+823,823,DAN NEWHOUSE,2024,federal:house,WA,4,REPUBLICAN,unknown,Won,unknown,0.520169326,T,True,False,False,False,False,False,False
+824,824,JERROD SESSLER,2024,federal:house,WA,4,REPUBLICAN,unknown,Lost,unknown,0.461528815,F,False,False,False,False,False,False,False
+825,825,MICHAEL BAUMGARTNER,2024,federal:house,WA,5,REPUBLICAN,unknown,Won,unknown,0.605656882,T,True,False,False,False,False,False,False
+826,826,CARMELA CONROY,2024,federal:house,WA,5,DEMOCRAT,unknown,Lost,unknown,0.392850491,T,True,False,False,False,False,False,False
+827,827,EMILY RANDALL,2024,federal:house,WA,6,DEMOCRAT,unknown,Won,unknown,0.567142742,T,True,False,False,False,False,False,False
+828,828,DREW C. MACEWEN,2024,federal:house,WA,6,REPUBLICAN,unknown,Lost,unknown,0.431075524,F,False,False,False,False,False,False,False
+829,829,PRAMILA JAYAPAL,2024,federal:house,WA,7,DEMOCRAT,unknown,Won,unknown,0.839137819,T,True,False,False,False,False,False,False
+830,830,DAN ALEXANDER,2024,federal:house,WA,7,REPUBLICAN,unknown,Lost,unknown,0.157734643,T,True,False,False,True,False,False,True
+831,831,KIM SCHRIER,2024,federal:house,WA,8,DEMOCRAT,unknown,Won,unknown,0.539561398,T,True,False,False,False,False,False,False
+832,832,CARMEN GOERS,2024,federal:house,WA,8,REPUBLICAN,unknown,Lost,unknown,0.458048367,T,False,False,False,False,False,True,True
+833,833,ADAM SMITH,2024,federal:house,WA,9,DEMOCRAT,unknown,Won,unknown,0.654426455,T,True,False,False,False,False,False,False
+834,834,MELISSA CHAUDHRY,2024,federal:house,WA,9,DEMOCRAT,unknown,Lost,unknown,0.324388288,F,False,False,False,False,False,False,False
+835,835,MARILYN STRICKLAND,2024,federal:house,WA,10,DEMOCRAT,unknown,Won,unknown,0.58536277,T,True,False,False,False,False,False,False
+836,836,DON HEWETT,2024,federal:house,WA,10,REPUBLICAN,unknown,Lost,unknown,0.412281206,T,True,False,True,True,False,False,True
+837,837,BRYAN STEIL,2024,federal:house,WI,1,REPUBLICAN,unknown,Won,unknown,0.54007314,T,True,False,False,False,False,False,False
+838,838,PETER BARCA,2024,federal:house,WI,1,DEMOCRAT,unknown,Lost,unknown,0.438132317,T,True,False,False,False,False,False,False
+839,839,MARK POCAN,2024,federal:house,WI,2,DEMOCRAT,unknown,Won,unknown,0.700518527,T,True,False,False,False,False,False,False
+840,840,ERIK OLSEN,2024,federal:house,WI,2,REPUBLICAN,unknown,Lost,unknown,0.298206479,T,True,True,False,False,False,True,False
+841,841,DERRICK VAN ORDEN,2024,federal:house,WI,3,REPUBLICAN,unknown,Won,unknown,0.513247221,T,True,False,False,False,False,False,False
+842,842,REBECCA COOKE,2024,federal:house,WI,3,DEMOCRAT,unknown,Lost,unknown,0.486004923,T,True,True,True,True,False,False,False
+843,843,GWEN MOORE,2024,federal:house,WI,4,DEMOCRAT,unknown,Won,unknown,0.747686085,T,True,False,False,False,False,False,False
+844,844,TIM ROGERS,2024,federal:house,WI,4,REPUBLICAN,unknown,Lost,unknown,0.22412514,T,True,False,False,False,False,False,False
+845,845,SCOTT FITZGERALD,2024,federal:house,WI,5,REPUBLICAN,unknown,Won,unknown,0.643952413,T,True,False,False,False,False,False,False
+846,846,BEN STEINHOFF,2024,federal:house,WI,5,DEMOCRAT,unknown,Lost,unknown,0.354959051,T,True,True,False,False,False,True,True
+847,847,GLENN GROTHMAN,2024,federal:house,WI,6,REPUBLICAN,unknown,Won,unknown,0.612348638,T,True,False,False,False,False,False,False
+848,848,JOHN ZARBANO,2024,federal:house,WI,6,DEMOCRAT,unknown,Lost,unknown,0.386635193,T,True,True,True,True,False,True,True
+849,849,THOMAS P. TIFFANY,2024,federal:house,WI,7,REPUBLICAN,unknown,Won,unknown,0.63560216,F,False,False,False,False,False,False,False
+850,850,KYLE KILBOURN,2024,federal:house,WI,7,DEMOCRAT,unknown,Lost,unknown,0.363684524,T,True,True,True,True,False,False,True
+851,851,TONY WIED,2024,federal:house,WI,8,REPUBLICAN,unknown,Won,unknown,0.57291791,T,True,False,False,False,False,False,False
+852,852,KRISTIN LYERLY,2024,federal:house,WI,8,DEMOCRAT,unknown,Lost,unknown,0.426432891,T,True,True,True,True,False,True,True
+853,853,CAROL D. MILLER,2024,federal:house,WV,1,REPUBLICAN,unknown,Won,unknown,0.663602648,F,False,False,False,False,False,False,False
+854,854,CHRIS BOB REED,2024,federal:house,WV,1,DEMOCRAT,unknown,Lost,unknown,0.26149588,F,False,False,False,False,False,False,False
+855,855,RILEY MOORE,2024,federal:house,WV,2,REPUBLICAN,unknown,Won,unknown,0.707690684,T,True,False,False,False,False,False,False
+856,856,STEVEN WENDELIN,2024,federal:house,WV,2,DEMOCRAT,unknown,Lost,unknown,0.292309316,T,True,True,True,True,False,True,True
+857,857,HARRIET M. HAGEMAN,2024,federal:house,WY,0,REPUBLICAN,unknown,Won,unknown,0.68116685,F,False,False,False,False,False,False,False
+858,858,KYLE G. CAMERON,2024,federal:house,WY,0,DEMOCRAT,unknown,Lost,unknown,0.224171317,F,False,False,False,False,False,False,False
+859,859,RUBEN GALLEGO,2024,federal:senate,AZ,AZ,REPUBLICAN,unknown,Won,unknown,0.500702815,F,False,False,False,False,False,False,False
+860,860,KARI LAKE,2024,federal:senate,AZ,AZ,DEMOCRAT,unknown,Lost,unknown,0.476636248,incorrect year,False,False,False,False,False,False,False
+861,861,ADAM B. SCHIFF,2024,federal:senate,CA,CA,DEMOCRAT,unknown,Won,unknown,0.588725172,F,False,False,False,False,False,False,False
+862,862,STEVE GARVEY,2024,federal:senate,CA,CA,REPUBLICAN,unknown,Lost,unknown,0.411274828,F,False,False,False,False,False,False,False
+863,863,CHRISTOPHER S. MURPHY,2024,federal:senate,CT,CT,DEMOCRAT,unknown,Won,unknown,0.558256096,F,False,False,False,False,False,False,False
+864,864,MATTHEW M. COREY,2024,federal:senate,CT,CT,REPUBLICAN,unknown,Lost,unknown,0.397045179,F,False,False,False,False,False,False,False
+865,865,LISA BLUNT ROCHESTER,2024,federal:senate,DE,DE,DEMOCRAT,unknown,Won,unknown,0.565910117,F,False,False,False,False,False,False,False
+866,866,ERIC HANSEN,2024,federal:senate,DE,DE,REPUBLICAN,unknown,Lost,unknown,0.395027227,F,False,False,False,False,False,False,False
+867,867,RICK SCOTT,2024,federal:senate,FL,FL,REPUBLICAN,unknown,Won,unknown,0.555681711,F,False,False,False,False,False,False,False
+868,868,DEBBIE MUCARSEL-POWELL,2024,federal:senate,FL,FL,DEMOCRAT,unknown,Lost,unknown,0.427897542,F,False,False,False,False,False,False,False
+869,869,MAZIE K. HIRONO,2024,federal:senate,HI,HI,DEMOCRAT,unknown,Won,unknown,0.646109817,F,False,False,False,False,False,False,False
+870,870,BOB MCDERMOTT,2024,federal:senate,HI,HI,REPUBLICAN,unknown,Lost,unknown,0.319025117,F,False,False,False,False,False,False,False
+871,871,JIM BANKS,2024,federal:senate,IN,IN,REPUBLICAN,unknown,Won,unknown,0.58638742,F,False,False,False,False,False,False,False
+872,872,VALERIE MCCRAY,2024,federal:senate,IN,IN,DEMOCRAT,unknown,Lost,unknown,0.387668173,F,False,False,False,False,False,False,False
+873,873,ELIZABETH ANN WARREN,2024,federal:senate,MA,MA,DEMOCRAT,unknown,Won,unknown,0.581186645,F,False,False,False,False,False,False,False
+874,874,JOHN DEATON,2024,federal:senate,MA,MA,REPUBLICAN,unknown,Lost,unknown,0.388689783,F,False,False,False,False,False,False,False
+875,875,ANGELA ALSOBROOKS,2024,federal:senate,MD,MD,DEMOCRAT,unknown,Won,unknown,0.54641028,F,False,False,False,False,False,False,False
+876,876,LARRY HOGAN,2024,federal:senate,MD,MD,REPUBLICAN,unknown,Lost,unknown,0.428395255,F,False,False,False,False,False,False,False
+877,877,ANGUS S. KING JR.,2024,federal:senate,ME,ME,OTHER,unknown,Won,unknown,0.507533412,F,False,False,False,False,False,False,False
+878,878,DEMI KOUZOUNAS,2024,federal:senate,ME,ME,REPUBLICAN,unknown,Lost,unknown,0.337628361,F,False,False,False,False,False,False,False
+879,879,ELISSA SLOTKIN,2024,federal:senate,MI,MI,DEMOCRAT,unknown,Won,unknown,0.486389644,F,False,False,False,False,False,False,False
+880,880,MIKE ROGERS,2024,federal:senate,MI,MI,REPUBLICAN,unknown,Lost,unknown,0.482981833,T,True,False,False,False,False,False,False
+881,881,AMY KLOBUCHAR,2024,federal:senate,MN,MN,DEMOCRAT,unknown,Won,unknown,0.562013004,incorrect year,False,False,False,False,False,False,False
+882,882,ROYCE WHITE,2024,federal:senate,MN,MN,REPUBLICAN,unknown,Lost,unknown,0.405011346,F,False,False,False,False,False,False,False
+883,883,JOSH HAWLEY,2024,federal:senate,MO,MO,REPUBLICAN,unknown,Won,unknown,0.555718827,F,False,False,False,False,False,False,False
+884,884,LUCAS KUNCE,2024,federal:senate,MO,MO,DEMOCRAT,unknown,Lost,unknown,0.418403133,F,False,False,False,False,False,False,False
+885,885,ROGER F. WICKER,2024,federal:senate,MS,MS,REPUBLICAN,unknown,Won,unknown,0.628121912,F,False,False,False,False,False,False,False
+886,886,TY PINKINS,2024,federal:senate,MS,MS,DEMOCRAT,unknown,Lost,unknown,0.371878088,F,False,False,False,False,False,False,False
+887,887,TIM SHEEHY,2024,federal:senate,MT,MT,REPUBLICAN,unknown,Won,unknown,0.526431754,F,False,False,False,False,False,False,False
+888,888,JON TESTER,2024,federal:senate,MT,MT,DEMOCRAT,unknown,Lost,unknown,0.455001301,F,False,False,False,False,False,False,False
+889,889,KEVIN CRAMER,2024,federal:senate,ND,ND,REPUBLICAN,unknown,Won,unknown,0.663055442,F,False,False,False,False,False,False,False
+890,890,KATRINA CHRISTIANSEN,2024,federal:senate,ND,ND,DEMOCRAT,unknown,Lost,unknown,0.333771584,F,False,False,False,False,False,False,False
+891,891,DEB FISCHER,2024,federal:senate,NE,NE,REPUBLICAN,unknown,Won,unknown,0.531924598,F,False,False,False,False,False,False,False
+892,892,DAN OSBORN,2024,federal:senate,NE,NE,OTHER,unknown,Lost,unknown,0.465177719,F,False,False,False,False,False,False,False
+893,893,ANDY KIM,2024,federal:senate,NJ,NJ,DEMOCRAT,unknown,Won,unknown,0.536111335,F,False,False,False,False,False,False,False
+894,894,CURTIS BASHAW,2024,federal:senate,NJ,NJ,REPUBLICAN,unknown,Lost,unknown,0.43990059,F,False,False,False,False,False,False,False
+895,895,MARTIN HEINRICH,2024,federal:senate,NM,NM,DEMOCRAT,unknown,Won,unknown,0.550566748,F,False,False,False,False,False,False,False
+896,896,NELLA LOUISE DOMENICI,2024,federal:senate,NM,NM,REPUBLICAN,unknown,Lost,unknown,0.449433252,F,False,False,False,False,False,False,False
+897,897,JACKY S. ROSEN,2024,federal:senate,NV,NV,DEMOCRAT,unknown,Won,unknown,0.478658836,F,False,False,False,False,False,False,False
+898,898,SAM BROWN,2024,federal:senate,NV,NV,REPUBLICAN,unknown,Lost,unknown,0.462233261,F,False,False,False,False,False,False,False
+899,899,KIRSTEN E. GILLIBRAND,2024,federal:senate,NY,NY,DEMOCRAT,unknown,Won,unknown,0.562157955,F,False,False,False,False,False,False,False
+900,900,MICHAEL D. SAPRAICONE,2024,federal:senate,NY,NY,REPUBLICAN,unknown,Lost,unknown,0.387368597,F,False,False,False,False,False,False,False
+901,901,BERNIE MORENO,2024,federal:senate,OH,OH,REPUBLICAN,unknown,Won,unknown,0.500889279,F,False,False,False,False,False,False,False
+902,902,SHERROD BROWN,2024,federal:senate,OH,OH,DEMOCRAT,unknown,Lost,unknown,0.464702119,F,False,False,False,False,False,False,False
+903,903,DAVE MCCORMICK,2024,federal:senate,PA,PA,REPUBLICAN,unknown,Won,unknown,0.48818442,F,False,False,False,False,False,False,False
+904,904,ROBERT P CASEY JR,2024,federal:senate,PA,PA,DEMOCRAT,unknown,Lost,unknown,0.486013703,F,False,False,False,False,False,False,False
+905,905,SHELDON WHITEHOUSE,2024,federal:senate,RI,RI,DEMOCRAT,unknown,Won,unknown,0.598975908,F,False,False,False,False,False,False,False
+906,906,PATRICIA MORGAN,2024,federal:senate,RI,RI,REPUBLICAN,unknown,Lost,unknown,0.398495369,incorrect year,False,False,False,False,False,False,False
+907,907,MARSHA BLACKBURN,2024,federal:senate,TN,TN,REPUBLICAN,unknown,Won,unknown,0.637963126,F,False,False,False,False,False,False,False
+908,908,GLORIA JOHNSON,2024,federal:senate,TN,TN,DEMOCRAT,unknown,Lost,unknown,0.34162065,F,False,False,False,False,False,False,False
+909,909,TED CRUZ,2024,federal:senate,TX,TX,REPUBLICAN,unknown,Won,unknown,0.530536527,F,False,False,False,False,False,False,False
+910,910,COLIN ALLRED,2024,federal:senate,TX,TX,DEMOCRAT,unknown,Lost,unknown,0.445564475,incorrect year,False,False,False,False,False,False,False
+911,911,JOHN CURTIS,2024,federal:senate,UT,UT,REPUBLICAN,unknown,Won,unknown,0.625004698,F,False,False,False,False,False,False,False
+912,912,CAROLINE GLEICH,2024,federal:senate,UT,UT,DEMOCRAT,unknown,Lost,unknown,0.317398116,F,False,False,False,False,False,False,False
+913,913,TIMOTHY M. KAINE,2024,federal:senate,VA,VA,DEMOCRAT,unknown,Won,unknown,0.54371746,F,False,False,False,False,False,False,False
+914,914,HUNG CAO,2024,federal:senate,VA,VA,REPUBLICAN,unknown,Lost,unknown,0.454368484,F,False,False,False,False,False,False,False
+915,915,BERNIE SANDERS,2024,federal:senate,VT,VT,OTHER,unknown,Won,unknown,0.615280851,F,False,False,False,False,False,False,False
+916,916,GERALD MALLOY,2024,federal:senate,VT,VT,REPUBLICAN,unknown,Lost,unknown,0.312460946,F,False,False,False,False,False,False,False
+917,917,MARIA CANTWELL,2024,federal:senate,WA,WA,DEMOCRAT,unknown,Won,unknown,0.590856762,F,False,False,False,False,False,False,False
+918,918,DR RAUL GARCIA,2024,federal:senate,WA,WA,REPUBLICAN,unknown,Lost,unknown,0.406355749,F,False,False,False,False,False,False,False
+919,919,TAMMY BALDWIN,2024,federal:senate,WI,WI,DEMOCRAT,unknown,Won,unknown,0.493330015,F,False,False,False,False,False,False,False
+920,920,ERIC HOVDE,2024,federal:senate,WI,WI,REPUBLICAN,unknown,Lost,unknown,0.484842015,F,False,False,False,False,False,False,False
+921,921,JIM JUSTICE,2024,federal:senate,WV,WV,REPUBLICAN,unknown,Won,unknown,0.687531513,T,True,True,True,True,False,True,False
+922,922,GLENN ELLIOTT,2024,federal:senate,WV,WV,DEMOCRAT,unknown,Lost,unknown,0.277575607,F,False,False,False,False,False,False,False
+923,923,JOHN BARRASSO,2024,federal:senate,WY,WY,REPUBLICAN,unknown,Won,unknown,0.731837579,F,False,False,False,False,False,False,False
+924,924,SCOTT D MORROW,2024,federal:senate,WY,WY,DEMOCRAT,unknown,Lost,unknown,0.235048299,F,False,False,False,False,False,False,False
+925,925,JENNIFER MCCLELLAN,2023,federal:house,VA,4,DEMOCRAT,unknown,Won,unknown,0.744,incorrect year,False,False,False,False,False,False,False
+926,926,LEON BENJAMIN,2023,federal:house,VA,4,REPUBLICAN,unknown,Lost,unknown,0.255,F,False,False,False,False,False,False,False
+927,927,GABE AMO,2023,federal:house,RI,1,DEMOCRAT,unknown,Won,unknown,0.647,incorrect year,False,False,False,False,False,False,False
+928,928,GERRY LEONARD JR.,2023,federal:house,RI,1,REPUBLICAN,unknown,Lost,unknown,0.35,F,False,False,False,False,False,False,False
+929,929,CELESTE MALOY,2023,federal:house,UT,2,REPUBLICAN,unknown,Won,unknown,0.571,incorrect year,False,False,False,False,False,False,False
+930,930,KATHLEEN RIEBE,2023,federal:house,UT,2,DEMOCRAT,unknown,Lost,unknown,0.336,F,False,False,False,False,False,False,False
+931,931,JIMMY PATRONIS,2025,federal:house,FL,1,REPUBLICAN,unknown,Won,unknown,0.569,T,True,False,False,False,False,False,False
+932,932,GAY VALIMONT,2025,federal:house,FL,1,DEMOCRAT,unknown,Lost,unknown,0.423,T,True,False,False,False,False,True,False
+933,933,RANDY FINE,2025,federal:house,FL,6,REPUBLICAN,unknown,Won,unknown,0.567,T,True,False,False,False,False,False,False
+934,934,JOSH WEIL,2025,federal:house,FL,6,DEMOCRAT,unknown,Lost,unknown,0.427,T,True,False,False,False,False,True,True
+935,935,JAMES WALKINSHAW,2025,federal:house,VA,11,DEMOCRAT,unknown,Won,unknown,0.751,T,True,False,False,False,False,False,False
+936,936,STEWART WHITSON,2025,federal:house,VA,11,REPUBLICAN,unknown,Lost,unknown,0.247,T,True,False,True,False,False,False,False
+937,937,ADELITA GRIJALVA,2025,federal:house,AZ,7,DEMOCRAT,unknown,Won,unknown,0.689,T,True,False,False,False,False,False,False
+938,938,DANIEL BUTIEREZ,2025,federal:house,AZ,7,REPUBLICAN,unknown,Lost,unknown,0.294,T,True,True,True,False,False,True,True
+939,939,MATT VAN EPPS,2025,federal:house,TN,7,REPUBLICAN,unknown,Won,unknown,0.539,T,True,False,False,False,False,False,False
+940,940,AFTYN BEHN,2025,federal:house,TN,7,DEMOCRAT,unknown,Lost,unknown,0.451,T,True,False,False,False,False,False,False
+941,941,CHRISTIAN MENEFEE,2025,federal:house,TX,18,DEMOCRAT,unknown,Won,unknown,0.689,incorrect year,False,False,False,False,False,False,False
+942,942,AMANDA EDWARDS,2025,federal:house,TX,18,DEMOCRAT,unknown,Lost,unknown,0.311,F,False,False,False,False,False,False,False
+943,943,ANDY BESHEAR,2023,state:governor,KY,KY,DEMOCRAT,TRUE,Won,,0.525,F,False,False,False,False,False,False,False
+944,944,DANIEL CAMERON,2023,state:governor,KY,KY,REPUBLICAN,FALSE,Lost,,0.475,F,False,False,False,False,False,False,False
+945,945,JEFF LANDRY,2023,state:governor,LA,LA,REPUBLICAN,FALSE,Won,,0.516,F,False,False,False,False,False,False,False
+946,946,SHAWN WILSON,2023,state:governor,LA,LA,DEMOCRATIC,FALSE,Lost,,0.259,F,False,False,False,False,False,False,False
+947,947,TATE REEVES,2023,state:governor,MS,MS,REPUBLICAN,TRUE,Won,,0.509,F,False,False,False,False,False,False,False
+948,948,BRANDON PRESLEY,2023,state:governor,MS,MS,DEMOCRAT,FALSE,Lost,,0.477,F,False,False,False,False,False,False,False
+949,949,MATT MEYER,2024,state:governor,DE,DE,DEMOCRAT,FALSE,Won,,0.561,T,True,False,False,False,False,False,False
+950,950,MICHAEL RAMONE,2024,state:governor,DE,DE,REPUBLICAN,FALSE,Lost,,0.439,T,True,True,True,False,False,True,True
+951,951,MIKE BRAUN,2024,state:governor,IN,IN,REPUBLICAN,FALSE,Won,,0.544,F,False,False,False,False,False,False,False
+952,952,JENNIFER MCCORMICK,2024,state:governor,IN,IN,DEMOCRAT,FALSE,Lost,,0.411,F,False,False,False,False,False,False,False
+953,953,MIKE KEHOE,2024,state:governor,MO,MO,REPUBLICAN,FALSE,Won,,0.592,T,True,False,False,False,False,False,False
+954,954,CRYSTAL QUADE,2024,state:governor,MO,MO,DEMOCRAT,FALSE,Lost,,0.387,T,True,True,True,True,False,True,False
+955,955,GREG GIANFORTE,2024,state:governor,MT,MT,REPUBLICAN,TRUE,Won,,0.589,F,False,False,False,False,False,False,False
+956,956,RYAN BUSSE,2024,state:governor,MT,MT,DEMOCRAT,FALSE,Lost,,0.386,F,False,False,False,False,False,False,False
+957,957,KELLY AYOTTE,2024,state:governor,NH,NH,REPUBLICAN,FALSE,Won,,0.536,T,False,False,False,False,False,False,False
+958,958,JOYCE CRAIG,2024,state:governor,NH,NH,DEMOCRAT,FALSE,Lost,,0.443,T,True,True,True,False,False,True,True
+959,959,JOSH STEIN,2024,state:governor,NC,NC,DEMOCRAT,FALSE,Won,,0.549,T,True,True,True,True,False,True,True
+960,960,MARK ROBINSON,2024,state:governor,NC,NC,REPUBLICAN,FALSE,Lost,,0.401,F,False,False,False,False,False,False,False
+961,961,KELLY ARMSTRONG,2024,state:governor,ND,ND,REPUBLICAN,FALSE,Won,,0.684,F,False,False,False,False,False,False,False
+962,962,MERILL PIEPKORN,2024,state:governor,ND,ND,DEMOCRAT,FALSE,Lost,,0.26,F,False,False,False,False,False,False,False
+963,963,SPENCER COX,2024,state:governor,UT,UT,REPUBLICAN,TRUE,Won,,0.529,F,False,False,False,False,False,False,False
+964,964,BRIAN KING,2024,state:governor,UT,UT,DEMOCRAT,FALSE,Lost,,0.285,F,False,False,False,False,False,False,False
+965,965,PHIL SCOTT,2024,state:governor,VT,VT,REPUBLICAN,TRUE,Won,,0.734,T,True,True,True,True,False,True,True
+966,966,ESTHER CHARLESTIN,2024,state:governor,VT,VT,DEMOCRAT,FALSE,Lost,,0.218,T,True,True,False,True,False,True,True
+967,967,BOB FERGUSON,2024,state:governor,WA,WA,DEMOCRAT,FALSE,Won,,0.557,T,True,True,True,True,False,True,False
+968,968,DAVE REICHERT,2024,state:governor,WA,WA,REPUBLICAN,FALSE,Lost,,0.443,T,True,True,True,True,False,True,True
+969,969,PATRICK MORRISEY,2024,state:governor,WV,WV,REPUBLICAN,FALSE,Won,,0.62,T,True,True,True,True,False,False,True
+970,970,STEVE WILLIAMS,2024,state:governor,WV,WV,DEMOCRAT,FALSE,Lost,,0.316,T,True,False,False,False,False,True,True
+971,971,MIKIE SHERRILL,2025,state:governor,NJ,NJ,DEMOCRAT,FALSE,Won,,0.569,incorrect year,False,False,False,False,False,False,False
+972,972,JACK CIATTARELLI,2025,state:governor,NJ,NJ,REPUBLICAN,FALSE,Lost,,0.425,F,False,False,False,False,False,False,False
+973,973,ABIGAIL SPANBERGER,2025,state:governor,VA,VA,DEMOCRAT,FALSE,Won,,0.576,T,True,False,False,False,False,False,False
+974,974,WINSOME EARLE-SEARS,2025,state:governor,VA,VA,REPUBLICAN,FALSE,Lost,,0.422,T,True,False,False,False,False,False,False
+975,975,RUSSELL COLEMAN,2023,state:ag,KY,KY,REPUBLICAN,FALSE,Won,,0.58,F,False,False,False,False,False,False,False
+976,976,PAMELA STEVENSON,2023,state:ag,KY,KY,DEMOCRAT,FALSE,Lost,,0.42,F,False,False,False,False,False,False,False
+977,977,LIZ MURRILL,2023,state:ag,LA,LA,REPUBLICAN,FALSE,Won,,0.664,F,False,False,False,False,False,False,False
+978,978,LINDSEY CHEEK,2023,state:ag,LA,LA,DEMOCRAT,FALSE,Lost,,0.336,F,False,False,False,False,False,False,False
+979,979,LYNN FITCH,2023,state:ag,MS,MS,REPUBLICAN,TRUE,Won,,0.581,F,False,False,False,False,False,False,False
+980,980,GRETA MARTIN,2023,state:ag,MS,MS,DEMOCRAT,FALSE,Lost,,0.419,F,False,False,False,False,False,False,False
+981,981,TODD ROKITA,2024,state:ag,IN,IN,REPUBLICAN,TRUE,Won,,0.5883,F,False,False,False,False,False,False,False
+982,982,DESTINY WELLS,2024,state:ag,IN,IN,DEMOCRAT,FALSE,Lost,,0.4117,F,False,False,False,False,False,False,False
+983,983,ANDREW BAILEY,2024,state:ag,MO,MO,REPUBLICAN,TRUE,Won,,0.5978,F,False,False,False,False,False,False,False
+984,984,ELAD GROSS,2024,state:ag,MO,MO,DEMOCRAT,FALSE,Lost,,0.3792,F,False,False,False,False,False,False,False
+985,985,AUSTIN KNUDSEN,2024,state:ag,MT,MT,REPUBLICAN,TRUE,Won,,0.5971,F,False,False,False,False,False,False,False
+986,986,BEN ALKE,2024,state:ag,MT,MT,DEMOCRAT,FALSE,Lost,,0.4029,F,False,False,False,False,False,False,False
+987,987,JEFF JACKSON,2024,state:ag,NC,NC,DEMOCRAT,FALSE,Won,,0.5143,F,False,False,False,False,False,False,False
+988,988,DAN BISHOP,2024,state:ag,NC,NC,REPUBLICAN,FALSE,Lost,,0.4857,F,False,False,False,False,False,False,False
+989,989,DAN RAYFIELD,2024,state:ag,OR,OR,DEMOCRAT,FALSE,Won,,0.5437,F,False,False,False,False,False,False,False
+990,990,WILL LATHROP,2024,state:ag,OR,OR,REPUBLICAN,FALSE,Lost,,0.4551,F,False,False,False,False,False,False,False
+991,991,DAVE SUNDAY,2024,state:ag,PA,PA,REPUBLICAN,FALSE,Won,,0.5081,F,False,False,False,False,False,False,False
+992,992,EUGENE DEPASQUALE,2024,state:ag,PA,PA,DEMOCRAT,FALSE,Lost,,0.462,F,False,False,False,False,False,False,False
+993,993,DEREK BROWN,2024,state:ag,UT,UT,REPUBLICAN,FALSE,Won,,0.5784,F,False,False,False,False,False,False,False
+994,994,RUDY BAUTISTA,2024,state:ag,UT,UT,DEMOCRAT,FALSE,Lost,,0.2768,F,False,False,False,False,False,False,False
+995,995,CHARITY CLARK,2024,state:ag,VT,VT,DEMOCRAT,TRUE,Won,,0.5782,F,False,False,False,False,False,False,False
+996,996,TURE NELSON,2024,state:ag,VT,VT,REPUBLICAN,FALSE,Lost,,0.371,F,False,False,False,False,False,False,False
+997,997,NICK BROWN,2024,state:ag,WA,WA,DEMOCRAT,FALSE,Won,,0.5558,F,False,False,False,False,False,False,False
+998,998,PETE SERRANO,2024,state:ag,WA,WA,REPUBLICAN,FALSE,Lost,,0.371,F,False,False,False,False,False,False,False
+999,999,JB MCCUSKEY,2024,state:ag,WV,WV,REPUBLICAN,FALSE,Won,,0.7002,F,False,False,False,False,False,False,False
+1000,1000,TERESA TORISEVA,2024,state:ag,WV,WV,DEMOCRAT,FALSE,Lost,,0.2998,F,False,False,False,False,False,False,False
+1001,1001,JAY JONES,2025,state:ag,VA,VA,DEMOCRAT,FALSE,Won,,unknown,T,True,False,False,False,False,False,False
+1002,1002,JASON MIYARES,2025,state:ag,VA,VA,REPUBLICAN,TRUE,Lost,,unknown,T,True,False,False,False,False,False,False
