@@ -10,9 +10,8 @@ Below is comparison across the validated name data we do have for 2023-2025 to o
 
 | Status | Count | % of Total |
 |---|---|---|
-| Matched (name + year) | 597 | 59.5% |
-| Incorrect year (name found, year mismatch) | 10 | 1.0% |
-| Not found | 396 | 39.5% |
+| In DB (`in_db = True`, name + year matched) | 597 | 59.5% |
+| Not in DB (`in_db = False`, includes year mismatches) | 406 | 40.5% |
 | **Total** | **1,003** | **100%** |
 
 ## Contact Link Coverage (among matched candidates, n=597)
@@ -27,7 +26,7 @@ Below is comparison across the validated name data we do have for 2023-2025 to o
 | personal_linkedin | 158 | 26.5% |
 | personal_website | 7 | 1.2% |
 
-## Race Type Breakdown (unmatched + incorrect year, n=406)
+## Race Type Breakdown (not in DB, n=406)
 
 | Race Type | Count | % of Unmatched |
 |---|---|---|

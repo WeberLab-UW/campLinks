@@ -1,30 +1,35 @@
 # Database Coverage Report
 
-Last updated: 2026-03-02
+Last updated: 2026-03-10
 
 ## Totals
 
 | Metric | Count |
 |--------|-------|
-| Elections | 1,165 |
-| Candidates | 6,043 |
-| Contact Links | 7,825 |
+| Elections | 1,228 |
+| Candidates | 6,449 |
+| Contact Links | 9,040 |
 
 ## Elections by Year and Race Type
 
 | Year | Race Type | Elections | Candidates |
 |------|-----------|-----------|------------|
+| 2023 | Attorney General | 3 | 6 |
+| 2023 | Governor | 3 | 6 |
 | 2023 | Mayor | 45 | 313 |
-| 2024 | Governor | 16 | 264 |
+| 2023 | US House | 3 | 6 |
+| 2024 | Attorney General | 10 | 20 |
+| 2024 | Governor | 20 | 273 |
 | 2024 | Mayor | 48 | 240 |
-| 2024 | US House of Representatives | 437 | 839 |
+| 2024 | US House | 443 | 1,130 |
+| 2024 | US Senate | 33 | 64 |
 | 2025 | Attorney General | 1 | 2 |
-| 2025 | Governor | 3 | 8 |
+| 2025 | Governor | 3 | 10 |
 | 2025 | Mayor | 101 | 664 |
 | 2025 | State House | 156 | 475 |
 | 2025 | State Senate | 3 | 7 |
 | 2025 | State Supreme Court | 1 | 4 |
-| 2025 | US House | 5 | 35 |
+| 2025 | US House | 6 | 37 |
 | 2026 | Attorney General | 6 | 18 |
 | 2026 | Governor | 34 | 624 |
 | 2026 | Mayor | 12 | 75 |
@@ -38,26 +43,31 @@ Last updated: 2026-03-02
 
 | Year | General | Primary | Runoff | Total |
 |------|---------|---------|--------|-------|
-| 2023 | 28 | 11 | 6 | 45 |
-| 2024 | 472 | 24 | 5 | 501 |
-| 2025 | 251 | 14 | 5 | 270 |
+| 2023 | 37 | 11 | 6 | 54 |
+| 2024 | 525 | 24 | 5 | 554 |
+| 2025 | 252 | 14 | 5 | 271 |
 | 2026 | 104 | 240 | 5 | 349 |
 
 ## Campaign Site Coverage (General Election Candidates)
 
 | Year | Race Type | Candidates | With Site | Coverage % |
 |------|-----------|------------|-----------|------------|
+| 2023 | Attorney General | 6 | 5 | 83.3% |
+| 2023 | Governor | 6 | 5 | 83.3% |
 | 2023 | Mayor | 220 | 111 | 50.5% |
-| 2024 | Governor | 84 | 67 | 79.8% |
+| 2023 | US House | 6 | 5 | 83.3% |
+| 2024 | Attorney General | 20 | 17 | 85.0% |
+| 2024 | Governor | 93 | 75 | 80.6% |
 | 2024 | Mayor | 135 | 91 | 67.4% |
-| 2024 | US House | 839 | 807 | 96.2% |
+| 2024 | US House | 1,130 | 1,050 | 92.9% |
+| 2024 | US Senate | 64 | 58 | 90.6% |
 | 2025 | Attorney General | 2 | 2 | 100.0% |
-| 2025 | Governor | 8 | 8 | 100.0% |
+| 2025 | Governor | 10 | 10 | 100.0% |
 | 2025 | Mayor | 529 | 369 | 69.8% |
 | 2025 | State House | 475 | 441 | 92.8% |
 | 2025 | State Senate | 7 | 7 | 100.0% |
 | 2025 | State Supreme Court | 4 | 4 | 100.0% |
-| 2025 | US House | 35 | 31 | 88.6% |
+| 2025 | US House | 37 | 33 | 89.2% |
 | 2026 | Attorney General | 1 | 1 | 100.0% |
 | 2026 | Governor | 182 | 137 | 75.3% |
 | 2026 | Mayor | 38 | 22 | 57.9% |
@@ -70,22 +80,22 @@ Last updated: 2026-03-02
 
 | Link Type | Count |
 |-----------|-------|
-| campaign_site | 2,608 |
-| campaign_facebook | 1,196 |
-| personal_linkedin | 1,090 |
-| personal_facebook | 1,048 |
-| campaign_instagram | 806 |
-| campaign_x | 757 |
+| campaign_site | 2,953 |
+| campaign_facebook | 1,406 |
+| personal_linkedin | 1,243 |
+| personal_facebook | 1,194 |
+| campaign_instagram | 963 |
+| campaign_x | 947 |
 | campaign_site_archived | 215 |
-| personal_website | 105 |
+| personal_website | 119 |
 
 ## Contact Links by Source
 
 | Source | Count |
 |--------|-------|
-| ballotpedia | 4,746 |
+| ballotpedia | 5,855 |
 | csv_import | 1,936 |
-| web_search | 560 |
+| web_search | 666 |
 | wikipedia | 368 |
 | wayback | 215 |
 
