@@ -6,111 +6,99 @@ Last updated: 2026-03-10
 
 | Metric | Count |
 |--------|-------|
-| Elections | 1,228 |
-| Candidates | 6,449 |
-| Contact Links | 9,040 |
+| Elections | 6,922 |
+| Candidates | 14,592|
+| Contact Links | 5,337 |
 
-## Elections by Year and Race Type
+## Database Coverage of Candidates by Year and Race Type 2023 - 2025
 
-| Year | Race Type | Elections | Candidates |
-|------|-----------|-----------|------------|
-| 2023 | Attorney General | 3 | 6 |
-| 2023 | Governor | 3 | 6 |
-| 2023 | Mayor | 45 | 313 |
-| 2023 | US House | 3 | 6 |
-| 2024 | Attorney General | 10 | 20 |
-| 2024 | Governor | 20 | 273 |
-| 2024 | Mayor | 48 | 240 |
-| 2024 | US House | 443 | 1,130 |
-| 2024 | US Senate | 33 | 64 |
-| 2025 | Attorney General | 1 | 2 |
-| 2025 | Governor | 3 | 10 |
-| 2025 | Mayor | 101 | 664 |
-| 2025 | State House | 156 | 475 |
-| 2025 | State Senate | 3 | 7 |
-| 2025 | State Supreme Court | 1 | 4 |
-| 2025 | US House | 6 | 37 |
-| 2026 | Attorney General | 6 | 18 |
-| 2026 | Governor | 34 | 624 |
-| 2026 | Mayor | 12 | 75 |
-| 2026 | State House | 199 | 1,856 |
-| 2026 | State Senate | 2 | 12 |
-| 2026 | State Supreme Court | 3 | 16 |
-| 2026 | US House | 89 | 547 |
-| 2026 | US Senate | 4 | 44 |
+| Race | Year | Candidates | % candidate names found | Source of candidate name data |
+|------|------|------------|----------------------------------|----------------------------|
+| Attorney general | 2023 | 6 | 100% | ballotpedia, manually collected |
+| Attorney general | 2024 | 20  |  100% | wikipedia, manually collected |
+| Attorney general | 2025 | 2 |  100% | wikipedia, manually collected |
+| Gubernatorial | 2023 | 3 | 100% | wikipedia, manually collected |
+| Gubernatorial | 2024 | 22 |   100% | wikipedia, manually collected |
+| Gubernatorial | 2025 | 4 |100% | wikipedia, manually collected |
+| Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected |
+| Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected |
+| Mayoral | 2025 | 72 | 100% | ballotpedia, manually collected |
+| State house | 2023 | 814 | 73% | follow the money |
+| State house | 2024 | 11,718 state legislative* |86% (*see note) | follow the money |
+| State house | 2025 | 440 |83% | scraped ballotpedia automated |
+| State senate | 2023 | 342 | 77% | follow the money |
+| State senate | 2024  |  11,718 state legislative*  |  86% (*see note) | follow the money |
+| State senate | 2025 | 69  | 100% | wikipedia, manually collected |
+| US senate | 2023 | 0  | 100% | N/A |
+| US senate | 2024 | 68 | 97% | MIT election lab |
+| US senate | 2025 | 0 | 100% | N/A |
+| US house | 2023 | 6 | 100% | wikipedia, manually collected |
+| US house | 2024 | 870  | 98.70% | MIT election lab |
+| US house | 2025 | 12 | 100% | wikipedia, manually collected |
 
-## Election Stages by Year
+*For 2024 state legislatures, there is no breakdown of state legislatures on ballotpedia. Total though, there were 11,718 state legislative candidates. We found 10,098 = 86%, but breakown per state senate and house is unknown since the total is unknown
 
-| Year | General | Primary | Runoff | Total |
-|------|---------|---------|--------|-------|
-| 2023 | 37 | 11 | 6 | 54 |
-| 2024 | 525 | 24 | 5 | 554 |
-| 2025 | 252 | 14 | 5 | 271 |
-| 2026 | 104 | 240 | 5 | 349 |
+## Election Estimates for 2026
 
-## Campaign Site Coverage (General Election Candidates)
+| Race | Year | Candidates | % candidate names found | Source of candidate name data |
+|------|------|------------|----------------------------------|----------------------------|
+| Attorney general | 2026 | 6  | | | |
+| Gubernatorial | 2026 | 72 | | | | | |
+| Mayoral | 2026 | | | || | |
+| State house | 2026 | 176 state legislative total  | | | | | |
+| State senate | 2026 | 176 state legislative total | | | | |
+| US house | 2026 | 870 | | | | | |
+| US senate | 2026 | 66 | | | | | |
 
-| Year | Race Type | Candidates | With Site | Coverage % |
-|------|-----------|------------|-----------|------------|
-| 2023 | Attorney General | 6 | 5 | 83.3% |
-| 2023 | Governor | 6 | 5 | 83.3% |
-| 2023 | Mayor | 220 | 111 | 50.5% |
-| 2023 | US House | 6 | 5 | 83.3% |
-| 2024 | Attorney General | 20 | 17 | 85.0% |
-| 2024 | Governor | 93 | 75 | 80.6% |
-| 2024 | Mayor | 135 | 91 | 67.4% |
-| 2024 | US House | 1,130 | 1,050 | 92.9% |
-| 2024 | US Senate | 64 | 58 | 90.6% |
-| 2025 | Attorney General | 2 | 2 | 100.0% |
-| 2025 | Governor | 10 | 10 | 100.0% |
-| 2025 | Mayor | 529 | 369 | 69.8% |
-| 2025 | State House | 475 | 441 | 92.8% |
-| 2025 | State Senate | 7 | 7 | 100.0% |
-| 2025 | State Supreme Court | 4 | 4 | 100.0% |
-| 2025 | US House | 37 | 33 | 89.2% |
-| 2026 | Attorney General | 1 | 1 | 100.0% |
-| 2026 | Governor | 182 | 137 | 75.3% |
-| 2026 | Mayor | 38 | 22 | 57.9% |
-| 2026 | State House | 581 | 474 | 81.6% |
-| 2026 | State Senate | 4 | 4 | 100.0% |
-| 2026 | State Supreme Court | 6 | 5 | 83.3% |
-| 2026 | US House | 37 | 27 | 73.0% |
+
+## Campaign Site Coverage 
+This is the percentage of candidates we have in database (not percentage of total candidates) for which we find campaign site URL. 
+
+| Race Type | Year |  Coverage % |
+|------|-----------|------------|
+Attorney General|2023|83.3%
+Attorney General|2024|85.0%
+Attorney General|2025|100.0%
+Governor|2023|83.3%
+Governor|2024|90.9%
+Governor|2025|100.0%
+Mayor|2023|71.6%
+Mayor|2024|71.1%
+Mayor|2025|0.0%
+State House|2023|0.0%
+State House|2024|0.0%
+State House|2025|77.5%
+State House|2026|25.5%
+State Senate|2023|0.0%
+State Senate|2024|0.0%
+State Senate|2025|9.7%
+State Senate|2026|33.3%
+US House|2023|83.3%
+US House|2024|92.4%
+US House|2025|100.0%
+US Senate|2024|90.9%
 
 ## Contact Links by Type
 
 | Link Type | Count |
 |-----------|-------|
-| campaign_site | 2,953 |
-| campaign_facebook | 1,406 |
-| personal_linkedin | 1,243 |
-| personal_facebook | 1,194 |
-| campaign_instagram | 963 |
-| campaign_x | 947 |
-| campaign_site_archived | 215 |
-| personal_website | 119 |
+campaign_site|1869
+campaign_facebook|781
+personal_facebook|715
+personal_linkedin|702
+campaign_instagram|587
+campaign_x|571
+campaign_site_archived|62
+personal_website|50
 
 ## Contact Links by Source
 
 | Source | Count |
 |--------|-------|
-| ballotpedia | 5,855 |
-| csv_import | 1,936 |
-| web_search | 666 |
-| wikipedia | 368 |
-| wayback | 215 |
+csv_import|2639
+ballotpedia|2287
+wikipedia|289
+wayback|62
+web_search|60
 
-## Ballotpedia Governor Scraper
 
-| Year | States Found | General | Primary | Runoff | Total Elections |
-|------|-------------|---------|---------|--------|---------------|
-| 2024 | 27 | 8 | 8 | 0 | 16 |
-| 2026 | 34 | 14 | 17 | 3 | 34 |
-
-## Ballotpedia Municipal Scraper (Top-100 Cities)
-
-| Year | General | Primary | Runoff | Elections | Candidates |
-|------|---------|---------|--------|-----------|------------|
-| 2023 | 28 | 11 | 6 | 45 | 313 |
-| 2024 | 27 | 16 | 5 | 48 | 240 |
-| 2025 | 30 | 14 | 5 | 49 | 346 |
-| 2026 | 7 | 3 | 0 | 10 | 61 |
