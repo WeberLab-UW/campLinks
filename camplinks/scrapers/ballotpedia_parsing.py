@@ -80,7 +80,7 @@ def parse_results_rows(
             continue
 
         classes = row.get("class") or []
-        is_winner = "winner" in classes
+        is_winner = "won" if "winner" in classes else "lost"
 
         # Find the text cell (candidate name + party)
         text_cell = row.find(

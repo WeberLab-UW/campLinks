@@ -15,13 +15,14 @@ logger = logging.getLogger(__name__)
 
 SCHEMA_SQL = """\
 CREATE TABLE IF NOT EXISTS elections (
-    election_id    INTEGER PRIMARY KEY,
-    state          TEXT    NOT NULL,
-    race_type      TEXT    NOT NULL,
-    year           INTEGER NOT NULL,
-    district       TEXT,
-    election_stage TEXT    NOT NULL DEFAULT 'general',
-    wikipedia_url  TEXT,
+    election_id       INTEGER PRIMARY KEY,
+    state             TEXT    NOT NULL,
+    race_type         TEXT    NOT NULL,
+    year              INTEGER NOT NULL,
+    district          TEXT,
+    election_stage    TEXT    NOT NULL DEFAULT 'general',
+    wikipedia_url     TEXT,
+    special_election  INTEGER NOT NULL DEFAULT 0,
     UNIQUE(state, race_type, year, district, election_stage)
 );
 
@@ -33,7 +34,7 @@ CREATE TABLE IF NOT EXISTS candidates (
     wikipedia_url  TEXT,
     ballotpedia_url TEXT,
     vote_pct       REAL,
-    is_winner      INTEGER NOT NULL DEFAULT 0,
+    is_winner      TEXT    NOT NULL DEFAULT 'unknown',
     UNIQUE(election_id, candidate_name)
 );
 
@@ -178,6 +179,81 @@ def migrate_schema(conn: sqlite3.Connection) -> None:
     logger.info("Migration complete: %d elections set to 'general'.", count)
 
 
+def migrate_add_special_election(conn: sqlite3.Connection) -> None:
+    """Add special_election column to elections table if not present.
+
+    Existing rows default to 0 (False).
+
+    Args:
+        conn: An open database connection.
+    """
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(elections)").fetchall()}
+    if "special_election" in cols:
+        return
+
+    logger.info("Adding special_election column to elections table...")
+    conn.execute(
+        "ALTER TABLE elections ADD COLUMN special_election INTEGER NOT NULL DEFAULT 0"
+    )
+    conn.commit()
+    logger.info("Migration complete: special_election column added.")
+
+
+def migrate_is_winner_to_text(conn: sqlite3.Connection) -> None:
+    """Migrate candidates.is_winner from INTEGER (0/1) to TEXT ('lost'/'won'/'unknown').
+
+    Safe to call on databases that have already been migrated.
+
+    Args:
+        conn: An open database connection.
+    """
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(candidates)").fetchall()}
+    col_type = None
+    for row in conn.execute("PRAGMA table_info(candidates)").fetchall():
+        if row[1] == "is_winner":
+            col_type = row[2].upper()
+            break
+
+    if col_type and "INT" not in col_type:
+        return  # Already migrated
+
+    logger.info("Migrating candidates.is_winner from INTEGER to TEXT...")
+    conn.execute("PRAGMA foreign_keys = OFF")
+    conn.executescript("""\
+        CREATE TABLE candidates_new (
+            candidate_id    INTEGER PRIMARY KEY,
+            election_id     INTEGER NOT NULL REFERENCES elections(election_id),
+            party           TEXT    NOT NULL,
+            candidate_name  TEXT    NOT NULL,
+            wikipedia_url   TEXT,
+            ballotpedia_url TEXT,
+            vote_pct        REAL,
+            is_winner       TEXT    NOT NULL DEFAULT 'unknown',
+            UNIQUE(election_id, candidate_name)
+        );
+
+        INSERT INTO candidates_new
+            (candidate_id, election_id, party, candidate_name,
+             wikipedia_url, ballotpedia_url, vote_pct, is_winner)
+        SELECT candidate_id, election_id, party, candidate_name,
+               wikipedia_url, ballotpedia_url, vote_pct,
+               CASE WHEN is_winner = 1 THEN 'won'
+                    WHEN is_winner = 0 THEN 'lost'
+                    ELSE 'unknown' END
+        FROM candidates;
+
+        DROP TABLE candidates;
+        ALTER TABLE candidates_new RENAME TO candidates;
+
+        CREATE INDEX IF NOT EXISTS idx_candidates_election
+            ON candidates(election_id);
+    """)
+    conn.execute("PRAGMA foreign_keys = ON")
+    conn.commit()
+    count = conn.execute("SELECT COUNT(*) FROM candidates").fetchone()[0]
+    logger.info("Migration complete: %d candidates updated.", count)
+
+
 def init_schema(conn: sqlite3.Connection) -> None:
     """Create all tables and indexes if they do not exist.
 
@@ -203,10 +279,11 @@ def upsert_election(conn: sqlite3.Connection, election: Election) -> int:
     """
     cursor = conn.execute(
         """\
-        INSERT INTO elections (state, race_type, year, district, election_stage, wikipedia_url)
-        VALUES (?, ?, ?, ?, ?, ?)
+        INSERT INTO elections (state, race_type, year, district, election_stage, wikipedia_url, special_election)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(state, race_type, year, district, election_stage) DO UPDATE
-            SET wikipedia_url = COALESCE(NULLIF(excluded.wikipedia_url, ''), wikipedia_url)
+            SET wikipedia_url    = COALESCE(NULLIF(excluded.wikipedia_url, ''), wikipedia_url),
+                special_election = MAX(special_election, excluded.special_election)
         RETURNING election_id
         """,
         (
@@ -216,6 +293,7 @@ def upsert_election(conn: sqlite3.Connection, election: Election) -> int:
             election.district or "",
             election.election_stage,
             election.wikipedia_url,
+            int(election.special_election),
         ),
     )
     row = cursor.fetchone()
@@ -252,7 +330,7 @@ def upsert_candidate(
             wikipedia_url   = COALESCE(NULLIF(excluded.wikipedia_url, ''), wikipedia_url),
             ballotpedia_url = COALESCE(NULLIF(excluded.ballotpedia_url, ''), ballotpedia_url),
             vote_pct        = COALESCE(excluded.vote_pct, vote_pct),
-            is_winner       = MAX(is_winner, excluded.is_winner)
+            is_winner       = CASE WHEN excluded.is_winner != 'unknown' THEN excluded.is_winner ELSE is_winner END
         RETURNING candidate_id
         """,
         (
@@ -262,7 +340,7 @@ def upsert_candidate(
             candidate.wikipedia_url,
             candidate.ballotpedia_url,
             candidate.vote_pct,
-            int(candidate.is_winner),
+            candidate.is_winner,
         ),
     )
     row = cursor.fetchone()
@@ -398,6 +476,29 @@ def upsert_contact_link(
             SET url = excluded.url, source = excluded.source
         """,
         (link.candidate_id, link.link_type, link.url, link.source),
+    )
+
+
+def update_candidate_wikipedia_url(
+    conn: sqlite3.Connection,
+    candidate_id: int,
+    wikipedia_url: str,
+) -> None:
+    """Set the Wikipedia URL for a candidate if not already present.
+
+    Args:
+        conn: Database connection.
+        candidate_id: The candidate to update.
+        wikipedia_url: The Wikipedia page URL.
+    """
+    conn.execute(
+        """
+        UPDATE candidates
+        SET wikipedia_url = ?
+        WHERE candidate_id = ?
+          AND (wikipedia_url IS NULL OR wikipedia_url = '')
+        """,
+        (wikipedia_url, candidate_id),
     )
 
 

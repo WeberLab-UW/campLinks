@@ -14,8 +14,8 @@ import requests
 from bs4 import BeautifulSoup, Tag
 from tqdm import tqdm
 
-from camplinks.db import upsert_contact_link
-from camplinks.http import fetch_soup
+from camplinks.db import update_candidate_wikipedia_url, upsert_contact_link
+from camplinks.http import ddg_search, fetch_soup
 from camplinks.models import ContactLink
 
 logger = logging.getLogger(__name__)
@@ -88,6 +88,89 @@ def extract_campaign_website(soup: BeautifulSoup) -> str:
                             return str(a_tag["href"])
 
     return ""
+
+
+WIKIPEDIA_BASE = "https://en.wikipedia.org"
+
+
+def find_wikipedia_url(name: str, state: str, race_type: str) -> str:
+    """Search DuckDuckGo for a candidate's Wikipedia page.
+
+    Args:
+        name: Candidate full name.
+        state: US state name.
+        race_type: Race type (e.g. "State House", "Mayor").
+
+    Returns:
+        Wikipedia page URL, or empty string if not found.
+    """
+    query = f'site:en.wikipedia.org "{name}" {state} {race_type} politician'
+    results = ddg_search(query, max_results=5)
+    for r in results:
+        href = r.get("href", "")
+        if "en.wikipedia.org/wiki/" in href and "Special:" not in href:
+            return href
+    return ""
+
+
+def enrich_wikipedia_urls(
+    conn: sqlite3.Connection,
+    year: int | None = None,
+    race_type: str | None = None,
+    election_stage: str | None = "general",
+) -> int:
+    """Search for Wikipedia URLs for candidates that don't have one.
+
+    Queries candidates missing a wikipedia_url, searches DDG for their
+    Wikipedia page, and updates candidates.wikipedia_url in the database.
+
+    Args:
+        conn: Open database connection.
+        year: Optional filter by election year.
+        race_type: Optional filter by race type.
+        election_stage: Optional filter by election stage.
+
+    Returns:
+        Number of Wikipedia URLs found and saved.
+    """
+    query = """\
+        SELECT c.candidate_id, c.candidate_name, e.state, e.race_type
+        FROM candidates c
+        JOIN elections e ON c.election_id = e.election_id
+        WHERE (c.wikipedia_url IS NULL OR c.wikipedia_url = '')
+    """
+    params: list[str | int] = []
+    if election_stage is not None:
+        query += " AND e.election_stage = ?"
+        params.append(election_stage)
+    if year is not None:
+        query += " AND e.year = ?"
+        params.append(year)
+    if race_type is not None:
+        query += " AND e.race_type = ?"
+        params.append(race_type)
+
+    rows = conn.execute(query, params).fetchall()
+
+    if not rows:
+        logger.info("No candidates need Wikipedia URL search.")
+        return 0
+
+    logger.info("Searching Wikipedia URLs for %d candidates...", len(rows))
+
+    found = 0
+    for row in tqdm(rows, desc="Finding Wikipedia URLs", unit="candidate"):
+        try:
+            url = find_wikipedia_url(row["candidate_name"], row["state"], row["race_type"])
+            if url:
+                update_candidate_wikipedia_url(conn, row["candidate_id"], url)
+                found += 1
+        except Exception as exc:
+            logger.error("Wikipedia search failed for %s: %s", row["candidate_name"], exc)
+
+    conn.commit()
+    logger.info("Found Wikipedia URLs for %d / %d candidates.", found, len(rows))
+    return found
 
 
 def enrich_from_wikipedia(

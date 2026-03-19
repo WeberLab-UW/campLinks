@@ -19,6 +19,7 @@ class Election:
         district: District identifier or None for statewide races.
         wikipedia_url: Source Wikipedia page URL.
         election_stage: Stage of the election ("general", "primary", "runoff").
+        special_election: Whether this is a special (off-cycle) election.
         election_id: Database primary key (set after insertion).
     """
 
@@ -28,6 +29,7 @@ class Election:
     district: str | None = None
     wikipedia_url: str = ""
     election_stage: str = "general"
+    special_election: bool = False
     election_id: int | None = None
 
 
@@ -41,7 +43,7 @@ class Candidate:
         wikipedia_url: Wikipedia page URL, if available.
         ballotpedia_url: Ballotpedia page URL, if discovered.
         vote_pct: Vote share percentage, if available.
-        is_winner: Whether this candidate won the race.
+        is_winner: Race outcome -- ``"won"``, ``"lost"``, or ``"unknown"``.
         candidate_id: Database primary key (set after insertion).
         election_id: Foreign key to the parent election (set after insertion).
     """
@@ -51,7 +53,7 @@ class Candidate:
     wikipedia_url: str = ""
     ballotpedia_url: str = ""
     vote_pct: float | None = None
-    is_winner: bool = False
+    is_winner: str = "unknown"
     candidate_id: int | None = None
     election_id: int | None = None
 
