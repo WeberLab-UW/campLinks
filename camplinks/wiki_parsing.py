@@ -217,9 +217,7 @@ def parse_candidate_row(
         except ValueError:
             pass
 
-    is_winner = False
-    if name_cell and name_cell.find("b"):
-        is_winner = True
+    is_winner = "won" if (name_cell and name_cell.find("b")) else "lost"
 
     return {
         "party": party_text,
@@ -231,7 +229,7 @@ def parse_candidate_row(
 
 
 def candidates_from_parsed(
-    parsed: list[dict[str, str | float | bool | None]],
+    parsed: list[dict[str, str | float | bool | None]],  # noqa: PYI016
 ) -> list[Candidate]:
     """Convert raw parsed dicts into Candidate dataclass instances.
 
@@ -255,7 +253,7 @@ def candidates_from_parsed(
                 if (vp := c.get("vote_pct")) is not None
                 and isinstance(vp, (int, float))
                 else None,
-                is_winner=bool(c.get("is_winner", False)),
+                is_winner="won" if c.get("is_winner") is True or c.get("is_winner") == "won" else "lost",
             )
         )
     return candidates
@@ -292,8 +290,10 @@ def parse_basic_wikitable_row(
         if href_val.startswith("/wiki/"):
             wiki_url = f"{BASE_URL}{href_val}"
 
-    is_winner = th.find("b") is not None or bool(
-        row.find(style=re.compile(r"font-weight\s*:\s*bold"))
+    is_winner = (
+        "won"
+        if (th.find("b") is not None or bool(row.find(style=re.compile(r"font-weight\s*:\s*bold"))))
+        else "lost"
     )
 
     tds = row.find_all("td")

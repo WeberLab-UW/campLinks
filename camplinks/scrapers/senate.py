@@ -123,7 +123,7 @@ class SenateScraper(BaseScraper):
                         if (vp := c.get("vote_pct")) is not None
                         and isinstance(vp, (int, float))
                         else None,
-                        is_winner=bool(c.get("is_winner", False)),
+                        is_winner="won" if c.get("is_winner") is True or c.get("is_winner") == "won" else "lost",
                     )
                 )
 

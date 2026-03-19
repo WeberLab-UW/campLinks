@@ -1,0 +1,150 @@
+cand_name,year,election_type,state,district,party,incumbency_status,race_outcome,percentage_votes,special_election
+Matt Woods,2025,State Senate,Alabama,5,REPUBLICAN,FALSE,Won,86,TRUE
+Ryan Cagle,2025,State Senate,Alabama,5,DEMOCRAT,FALSE,Lost,13.8,TRUE
+Heath Allbright,2025,State House,Alabama,11,REPUBLICAN,FALSE,Won,88.8,TRUE
+Alexandria Braswell ,2025,State House,Alabama,11,DEMOCRAT,FALSE,Lost,11.2,TRUE
+Greg Barnes,2025,State House,Alabama,13,REPUBLICAN,FALSE,Won,100,TRUE
+Cindy Myrex,2025,State House,Alabama,12,REPUBLICAN,FALSE,Won,87.1,TRUE
+Matthew Glover,2025,State House,Alabama,12,DEMOCRAT,FALSE,Lost,12.8,TRUE
+Stan Ellis,2025,State House,California,32,REPUBLICAN,FALSE,Won,64.6,TRUE
+Chris Cruz-Boone,2025,State House,California,32,DEMOCRAT,FALSE,Lost,28.7,TRUE
+Tony Strickland,2025,State Senate,California,36,REPUBLICAN,FALSE,Won,51.3,TRUE
+Jimmy Pham,2025,State Senate,California,36,DEMOCRAT,FALSE,Lost,27.7,TRUE
+Natasha Johnson,2025,State House,California,63,REPUBLICAN,FALSE,Won,53.5,TRUE
+Chris Shoults,2025,State House,California,63,DEMOCRAT,FALSE,Lost,46.5,TRUE
+Dan Gaiewski,2025,State House,Connecticut,40,DEMOCRAT,FALSE,Won,68.9,TRUE
+Robert Boris,2025,State House,Connecticut,40,REPUBLICAN,FALSE,Lost,31.1,TRUE
+Jason Perillo,2025,State Senate,Connecticut,21,REPUBLICAN,FALSE,Won,53.5,TRUE
+Tony Afriyie,2025,State Senate,Connecticut,21,DEMOCRAT,FALSE,Lost,46.5,TRUE
+Amy Romano,2025,State House,Connecticut,113,REPUBLICAN,FALSE,Won,52.5,TRUE
+Michael Duncan,2025,State House,Connecticut,113,DEMOCRAT,FALSE,Lost,47.5,TRUE
+Dan Cruce ,2025,State Senate,Delaware,1,DEMOCRAT,FALSE,Won,77.1,TRUE
+Steve Washington,2025,State Senate,Delaware,1,REPUBLICAN,FALSE,Lost,20.9,TRUE
+Ray Seigfried,2025,State Senate,Delaware,5,DEMOCRAT,FALSE,Won,65.1,TRUE
+Brent Burdge,2025,State Senate,Delaware,5,REPUBLICAN,FALSE,Lost,34.7,TRUE
+Alonna Berry ,2025,State House,Delaware,20,DEMOCRAT,FALSE,Won,50.6,TRUE
+Nikki Miller ,2025,State House,Delaware,20,REPUBLICAN,FALSE,Lost,49.3,TRUE
+Nathan Boyles,2025,State House,Florida,3,REPUBLICAN,FALSE,Won,67.1,TRUE
+Dondre Wise ,2025,State House,Florida,3,DEMOCRAT,FALSE,Lost,32.9,TRUE
+Brian Hodgers,2025,State House,Florida,32,REPUBLICAN,FALSE,Won,55.3,TRUE
+Juan Hinojosa,2025,State House,Florida,32,DEMOCRAT,FALSE,Lost,44.7,TRUE
+Debbie Mayfield ,2025,State Senate,Florida,19,REPUBLICAN,FALSE,Won,54.4,TRUE
+Vance Ahrens,2025,State Senate,Florida,19,DEMOCRAT,FALSE,Lost,45.6,TRUE
+RaShon Young ,2025,State House,Florida,40,DEMOCRAT,FALSE,Won,75,TRUE
+Tuan Le,2025,State House,Florida,40,REPUBLICAN,FALSE,Lost,34.9,TRUE
+LaVon Bracy Davis,2025,State Senate,Florida,15,DEMOCRAT,FALSE,Won,72.6,TRUE
+Willie Montague,2025,State Senate,Florida,15,REPUBLICAN,FALSE,Lost,27.4,TRUE
+Rob Long,2025,State House,Florida,90,DEMOCRAT,FALSE,Won,63.2,TRUE
+Maria Zack,2025,State House,Florida,90,REPUBLICAN,FALSE,Lost,35.9,TRUE
+Ralph Massullo,2025,State Senate,Florida,11,REPUBLICAN,FALSE,Won,59.2,TRUE
+Ash Marwah,2025,State Senate,Florida,11,DEMOCRAT,FALSE,Lost,40.8,TRUE
+Jason Dickerson,2025,State Senate,Georgia,21,REPUBLICAN,FALSE,Won,61.5,TRUE
+Debra Shigley,2025,State Senate,Georgia,21,DEMOCRAT,FALSE,Lost,38.5,TRUE
+Akbar Ali,2025,State House,Georgia,106,DEMOCRAT,FALSE,Won,54.4,TRUE
+Marqus Cole,2025,State House,Georgia,106,DEMOCRAT,FALSE,Lost,45.6,TRUE
+Jaha Howard,2025,State Senate,Georgia,35,DEMOCRAT,FALSE,Won,51.9,TRUE
+Roger Bruce,2025,State Senate,Georgia,35,DEMOCRAT,FALSE,Lost,48.1,TRUE
+Eric Gisler ,2025,State House,Georgia,121,DEMOCRAT,FALSE,Won,50.9,TRUE
+"Mack ""Dutch"" Guest IV",2025,State House,Georgia,121,REPUBLICAN,FALSE,Lost,49.1,TRUE
+Mike Zimmer,2025,State Senate,Iowa,35,DEMOCRAT,FALSE,Won,51.7,TRUE
+Katie Whittington,2025,State Senate,Iowa,35,REPUBLICAN,FALSE,Lost,48.1,TRUE
+Blaine Watkins,2025,State House,Iowa,100,REPUBLICAN,FALSE,Won,51.5,TRUE
+Nannette Griffin,2025,State House,Iowa,100,DEMOCRAT,FALSE,Lost,48.2,TRUE
+Angel Ramirez,2025,State House,Iowa,78,DEMOCRAT,FALSE,Won,79.1,TRUE
+Bernie Hayes,2025,State House,Iowa,78,REPUBLICAN,FALSE,Lost,20.8,TRUE
+Catelin Drey,2025,State Senate,Iowa,1,DEMOCRAT,FALSE,Won,55.2,TRUE
+Christopher Prosch,2025,State Senate,Iowa,1,REPUBLICAN,FALSE,Lost,44.7,TRUE
+Wendy Larson,2025,State House,Iowa,7,REPUBLICAN,FALSE,Won,70,TRUE
+Rachel Burns,2025,State House,Iowa,7,DEMOCRAT,FALSE,Lost,29.9,TRUE
+Renee Hardman,2025,State Senate,Iowa,16,DEMOCRAT,FALSE,Won,71.4,TRUE
+Lucas Loftin,2025,State Senate,Iowa,16,REPUBLICAN,FALSE,Lost,28.5,TRUE
+Gary Clemons,2025,State Senate,Kentucky,37,DEMOCRAT,FALSE,Won,72.6,TRUE
+Calvin Leach,2025,State Senate,Kentucky,37,REPUBLICAN,FALSE,Lost,25.1,TRUE
+Larry Selders,2025,State Senate,Louisiana,14,DEMOCRAT,FALSE,Won,62.4,TRUE
+Carolyn Hill,2025,State Senate,Louisiana,14,DEMOCRAT,FALSE,Lost,20.4,TRUE
+Brach Myers,2025,State Senate,Louisiana,23,REPUBLICAN,FALSE,Won,54.48,TRUE
+Jesse Regan,2025,State Senate,Louisiana,23,REPUBLICAN,FALSE,Lost,45.2,TRUE
+Annie Spell,2025,State House,Louisiana,45,REPUBLICAN,FALSE,Won,100,TRUE
+Terry Landry Jr.,2025,State House,Louisiana,67,DEMOCRAT,FALSE,Won,51.8,TRUE
+Malcolm Myer,2025,State House,Louisiana,67,DEMOCRAT,FALSE,Lost,42.2,TRUE
+Sean Faircloth,2025,State House,Maine,24,DEMOCRAT,FALSE,Won,71.7,TRUE
+Carolyn Fish,2025,State House,Maine,24,REPUBLICAN,FALSE,Lost,28.3,TRUE
+Hannah Bowen,2025,State House,Massachusetts,Essex 6,DEMOCRAT,FALSE,Won,73.4,TRUE
+Medley Long III,2025,State House,Massachusetts,Essex 6,REPUBLICAN,FALSE,Lost,26.1,TRUE
+Lisa Field,2025,State House,Massachusetts,Bristol 3,DEMOCRAT,FALSE,Won,50.1,TRUE
+Larry Quintal,2025,State House,Massachusetts,Bristol 3,REPUBLICAN,FALSE,Lost,49.8,TRUE
+Doron Clark,2025,State Senate,Minnesota,60,DEMOCRAT,FALSE,Won,90.9,TRUE
+Abigail Wolters,2025,State Senate,Minnesota,60,REPUBLICAN,FALSE,Lost,8.7,TRUE
+David Gottfried,2025,State House,Minnesota,40B,DEMOCRAT,FALSE,Won,70.2,TRUE
+Paul Wikstrom,2025,State House,Minnesota,40B,REPUBLICAN,FALSE,Lost,29.8,TRUE
+Keri Heintzeman,2025,State Senate,Minnesota,6,REPUBLICAN,FALSE,Won,60.3,TRUE
+Denise Slipy,2025,State Senate,Minnesota,6,DEMOCRAT,FALSE,Lost,39.6,TRUE
+Xp Lee,2025,State House,Minnesota,34B,DEMOCRAT,FALSE,Won,60.8,TRUE
+Ruth Bittner,2025,State House,Minnesota,34B,REPUBLICAN,FALSE,Lost,39.1,TRUE
+Michael Holmstrom Jr.,2025,State Senate,Minnesota,29,REPUBLICAN,FALSE,Won,62.2,TRUE
+Louis McNutt ,2025,State Senate,Minnesota,29,DEMOCRAT,FALSE,Lost,37.7,TRUE
+Amanda Hemmingsen-Jaeger,2025,State Senate,Minnesota,47,DEMOCRAT,FALSE,Won,61.7,TRUE
+Dwight Dorau,2025,State Senate,Minnesota,47,REPUBLICAN,FALSE,Lost,38.2,TRUE
+Lane Taylor,2025,State Senate,Mississippi,18,NONPARTISAN,FALSE,Won,56.9,TRUE
+Mark Forsman,2025,State Senate,Mississippi,18,NONPARTISAN,FALSE,Lost,26.1,TRUE
+Perry Van Bailey,2025,State House,Mississippi,23,NONPARTISAN,FALSE,Won,50.6,TRUE
+Colby Bollinger,2025,State House,Mississippi,23,NONPARTISAN,FALSE,Lost,49.2,TRUE
+Gregory Elliott ,2025,State House,Mississippi,82,NONPARTISAN,FALSE,Won,65.6,TRUE
+Joe Norwood,2025,State House,Mississippi,82,NONPARTISAN,FALSE,Lost,34.5,TRUE
+Otha Williams,2025,State House,Mississippi,26,NONPARTISAN,FALSE,Won,52.6,TRUE
+Kim Seals,2025,State House,Mississippi,26,NONPARTISAN,FALSE,Lost,33.8,TRUE
+Justin Pope,2025,State Senate,Mississippi,24,NONPARTISAN,FALSE,Won,54,TRUE
+Curressia,2025,State Senate,Mississippi,24,NONPARTISAN,FALSE,Lost,46,TRUE
+Kamesha Mumford,2025,State Senate,Mississippi,26,NONPARTISAN,FALSE,Won,55.9,TRUE
+Letitia Johnson,2025,State Senate,Mississippi,26,NONPARTISAN,FALSE,Lost,44.1,TRUE
+Billie Butler,2025,State House,New Hampshire,Strafford 12,DEMOCRAT,FALSE,Won,55.5,TRUE
+Ken Hilton,2025,State House,New Hampshire,Strafford 12,REPUBLICAN,FALSE,Lost,44.5,TRUE
+Marc Tremblay,2025,State House,New Hampshire,Coos 5,REPUBLICAN,FALSE,Won,50.1,TRUE
+Corinne Cascadden,2025,State House,New Hampshire,Coos 5,DEMOCRAT,FALSE,Lost,49.9,TRUE
+Benjie Wimberly,2025,State Senate,New Jersey,35,DEMOCRAT,FALSE,Won,72.6,TRUE
+Frank Filippelli,2025,State Senate,New Jersey,35,REPUBLICAN,FALSE,Lost,27.4,TRUE
+Sam Sutton,2025,State Senate,New York,22,DEMOCRAT,FALSE,Won,66.8,TRUE
+Nachman Caller,2025,State Senate,New York,22,REPUBLICAN,FALSE,Lost,32.1,TRUE
+Michael Cashman,2025,State House,New York,115,DEMOCRAT,FALSE,Won,51.6,TRUE
+Brent Davison,2025,State House,New York,115,REPUBLICAN,FALSE,Lost,47.2,TRUE
+Bryan Logan,2025,State Senate,Oklahoma,8,REPUBLICAN,FALSE,Won,61.6,TRUE
+Nathan Brewer,2025,State Senate,Oklahoma,8,DEMOCRAT,FALSE,Lost,29.7,TRUE
+Amanda Clinton,2025,State House,Oklahoma,71,DEMOCRAT,FALSE,Won,84.7,TRUE
+Beverly Atteberry,2025,State House,Oklahoma,71,REPUBLICAN,FALSE,Lost,15.3,TRUE
+Kevin Norwood,2025,State House,Oklahoma,74,REPUBLICAN,FALSE,Won,64.6,TRUE
+Amy Hossain,2025,State House,Oklahoma,74,DEMOCRAT,FALSE,Lost,35.4,TRUE
+Aletia Timmons,2025,State House,Oklahoma,97,DEMOCRAT,FALSE,Won,100,TRUE
+Dan Goughnour,2025,State House,Pennsylvania,35,DEMOCRAT,FALSE,Won,63.4,TRUE
+Charles Davis,2025,State House,Pennsylvania,35,REPUBLICAN,FALSE,Lost,35,TRUE
+James Malone,2025,State Senate,Pennsylvania,36,DEMOCRAT,FALSE,Won,50,TRUE
+Josh Parsons,2025,State Senate,Pennsylvania,36,REPUBLICAN,FALSE,Lost,49.1,TRUE
+Stefano Famiglietti,2025,State Senate,Rhode Island,4,DEMOCRAT,FALSE,Won,83,TRUE
+Alex Asermely ,2025,State Senate,Rhode Island,4,REPUBLICAN,FALSE,Lost,16.2,TRUE
+Courtney Waters,2025,State House,South Carolina,113,DEMOCRAT,FALSE,Won,98,TRUE
+Keishan Scott,2025,State House,South Carolina,50,DEMOCRAT,FALSE,Won,70.6,TRUE
+Bill Oden,2025,State House,South Carolina,50,REPUBLICAN,FALSE,Lost,29.3,TRUE
+Dianne Mitchell,2025,State House,South Carolina,21,REPUBLICAN,FALSE,Won,70.3,TRUE
+John Thomas Lastinger,2025,State House,South Carolina,88,REPUBLICAN,FALSE,Won,62.3,TRUE
+Chuck Hightower,2025,State House,South Carolina,88,DEMOCRAT,FALSE,Lost,37.6,TRUE
+Lee Bright,2025,State Senate,South Carolina,12,REPUBLICAN,FALSE,Won,67.4,TRUE
+JJ Singh,2025,State House,Virginia,26,DEMOCRAT,FALSE,Won,62.3,TRUE
+Ram Venkatachalam,2025,State House,Virginia,26,REPUBLICAN,FALSE,Lost,37.5,TRUE
+Luther Cifers,2025,State Senate,Virginia,10,REPUBLICAN,FALSE,Won,57.8,TRUE
+Jack Trammell ,2025,State Senate,Virginia,10,DEMOCRAT,FALSE,Lost,42.1,TRUE
+Kannan Srinivasan,2025,State Senate,Virginia,32,DEMOCRAT,FALSE,Won,61.7,TRUE
+Tumay Harding,2025,State Senate,Virginia,32,REPUBLICAN,FALSE,Lost,38.1,TRUE
+Edwin Obras,2025,State House,Washington,33,DEMOCRAT,FALSE,Won,52.1,TRUE
+Kevin Schilling,2025,State House,Washington,33,DEMOCRAT,FALSE,Lost,46.4,TRUE
+Brianna Thomas,2025,State House,Washington,34,DEMOCRAT,FALSE,Won,98.1,TRUE
+Janice Zahn,2025,State House,Washington,41,DEMOCRAT,FALSE,Won,70.9,TRUE
+John Whitney,2025,State House,Washington,41,REPUBLICAN,FALSE,Lost,29,TRUE
+Osman Salahuddin ,2025,State House,Washington,48,DEMOCRAT,FALSE,Won,70.1,TRUE
+Dennis Ellis,2025,State House,Washington,48,REPUBLICAN,FALSE,Lost,29.8,TRUE
+Victoria Hunt,2025,State Senate,Washington,5,DEMOCRAT,FALSE,Won,56.2,TRUE
+Chad Magendanz ,2025,State Senate,Washington,5,REPUBLICAN,FALSE,Lost,43.6,TRUE
+Deborah Krishnadasan,2025,State Senate,Washington,26,DEMOCRAT,FALSE,Won,52.5,TRUE
+Michelle Caldier,2025,State Senate,Washington,26,REPUBLICAN,FALSE,Lost,47.4,TRUE
+Tina Orwall,2025,State Senate,Washington,33,DEMOCRAT,FALSE,Won,96.8,TRUE
+Emily Alvarado ,2025,State Senate,Washington,34,DEMOCRAT,FALSE,Won,98.1,TRUE
+Vandana Slatter,2025,State Senate,Washington,48,DEMOCRAT,FALSE,Won,58,TRUE
+Amy Walen,2025,State Senate,Washington,48,DEMOCRAT,FALSE,Lost,40.7,TRUE

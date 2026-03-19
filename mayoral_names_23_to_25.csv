@@ -1,0 +1,223 @@
+cand_name,year,election_type,state,district,party,incumbency_status,race_outcome,percentage_votes
+Steven L. Reed,2023,Mayor,Alabama,Montgomery,DEMOCRAT,TRUE,Won,56.9
+Barrett Gilbreath,2023,Mayor,Alabama,Montgomery,NONPARTISAN,FALSE,Lost,38.8
+Regina Romero,2023,Mayor,Arizona,Tucson,DEMOCRAT,TRUE,Won,59.9
+Janet Wittenbraker,2023,Mayor,Arizona,Tucson,REPUBLICAN,FALSE,Lost,32
+Mike Coffman,2023,Mayor,Colorado,Aurora,REPUBLICAN,TRUE,Won,52.6
+Juan Marcano,2023,Mayor,Colorado,Aurora,DEMOCRAT,FALSE,Lost,40.6
+Yemi Mobolade,2023,Mayor,Colorado,Colorado Springs,INDEPENDENT,FALSE,Won,57.5
+Wayne W. Williams ,2023,Mayor,Colorado,Colorado Springs,REPUBLICAN,FALSE,Lost,42.5
+Michael Johnston,2023,Mayor,Colorado,Denver,DEMOCRAT,FALSE,Won,55.2
+Kelly Brough,2023,Mayor,Colorado,Denver,DEMOCRAT,FALSE,Lost,44.8
+Arunan Arulampalam,2023,Mayor,Connecticut,Hartford,DEMOCRAT,FALSE,Won,62
+Nick Lebron ,2023,Mayor,Connecticut,Hartford,INDEPENDENT,FALSE,Lost,12
+Robin Christiansen,2023,Mayor,Delaware,Dover,DEMOCRAT,TRUE,Won,63.1
+Diana Welch,2023,Mayor,Delaware,Dover,NONPARTISAN,FALSE,Lost,36.9
+Donna Deegan,2023,Mayor,Florida,Jacksonville,DEMOCRAT,FALSE,Won,52.1
+Daniel Davis,2023,Mayor,Florida,Jacksonville,REPUBLICAN,FALSE,Lost,47.9
+Buddy Dyer,2023,Mayor,Florida,Orlando,DEMOCRAT,TRUE,Won,72.8
+Steve Dixon,2023,Mayor,Florida,Orlando,REPUBLICAN,FALSE,Lost,14.9
+Jane Castor,2023,Mayor,Florida,Tampa,DEMOCRAT,TRUE,Won,80.1
+Belinda Noah,2023,Mayor,Florida,Tampa,REPUBLICAN,FALSE,Lost,7.5
+Lauren McLean,2023,Mayor,Idaho,Boise,DEMOCRAT,TRUE,Won,55.4
+Mike Masterson,2023,Mayor,Idaho,Boise,NONPARTISAN,FALSE,Lost,43.4
+Brandon Johnson,2023,Mayor,Illinois,Chicago,DEMOCRAT,FALSE,Won,52.2
+Paul Vallas,2023,Mayor,Illinois,Chicago,DEMOCRAT,FALSE,Lost,47.8
+Misty Buscher,2023,Mayor,Illinois,Springfield,REPUBLICAN,FALSE,Won,51.5
+Jim Langfelder,2023,Mayor,Illinois,Springfield,DEMOCRAT,TRUE,Lost,48.5
+Tom Henry,2023,Mayor,Indiana,Fort Wayne,DEMOCRAT,TRUE,Won,51.9
+Thomas Didier,2023,Mayor,Indiana,Fort Wayne,REPUBLICAN,FALSE,Lost,48.1
+Joe Hogsett,2023,Mayor,Indiana,Indianapolis,DEMOCRAT,TRUE,Won,59.4
+Jefferson Shreve,2023,Mayor,Indiana,Indianapolis,REPUBLICAN,FALSE,Lost,40.6
+Connie Boesen,2023,Mayor,Iowa,Des Moines,NONPARTISAN,FALSE,Won,48.2
+Josh Mandelbaum,2023,Mayor,Iowa,Des Moines,NONPARTISAN,FALSE,Lost,45.8
+Lily Wu,2023,Mayor,Kansas,Wichita,LIBERTARIAN,FALSE,Won,57.6
+Brandon Whipple,2023,Mayor,Kansas,Wichita,DEMOCRAT,TRUE,Lost,41.8
+Quinton Lucas,2023,Mayor,Missouri,Kansas City,DEMOCRAT,TRUE,Won,80.5
+Clay Chastain,2023,Mayor,Missouri,Kansas City,REPUBLICAN,FALSE,Lost,19.5
+Leirion Gaylor Baird,2023,Mayor,Nebraska,Lincoln,DEMOCRAT,TRUE,Won,54.7
+Suzanne Geist,2023,Mayor,Nebraska,Lincoln,REPUBLICAN,FALSE,Lost,45.1
+Byron Champlin,2023,Mayor,New Hampshire,Concord,DEMOCRAT,FALSE,Won,74
+Kate West,2023,Mayor,New Hampshire,Concord,NONPARTISAN,FALSE,Lost,20.1
+Vi Alexander Lyles,2023,Mayor,North Carolina,Charlotte,DEMOCRAT,TRUE,Won,73.6
+Misun Kim,2023,Mayor,North Carolina,Charlotte,REPUBLICAN,FALSE,Lost,21.3
+Leonardo Williams,2023,Mayor,North Carolina,Durham,DEMOCRAT,FALSE,Won,63.5
+Mike Woodard,2023,Mayor,North Carolina,Durham,DEMOCRAT,FALSE,Lost,36.2
+Andrew Ginther,2023,Mayor,Ohio,Columbus,DEMOCRAT,TRUE,Won,63.4
+Joseph Motil,2023,Mayor,Ohio,Columbus,DEMOCRAT,FALSE,Lost,35.5
+Cherelle Parker,2023,Mayor,Pennsylvania,Philadelphia,DEMOCRAT,FALSE,Won,74.7
+David Oh,2023,Mayor,Pennsylvania,Philadelphia,REPUBLICAN,FALSE,Lost,24.4
+Paul Young,2023,Mayor,Tennessee,Memphis,DEMOCRAT,FALSE,Won,27.6
+Floyd Bonner,2023,Mayor,Tennessee,Memphis,DEMOCRAT,FALSE,Lost,22.5
+Freddie O'Connell,2023,Mayor,Tennessee,Nashville,DEMOCRAT,FALSE,Won,63.8
+Alice Rolli,2023,Mayor,Tennessee,Nashville,REPUBLICAN,FALSE,Lost,36
+Jim Ross,2023,Mayor,Texas,Arlington,REPUBLICAN,TRUE,Won,51.8
+Amy Cearnal,2023,Mayor,Texas,Arlington,REPUBLICAN,FALSE,Lost,48.2
+Eric Johnson,2023,Mayor,Texas,Dallas,REPUBLICAN,TRUE,Won,98.7
+Kendal Richardson,2023,Mayor,Texas,Dallas,NONPARTISAN,FALSE,Lost,1.3
+Mattie Parker,2023,Mayor,Texas,Fort Worth,REPUBLICAN,TRUE,Won,69.4
+Jennifer Castillo,2023,Mayor,Texas,Fort Worth,NONPARTISAN,FALSE,Lost,12.1
+Scott LeMay,2023,Mayor,Texas,Garland,NONPARTISAN,TRUE,Won,75.4
+Roel Garcia,2023,Mayor,Texas,Garland,NONPARTISAN,FALSE,Lost,24.6
+John Whitmire,2023,Mayor,Texas,Houston,DEMOCRAT,FALSE,Won,64.4
+Sheila Jackson Lee,2023,Mayor,Texas,Houston,DEMOCRAT,FALSE,Lost,35.6
+Ron Nirenberg,2023,Mayor,Texas,San Antonio,DEMOCRAT,TRUE,Won,60.7
+Christopher Schuchardt,2023,Mayor,Texas,San Antonio,REPUBLICAN,FALSE,Lost,21.9
+Erin Mendenhall,2023,Mayor,Utah,Salt Lake City,DEMOCRAT,TRUE,Won,58.4
+Ross Anderson,2023,Mayor,Utah,Salt Lake City,JUSTICE,FALSE,Lost,34.4
+Jack McCullough,2023,Mayor,Vermont,Montpelier,NONPARTISAN,FALSE,Won,53.5
+Dan Jones,2023,Mayor,Vermont,Montpelier,NONPARTISAN,FALSE,Lost,33.6
+Dontae Payne,2023,Mayor,Washington,Olympia,DEMOCRAT,FALSE,Won,69.5
+David Ross,2023,Mayor,Washington,Olympia,DEMOCRAT,FALSE,Lost,30
+Lisa Brown,2023,Mayor,Washington,Spokane,DEMOCRAT,FALSE,Won,51.7
+Nadine Woodward,2023,Mayor,Washington,Spokane,REPUBLICAN,TRUE,Lost,47.7
+Satya Rhodes-Conway,2023,Mayor,Wisconsin,Madison,DEMOCRAT,TRUE,Won,55.2
+Gloria Reyes,2023,Mayor,Wisconsin,Madison,NONPARTISAN,FALSE,Lost,44.1
+Suzanne LaFrance,2024,Mayor,Alaska,Anchorage,INDEPENDENT,FALSE,Won,53.5
+David Bronson,2024,Mayor,Alaska,Anchorage,REPUBLICAN,TRUE,Lost,46.5
+Beth Weldon,2024,Mayor,Alaska,Juneau,NONPARTISAN,TRUE,Won,59.4
+Angela Rodell,2024,Mayor,Alaska,Juneau,NONPARTISAN,FALSE,Lost,40.6
+Scott Anderson,2024,Mayor,Arizona,Gilbert,NONPARTISAN,FALSE,Won,56.6
+Natalie DiBernardo,2024,Mayor,Arizona,Gilbert,NONPARTISAN,FALSE,Lost,43.1
+Mark Freeman,2024,Mayor,Arizona,Mesa,REPUBLICAN,FALSE,Won,52.5
+Scott Smith,2024,Mayor,Arizona,Mesa,REPUBLICAN,FALSE,Lost,46.8
+Kate Gallego,2024,Mayor,Arizona,Phoenix,DEMOCRAT,TRUE,Won,62
+Matt Evans,2024,Mayor,Arizona,Phoenix,NONPARTISAN,FALSE,Lost,37.8
+Lisa Borowsky,2024,Mayor,Arizona,Scottsdale,REPUBLICAN,FALSE,Won,54.1
+David Ortega,2024,Mayor,Arizona,Scottsdale,NONPARTISAN,TRUE,Lost,45.6
+Karen Goh,2024,Mayor,California,Bakersfield,REPUBLICAN,TRUE,Won,83.2
+Gregory Tatum,2024,Mayor,California,Bakersfield,REPUBLICAN,FALSE,Lost,16.8
+Raj Salwan,2024,Mayor,California,Fremont,DEMOCRAT,FALSE,Won,47.1
+Vinnie Bacon,2024,Mayor,California,Fremont,NONPARTISAN,FALSE,Lost,32.4
+Jerry Dyer,2024,Mayor,California,Fresno,REPUBLICAN,TRUE,Won,80
+James Barr,2024,Mayor,California,Fresno,NONPARTISAN,FALSE,Lost,14.2
+Larry Agran,2024,Mayor,California,Irvine,DEMOCRAT,FALSE,Won,38.8
+Tammy Kim,2024,Mayor,California,Irvine,DEMOCRAT,FALSE,Lost,34.5
+Patricia Lock Dawson,2024,Mayor,California,Riverside,NONPARTISAN,TRUE,Won,77.6
+Jessica Qattawi,2024,Mayor,California,Riverside,NONPARTISAN,FALSE,Lost,22.4
+Kevin McCarty,2024,Mayor,California,Sacramento,DEMOCRAT,FALSE,Won,50.5
+Flojaune Cofer,2024,Mayor,California,Sacramento,NONPARTISAN,FALSE,Lost,49.5
+Todd Gloria,2024,Mayor,California,San Deigo,DEMOCRAT,TRUE,Won,55.3
+Larry Turner,2024,Mayor,California,San Deigo,INDEPENDENT,FALSE,Lost,44.7
+Daniel Lurie,2024,Mayor,California,San Francisco,DEMOCRAT,FALSE,Won,55
+London Breed,2024,Mayor,California,San Francisco,DEMOCRAT,TRUE,Lost,45
+Matt Mahan,2024,Mayor,California,San Jose,DEMOCRAT,TRUE,Won,86.6
+Tyrone Wade,2024,Mayor,California,San Jose,NONPARTISAN,FALSE,Lost,13.4
+Valeria Amezcua,2024,Mayor,California,Santa Ana,DEMOCRAT,TRUE,Won,59.9
+Ben Vazquez,2024,Mayor,California,Santa Ana,NONPARTISAN,FALSE,Lost,40.1
+Christina Fugazi,2024,Mayor,California,Stockton,DEMOCRAT,FALSE,Won,54
+Tom Patti,2024,Mayor,California,Stockton,REPUBLICAN,FALSE,Lost,46
+Rick Blangiardi,2024,Mayor,Hawaii,Honolulu,INDEPENDENT,TRUE,Won,78
+Choon James,2024,Mayor,Hawaii,Honolulu,NONPARTISAN,FALSE,Lost,14.4
+Layne Wilkerson,2024,Mayor,Kentucky,Frankfort,NONPARTISAN,TRUE,Won,62
+Katrisha Waldridge,2024,Mayor,Kentucky,Frankfort,NONPARTISAN,FALSE,Lost,38
+Emile Edwards,2024,Mayor,Louisiana,Baton Rouge,REPUBLICAN,FALSE,Won,54.1
+Sharon Weston Broome,2024,Mayor,Louisiana,Baton Rouge,DEMOCRAT,TRUE,Lost,45.9
+Brandon Scott,2024,Mayor,Maryland,Baltimore,DEMOCRAT,TRUE,Won,82.1
+Shannon Wright,2024,Mayor,Maryland,Baltimore,REPUBLICAN,FALSE,Lost,16.7
+Lori Bagwell,2024,Mayor,Nevada,Carson City,NONPARTISAN,TRUE,Won,56.9
+James Shirk,2024,Mayor,Nevada,Carson City,NONPARTISAN,FALSE,Lost,43.1
+Shelley Berkley,2024,Mayor,Nevada,Las Vegas,DEMOCRAT,FALSE,Won,53.2
+Victoria Seaman,2024,Mayor,Nevada,Las Vegas,REPUBLICAN,FALSE,Lost,46.8
+Janet Cowell,2024,Mayor,North Carolina,Raleigh,DEMOCRAT,FALSE,Won,59.7
+Paul Fitts,2024,Mayor,North Carolina,Raleigh,REPUBLICAN,FALSE,Lost,18.3
+Allen Joines,2024,Mayor,North Carolina,Winston-Salem,DEMOCRAT,TRUE,Won,95.6
+JoAnne Allen,2024,Mayor,North Carolina,Winston-Salem,INDEPEDENT,FALSE,Lost,0.8
+Monroe Nichols,2024,Mayor,Oklahoma,Tulsa,DEMOCRAT,FALSE,Won,55.6
+Karen Keith,2024,Mayor,Oklahoma,Tulsa,DEMOCRAT,FALSE,Lost,44.4
+Keith Wilson,2024,Mayor,Oregon,Portland,DEMOCRAT,FALSE,Won,59.1
+Carmen Rubio,2024,Mayor,Oregon,Portland,DEMOCRAT,FALSE,Lost,40.9
+Kirk Watson,2024,Mayor,Texas,Austin,DEMOCRAT,TRUE,Won,50
+Carmen Llanes Pulido,2024,Mayor,Texas,Austin,NONPARTISAN,FALSE,Lost,20.4
+Paulette Guajardo,2024,Mayor,Texas,Corpus Christi,NONPARTISAN,TRUE,Won,50.6
+Michael Hunter,2024,Mayor,Texas,Corpus Christi,NONPARTISAN,FALSE,Lost,49.4
+Renard Johnson,2024,Mayor,Texas,El Paso,NONPARTISAN,FALSE,Won,32.5
+Brian Kennedy,2024,Mayor,Texas,El Paso,NONPARTISAN,FALSE,Lost,24.2
+Mark McBrayer,2024,Mayor,Texas,Lubbock,NONPARTISAN,FALSE,Won,72.2
+Steve Massengale,2024,Mayor,Texas,Lubbock,NONPARTISAN,FALSE,Lost,27.8
+Jack McCullough,2024,Mayor,Vermont,Montpelier,NONPARTISAN,TRUE,Won,55.1
+Dan Jones,2024,Mayor,Vermont,Montpelier,NONPARTISAN,FALSE,Lost,38
+Richard West,2024,Mayor,Virginia,Chesapeake,REPUBLICAN,TRUE,Won,55.6
+Don Carey III,2024,Mayor,Virginia,Chesapeake,NONPARTISAN,FALSE,Lost,43.9
+Kenny Alexander,2024,Mayor,Virginia,Norfolk,DEMOCRAT,TRUE,Won,59.3
+Thomas Leeman Jr.,2024,Mayor,Virginia,Norfolk,NONPARTISAN,FALSE,Lost,33.4
+Danny Avula,2024,Mayor,Virginia,Richmond,DEMOCRAT,FALSE,Won,45.6
+Michelle Mosby,2024,Mayor,Virginia,Richmond,DEMOCRAT,FALSE,Lost,25.8
+Bob Dyer,2024,Mayor,Virginia,Virginia Beach,REPUBLICAN,TRUE,Won,40.9
+Sabrina Wooten,2024,Mayor,Virginia,Virginia Beach,NONPARTISAN,FALSE,Lost,31.7
+Cavalier Johnson,2024,Mayor,Wisonsin,Milwaukee,DEMOCRAT,TRUE,Won,81
+David King,2024,Mayor,Wisonsin,Milwaukee,REPUBLICAN,FALSE,Lost,18.4
+Patrick Collins,2024,Mayor,Wyoming,Cheyenne,NONPARTISAN,TRUE,Won,58.2
+Rick Coppinger,2024,Mayor,Wyoming,Cheyenne,NONPARTISAN,FALSE,Lost,40.5
+Randall Woodfin,2025,Mayor,Alabama,Birmingham,DEMOCRAT,TRUE,Won,74.9
+Lashunda Scales,2025,Mayor,Alabama,Birmingham,DEMOCRAT,FALSE,Lost,14.6
+Barbara Lee,2025,Mayor,California,Oakland,DEMOCRAT,FALSE,Won,52.7
+Loren Taylor,2025,Mayor,California,Oakland,DEMOCRAT,FALSE,Lost,47.3
+Bryan Calvo,2025,Mayor,Florida,Hialeah,NONPARTISAN,FALSE,Won,52.9
+Jesus Tundidor,2025,Mayor,Florida,Hialeah,NONPARTISAN,FALSE,Lost,20.7
+Eileen Higgins,2025,Mayor,Florida,Miami,DEMOCRAT,FALSE,Won,59.5
+Emilio Gonzalez,2025,Mayor,Florida,Miami,REPUBLICAN,FALSE,Lost,40.5
+Andre Dickens,2025,Mayor,Georgia,Atlanta,DEMOCRAT,TRUE,Won,85
+Eddie Andrew Meredith,2025,Mayor,Georgia,Atlanta,NONPARTISAN,FALSE,Lost,6.1
+Spencer Duncan,2025,Mayor,Kansas,Topeka,NONPARTISAN,FALSE,Won,75.1
+Henry McClure,2025,Mayor,Kansas,Topeka,NONPARTISAN,FALSE,Lost,24.3
+Helena Moreno,2025,Mayor,Louisiana,New Orleans,DEMOCRAT,FALSE,Won,54.9
+Royce Duplessis,2025,Mayor,Louisiana,New Orleans,DEMOCRAT,FALSE,Lost,22.3
+Jared Littmann,2025,Mayor,Maryland,Annapolis,DEMOCRAT,FALSE,Won,73.3
+Bob O'Shea,2025,Mayor,Maryland,Annapolis,REPUBLICAN,FALSE,Lost,26.4
+Mary Sheffield,2025,Mayor,Michigan,Detroit,DEMOCRAT,FALSE,Won,77
+Solomon Kinloch,2025,Mayor,Michigan,Detroit,DEMOCRAT,FALSE,Lost,22.5
+Andy Schor,2025,Mayor,Michigan,Lansing,DEMOCRAT,TRUE,Won,65.9
+Kelsea Hector,2025,Mayor,Michigan,Lansing,NONPARTISAN,FALSE,Lost,33.1
+Jacob Frey,2025,Mayor,Minnesota,Minneapolis,DEMOCRAT,TRUE,Won,53.8
+Omar Fateh,2025,Mayor,Minnesota,Minneapolis,DEMOCRAT,FALSE,Lost,47.2
+Kaohly Her,2025,Mayor,Minnesota,St. Paul,DEMOCRAT,FALSE,Won,51.5
+Melvin Carter III,2025,Mayor,Minnesota,St. Paul,DEMOCRAT,TRUE,Lost,48.5
+Cara Spencer,2025,Mayor,Missouri,St. Louis,DEMOCRAT,FALSE,Won,64.1
+Tishaura Jones,2025,Mayor,Missouri,St. Louis,DEMOCRAT,TRUE,Lost,35.8
+John Horhn,2025,Mayor,Mississippi,Jackson,DEMOCRAT,FALSE,Won,67
+Rodney DePriest,2025,Mayor,Mississippi,Jackson,INDEPENDENT,FALSE,Lost,27.6
+Emily Dean,2025,Mayor,Montana,Helena,NONPARTISAN,FALSE,Won,50.6
+Andy Shirtliff,2025,Mayor,Montana,Helena,NONPARTISAN,FALSE,Lost,48.7
+John Ewing Jr,2025,Mayor,Nebraska,Omaha,DEMOCRAT,FALSE,Won,56.8
+Jean Stothert,2025,Mayor,Nebraska,Omaha,REPUBLICAN,TRUE,Lost,42.9
+Byron Champlin,2025,Mayor,New Hampshire,Concord,DEMOCRAT,TRUE,Won,62.6
+Kate West,2025,Mayor,New Hampshire,Concord,NONPARTISAN,FALSE,Lost,37.4
+James Solomon,2025,Mayor,New Jersey,Jersey City,DEMOCRAT,FALSE,Won,68.2
+Jim McGreevey,2025,Mayor,New Jersey,Jersey City,DEMOCRAT,FALSE,Lost,31.8
+Tim Keller,2025,Mayor,New Mexico,Albuquerque,DEMOCRAT,TRUE,Won,57.7
+Darren White,2025,Mayor,New Mexico,Albuquerque,REPUBLICAN,FALSE,Lost,42.3
+Michael Garcia,2025,Mayor,New Mexico,Santa Fe,NONPARTISAN,FALSE,Won,62.8
+Oscar Salazar Rodriguez,2025,Mayor,New Mexico,Santa Fe,NONPARTISAN,FALSE,Lost,37.2
+Dorcey Applyrs,2025,Mayor,New York,Albany,DEMOCRAT,FALSE,Won,83.7
+Rocco Pezzulo,2025,Mayor,New York,Albany,REPUBLICAN,FALSE,Lost,13.4
+Sean Ryan,2025,Mayor,New York,Buffalo,DEMOCRAT,FALSE,Won,71.8
+James Gardner,2025,Mayor,New York,Buffalo,REPUBLICAN,TRUE,Lost,22.7
+Zohran Mamdani,2025,Mayor,New York,New York City,DEMOCRAT,FALSE,Won,50.8
+Andrew Cuomo,2025,Mayor,New York,New York City,DEMOCRAT,FALSE,Lost,41.3
+Vi Alexander Lyles,2025,Mayor,North Carolina,Charlotte,DEMOCRAT,TRUE,Won,70.5
+Terrie Donovan,2025,Mayor,North Carolina,Charlotte,REPUBLICAN,FALSE,Lost,25.5
+Leonardo Williams,2025,Mayor,North Carolina,Durham,DEMOCRAT,TRUE,Won,57.6
+Anjanee Bell,2025,Mayor,North Carolina,Durham,NONPARTISAN,FALSE,Lost,42
+Marikay Abuzuaiter,2025,Mayor,North Carolina,Greensboro,DEMOCRAT,FALSE,Won,60.7
+Robbie Perkins,2025,Mayor,North Carolina,Greensboro,NONPARTISAN,FALSE,Lost,38.8
+Aftab Pureval,2025,Mayor,Ohio,Cincinnati,DEMOCRAT,TRUE,Won,77.3
+Cory Bowman,2025,Mayor,Ohio,Cincinnati,REPUBLICAN,FALSE,Lost,22.7
+Justin Bibb,2025,Mayor,Ohio,Cleveland,DEMOCRAT,TRUE,Won,73.9
+Laverne Gore,2025,Mayor,Ohio,Cleveland,REPUBLICAN,FALSE,Lost,25
+Wade Kapszukiewicz,2025,Mayor,Ohio,Toledo,DEMOCRAT,TRUE,Won,60.5
+Roberto Torres,2025,Mayor,Ohio,Toledo,INDEPENDENT,FALSE,Lost,32.2
+Wanda Williams,2025,Mayor,Pennsylvania,Harrisburg,DEMOCRAT,TRUE,Won,56.5
+Dan Miller,2025,Mayor,Pennsylvania,Harrisburg,REPUBLICAN,FALSE,Lost,42.5
+Corey O'Connor,2025,Mayor,Pennsylvania,Pittsburgh,DEMOCRAT,FALSE,Won,85.6
+Toney Moreno,2025,Mayor,Pennsylvania,Pittsburgh,REPUBLICAN,FALSE,Lost,12.1
+Daniel Rickenmann,2025,Mayor,South Carolina,Columbia,REPUBLICAN,TRUE,Won,61.5
+Jessica Thomas,2025,Mayor,South Carolina,Columbia,NONPARTISAN,FALSE,Lost,32.3
+Mattie Parker,2025,Mayor,Texas,Fort Worth,REPUBLICAN,TRUE,Won,66.7
+Josh Lucas,2025,Mayor,Texas,Fort Worth,NONPARTISAN,FALSE,Lost,17.8
+Dylan Hendrick,2025,Mayor,Texas,Garland,NONPARTISAN,FALSE,Won,51.7
+Deborah S. Morris,2025,Mayor,Texas,Garland,NONPARTISAN,FALSE,Lost,48.3
+Gina Ortiz Jones,2025,Mayor,Texas,San Antonio,DEMOCRAT,FALSE,Won,54.3
+Rolando Pablos,2025,Mayor,Texas,San Antonio,REPUBLICAN,FALSE,Lost,45.7
+Katie Wilson,2025,Mayor,Washington,Seatte,DEMOCRAT,FALSE,Won,50.2
+Bruce Harrell,2025,Mayor,Washington,Seattle,DEMOCRAT,TRUE,Lost,49.5

@@ -10,7 +10,7 @@ import logging
 import sqlite3
 
 from camplinks.db import init_schema, migrate_schema, open_db
-from camplinks.enrich import enrich_from_wikipedia
+from camplinks.enrich import enrich_from_wikipedia, enrich_wikipedia_urls
 from camplinks.models import DB_FILENAME
 from camplinks.scrapers import get_scraper
 from camplinks.search import search_all_candidates
@@ -90,6 +90,13 @@ def _run(
 
     # Stage 2: Enrich (race-agnostic — enriches all candidates with wiki URLs)
     if run_enrich:
+        race_type_filter = None
+        if race != "all":
+            scraper_cls = get_scraper(race)
+            race_type_filter = scraper_cls.race_type
+        enrich_wikipedia_urls(
+            conn, year=year, race_type=race_type_filter, election_stage=downstream_stage
+        )
         enrich_from_wikipedia(conn, election_stage=downstream_stage)
 
     # Stage 3: Search (race-agnostic — searches for all missing contacts)

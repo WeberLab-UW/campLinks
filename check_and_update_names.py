@@ -206,7 +206,8 @@ try:
         vote_pct: float | None = pd.to_numeric(row.get("percentage_votes"), errors="coerce")
         if pd.isna(vote_pct):
             vote_pct = None
-        is_winner: bool = str(row.get("race_outcome", "")).strip().lower() == "won"
+        outcome: str = str(row.get("race_outcome", "")).strip().lower()
+        is_winner: str = "won" if outcome == "won" else "lost" if outcome == "lost" else "unknown"
 
         if election_type in _STATEWIDE_ELECTION_TYPES:
             district: str = ""
