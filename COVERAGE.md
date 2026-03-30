@@ -56,27 +56,27 @@ This is the percentage of candidates we have in database (not percentage of tota
 
 | Race Type | Year |  Coverage % |
 |------|-----------|------------|
-Attorney General|2023|83.3%
-Attorney General|2024|85.0%
-Attorney General|2025|100.0%
+Attorney General|2023 | 100.0%
+Attorney General|2024| 100.0%
+Attorney General|2025| 100.0%
 Governor|2023|83.3%
-Governor|2024|90.9%
+Governor|2024|100.0%
 Governor|2025|100.0%
-Mayor|2023|71.6%
-Mayor|2024|71.1%
-Mayor|2025|0.0%
-State House|2023|0.0%
-State House|2024|0.0%
+Mayor|2023|89.2%
+Mayor|2024|89.5%
+Mayor|2025|88.9%
+State House|2023|37.8%
+State House|2024|92.7%
 State House|2025|77.5%
 State House|2026|25.5%
-State Senate|2023|0.0%
-State Senate|2024|0.0%
+State Senate|2023|25.7%
+State Senate|2024|84.5%
 State Senate|2025|9.7%
 State Senate|2026|33.3%
-US House|2023|83.3%
+US House|2023|100.0%
 US House|2024|92.4%
 US House|2025|100.0%
-US Senate|2024|90.9%
+US Senate|2024|100.0%
 
 ## Contact Links by Type
 
