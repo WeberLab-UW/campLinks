@@ -11,30 +11,31 @@ Last updated: 2026-03-10
 | Contact Links | 5,337 |
 
 ## Database Coverage of Candidates by Year and Race Type 2023 - 2025
+Note that campaign site coverage is the percentage of candidates we have in database (not percentage of total candidates) for which we find campaign site URL. 
 
-| Race | Year | Candidates | % candidate names found | Source of candidate name data |
-|------|------|------------|----------------------------------|----------------------------|
-| Attorney general | 2023 | 6 | 100% | ballotpedia, manually collected |
-| Attorney general | 2024 | 20  |  100% | wikipedia, manually collected |
-| Attorney general | 2025 | 2 |  100% | wikipedia, manually collected |
-| Gubernatorial | 2023 | 3 | 100% | wikipedia, manually collected |
-| Gubernatorial | 2024 | 22 |   100% | wikipedia, manually collected |
-| Gubernatorial | 2025 | 4 |100% | wikipedia, manually collected |
-| Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected |
-| Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected |
-| Mayoral | 2025 | 72 | 100% | ballotpedia, manually collected |
-| State house | 2023 | 814 | 73% | follow the money |
-| State house | 2024 | 11,718 state legislative* |86% (*see note) | follow the money |
-| State house | 2025 | 440 |83% | scraped ballotpedia automated |
-| State senate | 2023 | 342 | 77% | follow the money |
-| State senate | 2024  |  11,718 state legislative*  |  86% (*see note) | follow the money |
-| State senate | 2025 | 69  | 100% | wikipedia, manually collected |
-| US senate | 2023 | 0  | 100% | N/A |
-| US senate | 2024 | 68 | 97% | MIT election lab |
-| US senate | 2025 | 0 | 100% | N/A |
-| US house | 2023 | 6 | 100% | wikipedia, manually collected |
-| US house | 2024 | 870  | 98.70% | MIT election lab |
-| US house | 2025 | 12 | 100% | wikipedia, manually collected |
+| Race | Year | Candidates | % candidate names found | Source of candidate name data | Campaign URL % Coverage |
+|------|------|------------|----------------------------------|----------------------------|-------------------|
+| Attorney general | 2023 | 6 | 100% | ballotpedia, manually collected | 100.0% |
+| Attorney general | 2024 | 20  |  100% | wikipedia, manually collected | 100.0% |
+| Attorney general | 2025 | 2 |  100% | wikipedia, manually collected | 100.0% |
+| Gubernatorial | 2023 | 3 | 100% | wikipedia, manually collected | 83.3% |
+| Gubernatorial | 2024 | 22 |   100% | wikipedia, manually collected | 100.0% |
+| Gubernatorial | 2025 | 4 |100% | wikipedia, manually collected | 100.0% |
+| Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected | 89.2% |
+| Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected | 89.5% |
+| Mayoral | 2025 | 72 | 100% | ballotpedia, manually collected | 88.9% |
+| State house | 2023 | 814 | 73% | follow the money | 37.8% |
+| State house | 2024 | 11,718 state legislative* |86% (*see note) | follow the money | 92.7% |
+| State house | 2025 | 440 |83% | scraped ballotpedia automated | 77.5% |
+| State senate | 2023 | 342 | 77% | follow the money | 25.7 % |
+| State senate | 2024  |  11,718 state legislative*  |  86% (*see note) | follow the money | 84.5% |
+| State senate | 2025 | 69  | 100% | wikipedia, manually collected | 9.7% |
+| US senate | 2023 | 0  | 100% | N/A | N/A |
+| US senate | 2024 | 68 | 97% | MIT election lab | 100.0% |
+| US senate | 2025 | 0 | 100% | N/A | N/A |
+| US house | 2023 | 6 | 100% | wikipedia, manually collected | 100.0% |
+| US house | 2024 | 870  | 98.70% | MIT election lab | 98.3% |
+| US house | 2025 | 12 | 100% | wikipedia, manually collected | 100.0% |
 
 *For 2024 state legislatures, there is no breakdown of state legislatures on ballotpedia. Total though, there were 11,718 state legislative candidates. We found 10,098 = 86%, but breakown per state senate and house is unknown since the total is unknown
 
@@ -50,33 +51,6 @@ Last updated: 2026-03-10
 | US house | 2026 | 870 | | | | | |
 | US senate | 2026 | 66 | | | | | |
 
-
-## Campaign Site Coverage 
-This is the percentage of candidates we have in database (not percentage of total candidates) for which we find campaign site URL. 
-
-| Race Type | Year |  Coverage % |
-|------|-----------|------------|
-Attorney General|2023 | 100.0%
-Attorney General|2024| 100.0%
-Attorney General|2025| 100.0%
-Governor|2023|83.3%
-Governor|2024|100.0%
-Governor|2025|100.0%
-Mayor|2023|89.2%
-Mayor|2024|89.5%
-Mayor|2025|88.9%
-State House|2023|37.8%
-State House|2024|92.7%
-State House|2025|77.5%
-State House|2026|25.5%
-State Senate|2023|25.7%
-State Senate|2024|84.5%
-State Senate|2025|9.7%
-State Senate|2026|33.3%
-US House|2023|100.0%
-US House|2024|92.4%
-US House|2025|100.0%
-US Senate|2024|100.0%
 
 ## Contact Links by Type
 
