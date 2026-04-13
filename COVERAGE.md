@@ -21,9 +21,9 @@ Note that campaign site coverage is the percentage of candidates we have in data
 | Gubernatorial | 2023 | 3 | 100% | wikipedia, manually collected | 83.3% |
 | Gubernatorial | 2024 | 22 |   100% | wikipedia, manually collected | 100.0% |
 | Gubernatorial | 2025 | 4 |100% | wikipedia, manually collected | 100.0% |
-| Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected | 89.2% |
-| Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected | 89.5% |
-| Mayoral | 2025 | 72 | 100% | ballotpedia, manually collected | 88.9% |
+| Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected | 93.2% |
+| Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected | 93.4% |
+| Mayoral | 2025 | 72 | 100% | ballotpedia, manually collected | 97.2% |
 | State house | 2023 | 814 | 73% | follow the money | 37.8% |
 | State house | 2024 | 11,718 state legislative* |86% (*see note) | follow the money | 92.7% |
 | State house | 2025 | 440 |83% | scraped ballotpedia automated | 77.5% |
