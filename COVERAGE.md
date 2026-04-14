@@ -58,7 +58,7 @@ Note that campaign site coverage is the percentage of candidates we have in data
 
 | Link Type | Count |
 |-----------|-------|
-campaign_site|1869
+campaign_site|14,725
 campaign_facebook|781
 personal_facebook|715
 personal_linkedin|702
