@@ -6,9 +6,9 @@ Last updated: 2026-03-10
 
 | Metric | Count |
 |--------|-------|
-| Elections | 6,922 |
-| Candidates | 14,592|
-| Contact Links | 5,337 |
+| Elections | 7,131 |
+| Candidates | 15,306 |
+| Contact Links | 31,643 |
 
 ## Database Coverage of Candidates by Year and Race Type 2023 - 2025
 Note that campaign site coverage is the percentage of candidates we have in database (not percentage of total candidates) for which we find campaign site URL. 
