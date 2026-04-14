@@ -24,12 +24,12 @@ Note that campaign site coverage is the percentage of candidates we have in data
 | Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected | 93.2% |
 | Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected | 93.4% |
 | Mayoral | 2025 | 72 | 100% | ballotpedia, manually collected | 97.2% |
-| State house | 2023 | 814 | 73% | follow the money | 37.8% |
+| State house | 2023 | 814 | 100%** | follow the money | 69.0% |
 | State house | 2024 | 11,718 state legislative* |86% (*see note) | follow the money | 92.7% |
-| State house | 2025 | 440 |83% | scraped ballotpedia automated | 77.5% |
-| State senate | 2023 | 342 | 77% | follow the money | 25.7 % |
+| State house | 2025 | 440 |8 100%** | scraped ballotpedia automated | 96.6% |
+| State senate | 2023 | 342 | 97.1% | follow the money | 92.8% |
 | State senate | 2024  |  11,718 state legislative*  |  86% (*see note) | follow the money | 84.5% |
-| State senate | 2025 | 69  | 100% | wikipedia, manually collected | 9.7% |
+| State senate | 2025 | 69  | 100% | wikipedia, manually collected | 93.1% |
 | US senate | 2023 | 0  | 100% | N/A | N/A |
 | US senate | 2024 | 68 | 97% | MIT election lab | 100.0% |
 | US senate | 2025 | 0 | 100% | N/A | N/A |
@@ -38,6 +38,8 @@ Note that campaign site coverage is the percentage of candidates we have in data
 | US house | 2025 | 12 | 100% | wikipedia, manually collected | 100.0% |
 
 *For 2024 state legislatures, there is no breakdown of state legislatures on ballotpedia. Total though, there were 11,718 state legislative candidates. We found 10,098 = 86%, but breakown per state senate and house is unknown since the total is unknown
+
+**For state legislation elections, it's difficult to identify top 2 candidates. Thus, some candidates may be missing but other candidiates in primary elections replace those missing candidates and we thus have >814 candidates. 
 
 ## Election Estimates for 2026
 
