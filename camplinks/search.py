@@ -149,6 +149,7 @@ def score_campaign_url(
     body: str,
     candidate_last_name: str,
     state: str,
+    weight_name: bool = True,
 ) -> float:
     """Score a search result for likelihood of being a campaign website.
 
@@ -158,6 +159,7 @@ def score_campaign_url(
         body: The result snippet text.
         candidate_last_name: Candidate's last name.
         state: State name.
+        weight_name: Whether to boost score when last name appears in domain.
 
     Returns:
         Score between 0.0 and 1.0.
@@ -176,7 +178,7 @@ def score_campaign_url(
     last = candidate_last_name.lower().replace("'", "").replace("-", "")
     domain_clean = domain.replace("-", "").replace(".", "")
 
-    if last in domain_clean:
+    if weight_name and last in domain_clean:
         score += 0.4
 
     campaign_words = [
@@ -255,6 +257,32 @@ def search_campaign_site_web(
             break
 
     if best_score >= 0.3:
+        return best_url
+
+    # Fallback: name-agnostic queries for candidates whose campaign domain
+    # does not contain their last name (e.g. "gregformontana.com")
+    fallback_queries = [
+        f'"{name}" for {race_type} official campaign website',
+        f'"{name}" {race_type} {state} official site',
+    ]
+
+    for query in fallback_queries:
+        results = ddg_search(query, max_results=8)
+        for r in results:
+            href = r.get("href", "")
+            title = r.get("title", "")
+            body = r.get("body", "")
+            s = score_campaign_url(
+                href, title, body, last_name, state, weight_name=False
+            )
+            if s > best_score:
+                best_score = s
+                best_url = href
+
+        if best_score >= 0.4:
+            break
+
+    if best_score >= 0.25:
         return best_url
     return ""
 

@@ -50,7 +50,7 @@ def main() -> None:
         "--stage",
         type=str,
         default=None,
-        choices=["scrape", "enrich", "search", "validate"],
+        choices=["scrape", "enrich", "search", "validate", "get_text_content"],
         help="Run only this pipeline stage (default: all stages)",
     )
     parser.add_argument(

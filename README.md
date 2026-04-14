@@ -12,6 +12,7 @@ config:
 erDiagram
     elections ||--o{ candidates : has
     candidates ||--o{ contact_links : has
+    candidates ||--o{ content : has
 
     elections {
         int election_id PK
@@ -40,6 +41,18 @@ erDiagram
         text link_type
         text url
         text source
+    }
+
+    content {
+        int content_id PK
+        int candidate_id FK
+        text candidate_name
+        text page_url
+        text page_type
+        text link_type
+        text unprocessed_text
+        text cleaned_text
+        text sampled_text
     }
 ```
 
@@ -96,7 +109,7 @@ The database is written to `camplinks.db` by default. Override with `--db path/t
 
 ## Pipeline Stages
 
-The pipeline runs four stages in order. Each stage is idempotent (safe to re-run).
+The pipeline runs five stages in order. Each stage is idempotent (safe to re-run).
 
 | Stage | What it does | Data source |
 |-------|-------------|-------------|
@@ -104,6 +117,7 @@ The pipeline runs four stages in order. Each stage is idempotent (safe to re-run
 | **enrich** | Extract campaign websites from candidate Wikipedia pages | Wikipedia candidate infoboxes |
 | **search** | Find missing contact info via Ballotpedia and web search | Ballotpedia + DuckDuckGo |
 | **validate** | Check campaign site accessibility, archive dead links | Wayback Machine API |
+| **get_text_content** | Scrape visible text from campaign sites (home, policy, about pages) | Candidate campaign websites |
 
 Run individual stages with `--stage`:
 
@@ -112,6 +126,15 @@ python -m camplinks --year 2024 --race house --stage scrape
 python -m camplinks --year 2024 --race house --stage enrich
 python -m camplinks --year 2024 --race house --stage search
 python -m camplinks --year 2024 --race house --stage validate
+python -m camplinks --year 2024 --race house --stage get_text_content
+```
+
+The `get_text_content` stage writes scraped text to the `content` table. It processes candidates in batches of 150, skipping any already scraped. For each candidate it fetches the home page plus any policy and about subpages (found via `<a>` tags and buttons), then stores the raw text, cleaned text, and a random 40% sentence sample.
+
+You can also run the scraper standalone:
+
+```bash
+python scraping-campaign-sites.py
 ```
 
 ## Querying the Database

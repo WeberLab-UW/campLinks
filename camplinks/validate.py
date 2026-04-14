@@ -9,8 +9,10 @@ campaign_site_archived contact link.
 from __future__ import annotations
 
 import logging
+import random
 import sqlite3
 import time
+from urllib.parse import urlparse
 
 import orjson
 import requests
@@ -23,7 +25,7 @@ from camplinks.models import ContactLink
 
 logger = logging.getLogger(__name__)
 
-WAYBACK_API_URL = "https://archive.org/wayback/available"
+WAYBACK_CDX_URL = "https://web.archive.org/cdx/search/cdx"
 WAYBACK_DELAY_S: float = 0.5
 VALIDATE_CACHE_FILE = "validate_cache.json"
 VALIDATE_SAVE_INTERVAL = 25
@@ -62,34 +64,66 @@ def check_url_accessible(url: str) -> bool:
         return False
 
 
-def query_wayback(url: str) -> str:
-    """Query the Wayback Machine for the most recent archived snapshot.
+def query_wayback(url: str, year: int) -> str:
+    """Query the Wayback Machine CDX API for a working snapshot from the election year.
+
+    Fetches all snapshots for the given URL captured during the election
+    year, checks each for accessibility, and returns a random working one.
 
     Args:
         url: The original URL to look up in the Wayback Machine.
+        year: The election year to search snapshots within.
 
     Returns:
-        The Wayback Machine snapshot URL, or empty string if no
-        snapshot is available.
+        A working Wayback Machine snapshot URL, or empty string if none found.
     """
-    time.sleep(WAYBACK_DELAY_S)
-    try:
-        resp = requests.get(
-            WAYBACK_API_URL,
-            params={"url": url},
-            headers=HEADERS,
-            timeout=30,
-        )
-        resp.raise_for_status()
-        data = orjson.loads(resp.content)
-        closest = data.get("archived_snapshots", {}).get("closest", {})
-        if closest.get("available") is True and closest.get("status") == "200":
-            return str(closest["url"])
-    except requests.RequestException as exc:
-        logger.error("Wayback API error for %s: %s", url, exc)
-    except (KeyError, orjson.JSONDecodeError) as exc:
-        logger.error("Wayback API parse error for %s: %s", url, exc)
-    return ""
+    parsed_url = urlparse(url)
+    root_url = f"{parsed_url.scheme}://{parsed_url.netloc}/"
+    lookup_url = root_url if parsed_url.path not in ("", "/") else url
+
+    params = {
+        "url": lookup_url,
+        "output": "json",
+        "from": f"{year}0101",
+        "to": f"{year}1231",
+        "fl": "timestamp",
+        "limit": "20",
+    }
+    rows = None
+    for attempt in range(3):
+        time.sleep(WAYBACK_DELAY_S * (attempt + 1))
+        try:
+            resp = requests.get(
+                WAYBACK_CDX_URL,
+                params=params,
+                headers=HEADERS,
+                timeout=60,
+            )
+            resp.raise_for_status()
+            rows = orjson.loads(resp.content)
+            break
+        except requests.Timeout:
+            logger.warning(
+                "Wayback CDX timeout for %s (attempt %d/3)", url, attempt + 1
+            )
+        except requests.RequestException as exc:
+            logger.error("Wayback CDX API error for %s: %s", url, exc)
+            return ""
+        except orjson.JSONDecodeError as exc:
+            logger.error("Wayback CDX API parse error for %s: %s", url, exc)
+            return ""
+    if rows is None:
+        logger.error("Wayback CDX API failed after 3 attempts for %s", url)
+        return ""
+
+    # rows[0] is the header ["timestamp"]; rest are data rows
+    if not rows or len(rows) < 2:
+        return ""
+
+    timestamps = [row[0] for row in rows[1:]]
+    snapshot_urls = [f"https://web.archive.org/web/{ts}/{url}" for ts in timestamps]
+
+    return random.choice(snapshot_urls)
 
 
 def validate_campaign_sites(
@@ -153,7 +187,14 @@ def validate_campaign_sites(
             if accessible:
                 entry = {"status": "accessible"}
             else:
-                wayback_url = query_wayback(url)
+                wayback_url = query_wayback(url, row["year"])
+                logger.info(
+                    "Inaccessible: %s — %s", row["candidate_name"], url
+                )
+                if wayback_url:
+                    logger.info("  Archived: %s", wayback_url)
+                else:
+                    logger.info("  No archive found.")
                 entry = {
                     "status": "inaccessible",
                     "wayback_url": wayback_url,
