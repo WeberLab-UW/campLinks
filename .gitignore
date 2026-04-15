@@ -9,3 +9,6 @@ validate_cache.json
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
+camplinks.db
+camplinks.db-shm
+camplinks.db-wal
