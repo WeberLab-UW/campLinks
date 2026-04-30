@@ -15,25 +15,25 @@ Note that campaign site coverage is the percentage of candidates we have in data
 
 | Race | Year | Candidates | % candidate names found | Source of candidate name data | Campaign URL % Coverage | Campaign Facebook URL % | Campaign Instagram URL % | Campaign X URL % |
 |------|------|------------|----------------------------------|----------------------------|-------------------|-------------------|-------------------|-------------------|
-| Attorney general | 2023 | 6 | 100% | ballotpedia, manually collected | 100.0% | 50.0% | 16.7% | 50.0% |
-| Attorney general | 2024 | 20  |  100% | wikipedia, manually collected | 100.0% | 70.0% | 55.0% | 65.0% |
+| Attorney general | 2023 | 6 | 100% | ballotpedia, manually collected | 100.0% | 100.0% | 100.0% | 100.0% |
+| Attorney general | 2024 | 20  |  100% | wikipedia, manually collected | 100.0% | 90.0% | 95.0% | 80.0% |
 | Attorney general | 2025 | 2 |  100% | wikipedia, manually collected | 100.0% | 0.0% | 0.0% | 0.0% |
-| Gubernatorial | 2023 | 3 | 100% | wikipedia, manually collected | 83.3% | 50.0% | 33.3% | 33.3% |
-| Gubernatorial | 2024 | 22 |   100% | wikipedia, manually collected | 100.0% | 81.8% | 59.1% | 68.2% |
+| Gubernatorial | 2023 | 3 | 100% | wikipedia, manually collected | 83.3% | 100.0% | 100.0% | 83.3% |
+| Gubernatorial | 2024 | 22 |   100% | wikipedia, manually collected | 100.0% | 95.5% | 81.8% | 86.4% |
 | Gubernatorial | 2025 | 4 |100% | wikipedia, manually collected | 100.0% | 50.0% | 50.0% | 50.0% |
-| Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected | 93.2% | 37.8% | 27.0% | 27.0% |
-| Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected | 93.4% | 64.5% | 51.3% | 34.2% |
+| Mayoral | 2023 | 74 | 100% | ballotpedia, manually collected | 93.2% | 98.6% | 91.9% | 87.8% |
+| Mayoral | 2024 | 76 | 100% | ballotpedia, manually collected | 93.4% | 81.6% | 81.6% | 73.7% |
 | Mayoral | 2025 | 72 | 100% | ballotpedia, manually collected | 97.2% | 41.7% | 25.0% | 13.9% |
-| State house | 2023 | 814 | 100%** | follow the money | 69.0% | 11.1% | 4.3% | 5.0% |
-| State house | 2024 | 11,718 state legislative* |86% (*see note) | follow the money | 92.7% | 28.0% | 13.6% | 11.7% |
+| State house | 2023 | 814 | 100%** | follow the money | 69.0% | 69.0% | 62.2% | 59.3% |
+| State house | 2024 | 11,718 state legislative* |86% (*see note) | follow the money | 92.7% | 65.7% | 53.9% | 53.3% |
 | State house | 2025 | 440 | 100%** | scraped ballotpedia automated | 96.6% | 34.9% | 23.4% | 21.4% |
-| State senate | 2023 | 342 | 97.1% | follow the money | 92.8% | 19.9% | 7.8% | 10.5% |
+| State senate | 2023 | 342 | 97.1% | follow the money | 92.8% | 88.0% | 75.3% | 78.6% |
 | State senate | 2024  |  11,718 state legislative*  |  86% (*see note) | follow the money | 84.5% | 23.3% | 12.1% | 11.1% |
 | State senate | 2025 | 69  | 100% | wikipedia, manually collected | 93.1% | 38.9% | 19.4% | 19.4% |
 | US senate | 2023 | 0  | 100% | N/A | N/A | N/A | N/A | N/A |
 | US senate | 2024 | 68 | 97% | MIT election lab | 100.0% | 66.7% | 60.6% | 62.1% |
 | US senate | 2025 | 0 | 100% | N/A | N/A | N/A | N/A | N/A |
-| US house | 2023 | 6 | 100% | wikipedia, manually collected | 100.0% | 66.7% | 50.0% | 66.7% |
+| US house | 2023 | 6 | 100% | wikipedia, manually collected | 100.0% | 100.0% | 83.3% | 100.0% |
 | US house | 2024 | 870  | 98.70% | MIT election lab | 98.3% | 39.1% | 30.8% | 34.6% |
 | US house | 2025 | 12 | 100% | wikipedia, manually collected | 100.0% | 16.7% | 8.3% | 25.0% |
 

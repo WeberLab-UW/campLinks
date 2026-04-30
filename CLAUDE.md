@@ -58,10 +58,11 @@ ruff check .
 
 ## Database Schema
 
-Three normalized tables in `camplinks.db`:
+Four normalized tables in `camplinks.db`:
 - **elections** -- one row per contest, UNIQUE(state, race_type, year, district, election_stage)
 - **candidates** -- one row per candidate per election, UNIQUE(election_id, candidate_name)
 - **contact_links** -- one row per link per candidate, UNIQUE(candidate_id, link_type)
+- **campaign_site_content** -- one row per scraped page per candidate, UNIQUE(candidate_id, page_url)
 
 `election_stage` values: `general`, `primary`, `runoff`
 

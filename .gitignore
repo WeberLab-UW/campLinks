@@ -12,3 +12,9 @@ validate_cache.json
 camplinks.db
 camplinks.db-shm
 camplinks.db-wal
+
+# Large generated/detection CSVs
+detection/campaign_site_text_detection_final.csv
+detection/campaign_site_text_detection_results.csv
+content_export.csv
+detection/campaign_site_content_export.csv

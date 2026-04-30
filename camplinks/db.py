@@ -396,6 +396,63 @@ def get_candidates_missing_link(
     return conn.execute(query, params).fetchall()
 
 
+def get_candidates_missing_social_links(
+    conn: sqlite3.Connection,
+    year: int | None = None,
+    race_type: str | None = None,
+    election_stage: str | None = None,
+) -> list[sqlite3.Row]:
+    """Find candidates missing at least one social media link type.
+
+    Targets candidates missing any of campaign_facebook, campaign_x,
+    or campaign_instagram.
+
+    Args:
+        conn: Database connection.
+        year: Optional filter by election year.
+        race_type: Optional filter by race type.
+        election_stage: Optional filter by election stage.
+
+    Returns:
+        List of Row objects with candidate and election fields.
+    """
+    query = """\
+        SELECT c.candidate_id, c.candidate_name, c.party,
+               c.wikipedia_url, c.ballotpedia_url,
+               e.state, e.district, e.year, e.race_type, e.election_stage
+        FROM candidates c
+        JOIN elections e ON c.election_id = e.election_id
+        WHERE c.candidate_name != ''
+          AND (
+            c.candidate_id NOT IN (
+                SELECT cl.candidate_id FROM contact_links cl
+                WHERE cl.link_type = 'campaign_facebook'
+            )
+            OR c.candidate_id NOT IN (
+                SELECT cl.candidate_id FROM contact_links cl
+                WHERE cl.link_type = 'campaign_x'
+            )
+            OR c.candidate_id NOT IN (
+                SELECT cl.candidate_id FROM contact_links cl
+                WHERE cl.link_type = 'campaign_instagram'
+            )
+          )
+    """
+    params: list[str | int] = []
+
+    if year is not None:
+        query += " AND e.year = ?"
+        params.append(year)
+    if race_type is not None:
+        query += " AND e.race_type = ?"
+        params.append(race_type)
+    if election_stage is not None:
+        query += " AND e.election_stage = ?"
+        params.append(election_stage)
+
+    return conn.execute(query, params).fetchall()
+
+
 def get_candidates_with_link(
     conn: sqlite3.Connection,
     link_type: str,

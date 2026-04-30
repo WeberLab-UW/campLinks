@@ -28,6 +28,7 @@ from camplinks.cache import (
 )
 from camplinks.db import (
     get_candidates_missing_link,
+    get_candidates_missing_social_links,
     update_candidate_ballotpedia_url,
     upsert_contact_link,
 )
@@ -287,6 +288,56 @@ def search_campaign_site_web(
     return ""
 
 
+# ── Social media search ───────────────────────────────────────────────────
+
+
+SOCIAL_LINK_TYPES: tuple[str, ...] = (
+    "campaign_facebook",
+    "campaign_x",
+    "campaign_instagram",
+)
+
+_SOCIAL_DOMAIN_MAP: dict[str, str] = {
+    "campaign_facebook": "facebook.com",
+    "campaign_x": "x.com",
+    "campaign_instagram": "instagram.com",
+}
+
+_SOCIAL_QUERY_TERMS: dict[str, str] = {
+    "campaign_facebook": "facebook",
+    "campaign_x": "twitter OR x.com",
+    "campaign_instagram": "instagram",
+}
+
+
+def search_social_link(
+    name: str,
+    state: str,
+    race_type: str,
+    link_type: str,
+) -> str:
+    """Search the open web for a candidate's social media profile.
+
+    Args:
+        name: Candidate full name.
+        state: State name.
+        race_type: Race keyword for search.
+        link_type: One of "campaign_facebook", "campaign_x", "campaign_instagram".
+
+    Returns:
+        Social media URL, or empty string if not found.
+    """
+    domain = _SOCIAL_DOMAIN_MAP[link_type]
+    term = _SOCIAL_QUERY_TERMS[link_type]
+    query = f'"{name}" {state} {race_type} campaign {term} site:{domain}'
+    results = ddg_search(query, max_results=5)
+    for r in results:
+        href = r.get("href", "")
+        if domain in href:
+            return href
+    return ""
+
+
 # ── Orchestration ──────────────────────────────────────────────────────────
 
 
@@ -347,6 +398,77 @@ def find_candidate_info(
             contacts["campaign website"] = campaign_url
 
     return contacts
+
+
+def search_social_links_for_candidates(
+    conn: sqlite3.Connection,
+    year: int | None = None,
+    race_type: str | None = None,
+    election_stage: str | None = "general",
+) -> int:
+    """Find missing social media links for candidates via web search.
+
+    For each candidate missing any of campaign_facebook, campaign_x, or
+    campaign_instagram, attempts a targeted DDG site-scoped search for
+    each missing link type.
+
+    Args:
+        conn: Open database connection.
+        year: Optional filter by election year.
+        race_type: Optional filter by race type.
+        election_stage: Optional filter by election stage.
+
+    Returns:
+        Number of new social media links found.
+    """
+    targets = get_candidates_missing_social_links(
+        conn,
+        year=year,
+        race_type=race_type,
+        election_stage=election_stage,
+    )
+
+    if not targets:
+        logger.info("No candidates missing social media links.")
+        return 0
+
+    logger.info(
+        "Found %d candidates missing at least one social media link.", len(targets)
+    )
+
+    found_count = 0
+    for row in tqdm(targets, desc="Searching social media links", unit="candidate"):
+        cid = row["candidate_id"]
+        name = row["candidate_name"]
+        state = row["state"]
+        rt = row["race_type"]
+        keyword = _race_keyword(rt)
+
+        existing = {
+            r[0]
+            for r in conn.execute(
+                "SELECT link_type FROM contact_links WHERE candidate_id = ?", (cid,)
+            ).fetchall()
+        }
+
+        for lt in SOCIAL_LINK_TYPES:
+            if lt in existing:
+                continue
+            url = search_social_link(name, state, keyword, lt)
+            if url:
+                upsert_contact_link(
+                    conn,
+                    ContactLink(
+                        candidate_id=cid,
+                        link_type=lt,
+                        url=url,
+                        source="web_search",
+                    ),
+                )
+                conn.commit()
+                found_count += 1
+    logger.info("Found %d new social media links.", found_count)
+    return found_count
 
 
 def search_all_candidates(
@@ -442,4 +564,12 @@ def search_all_candidates(
         len(targets),
         processed,
     )
+
+    search_social_links_for_candidates(
+        conn,
+        year=year,
+        race_type=race_type,
+        election_stage=election_stage,
+    )
+
     return found_count

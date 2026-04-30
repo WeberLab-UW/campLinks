@@ -2,7 +2,7 @@
 
 For each candidate with a campaign_site URL, fetches the home page plus
 any policy and about subpages, cleans the text, and stores a random
-40% sample in the ``content`` table of the database.
+40% sample in the ``campaign_site_content`` table of the database.
 """
 
 from __future__ import annotations
@@ -39,14 +39,14 @@ ABOUT_KEYWORDS: frozenset[str] = frozenset({"about", "meet"})
 
 
 def init_content_table(conn: sqlite3.Connection) -> None:
-    """Create the content table if it does not exist.
+    """Create the campaign_site_content table if it does not exist.
 
     Args:
         conn: Open SQLite connection.
     """
     conn.execute(
         """
-        CREATE TABLE IF NOT EXISTS content (
+        CREATE TABLE IF NOT EXISTS campaign_site_content (
             content_id       INTEGER PRIMARY KEY,
             candidate_id     INTEGER NOT NULL REFERENCES candidates(candidate_id),
             candidate_name   TEXT    NOT NULL,
@@ -58,19 +58,30 @@ def init_content_table(conn: sqlite3.Connection) -> None:
             unprocessed_text TEXT,
             cleaned_text     TEXT,
             sampled_text     TEXT,
+            sample_60        TEXT,
             UNIQUE(candidate_id, page_url)
         )
         """
     )
     conn.execute(
-        "CREATE INDEX IF NOT EXISTS idx_content_candidate ON content(candidate_id)"
+        "CREATE INDEX IF NOT EXISTS idx_campaign_site_content_candidate ON campaign_site_content(candidate_id)"
     )
     # Migrations: add columns if they do not yet exist
-    for col in ("link_type TEXT", "race_type TEXT", "year INTEGER"):
+    for col in ("link_type TEXT", "race_type TEXT", "year INTEGER", "sample_60 TEXT"):
         try:
-            conn.execute(f"ALTER TABLE content ADD COLUMN {col}")
+            conn.execute(f"ALTER TABLE campaign_site_content ADD COLUMN {col}")
         except Exception:
             pass  # column already exists
+
+    # Backfill sample_60 for existing rows that have cleaned_text but no sample_60
+    rows = conn.execute(
+        "SELECT content_id, cleaned_text FROM campaign_site_content WHERE sample_60 IS NULL AND cleaned_text IS NOT NULL AND cleaned_text != ''"
+    ).fetchall()
+    for content_id, cleaned_text in rows:
+        conn.execute(
+            "UPDATE campaign_site_content SET sample_60 = ? WHERE content_id = ?",
+            (_sample_text(cleaned_text, fraction=0.60), content_id),
+        )
     conn.commit()
 
 
@@ -86,8 +97,9 @@ def _insert_content(
     unprocessed_text: str,
     cleaned_text: str,
     sampled_text: str,
+    sample_60: str,
 ) -> None:
-    """Insert a scraped page into the content table (skip on conflict, aka there candidate already exists for the given URL and race).
+    """Insert a scraped page into the campaign_site_content table (skip on conflict, aka there candidate already exists for the given URL and race).
 
     Args:
         conn: Open SQLite connection.
@@ -100,19 +112,20 @@ def _insert_content(
         year: Election year from the elections table.
         unprocessed_text: Raw visible text from the page.
         cleaned_text: Text after character cleaning.
-        sampled_text: Random sentence-chunk sample of cleaned_text.
+        sampled_text: Random sentence-chunk sample of cleaned_text (40%).
+        sample_60: Random sentence-chunk sample of cleaned_text (60%).
     """
     conn.execute(
         """
-        INSERT INTO content
+        INSERT INTO campaign_site_content
             (candidate_id, candidate_name, page_url, page_type, link_type,
-             race_type, year, unprocessed_text, cleaned_text, sampled_text)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             race_type, year, unprocessed_text, cleaned_text, sampled_text, sample_60)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(candidate_id, page_url) DO NOTHING
         """,
         (
             candidate_id, candidate_name, page_url, page_type, link_type,
-            race_type, year, unprocessed_text, cleaned_text, sampled_text,
+            race_type, year, unprocessed_text, cleaned_text, sampled_text, sample_60,
         ),
     )
     conn.commit()
@@ -121,7 +134,7 @@ def _insert_content(
 def _load_scraped_ids(
     conn: sqlite3.Connection, skip_empty: bool = True
 ) -> set[int]:
-    """Return candidate_ids that already have rows in the content table.
+    """Return candidate_ids that already have rows in the campaign_site_content table.
 
     Args:
         conn: Open SQLite connection.
@@ -134,12 +147,12 @@ def _load_scraped_ids(
     if skip_empty:
         rows = conn.execute(
             """
-            SELECT DISTINCT candidate_id FROM content
+            SELECT DISTINCT candidate_id FROM campaign_site_content
             WHERE sampled_text IS NOT NULL AND sampled_text != ''
             """
         ).fetchall()
     else:
-        rows = conn.execute("SELECT DISTINCT candidate_id FROM content").fetchall()
+        rows = conn.execute("SELECT DISTINCT candidate_id FROM campaign_site_content").fetchall()
     return {row[0] for row in rows}
 
 
@@ -390,7 +403,7 @@ def scrape_campaign_content(
     """Scrape campaign site text for candidates missing content rows.
 
     Queries candidates with a ``campaign_site`` or ``campaign_site_archived``
-    link, skips those already in the ``content`` table, and scrapes all
+    link, skips those already in the ``campaign_site_content`` table, and scrapes all
     remaining candidates.
 
     Args:
@@ -454,6 +467,7 @@ def scrape_campaign_content(
                 unprocessed_text=page["visible_text"],
                 cleaned_text=ct,
                 sampled_text=_sample_text(ct),
+                sample_60=_sample_text(ct, fraction=0.60),
             )
         scraped += 1
         time.sleep(CANDIDATE_DELAY_S)
