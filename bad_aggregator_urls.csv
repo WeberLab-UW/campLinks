@@ -1,13 +1,13 @@
 candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_campaign_url,source,domain,new_campaign_url
 895,Joanne Famularo,New Jersey,State House,2025,2,general,https://bluevoterguide.org/NJ/candidate_Joanne_Famularo/645401,ballotpedia,bluevoterguide.org,
 920,Doug Dillon,New Jersey,State House,2025,7,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=520848,web_search,ourcampaigns.com,
-921,Dione Johnson,New Jersey,State House,2025,7,general,https://justfacts.votesmart.org/candidate/biography/222304/dione-johnson,ballotpedia,justfacts.votesmart.org,http://www.njleg.state.nj.us/members/BIO.asp?Leg=313
+921,Dione Johnson,New Jersey,State House,2025,7,general,https://justfacts.votesmart.org/candidate/biography/222304/dione-johnson,ballotpedia,justfacts.votesmart.org,
 933,Gigi Esparza,New Jersey,State House,2025,10,general,https://ivoterguide.com/candidate/88782/race/23243/election/1308?culture=en-us,ballotpedia,ivoterguide.com,
 941,Kyler Daneen,New Jersey,State House,2025,12,general,https://bluevoterguide.org/NJ/candidate_Kyler_Dineen/663304,ballotpedia,bluevoterguide.org,
 945,Jason M. Corley Sr.,New Jersey,State House,2025,13,general,https://ivoterguide.com/candidate/88332/race/23246/election/1308,ballotpedia,ivoterguide.com,
 946,Vaibhav Gorige,New Jersey,State House,2025,13,general,https://bluevoterguide.org/district/NJ/New_Jersey_General_Assembly_District_13/22758/,ballotpedia,bluevoterguide.org,
 956,Catherine Payne,New Jersey,State House,2025,16,general,https://justfacts.votesmart.org/candidate/biography/222324/catherine-payne,web_search,justfacts.votesmart.org,
-961,Susan Hucko,New Jersey,State House,2025,17,general,https://bluevoterguide.org/district/NJ/New_Jersey_General_Assembly_District_17/905/36,ballotpedia,bluevoterguide.org,https://www.njleg.state.nj.us/legislative-roster/495/assemblyman-egan
+961,Susan Hucko,New Jersey,State House,2025,17,general,https://bluevoterguide.org/district/NJ/New_Jersey_General_Assembly_District_17/905/36,ballotpedia,bluevoterguide.org,
 964,Melanie Mott,New Jersey,State House,2025,18,general,https://ivoterguide.com/candidate/58439/race/23251/election/1308,ballotpedia,ivoterguide.com,
 965,Eugene DeMarzo,New Jersey,State House,2025,18,general,https://ivoterguide.com/candidate/87615/race/23251/election/1308,ballotpedia,ivoterguide.com,
 979,Lisa Fabrizio,New Jersey,State House,2025,22,general,https://ivoterguide.com/candidate/75881/race/23255/election/1308,web_search,ivoterguide.com,
@@ -16,7 +16,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 997,Walter Mielarczyk,New Jersey,State House,2025,26,general,https://vote-usa.org/Intro.aspx?State=NJ&Id=NJMielarczykWalter,ballotpedia,vote-usa.org,
 1000,Adam Kraemer,New Jersey,State House,2025,27,general,https://ivoterguide.com/candidate/58417/race/23260/election/1308,ballotpedia,ivoterguide.com,
 1001,Robert Iommazzo,New Jersey,State House,2025,27,general,https://bluevoterguide.org/district/NJ/New_Jersey_General_Assembly_District_27/22772/273,ballotpedia,bluevoterguide.org,
-1008,Noble Milton,New Jersey,State House,2025,29,general,https://bluevoterguide.org/district/NJ/New_Jersey_General_Assembly_District_29/22773/273,ballotpedia,bluevoterguide.org,https://www.njleg.state.nj.us/legislative-roster/362/assemblywoman-pintor-marin
+1008,Noble Milton,New Jersey,State House,2025,29,general,https://bluevoterguide.org/district/NJ/New_Jersey_General_Assembly_District_29/22773/273,ballotpedia,bluevoterguide.org,
 1012,Joanne DeBenedictis,New Jersey,State House,2025,30,general,https://ivoterguide.com/candidate/88857/race/23263/election/1308,ballotpedia,ivoterguide.com,
 1015,Anthony Acosta,New Jersey,State House,2025,31,general,https://ivoterguide.com/candidate/87622/race/23264/election/1308,ballotpedia,ivoterguide.com,
 1019,Stephen Bishop,New Jersey,State House,2025,32,general,https://ivoterguide.com/candidate/87624/race/23265/election/1308,ballotpedia,ivoterguide.com,
@@ -26,7 +26,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 1040,Marco Navarro,New Jersey,State House,2025,37,general,https://justfacts.votesmart.org/candidate/biography/222380/marco-navarro,ballotpedia,justfacts.votesmart.org,
 1041,Andrew Meehan,New Jersey,State House,2025,37,general,https://ivoterguide.com/candidate/87635/race/23270/election/1308,ballotpedia,ivoterguide.com,
 1045,Jerry Taylor,New Jersey,State House,2025,38,general,https://vote-usa.org/Intro.aspx?State=NJ&Id=NJTaylorJerry,ballotpedia,vote-usa.org,
-1149,Jamie Hendry,Virginia,State House,2025,46,general,https://bluevoterguide.org/VA/candidate_Jamie_Ralston_Hendry/668358,ballotpedia,bluevoterguide.org,http://www.jamiehendryproductions.com
+1149,Jamie Hendry,Virginia,State House,2025,46,general,https://bluevoterguide.org/VA/candidate_Jamie_Ralston_Hendry/668358,ballotpedia,bluevoterguide.org,
 1215,Richard Stonage Jr.,Virginia,State House,2025,77,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=709121,ballotpedia,ourcampaigns.com,
 1340,Zachary Moore,Pennsylvania,State Senate,2025,36,general,https://justfacts.votesmart.org/candidate/220802/zachary-moore,ballotpedia,justfacts.votesmart.org,
 1341,Stefano Famiglietti,Rhode Island,State Senate,2025,4,general,https://bluevoterguide.org/RI/candidate_Stefano_Famiglietti/673111,ballotpedia,bluevoterguide.org,
@@ -59,7 +59,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 4077,Ray Ubinger,North Carolina,State House,2026,At-Large,general,https://ivoterguide.com/candidate/53644/race/11246/election/1206?culture=en-us,ballotpedia,ivoterguide.com,
 4102,Lucas Everett Jones,North Carolina,State House,2026,At-Large,general,https://bluevoterguide.org/state/north-carolina,ballotpedia,bluevoterguide.org,
 4111,Jackie Weyhenmeyer,North Carolina,State House,2026,At-Large,general,https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=37&off=0&elect=0,ballotpedia,uselectionatlas.org,
-4115,Brittany Newton,North Carolina,State House,2026,At-Large,general,https://bluevoterguide.org/state/north-carolina,ballotpedia,bluevoterguide.org,
+4115,Brittany Newton,North Carolina,State House,2026,At-Large,general,https://bluevoterguide.org/state/north-carolina,ballotpedia,bluevoterguide.org,https://www.brittanyfornchouse.com/
 4117,Eshonda Hooper,North Carolina,State House,2026,At-Large,general,https://justfacts.votesmart.org/election/2024/L/NC/2024-state-legislative-election?stageId=G,ballotpedia,justfacts.votesmart.org,
 4128,Tasherra Nichols McDuffie,North Carolina,State House,2026,At-Large,general,https://bluevoterguide.org/de/NC/candidate_Tasherra_Nichols_McDuffie/712581,ballotpedia,bluevoterguide.org,
 4133,Christopher Sessions,North Carolina,State House,2026,At-Large,general,https://ivoterguide.com/candidate/79691/race/8463/election/1206?culture=en-us,ballotpedia,ivoterguide.com,
@@ -71,7 +71,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 4229,Greg McBryde,North Carolina,State House,2026,At-Large,general,https://vote-usa.org/Intro.aspx?State=NC&Id=NCMcBrydeGreg,ballotpedia,vote-usa.org,
 4231,John Rhodes,North Carolina,State House,2026,At-Large,general,https://bluevoterguide.org/state/north-carolina,ballotpedia,bluevoterguide.org,
 4250,Sydnie Hutchinson,North Carolina,State House,2026,At-Large,general,https://bluevoterguide.org/district/NC/North_Carolina_House_of_Representatives_District_108/6071/,ballotpedia,bluevoterguide.org,
-4279,Robert E. Smith Jr.,Pennsylvania,State House,2026,At-Large,general,https://lykelect.com/post/robert-e-smith-jr/eab35c95-a102-4d94-8e59-03e0954317b7/,ballotpedia,lykelect.com,
+4279,Robert E. Smith Jr.,Pennsylvania,State House,2026,At-Large,general,https://lykelect.com/post/robert-e-smith-jr/eab35c95-a102-4d94-8e59-03e0954317b7/,ballotpedia,lykelect.com,https://www.smithforpa.com/
 4334,Bobby Clayton,Texas,State House,2026,At-Large,general,https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=48&off=0&elect=0&minper=0,ballotpedia,uselectionatlas.org,
 4347,Matthias-Jonah Early,Texas,State House,2026,At-Large,general,https://bluevoterguide.org/TX/candidate_Matthias-Jonah_Early/711946,ballotpedia,bluevoterguide.org,
 4381,Stephanie Guerrero Saenz,Texas,State House,2026,At-Large,general,https://bluevoterguide.org/TX/candidate_Stephanie_Saenz/711958,ballotpedia,bluevoterguide.org,
@@ -100,18 +100,18 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 17311,Choon James,Hawaii,Mayor,2024,,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=415823,ballotpedia,ourcampaigns.com,
 17313,Katrisha Waldridge,Kentucky,Mayor,2024,,general,https://bluevoterguide.org/KY/candidate_Katrisha_Waldridge/342442,ballotpedia,bluevoterguide.org,
 5350,Eric J. Ching,California,US House,2024,38,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=541530,web_search,ourcampaigns.com,
-5464,"Earl L. \""Buddy\"" Carter",Georgia,US House,2024,1,general,https://www.ourcampaigns.com/FECCommitteeDetail.html?FECCommitteeID=47641,ballotpedia,ourcampaigns.com,http://buddycarterforcongress.com
+5464,"Earl L. \""Buddy\"" Carter",Georgia,US House,2024,1,general,https://www.ourcampaigns.com/FECCommitteeDetail.html?FECCommitteeID=47641,ballotpedia,ourcampaigns.com,
 5541,Joe Mcgraw,Illinois,US House,2024,17,general,https://vote-usa.org/Intro.aspx?State=IL&Id=ILMcGrawJoe,ballotpedia,vote-usa.org,
 5787,Thomas J. Zmich,New York,US House,2024,6,general,https://vote-usa.org/CompareCandidates.aspx?State=NY&Election=NY20241105GA&Office=NYUSHouse6,ballotpedia,vote-usa.org,
-5793,Menachem M. Raitport,New York,US House,2024,9,general,https://ivoterguide.com/candidate/74975/race/2157/election/1230,ballotpedia,ivoterguide.com,https://www.reynosoforbrooklyn.com/
+5793,Menachem M. Raitport,New York,US House,2024,9,general,https://ivoterguide.com/candidate/74975/race/2157/election/1230,ballotpedia,ivoterguide.com,
 17361,Eddie Andrew Meredith,Georgia,Mayor,2025,,general,https://www.ourcampaigns.com/RaceDetail.html?RaceID=1101107,web_search,ourcampaigns.com,
 17371,Kelsea Hector,Michigan,Mayor,2025,,general,https://bluevoterguide.org/endorser-org/Gun_Sense_Voter/MI/4895,web_search,bluevoterguide.org,
 7120,Frank J Burns,Pennsylvania,State House,2024,72,general,https://electjon.com/,web_search,electjon.com,
 7365,Amy Bradley,Pennsylvania,State House,2024,72,general,https://votesafe.org/candidate/46175388-5d21-4390-8bc4-128865151aaf,web_search,votesafe.org,
 8017,Patrick Gipson,California,State House,2024,40,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554733,ballotpedia,ourcampaigns.com,
-16187,Wendell Craig Williams,Pennsylvania,State House,2024,160,general,https://justfacts.votesmart.org/candidate/biography/102434/craig-williams,ballotpedia,justfacts.votesmart.org,
+16187,Wendell Craig Williams,Pennsylvania,State House,2024,160,general,https://justfacts.votesmart.org/candidate/biography/102434/craig-williams,ballotpedia,justfacts.votesmart.org,https://craigwilliamspa160.com/
 7164,David L Marstellar,Wisconsin,State House,2024,21,general,https://onyourballot.vote411.org/m/candidate-detail.do?id=68609667,web_search,onyourballot.vote411.org,
-7168,Robert F Matzie,Pennsylvania,State House,2024,16,general,https://vote-usa.org/CompareCandidates.aspx?State=PA&Election=PA20241105GA&Office=PAStateHouse16,ballotpedia,vote-usa.org,
+7168,Robert F Matzie,Pennsylvania,State House,2024,16,general,https://vote-usa.org/CompareCandidates.aspx?State=PA&Election=PA20241105GA&Office=PAStateHouse16,ballotpedia,vote-usa.org,https://robmatzie.com/
 15463,Carl R Kunz,Illinois,State House,2024,31,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=553193,ballotpedia,ourcampaigns.com,
 11187,Kodi Elizabeth Swain,Texas,State House,2024,19,general,https://electjon.com/,web_search,electjon.com,
 7229,James L Haddock,Pennsylvania,State House,2024,118,general,https://lykelect.com/post/james-l-haddock/7663374e-62db-4c19-986f-b9c998fa1485/,ballotpedia,lykelect.com,
@@ -137,7 +137,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 14866,Cathy Mcauliffe,Texas,State House,2024,32,general,https://lykelect.com/compare/texas-state-representative-district-32/fa6c20b5-4a47-478d-a7a5-fcfccb1a7a51/,ballotpedia,lykelect.com,
 11815,Dalila Epperson,California,State House,2024,30,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554710,ballotpedia,ourcampaigns.com,
 7354,Mihaela Elizabeth Plesa,Texas,State House,2024,70,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=540352,web_search,ourcampaigns.com,
-7750,Kathleen (Kc) Tomlinson,Pennsylvania,State House,2024,18,general,https://www.ourcampaigns.com/RaceDetail.html?RaceID=1056187,ballotpedia,ourcampaigns.com,
+7750,Kathleen (Kc) Tomlinson,Pennsylvania,State House,2024,18,general,https://www.ourcampaigns.com/RaceDetail.html?RaceID=1056187,ballotpedia,ourcampaigns.com,https://www.kcforstaterep.com/
 7648,George Radanovich,California,State House,2024,8,general,https://vote-usa.org/Intro.aspx?State=CA&Id=CARadanovichGeorge,web_search,vote-usa.org,
 7368,Elizabeth (Lisa) Hernandez,Illinois,State House,2024,2,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=103291,web_search,ourcampaigns.com,
 16071,Laura Hruska,Illinois,State House,2024,2,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=621331,ballotpedia,ourcampaigns.com,
@@ -161,7 +161,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 7513,Daniel R Lopez,Indiana,State House,2024,39,general,https://uselectionatlas.org/RESULTS/national.php,web_search,uselectionatlas.org,
 7814,Matthew Alan Mcnally,Indiana,State House,2024,39,general,https://uselectionatlas.org/RESULTS/,ballotpedia,uselectionatlas.org,
 7514,George Murrell Smith Jr,South Carolina,State House,2024,67,general,https://justfacts.votesmart.org/bill/20363/56835/139553/prohibits-abortions-after-20-weeks,web_search,justfacts.votesmart.org,
-7707,Heather Sievers,Iowa,State House,2024,40,general,https://bluevoterguide.org/IA/candidate_Heather_Sievers/546583,ballotpedia,bluevoterguide.org,
+7707,Heather Sievers,Iowa,State House,2024,40,general,https://bluevoterguide.org/IA/candidate_Heather_Sievers/546583,ballotpedia,bluevoterguide.org,https://www.heathersievers4iowa.com/
 7527,Susie Greenberg,Georgia,State House,2024,53,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=626750,web_search,ourcampaigns.com,
 9628,Spencer Brass,Florida,State House,2024,9,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=87605,web_search,dos.elections.myflorida.com,
 16903,Paul Anthony Osbourn,Texas,State House,2024,14,general,https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=48&off=0&elect=0&minper=0,ballotpedia,uselectionatlas.org,
@@ -171,7 +171,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 7562,Charles Paul (Chuck) Efstration Iii,Georgia,State House,2024,104,general,https://uselectionatlas.org/,web_search,uselectionatlas.org,
 13094,Rita Fleming,Indiana,State House,2024,71,general,https://justfacts.votesmart.org/candidate/178126/rita-fleming,ballotpedia,justfacts.votesmart.org,
 16931,Gregory T (Greg) Hertzsch,Indiana,State House,2024,71,general,https://vote-usa.org/Intro.aspx?State=IN&Id=INHertzschGregoryT,web_search,vote-usa.org,
-7569,Thomas Mehaffie,Pennsylvania,State House,2024,106,general,https://votesafe.org/candidate/5ed3db32-11f8-4e77-8bd1-c47a97a89a29,ballotpedia,votesafe.org,
+7569,Thomas Mehaffie,Pennsylvania,State House,2024,106,general,https://votesafe.org/candidate/5ed3db32-11f8-4e77-8bd1-c47a97a89a29,ballotpedia,votesafe.org,https://www.tommehaffie.com/
 10381,Sonia Ledo,California,State House,2024,15,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=625766&ShowAllEvent=Y,web_search,ourcampaigns.com,
 7576,Terry Tipsord,Oregon,State House,2024,49,general,https://justfacts.votesmart.org/candidate/215518/terry-tipsord,web_search,justfacts.votesmart.org,
 7592,Jason R Saine,North Carolina,State House,2024,97,general,https://ivoterguide.com/voter-guide/eleck/1090,ballotpedia,ivoterguide.com,
@@ -193,7 +193,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 17146,Frank Lawrence,Missouri,State House,2024,30,general,https://vote-usa.org/Intro.aspx?State=MO&Id=MOLawrenceFrank,ballotpedia,vote-usa.org,
 15411,Noah Boyd,Pennsylvania,State House,2024,141,general,https://votesafe.org/candidate/06aca812-d3cc-413c-b877-8afe4c3668e8,ballotpedia,votesafe.org,
 10064,Philip Wang,New York,State House,2024,40,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=658615,ballotpedia,ourcampaigns.com,
-8421,Selena La Rue Hatch,Nevada,State House,2024,25,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554242,ballotpedia,ourcampaigns.com,
+8421,Selena La Rue Hatch,Nevada,State House,2024,25,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554242,ballotpedia,ourcampaigns.com,https://selenafornevada.com/
 7710,Justin Q Slaughter,Illinois,State House,2024,27,general,https://justfacts.votesmart.org/candidate/biography/166389/justin-slaughter,web_search,justfacts.votesmart.org,
 15674,John Sess,Ohio,State House,2024,24,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=629642,web_search,ourcampaigns.com,
 17133,Eric Borregard,Michigan,State House,2024,48,general,https://bluevoterguide.org/district/MI/Michigan_House_of_Representatives_District_48/15442/164,web_search,bluevoterguide.org,
@@ -219,8 +219,8 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12831,Dion Green,Ohio,State House,2024,39,general,https://electjon.com/,ballotpedia,electjon.com,
 7854,Jim Thomas,Ohio,State House,2024,49,general,https://ivoterguide.com/voter-guide/state/oh,ballotpedia,ivoterguide.com,
 7862,Suzanne Schreiber,Oklahoma,State House,2024,70,general,https://bluevoterguide.org/OK/candidate_Suzanne_Schreiber/53595,web_search,bluevoterguide.org,
-7985,Heather Ann Matson,Iowa,State House,2024,42,general,https://electionfraud.heritage.org/,ballotpedia,electionfraud.heritage.org,
-7885,Gail (Missy) Armstrong,New Mexico,State House,2024,49,general,https://vote-usa.org/Intro.aspx?State=NM&Id=NMArmstrongGail,ballotpedia,vote-usa.org,
+7985,Heather Ann Matson,Iowa,State House,2024,42,general,https://electionfraud.heritage.org/,ballotpedia,electionfraud.heritage.org,https://matsonforiowa.com/
+7885,Gail (Missy) Armstrong,New Mexico,State House,2024,49,general,https://vote-usa.org/Intro.aspx?State=NM&Id=NMArmstrongGail,ballotpedia,vote-usa.org,https://gailfornewmexico.com/
 7896,Edmund (Ed) Soliday,Indiana,State House,2024,4,general,https://electjon.com/,web_search,electjon.com,
 7906,Seth M Grove,Pennsylvania,State House,2024,196,general,https://onyourballot.vote411.org/m/race-detail.do?id=50206760,ballotpedia,onyourballot.vote411.org,
 7919,Joseph P (Joe) Ciresi,Pennsylvania,State House,2024,146,general,https://justfacts.votesmart.org/bill/37237/100135/establishes-the-historic-and-older-building-redevelopment-assistance-grant-program,web_search,justfacts.votesmart.org,
@@ -257,7 +257,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 8061,Jeffrey A Thompson,Indiana,State House,2024,28,general,https://ivoterguide.com/candidate/29540/race/4905/election/1203?culture=en-us,ballotpedia,ivoterguide.com,
 14806,Cheryl Bonavita-Cressman,Pennsylvania,State House,2024,53,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=630684,web_search,ourcampaigns.com,
 8072,Robert A (Rob) Nosse Jr,Oregon,State House,2024,42,general,https://www.vote.org/polling-place-locator/,web_search,vote.org,
-8410,Luis M Terrazas,New Mexico,State House,2024,39,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=469362,ballotpedia,ourcampaigns.com,
+8410,Luis M Terrazas,New Mexico,State House,2024,39,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=469362,ballotpedia,ourcampaigns.com,https://www.luisterrazas4nm.com/
 8079,Eugene (Gene) Wu,Texas,State House,2024,137,general,https://justfacts.votesmart.org/candidate/biography/137800/gene-wu,web_search,justfacts.votesmart.org,
 13123,Mark R Albers,Illinois,State House,2024,15,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=553182,web_search,ourcampaigns.com,
 8081,Duy Nguyen,Nevada,State House,2024,8,general,https://bluevoterguide.org/NV/candidate_Duy_Nguyen/350976,ballotpedia,bluevoterguide.org,
@@ -269,8 +269,8 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 8112,Donny Carr Lambeth,North Carolina,State House,2024,75,general,https://justfacts.votesmart.org/candidate/biography/136318/donny-lambeth,ballotpedia,justfacts.votesmart.org,
 15102,Caroline Warren,North Carolina,State House,2024,75,general,https://bluevoterguide.org/NC/candidate_Caroline_Warren/526427,web_search,bluevoterguide.org,
 8113,Michael Lee Meredith,Kentucky,State House,2024,19,general,https://ivoterguide.com/voter-guide/eleck/1211,ballotpedia,ivoterguide.com,
-8120,Matthew Rinker,Iowa,State House,2024,99,general,https://ivoterguide.com/voter-guide/eleck/1114,ballotpedia,ivoterguide.com,
-10663,Jim Beres,Iowa,State House,2024,99,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631468,ballotpedia,ourcampaigns.com,
+8120,Matthew Rinker,Iowa,State House,2024,99,general,https://ivoterguide.com/voter-guide/eleck/1114,ballotpedia,ivoterguide.com,https://mattrinker.org/
+10663,Jim Beres,Iowa,State House,2024,99,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631468,ballotpedia,ourcampaigns.com,https://www.jimberesforiowa.com/
 8121,Leanne T Krueger,Pennsylvania,State House,2024,161,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=343585,web_search,ourcampaigns.com,
 8124,Jonathan Berger,North Carolina,State House,2024,20,general,https://bluevoterguide.org/NC/candidate_Jonathan_M._Berger/526375,web_search,bluevoterguide.org,
 15763,Terry Nguyen Le,Illinois,State House,2024,13,general,https://lykelect.com/post/terry-nguyen-le/3a7a4d1b-96e3-48e8-97cd-5c210c9fd880/,web_search,lykelect.com,
@@ -280,7 +280,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 9051,Regan Raff,Oklahoma,State House,2024,39,general,https://ivoterguide.com/candidate/77346/race/21013/election/1088?culture=en-us,ballotpedia,ivoterguide.com,
 14240,Rick Walker,Ohio,State House,2024,57,general,https://bluevoterguide.org/OH/candidate_Rick_Walker/46906,ballotpedia,bluevoterguide.org,
 16026,David J Morgan,Ohio,State House,2024,14,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=567022,ballotpedia,ourcampaigns.com,
-8172,Dan Gehlbach,Iowa,State House,2024,46,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554206,ballotpedia,ourcampaigns.com,
+8172,Dan Gehlbach,Iowa,State House,2024,46,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554206,ballotpedia,ourcampaigns.com,https://dan4iowa.com/
 14815,Bradley Lacko,Ohio,State House,2024,53,general,https://onyourballot.vote411.org/m/race-detail.do?id=65197903,ballotpedia,onyourballot.vote411.org,
 9236,John Adda Lawrence,Pennsylvania,State House,2024,13,general,https://vote-usa.org/Intro.aspx?State=PA&Id=palawrencejohna,web_search,vote-usa.org,
 8185,Randy Bridges,Kentucky,State House,2024,3,general,https://ivoterguide.com/candidate/20777/race/11148/election/1211?culture=en-us,ballotpedia,ivoterguide.com,
@@ -321,7 +321,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 8925,Elizabeth Lee Winterrowd,New Mexico,State House,2024,53,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=551689,web_search,ourcampaigns.com,
 13246,Ian Bergstrom,New York,State House,2024,22,general,https://justfacts.votesmart.org/candidate/biography/217840/ian-bergstrom,web_search,justfacts.votesmart.org,
 8422,Chris Murphy,South Carolina,State House,2024,98,general,https://vote-usa.org/CompareCandidates.aspx?State=SC&Election=SC20241105GA&Office=SCStateHouse98,web_search,vote-usa.org,
-8425,Shannon Lundgren,Iowa,State House,2024,65,general,https://ivoterguide.com/candidate/50529/race/9953/election/1219?culture=en-us,ballotpedia,ivoterguide.com,
+8425,Shannon Lundgren,Iowa,State House,2024,65,general,https://ivoterguide.com/candidate/50529/race/9953/election/1219?culture=en-us,ballotpedia,ivoterguide.com,https://www.shannonforiowa.com/
 11523,Carolyn Wiezorek,Iowa,State House,2024,65,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631050,ballotpedia,ourcampaigns.com,
 8429,Jeffrey Rosario Turco,Massachusetts,State House,2024, NINETEENTH SUFFOLK,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=504896,web_search,ourcampaigns.com,
 13465,Robin Wintringham,North Carolina,State House,2024,63,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=628511,ballotpedia,ourcampaigns.com,
@@ -383,7 +383,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12272,Michael Hasty,Missouri,State House,2024,135,general,https://vote-usa.org/Intro.aspx?State=MO&Id=MOHastyMichael,ballotpedia,vote-usa.org,
 8733,Joseph C Mastroianni,New York,State House,2024,111,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=566850,web_search,ourcampaigns.com,
 8734,Stephen M Hawley,New York,State House,2024,139,general,https://vote-usa.org/Intro.aspx?State=NY&Id=NYHawleyStephen,ballotpedia,vote-usa.org,
-8737,Gary Richardson,Georgia,State House,2024,125,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=543140,ballotpedia,ourcampaigns.com,
+8737,Gary Richardson,Georgia,State House,2024,125,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=543140,ballotpedia,ourcampaigns.com,https://www.garyfordistrict125.com/
 8740,Andrew (Andy) Mckean,Iowa,State House,2024,66,general,https://uselectionatlas.org/RESULTS/national.php?year=2024&minper=0&off=0&elect=0,web_search,uselectionatlas.org,
 11403,Jerry Govan,South Carolina,State House,2024,93,general,https://justfacts.votesmart.org/candidate/biography/8501/jerry-govan-jr,web_search,justfacts.votesmart.org,
 13377,Brandon Cox,South Carolina,State House,2024,93,general,https://justfacts.votesmart.org/candidate/174486/brandon-cox,web_search,justfacts.votesmart.org,
@@ -393,7 +393,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 13354,Charity Owens,South Carolina,State House,2024,118,general,https://bluevoterguide.org/SC/candidate_Charity_Owens/547520,web_search,bluevoterguide.org,
 8771,Peter Schweyer,Pennsylvania,State House,2024,134,general,https://votesafe.org/candidate/d9846127-fba5-4f06-9eb1-ca09722f375c,web_search,votesafe.org,
 16048,Cabot W Nelson,Utah,State House,2024,23,general,https://lykelect.com/post/cabot-wm-nelson/d5fc5414-9000-4c0a-8316-1097fdb397b1/,ballotpedia,lykelect.com,
-8779,Nan Cobb,Florida,State House,2024,26,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84398,ballotpedia,dos.elections.myflorida.com,https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4910&LegislativeTermId=91
+8779,Nan Cobb,Florida,State House,2024,26,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84398,ballotpedia,dos.elections.myflorida.com,
 8780,Dirk E Deaton,Missouri,State House,2024,159,general,https://lykelect.com/compare/missouri-state-rep-district-159/39fed4c3-d847-4fc5-a20d-8ebb6c52320f/,web_search,lykelect.com,
 8781,Wayne Arthur Rosenthal,Illinois,State House,2024,108,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=227259,ballotpedia,ourcampaigns.com,
 12875,Tom Tzitzura,Arizona,State House,2024,29,general,https://bluevoterguide.org/AZ/candidate_Thomas_Tzitzura/302106,ballotpedia,bluevoterguide.org,
@@ -424,7 +424,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 15495,Sharon Marie Cintolo,Massachusetts,State House,2024, SECOND NORFOLK,general,https://vote-usa.org/CompareCandidates.aspx?State=MA&Election=MA20241105GA&Office=mastatehouse98,web_search,vote-usa.org,
 14567,Michael Travis,Florida,State House,2024,120,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84073,web_search,dos.elections.myflorida.com,
 16437,Will Sears,Michigan,State House,2024,5,general,https://vote-usa.org/CompareCandidates.aspx?State=MI&Election=MI20241105GA&Office=MIStateHouse5,ballotpedia,vote-usa.org,
-8907,Doreen Yvonne Gallegos,New Mexico,State House,2024,52,general,https://lykelect.com/post/doreen-yvonne-gallegos/1d127c78-783a-405b-afc7-1ed69296ad1c/,ballotpedia,lykelect.com,
+8907,Doreen Yvonne Gallegos,New Mexico,State House,2024,52,general,https://lykelect.com/post/doreen-yvonne-gallegos/1d127c78-783a-405b-afc7-1ed69296ad1c/,ballotpedia,lykelect.com,https://www.doreengallegos.com/
 8916,Carter Nordman,Iowa,State House,2024,47,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=470040,web_search,ourcampaigns.com,
 14209,Joe Shelly,Iowa,State House,2024,47,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=669007,web_search,ourcampaigns.com,
 8923,Ann Meyer,Iowa,State House,2024,8,general,https://vote-usa.org/officials.aspx?state=ia&report=ia,ballotpedia,vote-usa.org,
@@ -442,12 +442,12 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 11752,Jessica Wignall,Utah,State House,2024,39,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=630909,web_search,ourcampaigns.com,
 8976,Donna Marie White,North Carolina,State House,2024,26,general,https://politics1.com/nc.htm,web_search,politics1.com,
 15184,Keith Ellis Gillum,Florida,State House,2024,3,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=85885,web_search,dos.elections.myflorida.com,
-8992,Jason Shoaf,Florida,State House,2024,7,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=83445,web_search,dos.elections.myflorida.com,http://jasonshoaf.com
+8992,Jason Shoaf,Florida,State House,2024,7,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=83445,web_search,dos.elections.myflorida.com,
 17156,Regina Collins,Ohio,State House,2024,28,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=424309,web_search,ourcampaigns.com,
 9008,Jeremy Faison,Tennessee,State House,2024,11,general,https://vote-usa.org/CompareCandidates.aspx?State=TN&Election=TN20241105GA&Office=TNStateHouse11,web_search,vote-usa.org,
 12564,Marisela Jimenez,Texas,State House,2024,150,general,https://bluevoterguide.org/endorser-org/Candidates_for_Common_Good/TX/1177,web_search,bluevoterguide.org,
 9873,Andrew Kuzma,Pennsylvania,State House,2024,39,general,https://votesafe.org/candidate/b2224c21-dec8-478c-b821-aa28e3de85a4,ballotpedia,votesafe.org,
-9023,Hans C Wilz,Iowa,State House,2024,25,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554083,ballotpedia,ourcampaigns.com,
+9023,Hans C Wilz,Iowa,State House,2024,25,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=554083,ballotpedia,ourcampaigns.com,https://wilzforiowa.com/
 13528,Brenda Curran,Iowa,State House,2024,25,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631036,ballotpedia,ourcampaigns.com,
 9025,Liz Berry,Washington,State House,2024, 036-POSITION 2,general,https://bluevoterguide.org/WA/candidate_Liz_Berry/322995,web_search,bluevoterguide.org,
 9028,Joshua M Siegel,Pennsylvania,State House,2024,22,general,https://onyourballot.vote411.org/m/race-detail.do?id=50206754,web_search,onyourballot.vote411.org,
@@ -468,7 +468,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12070,Laurie Obrien Wolf,Wisconsin,State House,2024,23,general,https://lykelect.com/post/laurie-obrien-wolf/bc2e70b8-298d-42da-82dc-4f15acbbc9ae/,web_search,lykelect.com,
 11077,Perla Bojorquez,Texas,State House,2024,93,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=623304,ballotpedia,ourcampaigns.com,
 14596,Timothy S Sutherland,Oregon,State House,2024,13,general,https://onyourballot.vote411.org/m/race-detail.do?id=6722821,web_search,onyourballot.vote411.org,
-9098,John H Wills,Iowa,State House,2024,10,general,https://ivoterguide.com/voter-guide/eleck/1114,ballotpedia,ivoterguide.com,
+9098,John H Wills,Iowa,State House,2024,10,general,https://ivoterguide.com/voter-guide/eleck/1114,ballotpedia,ivoterguide.com,https://www.willsforiowa.com/
 13647,Ed Hibsch,Wisconsin,State House,2024,64,general,https://lykelect.com/post/ed-hibsch/e604f5e9-077c-4851-883a-8f73ab0e191c/,ballotpedia,lykelect.com,
 9106,Barbara Gervin-Hawkins,Texas,State House,2024,120,general,https://lykelect.com/compare/texas-state-representative-district-120/645ec91d-e247-470d-9549-adee11daad9c/,ballotpedia,lykelect.com,
 9115,Andrea Suarez,Washington,State House,2024, 043-POSITION 2,general,https://bluevoterguide.org/WA/candidate_Andrea_Suarez/556839,ballotpedia,bluevoterguide.org,
@@ -542,7 +542,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 13666,Lisa Rezac,Washington,State House,2024, 032-POSITION 1,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=644811,web_search,ourcampaigns.com,
 11508,Lee E Ellis,Alaska,State House,2024,9,general,https://www.vote.org/,web_search,vote.org,
 16267,Daniel Martin,Oregon,State House,2024,35,general,https://lykelect.com/post/dan-martin/eb24fd29-89ec-4bca-bfba-2ba70f42aa8e/,ballotpedia,lykelect.com,
-15423,Anthony Dickson,Georgia,State House,2024,82,general,https://vote-usa.org/Intro.aspx?State=GA&Id=GADicksonAnthony,ballotpedia,vote-usa.org,
+15423,Anthony Dickson,Georgia,State House,2024,82,general,https://vote-usa.org/Intro.aspx?State=GA&Id=GADicksonAnthony,ballotpedia,vote-usa.org,https://votedickson.com/
 9362,Bradford J (Brad) Barrett,Indiana,State House,2024,56,general,https://uselectionatlas.org/RESULTS/national.php,web_search,uselectionatlas.org,
 14952,Charlie Browne,Florida,State House,2024,11,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=85721,ballotpedia,dos.elections.myflorida.com,
 9372,Mark F Gamba,Oregon,State House,2024,41,general,https://justfacts.votesmart.org/candidate/biography/189869/mark-gamba,web_search,justfacts.votesmart.org,
@@ -557,7 +557,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 15952,Stuart Mackie,Nevada,State House,2024,31,general,https://vote-usa.org/Intro.aspx?State=NV&Id=NVMacKieStuart,web_search,vote-usa.org,
 9387,John M Prescott,Indiana,State House,2024,33,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=559823,web_search,ourcampaigns.com,
 13626,Joanne R Terry,Florida,State House,2024,31,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=86315,web_search,dos.elections.myflorida.com,
-12795,Luke Jungmann,New Mexico,State House,2024,60,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=633848,ballotpedia,ourcampaigns.com,
+12795,Luke Jungmann,New Mexico,State House,2024,60,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=633848,ballotpedia,ourcampaigns.com,https://www.lukefornm.com
 14692,Nicole Ventour,South Carolina,State House,2024,45,general,https://vote-usa.org/Intro.aspx?State=SC&Id=SCVentourNicole,web_search,vote-usa.org,
 9401,David Alan Livingston,Arizona,State House,2024,28,general,https://uselectionatlas.org/RESULTS/national.php?year=2024&minper=0&off=0&elect=0,web_search,uselectionatlas.org,
 15575,August R Warren,Oregon,State House,2024,2,general,https://electionfraud.heritage.org/,web_search,electionfraud.heritage.org,
@@ -570,7 +570,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 9419,Bradley H Jones Jr,Massachusetts,State House,2024, TWENTIETH MIDDLESEX,general,https://justfacts.votesmart.org/candidate/biography/4821/brad-jones-jr,web_search,justfacts.votesmart.org,
 9423,Peter Michael Sturla,Pennsylvania,State House,2024,96,general,https://lykelect.com/compare/pennsylvania-state-represnentative-96th-legislative-district/576041a4-6f75-4046-8b58-83b954ebe896/,web_search,lykelect.com,
 14654,Eric Beezer,Pennsylvania,State House,2024,96,general,https://vote-usa.org/CompareCandidates.aspx?State=PA&Election=PA20241105GA&Office=PAStateHouse96,web_search,vote-usa.org,
-9425,Napoleon Nelson,Pennsylvania,State House,2024,154,general,https://votesafe.org/candidate/d8877fa7-16ed-43e6-a318-0ba16fa1e0f3,ballotpedia,votesafe.org,
+9425,Napoleon Nelson,Pennsylvania,State House,2024,154,general,https://votesafe.org/candidate/d8877fa7-16ed-43e6-a318-0ba16fa1e0f3,ballotpedia,votesafe.org,https://napoleonfor154.com/
 15141,Daniel Hawthorne,Tennessee,State House,2024,40,general,https://ivoterguide.com/candidate/85961/race/15685/election/1242,ballotpedia,ivoterguide.com,
 9435,Timothy (Timmy) Beson,Michigan,State House,2024,96,general,https://www.vote.org/,web_search,vote.org,
 9439,Kevin G Honan,Massachusetts,State House,2024, SEVENTEENTH SUFFOLK,general,https://lykelect.com/compare/massachusetts-seventeenth-suffolk-district/bb3a031f-8f62-4080-a52c-d882c8e558dc/,web_search,lykelect.com,
@@ -637,7 +637,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 9608,Josh Bray,Kentucky,State House,2024,71,general,https://ivoterguide.com/candidate/52675/race/11147/election/1211,ballotpedia,ivoterguide.com,
 9610,Heath R Vannatter,Indiana,State House,2024,38,general,https://justfacts.votesmart.org/candidate/biography/109780/heath-vannatter,web_search,justfacts.votesmart.org,
 15359,Carl Seese,Indiana,State House,2024,38,general,https://bluevoterguide.org/IN/candidate_Carl_Seese/530481,web_search,bluevoterguide.org,
-9615,Marylouise Isaacson,Pennsylvania,State House,2024,175,general,https://bluevoterguide.org/PA/candidate_MaryLouise_Isaacson/305498,ballotpedia,bluevoterguide.org,
+9615,Marylouise Isaacson,Pennsylvania,State House,2024,175,general,https://bluevoterguide.org/PA/candidate_MaryLouise_Isaacson/305498,ballotpedia,bluevoterguide.org,https://maryisaacson.org/
 9616,Janeen Connolly,Arizona,State House,2024,8,general,https://vote-usa.org/Intro.aspx?State=AZ&Id=AZConnollyJaneen,ballotpedia,vote-usa.org,
 9619,Mary Marzian,Kentucky,State House,2024,41,general,https://justfacts.votesmart.org/candidate/biography/4109/mary-marzian,ballotpedia,justfacts.votesmart.org,
 16268,Thomas Albritton,Idaho,State House,2024, 009-POSITION A,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631979,web_search,ourcampaigns.com,
@@ -670,7 +670,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 9719,Brent Siegrist,Iowa,State House,2024,19,general,https://ivoterguide.com/candidate/53309/race/9878/election/1219?culture=en-us,web_search,ivoterguide.com,
 9720,Calvin R Schrage,Alaska,State House,2024,12,general,https://vote-usa.org/Intro.aspx?State=AK&Id=AKSchrageCalvinR,web_search,vote-usa.org,
 13335,Joseph M Lurtsema,Alaska,State House,2024,12,general,https://uselectionatlas.org/RESULTS/national.php,web_search,uselectionatlas.org,
-9724,Venicia Considine,Nevada,State House,2024,18,general,https://bluevoterguide.org/NV/candidate_Venicia_Considine/326272,ballotpedia,bluevoterguide.org,
+9724,Venicia Considine,Nevada,State House,2024,18,general,https://bluevoterguide.org/NV/candidate_Venicia_Considine/326272,ballotpedia,bluevoterguide.org,https://www.veniciafornevada.com/
 16336,Antario Brown,Nevada,State House,2024,18,general,https://lykelect.com/post/antario-tiger-brown/5e2235d1-1119-4cca-a81c-47fe4bb7fb59/,ballotpedia,lykelect.com,
 9728,Anita Somani,Ohio,State House,2024,8,general,https://onyourballot.vote411.org/m/candidate-detail.do?id=65197786,ballotpedia,onyourballot.vote411.org,
 15071,Aaron Neumann,Ohio,State House,2024,8,general,https://vote-usa.org/CompareCandidates.aspx?State=OH&Election=OH20241105GA&Office=OHStateHouse8,web_search,vote-usa.org,
@@ -683,7 +683,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 13707,Arthur Beatty,Ohio,State House,2024,92,general,https://bluevoterguide.org/OH/candidate_Arthur_Beatty/527482,web_search,bluevoterguide.org,
 14946,Robert Relph,Wisconsin,State House,2024,80,general,https://ivoterguide.com/candidate/70467/race/4264/election/1251?culture=en-us,web_search,ivoterguide.com,
 9756,Evelyn Ratigan (Lynn) Smith,Georgia,State House,2024,70,general,https://uselectionatlas.org/RESULTS/national.php,web_search,uselectionatlas.org,
-16227,Diane Boulai,Georgia,State House,2024,70,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=630299,ballotpedia,ourcampaigns.com,
+16227,Diane Boulai,Georgia,State House,2024,70,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=630299,ballotpedia,ourcampaigns.com,https://dianefor70.com/
 12275,Kay Smith,Texas,State House,2024,148,general,https://vote-usa.org/CompareCandidates.aspx?State=TX&Election=TX20241105GA&Office=TXStateHouse148,web_search,vote-usa.org,
 12295,Bj Motley,South Dakota,State House,2024,14,general,https://bluevoterguide.org/SD/candidate_BJ_Motley/300373,ballotpedia,bluevoterguide.org,
 16419,Mordechai Klainberg,Michigan,State House,2024,18,general,https://lykelect.com/post/mordechai-klainberg/5063c664-2c7c-429e-ad11-88059fc62f0a/,ballotpedia,lykelect.com,
@@ -691,11 +691,11 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 9773,Daniel (Dan) Griffey,Washington,State House,2024, 035-POSITION 1,general,https://vote-usa.org/CompareCandidates.aspx?State=WA&Election=WA20241105GA&Office=WAStateHouse35P1,web_search,vote-usa.org,
 9774,Mitch Rosenwald,Florida,State House,2024,98,general,https://dos.elections.myflorida.com/candidates/CanDetail.asp?account=84435,web_search,dos.elections.myflorida.com,
 17177,Bernie Sauer,Pennsylvania,State House,2024,31,general,https://vote-usa.org/CompareCandidates.aspx?State=PA&Election=PA20241105GA&Office=PAStateHouse31,web_search,vote-usa.org,
-9778,Megan L Srinivas,Iowa,State House,2024,30,general,https://vote-usa.org/Intro.aspx?State=IA&Id=IASrinivasMeganL,ballotpedia,vote-usa.org,
+9778,Megan L Srinivas,Iowa,State House,2024,30,general,https://vote-usa.org/Intro.aspx?State=IA&Id=IASrinivasMeganL,ballotpedia,vote-usa.org,https://www.megan4iowa.com/
 15956,Jerry Cheevers,Iowa,State House,2024,30,general,https://lykelect.com/post/jerry-cheevers/7fd4af71-1793-4e95-9e86-e298420359af/,ballotpedia,lykelect.com,
 13139,Brent Roberson,North Carolina,State House,2024,23,general,https://lykelect.com/post/brent-roberson/f6d2bfd4-f802-4a74-bf8c-91d14344e8ab/,ballotpedia,lykelect.com,
 16447,Dale Walker,Michigan,State House,2024,11,general,https://lykelect.com/post/dale-j-walker/e93b9f9f-10f5-41d0-a431-93dcdd100955/,ballotpedia,lykelect.com,
-9796,Judd Lawler,Iowa,State House,2024,91,general,https://ivoterguide.com/candidate/80299/race/9994/election/1219?culture=en-us,ballotpedia,ivoterguide.com,
+9796,Judd Lawler,Iowa,State House,2024,91,general,https://ivoterguide.com/candidate/80299/race/9994/election/1219?culture=en-us,ballotpedia,ivoterguide.com,https://www.juddlawler.com/
 12832,Jay Gorsh,Iowa,State House,2024,91,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631466,web_search,ourcampaigns.com,
 9798,Lori Mccann,Idaho,State House,2024, 006-POSITION A,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=521137,ballotpedia,ourcampaigns.com,
 9819,Jaclyn Zimmermann,Missouri,State House,2024,98,general,https://bluevoterguide.org/MO/candidate_Jaclyn_Zimmermann/547616,web_search,bluevoterguide.org,
@@ -772,7 +772,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 10072,Brian G Baca,New Mexico,State House,2024,8,general,https://lykelect.com/post/brian-g-baca/95d1da0b-b972-4739-ac22-d168d949c8d5/,ballotpedia,lykelect.com,
 15049,Peggy Houston-Nienaber,Kentucky,State House,2024,66,general,https://ivoterguide.com/candidate/83257/race/11173/election/1211,web_search,ivoterguide.com,
 16858,Kenneth Paek,New York,State House,2024,25,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=643052,web_search,ourcampaigns.com,
-10083,Joseph Frank Dorsie,Pennsylvania,State House,2024,47,general,https://lykelect.com/post/joseph-frank-dorsie/6447910c-6307-4657-a38d-2a38e7485ab2/,ballotpedia,lykelect.com,
+10083,Joseph Frank Dorsie,Pennsylvania,State House,2024,47,general,https://lykelect.com/post/joseph-frank-dorsie/6447910c-6307-4657-a38d-2a38e7485ab2/,ballotpedia,lykelect.com,https://www.joedforpa.com/
 17197,Edward Ritter,Pennsylvania,State House,2024,47,general,https://votesafe.org/candidate/c40941a2-1577-4def-8569-2ebc050d8a96,web_search,votesafe.org,
 10086,Walter (Walt) Blackman,Arizona,State House,2024,7,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=415184,ballotpedia,ourcampaigns.com,
 10669,Jessica L Johnson,Minnesota,State House,2024, 033B,general,https://ivoterguide.com/candidate/82246/race/12172/election/1249?culture=en-us,web_search,ivoterguide.com,
@@ -952,7 +952,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 10709,Gail Griffin,Arizona,State House,2024,19,general,https://lykelect.com/post/gail-griffin/5ee8f27c-c71e-43d9-a86c-d2ebfdf1ee35/,ballotpedia,lykelect.com,
 10710,David A Madsen,Pennsylvania,State House,2024,104,general,https://lykelect.com/post/david-a-madsen/74c3e570-f2f6-4039-8945-d3d5c3655cf2/,web_search,lykelect.com,
 10715,Karen Bennett,Georgia,State House,2024,94,general,https://vote-usa.org/Intro.aspx?State=GA&Id=GABennettKaren,web_search,vote-usa.org,
-10716,Robert E Merski,Pennsylvania,State House,2024,2,general,https://lykelect.com/post/robert-e-merski/d08fd331-645a-4dc7-a212-5982741d3cd8/,ballotpedia,lykelect.com,https://bobmerski.org/
+10716,Robert E Merski,Pennsylvania,State House,2024,2,general,https://lykelect.com/post/robert-e-merski/d08fd331-645a-4dc7-a212-5982741d3cd8/,ballotpedia,lykelect.com,
 15236,Jason Luttrell,Tennessee,State House,2024,70,general,https://bluevoterguide.org/TN/candidate_Jason_Luttrell/548359,ballotpedia,bluevoterguide.org,
 10719,Jessica Lynn Benham,Pennsylvania,State House,2024,36,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=470961,web_search,ourcampaigns.com,
 16013,Ross Sylvester,Pennsylvania,State House,2024,36,general,https://bluevoterguide.org/district/PA/Pennsylvania_House_of_Representatives_District_36/9685/,ballotpedia,bluevoterguide.org,
@@ -983,7 +983,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 13791,Thomas Salkovick,West Virginia,State House,2024,5,general,https://lykelect.com/post/thomas-m-salkovick/5ac19fd0-84d0-4066-b77b-2a83d1e1f264/,ballotpedia,lykelect.com,
 14151,Joe Christman,Utah,State House,2024,67,general,https://bluevoterguide.org/UT/candidate_Joe_Christman/528654,web_search,bluevoterguide.org,
 10808,Joseph M (Joe) Bustos,South Carolina,State House,2024,112,general,https://justfacts.votesmart.org/candidate/biography/77624/joe-bustos,web_search,justfacts.votesmart.org,
-10810,Brandon J Markosek,Pennsylvania,State House,2024,25,general,https://onyourballot.vote411.org/m/race-detail.do?id=50206541,ballotpedia,onyourballot.vote411.org,
+10810,Brandon J Markosek,Pennsylvania,State House,2024,25,general,https://onyourballot.vote411.org/m/race-detail.do?id=50206541,ballotpedia,onyourballot.vote411.org,https://www.markosek4pa.com/
 15856,John D Ritter,Pennsylvania,State House,2024,25,general,https://lykelect.com/post/john-d-ritter/47a15de5-e0a1-4272-99bb-0e89a8291101/,web_search,lykelect.com,
 10811,Adrian Criss,West Virginia,State House,2024,12,general,https://lykelect.com/compare/west-virginia-house-of-delegates-district-12/71b5b9c8-2290-4004-a2b9-4d863439a053/,ballotpedia,lykelect.com,
 10824,Patricia A Haddad,Massachusetts,State House,2024, FIFTH BRISTOL,general,https://vote-usa.org/CompareCandidates.aspx?State=MA&Election=MA20241105GA&Office=MAStateHouse15,ballotpedia,vote-usa.org,
@@ -1012,7 +1012,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12576,Gerald Joseph Oconnell,Massachusetts,State House,2024, FIRST BARNSTABLE,general,https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=25&f=0&off=100&elect=0&minper=0,web_search,uselectionatlas.org,
 16109,Desmond Hammett,Arkansas,State House,2024,34,general,https://lykelect.com/post/desmond-hammett/5de195da-2e9b-4371-aaf7-936574af4107/,ballotpedia,lykelect.com,
 10917,Jason Zachary,Tennessee,State House,2024,14,general,https://justfacts.votesmart.org/candidate/146213/jason-zachary,ballotpedia,justfacts.votesmart.org,
-10920,David M (Dave) Delloso,Pennsylvania,State House,2024,162,general,https://electionfraud.heritage.org/,ballotpedia,electionfraud.heritage.org,
+10920,David M (Dave) Delloso,Pennsylvania,State House,2024,162,general,https://electionfraud.heritage.org/,ballotpedia,electionfraud.heritage.org,https://davefordelco.com/
 15684,William Mouzon,Tennessee,State House,2024,99,general,https://bluevoterguide.org/TN/candidate_William_Mouzon/548374,web_search,bluevoterguide.org,
 14081,Jason Dillingham,Michigan,State House,2024,91,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=640885,web_search,ourcampaigns.com,
 14307,Rory Houlihan,Kentucky,State House,2024,73,general,https://ivoterguide.com/candidate/83279/race/11197/election/1211,ballotpedia,ivoterguide.com,
@@ -1024,7 +1024,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 16534,Kathy Hegstad,Minnesota,State House,2024, 016A,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=648257,ballotpedia,ourcampaigns.com,
 10954,William John Carson,Delaware,State House,2024,28,general,https://www.vote.org/,web_search,vote.org,
 15978,Zeno B Parry,Utah,State House,2024,70,general,https://lykelect.com/post/zeno-b-parry/836511c5-27cd-461e-921e-e188efbda40b/,ballotpedia,lykelect.com,
-10959,Nancy Guenst,Pennsylvania,State House,2024,152,general,https://justfacts.votesmart.org/candidate/biography/190156/nancy-guenst,ballotpedia,justfacts.votesmart.org,
+10959,Nancy Guenst,Pennsylvania,State House,2024,152,general,https://justfacts.votesmart.org/candidate/biography/190156/nancy-guenst,ballotpedia,justfacts.votesmart.org,https://nancy4pahouse.com/
 17179,Tim Bertman,Pennsylvania,State House,2024,152,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=676327,ballotpedia,ourcampaigns.com,
 10964,Joe Carey Ellington Jr,West Virginia,State House,2024,38,general,https://lykelect.com/post/joe-carey-ellington-jr/3ba6d559-dcde-4e1f-ab33-bb65ef508a14/,ballotpedia,lykelect.com,
 14733,Randa Faulkner,West Virginia,State House,2024,38,general,https://lykelect.com/post/randa-d-faulkner/b89bc729-d205-4c94-94c4-4addd1b31f97/,ballotpedia,lykelect.com,
@@ -1036,7 +1036,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 15101,Osmund Anderson,West Virginia,State House,2024,99,general,https://bluevoterguide.org/WV/candidate_Osmund_Anderson/529563,web_search,bluevoterguide.org,
 17152,Benjamin Wirtz,Arizona,State House,2024,12,general,https://vote-usa.org/CompareCandidates.aspx?State=AZ&Election=AZ20241105GA&Office=AZStateHouse12,ballotpedia,vote-usa.org,
 17153,Marc Johnston,Arizona,State House,2024,12,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=673773,web_search,ourcampaigns.com,
-10998,Sean Bagniewski,Iowa,State House,2024,35,general,https://vote-usa.org/Intro.aspx?State=IA&Id=IABagniewskiSean,ballotpedia,vote-usa.org,
+10998,Sean Bagniewski,Iowa,State House,2024,35,general,https://vote-usa.org/Intro.aspx?State=IA&Id=IABagniewskiSean,ballotpedia,vote-usa.org,https://seanforiowa.com/
 11002,Beau Baird,Indiana,State House,2024,44,general,https://vote-usa.org/intro.aspx?state=in&id=inbairdbeau,ballotpedia,vote-usa.org,
 11004,Savannah Maddox,Kentucky,State House,2024,61,general,https://ivoterguide.com/candidate/51944/race/11172/election/1085?culture=en-us,ballotpedia,ivoterguide.com,
 11005,Cathy Henson,Georgia,State House,2024,60,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=12305,web_search,ourcampaigns.com,
@@ -1048,7 +1048,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 15603,Rick Thomson,West Virginia,State House,2024,91,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=669817,web_search,ourcampaigns.com,
 16152,Rick Dougan,Utah,State House,2024,64,general,https://bluevoterguide.org/endorser-org/Utah_County_Democratic_Party/UT/6407,ballotpedia,bluevoterguide.org,
 14034,Cindy Aho,Minnesota,State House,2024, 013A,general,https://vote-usa.org/Intro.aspx?State=MN&Id=MNAhoCindy,ballotpedia,vote-usa.org,
-11042,Danielle Otten,Pennsylvania,State House,2024,155,general,https://justfacts.votesmart.org/candidate/179544/danielle-otten,ballotpedia,justfacts.votesmart.org,
+11042,Danielle Otten,Pennsylvania,State House,2024,155,general,https://justfacts.votesmart.org/candidate/179544/danielle-otten,ballotpedia,justfacts.votesmart.org,https://danielle4pa.com/
 14508,Rodney Simon,Pennsylvania,State House,2024,155,general,https://vote-usa.org/Intro.aspx?State=PA&Id=PASimonRodney,ballotpedia,vote-usa.org,
 12321,Jane Kleiss,Wisconsin,State House,2024,75,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=647501,web_search,ourcampaigns.com,
 11054,Dennis Carroll Moss,South Carolina,State House,2024,29,general,https://justfacts.votesmart.org/candidate/biography/59289/dennis-moss,ballotpedia,justfacts.votesmart.org,
@@ -1099,7 +1099,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 16134,Joshua Dutson,Utah,State House,2024,75,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=630959,web_search,ourcampaigns.com,
 16547,Alexandra Hoffman Novick,Minnesota,State House,2024, 062A,general,https://vote-usa.org/Intro.aspx?State=MN&Id=MNHoffmanNovickAlexandra,ballotpedia,vote-usa.org,
 15590,Frances Lakey,North Carolina,State House,2024,16,general,https://bluevoterguide.org/NC/candidate_Frances_Lakey/526372,web_search,bluevoterguide.org,
-11236,Segun Adeyina,Georgia,State House,2024,110,general,https://vote-usa.org/Intro.aspx?State=GA&Id=GAAdeyinaSegun,ballotpedia,vote-usa.org,
+11236,Segun Adeyina,Georgia,State House,2024,110,general,https://vote-usa.org/Intro.aspx?State=GA&Id=GAAdeyinaSegun,ballotpedia,vote-usa.org,https://segunforgeorgia.com/
 16215,Charles Lollar,Georgia,State House,2024,110,general,https://vote-usa.org/CompareCandidates.aspx?State=GA&Election=GA20240521PR&Office=GAStateHouse110,ballotpedia,vote-usa.org,
 15068,Robert J Brady,Florida,State House,2024,10,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=472645,ballotpedia,ourcampaigns.com,
 16276,Danielle Duggan,Iowa,State House,2024,34,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631453,ballotpedia,ourcampaigns.com,
@@ -1145,7 +1145,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 16837,Kenneth Blair,Connecticut,State House,2024,44,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=661498,ballotpedia,ourcampaigns.com,
 11414,Henry J Genga,Connecticut,State House,2024,10,general,https://vote-usa.org/Intro.aspx?State=CT&Id=CTGengaHenry,web_search,vote-usa.org,
 11578,Christopher Tierinni,Connecticut,State House,2024,10,general,https://lykelect.com/post/christopher-tierinni/fd85131b-d273-45e6-94ca-56e60182cc2e/,web_search,lykelect.com,
-11416,Kate Anne Klunk,Pennsylvania,State House,2024,169,general,https://lykelect.com/post/kate-anne-klunk/6cfe26f7-315e-4fa8-a4d4-a845a6c37d37/,ballotpedia,lykelect.com,
+11416,Kate Anne Klunk,Pennsylvania,State House,2024,169,general,https://lykelect.com/post/kate-anne-klunk/6cfe26f7-315e-4fa8-a4d4-a845a6c37d37/,ballotpedia,lykelect.com,https://www.kateklunkforstaterep.com/
 11417,Richard Leborious,Connecticut,State House,2024,59,general,https://lykelect.com/post/richard-leborious/35741ad8-d9ba-4641-91b1-76d3c2286775/,web_search,lykelect.com,
 11422,Sarah Montes,Utah,State House,2024,32,general,https://lykelect.com/post/sarah-dawn-montes/08318c0d-a949-4943-8815-ca340f58e9c3/,web_search,lykelect.com,
 16144,Adam Bean,Utah,State House,2024,32,general,https://bluevoterguide.org/district/UT/Utah_House_of_Representatives_District_32/12598/185,web_search,bluevoterguide.org,
@@ -1360,7 +1360,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12473,Karla J Lems,South Dakota,State House,2024,16,general,https://justfacts.votesmart.org/bill/34144/90609/authorizes-a-covid-19-vaccine-conscience-exemption,ballotpedia,justfacts.votesmart.org,
 16337,Matt Ness,South Dakota,State House,2024,16,general,https://bluevoterguide.org/SD/candidate_Matt_Ness/352527,ballotpedia,bluevoterguide.org,
 13565,David Murray,Arkansas,State House,2024,92,general,https://vote-usa.org/CompareCandidates.aspx?State=AR&Election=AR20241105GA&Office=ARStateHouse92,ballotpedia,vote-usa.org,
-13216,John Looney,Montana,State House,2024,82,general,https://www.ballotready.org/elections/montana-general-election-3bdc5d20-5e1e-4bf3-8a46-59550eb7ad69,ballotpedia,ballotready.org,
+13216,John Looney,Montana,State House,2024,82,general,https://www.ballotready.org/elections/montana-general-election-3bdc5d20-5e1e-4bf3-8a46-59550eb7ad69,ballotpedia,ballotready.org,https://looneyformontana.com/
 12195,Bryant Wolfin,Missouri,State House,2024,145,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=471883,web_search,ourcampaigns.com,
 14674,A Christian (Chris) Muns,New Hampshire,State House,2024, ROCKINGHAM 029,general,https://www.vote.org/,web_search,vote.org,
 16670,Alan Scott Blair,New Hampshire,State House,2024, ROCKINGHAM 029,general,https://justfacts.votesmart.org/candidate/biography/219214/scott-blair,ballotpedia,justfacts.votesmart.org,
@@ -1496,7 +1496,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12734,Patty Stinson,Georgia,State House,2024,150,general,https://vote-usa.org/Intro.aspx?State=GA&Id=GAStinsonPattyMarie,ballotpedia,vote-usa.org,
 16207,Cary Moore,Georgia,State House,2024,150,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=630178,ballotpedia,ourcampaigns.com,
 12742,Sequanna Taylor,Wisconsin,State House,2024,11,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=365786,web_search,ourcampaigns.com,
-12743,Kerri Seekins-Crowe,Montana,State House,2024,39,general,https://justfacts.votesmart.org/candidate/biography/168510/kerri-seekins-crowe,ballotpedia,justfacts.votesmart.org,
+12743,Kerri Seekins-Crowe,Montana,State House,2024,39,general,https://justfacts.votesmart.org/candidate/biography/168510/kerri-seekins-crowe,ballotpedia,justfacts.votesmart.org,https://kerriseekinscrowe.com
 12744,Sam Kong,Hawaii,State House,2024,33,general,https://bluevoterguide.org/HI/candidate_Sam_Kong/49802,ballotpedia,bluevoterguide.org,
 14638,Blake Borst,Montana,State House,2024,28,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=631301,ballotpedia,ourcampaigns.com,
 12752,Pam Curtis,Kansas,State House,2024,32,general,https://vote-usa.org/Intro.aspx?State=KS&Id=KSCurtisPam,web_search,vote-usa.org,
@@ -1535,7 +1535,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12918,Lisa M Moser,Kansas,State House,2024,106,general,https://lykelect.com/compare/kansas-state-rep-district-106/4afd5cbb-d5fd-42f2-87f2-8fd4ef46c11e/,ballotpedia,lykelect.com,
 15832,Patricia Bellfield,Massachusetts,State House,2024, SECOND BRISTOL,general,https://vote-usa.org/CompareCandidates.aspx?State=MA&Election=MA20241105GA&Office=MAStateHouse12,web_search,vote-usa.org,
 12920,Derrick Hildebrant,Oklahoma,State House,2024,23,general,https://ivoterguide.com/candidate/80734/race/11516/election/1174,web_search,ivoterguide.com,
-12926,John Sjaarda,South Dakota,State House,2024,2,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=555629,ballotpedia,ourcampaigns.com,
+12926,John Sjaarda,South Dakota,State House,2024,2,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=555629,ballotpedia,ourcampaigns.com,https://www.johnsjaarda.net/
 13115,David Kull,South Dakota,State House,2024,2,general,https://vote-usa.org/Intro.aspx?State=SD&Id=SDKullDavid,web_search,vote-usa.org,
 12927,Michelle E Mcgaw,Rhode Island,State House,2024,71,general,https://vote-usa.org/Intro.aspx?State=RI&Id=RIMcGawMichelleE,web_search,vote-usa.org,
 12936,Sandra Givens Scott,Georgia,State House,2024,76,general,https://lykelect.com/compare/georgia-state-house-representative-district-76/8b7be351-e449-42e2-b4ea-33373d693a45/,ballotpedia,lykelect.com,
@@ -1543,7 +1543,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 14652,Kyle Kruse,Iowa,State House,2024,56,general,https://bluevoterguide.org/IA/candidate_Kyle_Kruse/546596,ballotpedia,bluevoterguide.org,
 12950,Bruce Cozart,Arkansas,State House,2024,91,general,https://justfacts.votesmart.org/candidate/political-courage-test/128788/bruce-cozart,ballotpedia,justfacts.votesmart.org,
 15918,Christian Ehmling,New Mexico,State House,2024,54,general,https://bluevoterguide.org/district/NM/New_Mexico_House_of_Representatives_District_54/13983/,ballotpedia,bluevoterguide.org,
-12959,Eric Bell,Georgia,State House,2024,75,general,https://vote-usa.org/Intro.aspx?State=GA&Id=gabelleric,ballotpedia,vote-usa.org,
+12959,Eric Bell,Georgia,State House,2024,75,general,https://vote-usa.org/Intro.aspx?State=GA&Id=gabelleric,ballotpedia,vote-usa.org,https://www.bellforus.com/
 12961,Angelita Mejia,New Mexico,State House,2024,58,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=633845,ballotpedia,ourcampaigns.com,
 13490,Rosemarie Rung,New Hampshire,State House,2024, HILLSBOROUGH 012,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=416483,ballotpedia,ourcampaigns.com,
 13846,Jeanine M Notter,New Hampshire,State House,2024, HILLSBOROUGH 012,general,https://justfacts.votesmart.org/bill/35593/94759/amends-state-energy-and-utility-policies,web_search,justfacts.votesmart.org,
@@ -1601,7 +1601,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 13099,Miguel P Garcia,New Mexico,State House,2024,14,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=26930,ballotpedia,ourcampaigns.com,
 15253,Konnie Legried,New Mexico,State House,2024,14,general,https://justfacts.votesmart.org/candidate/biography/215738/konnie-legried,ballotpedia,justfacts.votesmart.org,
 15554,Gary K Damron,Alaska,State House,2024,32,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=646728,web_search,ourcampaigns.com,
-13105,Omari Crawford,Georgia,State House,2024,89,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=553030,ballotpedia,ourcampaigns.com,
+13105,Omari Crawford,Georgia,State House,2024,89,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=553030,ballotpedia,ourcampaigns.com,https://runwithomari.com/
 15679,P M (Pualani) Azinga,Hawaii,State House,2024,30,general,https://www.ourcampaigns.com/RaceDetail.html?RaceID=1071620,ballotpedia,ourcampaigns.com,
 13113,Larry B Butler,Connecticut,State House,2024,72,general,https://vote-usa.org/intro.aspx?state=ct&id=ctbutlerlarryb,ballotpedia,vote-usa.org,
 16343,Beverly Johnson,South Dakota,State House,2024,9,general,https://uselectionatlas.org/RESULTS/national.php?year=2024&minper=0&off=0&elect=0,web_search,uselectionatlas.org,
@@ -1660,7 +1660,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 15771,Henry R Giasson Iii,New Hampshire,State House,2024, HILLSBOROUGH 029,general,https://lykelect.com/post/henry-r-giasson-iii/498986e4-b715-4c7a-9d7f-8ceb926335c6/,ballotpedia,lykelect.com,
 16035,Sheila Seidel,New Hampshire,State House,2024, HILLSBOROUGH 029,general,https://www.ourcampaigns.com/CandidateDetail.html?SetNow=Y&CandidateID=565721,web_search,ourcampaigns.com,
 15376,Michael Seymour Ii,Kansas,State House,2024,68,general,https://vote-usa.org/CompareCandidates.aspx?State=KS&Election=KS20241105GA&Office=KSStateHouse68,web_search,vote-usa.org,
-13291,Richard S (Rich) Irvin,Pennsylvania,State House,2024,81,general,https://vote-usa.org/Intro.aspx?State=PA&Id=PAIrvinRich,ballotpedia,vote-usa.org,
+13291,Richard S (Rich) Irvin,Pennsylvania,State House,2024,81,general,https://vote-usa.org/Intro.aspx?State=PA&Id=PAIrvinRich,ballotpedia,vote-usa.org,https://richirvinforpa.com/
 13292,William R Bridgeo,Maine,State House,2024,60,general,https://justfacts.votesmart.org/candidate/biography/203786/william-bridgeo,web_search,justfacts.votesmart.org,
 15347,Wendy Macdowell,Maine,State House,2024,60,general,https://lykelect.com/post/wendy-lee-macdowell/234f40af-4368-4aa8-a878-31885ef96680/,web_search,lykelect.com,
 13297,Louis E Ruiz,Kansas,State House,2024,31,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=67231,ballotpedia,ourcampaigns.com,
@@ -1674,8 +1674,8 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 13323,Russel Miner,Montana,State House,2024,26,general,https://www.ourcampaigns.com/CandidateDetail.html?SetNow=Y&CandidateID=553261,web_search,ourcampaigns.com,
 13324,Wanda Brownlee Paige,Kansas,State House,2024,35,general,https://vote-usa.org/Intro.aspx?State=KS&Id=KSPaigeWandaBrownlee,ballotpedia,vote-usa.org,
 13326,Randyn Gregg,Montana,State House,2024,78,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=553357,web_search,ourcampaigns.com,
-13330,Tracy Ehlert,Iowa,State House,2024,79,general,https://bluevoterguide.org/IA/candidate_Tracy_Ehlert/299148,ballotpedia,bluevoterguide.org,
-14294,Barclay Woerner,Iowa,State House,2024,79,general,https://justfacts.votesmart.org/candidate/219784/barclay-woerner,ballotpedia,justfacts.votesmart.org,
+13330,Tracy Ehlert,Iowa,State House,2024,79,general,https://bluevoterguide.org/IA/candidate_Tracy_Ehlert/299148,ballotpedia,bluevoterguide.org,https://www.tracyehlert.com/
+14294,Barclay Woerner,Iowa,State House,2024,79,general,https://justfacts.votesmart.org/candidate/219784/barclay-woerner,ballotpedia,justfacts.votesmart.org,https://barclayforhouse.com/
 13341,Donna Barnes,Missouri,State House,2024,28,general,https://vote-usa.org/officials.aspx?state=mo&report=mo,ballotpedia,vote-usa.org,
 15501,Steven Hinton,Missouri,State House,2024,28,general,https://lykelect.com/post/steven-w-hinton/f8dd8c60-c37c-41c3-8b21-eba7b5c04311/,web_search,lykelect.com,
 13345,Richard Carver,North Carolina,State House,2024,95,general,https://lykelect.com/post/richard-todd-carver/0083d662-622c-49f9-b234-5e83b0fc8dd7/,web_search,lykelect.com,
@@ -1831,7 +1831,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 17105,Robert W Merrill Jr,New Hampshire,State House,2024, SULLIVAN 006,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=655732,web_search,ourcampaigns.com,
 17172,Emily Sandblade,New Hampshire,State House,2024, SULLIVAN 006,general,https://lykelect.com/post/emily-sandblade/99427829-5b87-4d88-971d-4c75e7f735e7/,ballotpedia,lykelect.com,
 15413,Janet Payne,Vermont,State House,2024, WINDHAM-BENNINGTON-WINDSOR,general,https://electjon.com/,ballotpedia,electjon.com,
-13975,Peri Pourier,South Dakota,State House,2024,27,general,https://vote-usa.org/CompareCandidates.aspx?State=SD&Election=SD20241105GA&Office=SDStateHouse28,ballotpedia,vote-usa.org,
+13975,Peri Pourier,South Dakota,State House,2024,27,general,https://vote-usa.org/CompareCandidates.aspx?State=SD&Election=SD20241105GA&Office=SDStateHouse28,ballotpedia,vote-usa.org,https://pucperi.com/home
 13986,Patricia E Kidder,Maine,State House,2024,141,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=470747,ballotpedia,ourcampaigns.com,
 15437,Lucas John Lanigan,Maine,State House,2024,141,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=553806,ballotpedia,ourcampaigns.com,
 13993,Greg Oblander,Montana,State House,2024,38,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=553360,ballotpedia,ourcampaigns.com,
@@ -2129,7 +2129,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 16770,Peter L Mehegan,New Hampshire,State House,2024, MERRIMACK 012,general,https://lykelect.com/post/peter-l-mehegan/ebf637b4-de3b-4f31-bc9a-aa5adacb53cb/,web_search,lykelect.com,
 14847,Jennifer L Poirier,Maine,State House,2024,70,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=470825,ballotpedia,ourcampaigns.com,
 15869,Cecil Gray,Maine,State House,2024,70,general,https://bluevoterguide.org/ME/candidate_Cecil_Gray_III/545880,web_search,bluevoterguide.org,
-14850,Robert Flournoy,Georgia,State House,2024,74,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=552520,ballotpedia,ourcampaigns.com,
+14850,Robert Flournoy,Georgia,State House,2024,74,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=552520,ballotpedia,ourcampaigns.com,https://www.robertfor74.com/
 14853,Julia Mccabe,Maine,State House,2024,93,general,https://bluevoterguide.org/ME/candidate_Julia_McCabe/545901,ballotpedia,bluevoterguide.org,
 16061,Robert Andrew Mccarthy,Maine,State House,2024,93,general,https://uselectionatlas.org/,web_search,uselectionatlas.org,
 14885,Golrang Garofano,Vermont,State House,2024, CHITTENDEN-23,general,https://justfacts.votesmart.org/candidate/201414/golrang-garofano,web_search,justfacts.votesmart.org,
@@ -2386,7 +2386,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 16131,Beverly Chester-Burton,Kentucky,State House,2024,44,general,https://uselectionatlas.org/RESULTS/state.php?year=2024&fips=21&f=0&off=0&elect=0&minper=0,web_search,uselectionatlas.org,
 16162,Jennifer Mandelbaum,New Hampshire,State House,2024, ROCKINGHAM 021,general,https://electiondatabase.nhpr.org/candidates/view/Jennifer-Mandelbaum,ballotpedia,electiondatabase.nhpr.org,
 16175,John R Breadon,Ohio,State House,2024,26,general,https://uselectionatlas.org/RESULTS/state.php?fips=39&year=2024&f=0&off=0&elect=0,ballotpedia,uselectionatlas.org,
-16185,Malcolm Kenyatta,Pennsylvania,State House,2024,181,general,https://uselectionatlas.org/RESULTS/state.php?fips=42&year=2024&f=3&elect=0&off=11,ballotpedia,uselectionatlas.org,
+16185,Malcolm Kenyatta,Pennsylvania,State House,2024,181,general,https://uselectionatlas.org/RESULTS/state.php?fips=42&year=2024&f=3&elect=0&off=11,ballotpedia,uselectionatlas.org,https://malcolmkenyatta.com/
 16234,Steven D Foster,Maine,State House,2024,32,general,https://vote-usa.org/Intro.aspx?State=ME&Id=MEFosterStevenD,web_search,vote-usa.org,
 16263,Grayson B Lookner,Maine,State House,2024,113,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=470757,ballotpedia,ourcampaigns.com,
 16305,Peter Ignatius Doyle,Maine,State House,2024,119,general,https://lykelect.com/post/peter-ignatius-doyle/800f31b8-20bc-420e-ac4b-82199cd02e9d/,web_search,lykelect.com,
@@ -2571,7 +2571,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 8338,Thomas C Alexander,South Carolina,State Senate,2024,1,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=7879,web_search,ourcampaigns.com,
 8340,Jarrett K Keohokalole,Hawaii,State Senate,2024,24,general,https://www.ourcampaigns.com/RaceDetail.html?RaceID=842303,web_search,ourcampaigns.com,
 10232,Kate Lennen,Pennsylvania,State Senate,2024,47,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=676312,web_search,ourcampaigns.com,
-16913,James N Mclaughlin,Rhode Island,State Senate,2024,19,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=256808,ballotpedia,ourcampaigns.com,http://electjimmclaughlin.com
+16913,James N Mclaughlin,Rhode Island,State Senate,2024,19,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=256808,ballotpedia,ourcampaigns.com,
 15406,Janalee Tobias,Utah,State Senate,2024,17,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=79269,web_search,ourcampaigns.com,
 13439,Kenneth King,Washington,State Senate,2024,25,general,https://bluevoterguide.org/WA/candidate_Kenneth_King/554207,ballotpedia,bluevoterguide.org,
 8400,Eva Burch,Arizona,State Senate,2024,9,general,https://bluevoterguide.org/AZ/candidate_Eva_Burch/352930,web_search,bluevoterguide.org,
@@ -2741,7 +2741,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 13863,Carlos Cardona,New Hampshire,State Senate,2024,2,general,https://bluevoterguide.org/NH/candidate_Carlos_Cardona/304010,web_search,bluevoterguide.org,
 15782,Jerry Reeves,Kansas,State Senate,2024,15,general,https://bluevoterguide.org/district/KS/Kansas_State_Senate_District_15/17483/152,ballotpedia,bluevoterguide.org,
 16244,Kirsten Faith Richardson,Idaho,State Senate,2024,14,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=131955,ballotpedia,ourcampaigns.com,
-10429,Derek Mallow,Georgia,State Senate,2024,2,general,https://lykelect.com/compare/georgia-state-senate-district-2/b5891482-bac2-49ef-81ec-26bf31bdef94/,ballotpedia,lykelect.com,
+10429,Derek Mallow,Georgia,State Senate,2024,2,general,https://lykelect.com/compare/georgia-state-senate-district-2/b5891482-bac2-49ef-81ec-26bf31bdef94/,ballotpedia,lykelect.com,https://derekforgeorgia.com/
 14641,Damian M Anketell,Massachusetts,State Senate,2024, SECOND ESSEX,general,https://vote-usa.org/Intro.aspx?State=MA&Id=MAAnketellDamianM,web_search,vote-usa.org,
 10474,David H Tofsted,New Mexico,State Senate,2024,36,general,https://vote-usa.org/CompareCandidates.aspx?State=NM&Election=NM20241105GA&Office=NMStateSenate36,web_search,vote-usa.org,
 10464,Benjamin D Shafer,Hawaii,State Senate,2024,23,general,https://lykelect.com/post/benjamin-d-shafer/ed3fc22d-66bb-41d0-ba95-021bd922d34f/,web_search,lykelect.com,
@@ -2831,7 +2831,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 12548,Bob Phalen,Montana,State Senate,2024,17,general,https://lykelect.com/post/bob-phalen/ab2a3455-6f98-4396-8b07-fa4c85732e0b/,ballotpedia,lykelect.com,
 16883,Anela D Brewster,Rhode Island,State Senate,2024,6,general,https://vote-usa.org/,ballotpedia,vote-usa.org,
 12584,Laura Taliaferro Pearson,Wyoming,State Senate,2024,14,general,https://vote-usa.org/Intro.aspx?State=WY&Id=WYTaliaferroPearsonLaura,web_search,vote-usa.org,
-12592,Sheikh M (Chad) Rahman,Georgia,State Senate,2024,5,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=307989,ballotpedia,ourcampaigns.com,
+12592,Sheikh M (Chad) Rahman,Georgia,State Senate,2024,5,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=307989,ballotpedia,ourcampaigns.com,https://rahmanforgeorgia.com/
 15906,Jon Roe,Delaware,State Senate,2024,2,general,https://electjon.com/,ballotpedia,electjon.com,
 16266,Benjamin Donovan Chafetz,Idaho,State Senate,2024,17,general,https://justfacts.votesmart.org/candidate/biography/203131/benjamin-chafetz,ballotpedia,justfacts.votesmart.org,
 15176,Tom Van Lone,Colorado,State Senate,2024,17,general,https://votesafe.org/candidate/48ab17a7-1931-470e-af43-57a95509aa53,ballotpedia,votesafe.org,
@@ -2850,7 +2850,7 @@ candidate_id,candidate_name,state,race_type,year,district,election_stage,bad_cam
 14371,Brian P (Bc) Collamore,Vermont,State Senate,2024, RUTLAND,general,https://vote-usa.org/Intro.aspx?State=VT&Id=VTCollamoreBrianP,web_search,vote-usa.org,
 17162,Dana Peterson,Vermont,State Senate,2024, RUTLAND,general,https://www.ourcampaigns.com/CandidateDetail.html?CandidateID=670959,web_search,ourcampaigns.com,
 13544,Randy D Lemm,North Dakota,State Senate,2024,20,general,https://ivoterguide.com/candidate/59979/race/20399/election/1222,web_search,ivoterguide.com,
-13644,John Martin Pederson,North Dakota,State Senate,2024,20,general,https://vote-usa.org/election.aspx?state=nd&election=nd20241105ga,ballotpedia,vote-usa.org,
+13644,John Martin Pederson,North Dakota,State Senate,2024,20,general,https://vote-usa.org/election.aspx?state=nd&election=nd20241105ga,ballotpedia,vote-usa.org,https://demnpl.com/johnpederson/
 13547,Rex Fontaine Rice,South Carolina,State Senate,2024,2,general,https://justfacts.votesmart.org/candidate/biography/8939/rex-rice,web_search,justfacts.votesmart.org,
 13576,E Galt,Montana,State Senate,2024,39,general,https://www.vote.org/,web_search,vote.org,
 13639,Jose M Serrano,New York,State Senate,2024,29,general,https://bluevoterguide.org/NY/candidate_Jose_M._Serrano/29418,ballotpedia,bluevoterguide.org,

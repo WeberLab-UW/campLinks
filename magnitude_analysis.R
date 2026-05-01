@@ -182,5 +182,3 @@ wilcox.test(mayor_2023$mean_det_prob, mayor_2025$mean_det_prob)
 
 
 
-
-
