@@ -240,8 +240,8 @@ class TestParseVotebox:
         soup = _soup(VOTEBOX_HTML)
         vbox = soup.find("div", class_="votebox")
         parsed = parse_votebox(vbox)
-        assert parsed[0]["is_winner"] is True
-        assert parsed[1]["is_winner"] is False
+        assert parsed[0]["is_winner"] == "won"
+        assert parsed[1]["is_winner"] == "lost"
 
     def test_candidate_name(self) -> None:
         soup = _soup(VOTEBOX_HTML)
@@ -293,7 +293,7 @@ class TestParseRcvVotebox:
         vbox = soup.find("div", class_="rcvvotebox")
         parsed = parse_rcv_votebox(vbox)
         assert parsed[0]["name"] == "Daniel Lurie"
-        assert parsed[0]["is_winner"] is True
+        assert parsed[0]["is_winner"] == "won"
         assert parsed[0]["vote_pct"] == 55.0
 
     def test_loser_from_final_round(self) -> None:
@@ -301,7 +301,7 @@ class TestParseRcvVotebox:
         vbox = soup.find("div", class_="rcvvotebox")
         parsed = parse_rcv_votebox(vbox)
         assert parsed[1]["name"] == "London Breed"
-        assert parsed[1]["is_winner"] is False
+        assert parsed[1]["is_winner"] == "lost"
 
 
 # ── TestParseStatePage ────────────────────────────────────────────────────

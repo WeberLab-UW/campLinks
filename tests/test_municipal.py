@@ -123,7 +123,7 @@ class TestMunicipalParsePatternB:
         assert election.district is None
         assert len(candidates) == 2
         assert candidates[0].candidate_name == "Emily Jabbour"
-        assert candidates[0].is_winner is True
+        assert candidates[0].is_winner == "won"
 
 
 class TestMunicipalParsePatternA:
@@ -159,7 +159,7 @@ class TestMunicipalParsePatternA:
         assert election.race_type == "Mayor"
         assert len(candidates) == 2
         assert candidates[0].candidate_name == "Michelle Wu"
-        assert candidates[0].is_winner is True
+        assert candidates[0].is_winner == "won"
 
     def test_empty_page_returns_empty(self) -> None:
         """Returns empty list for a page with no tables."""

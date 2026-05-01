@@ -69,7 +69,7 @@ class TestJudicialParseStatePage:
         assert election.district is None
         assert len(candidates) == 2
         assert candidates[0].candidate_name == "Susan Crawford"
-        assert candidates[0].is_winner is True
+        assert candidates[0].is_winner == "won"
 
 
 class TestParseRetentionTable:

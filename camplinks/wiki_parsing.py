@@ -162,6 +162,10 @@ def parse_candidate_row(
 ) -> dict[str, str | float | bool | None] | None:
     """Extract candidate info from a ``<tr class="vcard">`` row.
 
+    Uses CSS classes ("org" for party, "fn" for candidate name) rather than
+    column indices so that rowspan/colspan variations in neighboring cells
+    cannot cause cross-candidate URL mis-attribution.
+
     Args:
         row: A table row with class ``vcard``.
 
@@ -170,46 +174,61 @@ def parse_candidate_row(
         ``is_winner``; or None if the row cannot be parsed.
     """
     cells = row.find_all(["td", "th"])
-    if len(cells) < 4:
+    if len(cells) < 3:
         return None
 
-    org_cell = None
-    name_cell = None
-    pct_idx = -1
+    # Locate party cell and name cell by CSS class, not by index.
+    org_cell: Tag | None = next(
+        (c for c in cells if "org" in (c.get("class") or [])), None
+    )
+    name_cell: Tag | None = next(
+        (c for c in cells if "fn" in (c.get("class") or [])), None
+    )
 
-    for i, cell in enumerate(cells):
-        cls: list[str] = cell.get("class") or []  # type: ignore[assignment]
-        if "org" in cls:
-            org_cell = cell
-            colspan = int(str(cell.get("colspan", "1")))
-            if colspan >= 2:
-                pct_idx = i + 2
-            else:
-                name_cell = cells[i + 1] if i + 1 < len(cells) else None
-                pct_idx = i + 3
-            break
+    # Index-based fallback when class markup is absent.
+    org_idx: int | None = None
+    if org_cell is not None:
+        org_idx = cells.index(org_cell)
 
-    if org_cell is None:
+    if name_cell is None and org_cell is not None and org_idx is not None:
+        colspan = int(str(org_cell.get("colspan", "1")))
+        if colspan < 2:
+            name_cell = cells[org_idx + 1] if org_idx + 1 < len(cells) else None
+
+    if name_cell is None and org_cell is None:
         if len(cells) >= 5:
             org_cell = cells[1]
+            org_idx = 1
             name_cell = cells[2]
-            pct_idx = 4
         else:
             return None
 
-    party_text = org_cell.get_text(strip=True)
-    candidate_name = name_cell.get_text(strip=True) if name_cell else ""
-    candidate_name = INCUMBENT_RE.sub("", candidate_name).strip()
+    # Rows where org spans the name column (e.g. write-in) have no named candidate.
+    if name_cell is None:
+        return None
+
+    party_text = org_cell.get_text(strip=True) if org_cell else ""
+    candidate_name = INCUMBENT_RE.sub("", name_cell.get_text(strip=True)).strip()
+    if not candidate_name:
+        return None
 
     wiki_url = ""
-    if name_cell:
-        link = name_cell.find("a")
-        if link:
-            href_val = str(link.get("href", ""))
-            if href_val.startswith("/wiki/"):
-                wiki_url = f"{BASE_URL}{href_val}"
+    link = name_cell.find("a")
+    if link:
+        href_val = str(link.get("href", ""))
+        if href_val.startswith("/wiki/"):
+            wiki_url = f"{BASE_URL}{href_val}"
 
+    # Vote percentage: index-based relative to org_cell when available,
+    # otherwise use the "fn" name cell index + 2 (votes at +1, pct at +2).
     vote_pct: float | None = None
+    if org_idx is not None:
+        colspan = int(str(org_cell.get("colspan", "1"))) if org_cell else 1  # type: ignore[union-attr]
+        pct_idx = org_idx + (2 if colspan >= 2 else 3)
+    else:
+        name_idx = cells.index(name_cell)
+        pct_idx = name_idx + 2
+
     if 0 <= pct_idx < len(cells):
         pct_text = cells[pct_idx].get_text(strip=True).replace(",", "").replace("%", "")
         try:
@@ -217,7 +236,7 @@ def parse_candidate_row(
         except ValueError:
             pass
 
-    is_winner = "won" if (name_cell and name_cell.find("b")) else "lost"
+    is_winner: bool = bool(name_cell.find("b"))
 
     return {
         "party": party_text,

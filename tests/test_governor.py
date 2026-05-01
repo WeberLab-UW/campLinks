@@ -95,7 +95,7 @@ class TestGovernorParseStatePage:
         assert len(candidates) == 2
         assert candidates[0].candidate_name == "Jane Doe"
         assert candidates[0].party == "Democratic"
-        assert candidates[0].is_winner is True
+        assert candidates[0].is_winner == "won"
 
     def test_empty_page_returns_empty(self) -> None:
         """Returns empty list for a page with no election tables."""

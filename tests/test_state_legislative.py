@@ -123,4 +123,4 @@ class TestStateLegParseStatePage:
         _, cands_d1 = results[0]
         assert len(cands_d1) == 2
         assert cands_d1[0].candidate_name == "Alice Jones"
-        assert cands_d1[0].is_winner is True
+        assert cands_d1[0].is_winner == "won"

@@ -214,7 +214,7 @@ class TestParseStatePage:
         soup = _soup(f"<html><body>{GOVERNOR_VOTEBOX_HTML}</body></html>")
         results = scraper.parse_state_page("Delaware", soup, 2024)
         _, candidates = results[0]
-        winners = [c for c in candidates if c.is_winner]
+        winners = [c for c in candidates if c.is_winner == "won"]
         assert len(winners) == 1
         assert winners[0].candidate_name == "Matt Meyer"
 
