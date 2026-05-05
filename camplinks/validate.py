@@ -89,6 +89,7 @@ def query_wayback(url: str, year: int) -> str:
         "fl": "timestamp",
         "limit": "20",
     }
+    BACKOFF = [30, 60, 120]
     rows = None
     for attempt in range(3):
         time.sleep(WAYBACK_DELAY_S * (attempt + 1))
@@ -99,6 +100,14 @@ def query_wayback(url: str, year: int) -> str:
                 headers=HEADERS,
                 timeout=60,
             )
+            if resp.status_code == 429:
+                backoff = BACKOFF[min(attempt, len(BACKOFF) - 1)]
+                logger.warning(
+                    "Wayback CDX 429 for %s (attempt %d/3), sleeping %ds",
+                    url, attempt + 1, backoff,
+                )
+                time.sleep(backoff)
+                continue
             resp.raise_for_status()
             rows = orjson.loads(resp.content)
             break
