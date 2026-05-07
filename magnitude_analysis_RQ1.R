@@ -23,7 +23,7 @@ View(combined_df)
 #}
 
 #drop rows that are token under 100
-c#amp_text_final <- combined_df[combined_df$token_length >= 70, ]
+#camp_text_final <- combined_df[combined_df$token_length >= 70, ]
 
 
 #only 89 were unable to run
