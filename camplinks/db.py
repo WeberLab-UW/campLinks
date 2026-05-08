@@ -55,6 +55,51 @@ CREATE INDEX IF NOT EXISTS idx_elections_lookup
     ON elections(year, race_type);
 CREATE INDEX IF NOT EXISTS idx_elections_stage
     ON elections(year, race_type, election_stage);
+
+CREATE TABLE IF NOT EXISTS archive_organizations (
+    org_id          TEXT    PRIMARY KEY,
+    name            TEXT    NOT NULL,
+    archive_url     TEXT    NOT NULL,
+    country         TEXT,
+    state           TEXT,
+    party           TEXT,
+    office          TEXT,
+    website         TEXT,
+    message_count   INTEGER,
+    last_fetched_at TEXT    NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS archive_lookups (
+    candidate_id   INTEGER PRIMARY KEY REFERENCES candidates(candidate_id),
+    has_entry      INTEGER NOT NULL,
+    match_count    INTEGER NOT NULL,
+    total_messages INTEGER,
+    status         TEXT    NOT NULL,
+    checked_at     TEXT    NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS candidate_archive_matches (
+    candidate_id INTEGER NOT NULL REFERENCES candidates(candidate_id),
+    org_id       TEXT    NOT NULL REFERENCES archive_organizations(org_id),
+    PRIMARY KEY (candidate_id, org_id)
+);
+
+CREATE TABLE IF NOT EXISTS archive_messages (
+    message_id  TEXT    PRIMARY KEY,
+    org_id      TEXT    NOT NULL REFERENCES archive_organizations(org_id),
+    subject     TEXT,
+    sent_at     TEXT,
+    body_html   TEXT,
+    body_text   TEXT,
+    fetched_at  TEXT    NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_archive_lookups_has_entry
+    ON archive_lookups(has_entry);
+CREATE INDEX IF NOT EXISTS idx_archive_matches_org
+    ON candidate_archive_matches(org_id);
+CREATE INDEX IF NOT EXISTS idx_archive_messages_org
+    ON archive_messages(org_id);
 """
 
 
@@ -518,3 +563,177 @@ def update_candidate_ballotpedia_url(
         "UPDATE candidates SET ballotpedia_url = ? WHERE candidate_id = ?",
         (ballotpedia_url, candidate_id),
     )
+
+
+# ── Archive of Political Emails ────────────────────────────────────────────
+
+
+def upsert_archive_organization(
+    conn: sqlite3.Connection,
+    org_id: str,
+    name: str,
+    archive_url: str,
+    country: str | None,
+    state: str | None,
+    party: str | None,
+    office: str | None,
+    website: str | None,
+    message_count: int | None,
+    fetched_at: str,
+) -> None:
+    """Insert or update a politicalemails.org organization record.
+
+    Updates only overwrite columns when the new value is non-empty,
+    so partial-data refreshes do not erase enriched fields.
+
+    Args:
+        conn: Database connection.
+        org_id: politicalemails.org organization id (string).
+        name: Organization display name.
+        archive_url: Canonical URL for the organization page.
+        country: Two-letter country code, or None.
+        state: State/locality, or None.
+        party: Party label, or None.
+        office: Office held/sought, or None.
+        website: Website URL, or None.
+        message_count: Number of archived messages, or None.
+        fetched_at: ISO timestamp of this fetch.
+    """
+    conn.execute(
+        """\
+        INSERT INTO archive_organizations
+            (org_id, name, archive_url, country, state, party, office,
+             website, message_count, last_fetched_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT(org_id) DO UPDATE SET
+            name            = COALESCE(NULLIF(excluded.name, ''), name),
+            archive_url     = COALESCE(NULLIF(excluded.archive_url, ''), archive_url),
+            country         = COALESCE(excluded.country, country),
+            state           = COALESCE(excluded.state, state),
+            party           = COALESCE(excluded.party, party),
+            office          = COALESCE(excluded.office, office),
+            website         = COALESCE(excluded.website, website),
+            message_count   = COALESCE(excluded.message_count, message_count),
+            last_fetched_at = excluded.last_fetched_at
+        """,
+        (
+            org_id,
+            name,
+            archive_url,
+            country,
+            state,
+            party,
+            office,
+            website,
+            message_count,
+            fetched_at,
+        ),
+    )
+
+
+def upsert_archive_lookup(
+    conn: sqlite3.Connection,
+    candidate_id: int,
+    has_entry: bool,
+    match_count: int,
+    total_messages: int | None,
+    status: str,
+    checked_at: str,
+) -> None:
+    """Record a candidate's archive lookup outcome.
+
+    Args:
+        conn: Database connection.
+        candidate_id: Candidate FK.
+        has_entry: Whether at least one matching org survived filtering.
+        match_count: Number of matched orgs (post-filter).
+        total_messages: Sum of message counts across matched orgs.
+        status: One of "no_match", "single", "multiple", "error".
+        checked_at: ISO timestamp.
+    """
+    conn.execute(
+        """\
+        INSERT INTO archive_lookups
+            (candidate_id, has_entry, match_count, total_messages, status, checked_at)
+        VALUES (?, ?, ?, ?, ?, ?)
+        ON CONFLICT(candidate_id) DO UPDATE SET
+            has_entry      = excluded.has_entry,
+            match_count    = excluded.match_count,
+            total_messages = excluded.total_messages,
+            status         = excluded.status,
+            checked_at     = excluded.checked_at
+        """,
+        (
+            candidate_id,
+            int(has_entry),
+            match_count,
+            total_messages,
+            status,
+            checked_at,
+        ),
+    )
+
+
+def link_candidate_to_org(
+    conn: sqlite3.Connection,
+    candidate_id: int,
+    org_id: str,
+) -> None:
+    """Record a (candidate, org) match in the junction table.
+
+    Args:
+        conn: Database connection.
+        candidate_id: Candidate FK.
+        org_id: archive_organizations FK.
+    """
+    conn.execute(
+        """\
+        INSERT INTO candidate_archive_matches (candidate_id, org_id)
+        VALUES (?, ?)
+        ON CONFLICT(candidate_id, org_id) DO NOTHING
+        """,
+        (candidate_id, org_id),
+    )
+
+
+def get_candidates_needing_archive_lookup(
+    conn: sqlite3.Connection,
+    year: int | None = None,
+    race_type: str | None = None,
+    election_stage: str | None = None,
+) -> list[sqlite3.Row]:
+    """Find candidates that have not yet been looked up in the email archive.
+
+    Args:
+        conn: Database connection.
+        year: Optional filter by election year.
+        race_type: Optional filter by race type.
+        election_stage: Optional filter by election stage.
+
+    Returns:
+        List of Row objects with candidate_id, candidate_name, party,
+        and the parent election's state/district/year/race_type/election_stage.
+    """
+    query = """\
+        SELECT c.candidate_id, c.candidate_name, c.party,
+               e.state, e.district, e.year, e.race_type, e.election_stage
+        FROM candidates c
+        JOIN elections e ON c.election_id = e.election_id
+        WHERE c.candidate_name != ''
+          AND c.candidate_id NOT IN (
+              SELECT candidate_id FROM archive_lookups
+          )
+    """
+    params: list[str | int] = []
+
+    if year is not None:
+        query += " AND e.year = ?"
+        params.append(year)
+    if race_type is not None:
+        query += " AND e.race_type = ?"
+        params.append(race_type)
+    if election_stage is not None:
+        query += " AND e.election_stage = ?"
+        params.append(election_stage)
+
+    return conn.execute(query, params).fetchall()

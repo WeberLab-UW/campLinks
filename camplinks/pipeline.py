@@ -1,4 +1,4 @@
-"""Pipeline orchestrator — chains scrape, enrich, search, and validate stages.
+"""Pipeline orchestrator — chains scrape, enrich, search, validate, archive.
 
 Each stage is idempotent (upsert semantics) so it is safe to re-run
 any stage without duplicating data.
@@ -9,6 +9,7 @@ from __future__ import annotations
 import logging
 import sqlite3
 
+from camplinks.archive import lookup_archive_entries
 from camplinks.db import init_schema, migrate_schema, open_db
 from camplinks.enrich import enrich_from_wikipedia, enrich_wikipedia_urls
 from camplinks.models import DB_FILENAME
@@ -33,7 +34,10 @@ def run_pipeline(
         race: Race key (e.g. "house", "senate") or "all" for every
             registered scraper.
         stage: Optional stage filter — "scrape", "enrich", "search",
-            or "validate". If None, all stages run in order.
+            "validate", or "archive". If None, all stages except
+            "archive" run in order. The archive stage must be invoked
+            explicitly because each lookup is rate-limited and may take
+            hours over the full database.
         db_path: Path to the SQLite database file.
         election_stage: Optional election stage filter for
             enrich/search/validate. Defaults to "general" for those
@@ -77,6 +81,7 @@ def _run(
     run_enrich = stage in (None, "enrich")
     run_search = stage in (None, "search")
     run_validate = stage in (None, "validate")
+    run_archive = stage == "archive"
 
     # Stage 1: Scrape
     if run_scrape:
@@ -116,6 +121,16 @@ def _run(
             scraper_cls = get_scraper(race)
             race_type = scraper_cls.race_type
         validate_campaign_sites(
+            conn, year=year, race_type=race_type, election_stage=downstream_stage
+        )
+
+    # Stage 5 (opt-in only): Archive lookup against politicalemails.org
+    if run_archive:
+        race_type = None
+        if race != "all":
+            scraper_cls = get_scraper(race)
+            race_type = scraper_cls.race_type
+        lookup_archive_entries(
             conn, year=year, race_type=race_type, election_stage=downstream_stage
         )
 

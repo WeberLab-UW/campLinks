@@ -41,33 +41,44 @@ python -m camplinks --year 2024 --race all                      # all race types
 python -m camplinks --year 2024 --race house --db custom.db     # custom DB path
 python -m camplinks --year 2026 --race senate --stage scrape    # scrape 2026 (captures primaries)
 python -m camplinks --year 2024 --race house --election-stage primary --stage search  # search primary candidates
+python -m camplinks --year 2024 --race house --stage archive   # politicalemails.org lookup (opt-in)
 
 # Migrate legacy CSV
-python convert_to_tidy.py --csv house_races_2024.csv
+python convert_to_tidy.py --csv house_races_2024.csv --db camplinks.db
 
 # Tests
-pytest tests/                                           # all tests
-pytest tests/test_db.py::TestUpsertElection             # single class
-pytest tests/test_db.py::TestUpsertElection::test_insert_returns_id  # single test
+uv run pytest tests/                                              # all tests
+uv run pytest tests/test_db.py::TestUpsertElection                # single class
+uv run pytest tests/test_db.py::TestUpsertElection::test_insert_returns_id  # single test
 
 # Type checking & linting
-mypy camplinks/
-ruff format .
-ruff check .
+uv run mypy camplinks/
+uv run ruff format .
+uv run ruff check .
 ```
 
+Console script `camplinks` is also installed via `pyproject.toml` (`[project.scripts]`), equivalent to `python -m camplinks`.
+
 ## Database Schema
+
+`camplinks.db` is gitignored (~350MB) and distributed via GitHub Releases, not tracked in source. After cloning, fetch the latest release artifact or rebuild from scratch via the scrape stage. The `.gitignore` rule `*.db` covers it; do not re-add the file to tracking.
 
 Three normalized tables in `camplinks.db`:
 - **elections** -- one row per contest, UNIQUE(state, race_type, year, district, election_stage)
 - **candidates** -- one row per candidate per election, UNIQUE(election_id, candidate_name)
 - **contact_links** -- one row per link per candidate, UNIQUE(candidate_id, link_type)
 
+Plus four tables for the politicalemails.org archive lookup (populated by `--stage archive`):
+- **archive_organizations** -- cached org metadata, PK `org_id` (string from politicalemails.org URL).
+- **archive_lookups** -- one row per candidate that has been checked, PK `candidate_id`. Columns: `has_entry`, `match_count`, `total_messages`, `status` (`no_match`/`single`/`multiple`/`error`), `checked_at`. The presence of a row means "already checked, do not re-query."
+- **candidate_archive_matches** -- junction table, composite PK `(candidate_id, org_id)`.
+- **archive_messages** -- reserved for phase-2 email body storage (one row per email, FK to org).
+
 `election_stage` values: `general`, `primary`, `runoff`
 
-`link_type` values: `campaign_site`, `campaign_facebook`, `campaign_x`, `campaign_instagram`, `personal_website`, `personal_facebook`, `personal_linkedin`
+`link_type` values: `campaign_site`, `campaign_site_archived`, `campaign_facebook`, `campaign_x`, `campaign_instagram`, `personal_website`, `personal_facebook`, `personal_linkedin`
 
-`source` values: `wikipedia`, `ballotpedia`, `web_search`, `csv_import`
+`source` values: `wikipedia`, `ballotpedia`, `web_search`, `wayback`, `csv_import`
 
 All writes use upsert (ON CONFLICT) so stages are idempotent and safe to re-run.
 
@@ -82,14 +93,15 @@ Upserts are not simple overwrites -- they merge intelligently:
 
 ### Pipeline Stages
 
-Four stages run in order: **scrape -> enrich -> search -> validate**. Each is independently runnable via `--stage` and idempotent.
+Four default stages run in order: **scrape -> enrich -> search -> validate**. Each is independently runnable via `--stage` and idempotent. A fifth stage (**archive**) is opt-in only — it must be invoked explicitly via `--stage archive`. Orchestration lives in `camplinks/pipeline.py:run_pipeline()`, which the CLI dispatches to.
 
 1. **Scrape:** Fetches Wikipedia index page for the race/year, follows state links, parses candidate tables (general, primary, and runoff). Commits after each state.
 2. **Enrich:** For candidates with `wikipedia_url` but no `campaign_site` link, fetches their Wikipedia page and extracts the campaign website from the infobox or External links section.
 3. **Search:** For candidates still missing `campaign_site`, runs two-tier search. Uses `campaign_search_cache.json` for resumability (auto-saves every 25 candidates).
 4. **Validate:** Checks campaign site URLs for accessibility. For dead links, queries the Wayback Machine and stores the archived URL as a `campaign_site_archived` contact link.
+5. **Archive (opt-in):** For candidates without an `archive_lookups` row, searches politicalemails.org by name, enriches each hit with profile metadata, filters to hits matching the candidate's state, and persists results. Idempotent via the `archive_lookups` row (delete to re-check). Excluded from the default pipeline because it makes 1 search + N profile fetches per candidate at 1.0s rate limit — hours over the full DB.
 
-Enrich, search, and validate default to `election_stage="general"` to avoid wasting rate-limited queries on primary-only candidates. Override with `--election-stage`.
+Enrich, search, validate, and archive default to `election_stage="general"` to avoid wasting rate-limited queries on primary-only candidates. Override with `--election-stage`.
 
 ### Scraper Registry Pattern
 
@@ -140,8 +152,14 @@ Enrichment and search stages work automatically for any race type (they query th
 - Cache key: `party|state|district|name`.
 
 ### Rate Limiting
-- Wikipedia: 0.5s delay. Ballotpedia: 1.5s delay. DuckDuckGo: 3.0s with exponential backoff (30s, 60s, 120s).
+- Wikipedia: 0.5s delay. Ballotpedia: 1.5s delay. DuckDuckGo: 3.0s with exponential backoff (30s, 60s, 120s). politicalemails.org: 1.0s delay (no retries).
 - DDG can throw `RatelimitException` or `DDGSException` with "429"; handled with retry logic in `http.py`.
+
+### Archive Lookup (`camplinks/archive.py`)
+- Disambiguation: search returns hits without state, so each hit's profile page is fetched to read `state/locality`. Only hits whose state matches the candidate's `elections.state` (case-insensitive, with bp_municipal `City, State` normalization) are kept.
+- "How many" semantics: `archive_lookups.total_messages` is the **sum of message counts** across all surviving matches (not the number of orgs — `match_count` holds that).
+- Status values: `no_match` (zero hits or all filtered out), `single` (one survivor), `multiple` (>1 survivor), `error` (search HTTP error). Profile-fetch errors drop that one match but do not error the whole lookup.
+- The standalone `archive_lookup.py` (CSV in/out) is unrelated to the pipeline; keep it as-is for ad-hoc CSV workflows.
 
 ### Database Gotchas
 - `elections.district` is `''` (empty string) for statewide races (Senate, Governor, AG, Mayor). `upsert_election()` normalizes `None` to `''` so the UNIQUE constraint works correctly (SQLite treats NULLs as distinct, which would break upsert).
