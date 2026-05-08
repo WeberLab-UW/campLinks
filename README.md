@@ -104,6 +104,7 @@ The pipeline runs four stages in order. Each stage is idempotent (safe to re-run
 | **enrich** | Extract campaign websites from candidate Wikipedia pages | Wikipedia candidate infoboxes |
 | **search** | Find missing contact info via Ballotpedia and web search | Ballotpedia + DuckDuckGo |
 | **validate** | Check campaign site accessibility, archive dead links | Wayback Machine API |
+| **archive** (opt-in) | Look up candidates in the email archive, store `has_entry` and `total_messages` | politicalemails.org |
 
 Run individual stages with `--stage`:
 
@@ -112,7 +113,10 @@ python -m camplinks --year 2024 --race house --stage scrape
 python -m camplinks --year 2024 --race house --stage enrich
 python -m camplinks --year 2024 --race house --stage search
 python -m camplinks --year 2024 --race house --stage validate
+python -m camplinks --year 2024 --race house --stage archive
 ```
+
+The `archive` stage is **not** part of the default run — it must be invoked explicitly. Each candidate triggers 1 search + N profile fetches at a 1.0s rate limit, which can take hours across the full database.
 
 ## Querying the Database
 

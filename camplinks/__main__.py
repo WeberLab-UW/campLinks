@@ -50,8 +50,11 @@ def main() -> None:
         "--stage",
         type=str,
         default=None,
-        choices=["scrape", "enrich", "search", "validate"],
-        help="Run only this pipeline stage (default: all stages)",
+        choices=["scrape", "enrich", "search", "validate", "archive"],
+        help=(
+            "Run only this pipeline stage. Default: scrape+enrich+search+validate. "
+            "'archive' is opt-in (rate-limited, hours over the full DB)."
+        ),
     )
     parser.add_argument(
         "--election-stage",
