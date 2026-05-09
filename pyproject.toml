@@ -15,9 +15,14 @@ classifiers = [
 dependencies = [
     "beautifulsoup4>=4.14.3",
     "ddgs>=9.10.0",
+    "langdetect>=1.0.9",
     "lxml>=6.0.2",
+    "nltk>=3.9.4",
+    "numpy>=2.4.4",
     "orjson>=3.11.7",
+    "pangram",
     "polars>=1.38.1",
+    "python-dotenv",
     "requests>=2.32.5",
     "tqdm>=4.67.3",
 ]

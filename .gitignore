@@ -21,3 +21,5 @@ detection/campaign_site_text_detection_final.csv
 detection/campaign_site_text_detection_results.csv
 content_export.csv
 detection/campaign_site_content_export.csv
+campaign_site_content_export.csv
+campaign_site_text_results.csv

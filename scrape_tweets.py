@@ -23,6 +23,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
+import nltk
 import requests
 from tqdm import tqdm
 
@@ -30,6 +31,14 @@ from camplinks.models import DB_FILENAME
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
+
+def _ensure_nltk_data() -> None:
+    """Download required NLTK tokenizer data if not already present."""
+    try:
+        nltk.data.find("tokenizers/punkt_tab")
+    except LookupError:
+        nltk.download("punkt_tab", quiet=True)
 
 API_BASE = "https://api.twitterapi.io/twitter/tweet/advanced_search"
 REQUEST_DELAY_S: float = 3.0
@@ -85,6 +94,7 @@ def init_tweets_table(conn: sqlite3.Connection) -> None:
             year                INTEGER,
             race_type           TEXT,
             required_compliance TEXT,
+            text_token_length   INTEGER,
             UNIQUE(tweet_id)
         )
         """
@@ -92,6 +102,9 @@ def init_tweets_table(conn: sqlite3.Connection) -> None:
     conn.execute(
         "CREATE INDEX IF NOT EXISTS idx_tweets_candidate ON tweets(candidate_id)"
     )
+    existing = {row[1] for row in conn.execute("PRAGMA table_info(tweets)").fetchall()}
+    if "text_token_length" not in existing:
+        conn.execute("ALTER TABLE tweets ADD COLUMN text_token_length INTEGER")
     conn.commit()
 
 
@@ -112,6 +125,7 @@ def insert_tweet(
     year: int,
     race_type: str,
     required_compliance: str,
+    text_token_length: int,
 ) -> None:
     """Insert a tweet row, skipping on conflict.
 
@@ -132,20 +146,23 @@ def insert_tweet(
         year: Election year.
         race_type: Race type from elections table.
         required_compliance: 'Disclosure' or 'Prohibition'.
+        text_token_length: NLTK word token count of the tweet text.
     """
     conn.execute(
         """
         INSERT INTO tweets
             (tweet_id, candidate_id, candidate_name, x_handle, created_at,
              text, like_count, retweet_count, reply_count, view_count,
-             image_urls, image_paths, year, race_type, required_compliance)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+             image_urls, image_paths, year, race_type, required_compliance,
+             text_token_length)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(tweet_id) DO NOTHING
         """,
         (
             tweet_id, candidate_id, candidate_name, x_handle, created_at,
             text, like_count, retweet_count, reply_count, view_count,
             image_urls, image_paths, year, race_type, required_compliance,
+            text_token_length,
         ),
     )
     conn.commit()
@@ -457,6 +474,7 @@ def scrape_tweets(
     Returns:
         Total number of tweets saved.
     """
+    _ensure_nltk_data()
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     init_tweets_table(conn)
@@ -535,6 +553,7 @@ def scrape_tweets(
             image_urls, image_paths = download_media(
                 media_items, row["candidate_id"], tweet_id
             )
+            tweet_text = _strip_media_urls(tweet.get("text", ""), media_items)
 
             insert_tweet(
                 conn,
@@ -543,7 +562,7 @@ def scrape_tweets(
                 candidate_name=row["candidate_name"],
                 x_handle=handle,
                 created_at=tweet.get("createdAt", ""),
-                text=_strip_media_urls(tweet.get("text", ""), media_items),
+                text=tweet_text,
                 like_count=tweet.get("likeCount", 0),
                 retweet_count=tweet.get("retweetCount", 0),
                 reply_count=tweet.get("replyCount", 0),
@@ -553,6 +572,7 @@ def scrape_tweets(
                 year=election_year,
                 race_type=row["race_type"],
                 required_compliance=row["required_compliance"],
+                text_token_length=len(nltk.word_tokenize(tweet_text)) if tweet_text else 0,
             )
             total_saved += 1
 
