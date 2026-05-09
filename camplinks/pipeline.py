@@ -1,4 +1,4 @@
-"""Pipeline orchestrator — chains scrape, enrich, search, and validate stages.
+"""Pipeline orchestrator — chains scrape, enrich, search, validate, archive.
 
 Each stage is idempotent (upsert semantics) so it is safe to re-run
 any stage without duplicating data.
@@ -9,9 +9,9 @@ from __future__ import annotations
 import logging
 import sqlite3
 
+from camplinks.archive import lookup_archive_entries
 from camplinks.db import init_schema, migrate_schema, open_db
 from camplinks.enrich import enrich_from_wikipedia, enrich_wikipedia_urls
-from camplinks.get_text_content import scrape_campaign_content
 from camplinks.models import DB_FILENAME
 from camplinks.scrapers import get_scraper
 from camplinks.search import search_all_candidates
@@ -34,7 +34,10 @@ def run_pipeline(
         race: Race key (e.g. "house", "senate") or "all" for every
             registered scraper.
         stage: Optional stage filter — "scrape", "enrich", "search",
-            "validate", or "get_text_content". If None, all stages run in order.
+            "validate", or "archive". If None, all stages except
+            "archive" run in order. The archive stage must be invoked
+            explicitly because each lookup is rate-limited and may take
+            hours over the full database.
         db_path: Path to the SQLite database file.
         election_stage: Optional election stage filter for
             enrich/search/validate. Defaults to "general" for those
@@ -78,7 +81,7 @@ def _run(
     run_enrich = stage in (None, "enrich")
     run_search = stage in (None, "search")
     run_validate = stage in (None, "validate")
-    run_get_text_content = stage in (None, "get_text_content")
+    run_archive = stage == "archive"
 
     # Stage 1: Scrape
     if run_scrape:
@@ -90,44 +93,46 @@ def _run(
     # For downstream stages, default to "general" unless explicitly overridden
     downstream_stage = election_stage if election_stage is not None else "general"
 
-    # Determine race_type filters for downstream stages
-    # state_leg covers both State House and State Senate
-    if race == "all":
-        race_type_filters: list[str | None] = [None]
-    elif race in ("state_leg", "state_leg_special"):
-        race_type_filters = ["State House", "State Senate"]
-    else:
-        scraper_cls = get_scraper(race)
-        race_type_filters = [scraper_cls.race_type]
-
     # Stage 2: Enrich (race-agnostic — enriches all candidates with wiki URLs)
     if run_enrich:
-        for race_type_filter in race_type_filters:
-            enrich_wikipedia_urls(
-                conn, year=year, race_type=race_type_filter, election_stage=downstream_stage
-            )
+        race_type_filter = None
+        if race != "all":
+            scraper_cls = get_scraper(race)
+            race_type_filter = scraper_cls.race_type
+        enrich_wikipedia_urls(
+            conn, year=year, race_type=race_type_filter, election_stage=downstream_stage
+        )
         enrich_from_wikipedia(conn, election_stage=downstream_stage)
 
     # Stage 3: Search (race-agnostic — searches for all missing contacts)
     if run_search:
-        for race_type_filter in race_type_filters:
-            search_all_candidates(
-                conn, year=year, race_type=race_type_filter, election_stage=downstream_stage
-            )
+        race_type = None
+        if race != "all":
+            scraper_cls = get_scraper(race)
+            race_type = scraper_cls.race_type
+        search_all_candidates(
+            conn, year=year, race_type=race_type, election_stage=downstream_stage
+        )
 
     # Stage 4: Validate (race-agnostic — validates all campaign_site links)
     if run_validate:
-        for race_type_filter in race_type_filters:
-            validate_campaign_sites(
-                conn, year=year, race_type=race_type_filter, election_stage=downstream_stage
-            )
+        race_type = None
+        if race != "all":
+            scraper_cls = get_scraper(race)
+            race_type = scraper_cls.race_type
+        validate_campaign_sites(
+            conn, year=year, race_type=race_type, election_stage=downstream_stage
+        )
 
-    # Stage 5: Get text content (scrapes visible text from campaign sites)
-    if run_get_text_content:
-        for race_type_filter in race_type_filters:
-            scrape_campaign_content(
-                conn, year=year, race_type=race_type_filter, election_stage=downstream_stage
-            )
+    # Stage 5 (opt-in only): Archive lookup against politicalemails.org
+    if run_archive:
+        race_type = None
+        if race != "all":
+            scraper_cls = get_scraper(race)
+            race_type = scraper_cls.race_type
+        lookup_archive_entries(
+            conn, year=year, race_type=race_type, election_stage=downstream_stage
+        )
 
     # Summary
     _print_summary(conn, year)
