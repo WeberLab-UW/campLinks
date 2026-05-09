@@ -4,8 +4,10 @@
 __pycache__/
 .venv/
 .DS_Store
+.claude/
 campaign_search_cache.json
 validate_cache.json
+x_account_search_cache.json
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
