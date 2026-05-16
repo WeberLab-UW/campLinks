@@ -4,19 +4,27 @@ For each candidate with required_compliance = 'Disclosure' or 'Prohibition'
 and a campaign_x link, fetches tweets in the window 5 months before to
 1 month after the general election date for their election year.
 
+Use --csv to scrape a specific set of candidates from a CSV file
+(e.g. no_compliance_sample.csv) instead of querying by compliance filter.
+
 Tweets are stored in the `tweets` table. Images are downloaded to tweet_images/.
 
+Requires TWITTER_IO_API_KEY in environment or .env file.
+
 Usage:
-    python scrape_tweets.py --api-key YOUR_KEY
-    python scrape_tweets.py --api-key YOUR_KEY --year 2024
-    python scrape_tweets.py --api-key YOUR_KEY --year 2024 --race "US House"
+    python scrape_tweets.py
+    python scrape_tweets.py --year 2024
+    python scrape_tweets.py --year 2024 --race "US House"
+    python scrape_tweets.py --csv data/results/no_compliance_sample.csv
 """
 
 from __future__ import annotations
 
 import argparse
 import calendar
+import csv
 import logging
+import os
 import sqlite3
 import time
 from datetime import date, datetime, timedelta, timezone
@@ -25,6 +33,7 @@ from urllib.parse import urlparse
 
 import nltk
 import requests
+from dotenv import load_dotenv
 from tqdm import tqdm
 
 from camplinks.models import DB_FILENAME
@@ -37,8 +46,12 @@ def _ensure_nltk_data() -> None:
     """Download required NLTK tokenizer data if not already present."""
     try:
         nltk.data.find("tokenizers/punkt_tab")
-    except LookupError:
+    except (LookupError, OSError):
         nltk.download("punkt_tab", quiet=True)
+    try:
+        nltk.data.find("tokenizers/punkt")
+    except (LookupError, OSError):
+        nltk.download("punkt", quiet=True)
 
 API_BASE = "https://api.twitterapi.io/twitter/tweet/advanced_search"
 REQUEST_DELAY_S: float = 3.0
@@ -94,7 +107,7 @@ def init_tweets_table(conn: sqlite3.Connection) -> None:
             year                INTEGER,
             race_type           TEXT,
             required_compliance TEXT,
-            text_token_length   INTEGER,
+            token_length        INTEGER,
             UNIQUE(tweet_id)
         )
         """
@@ -103,8 +116,8 @@ def init_tweets_table(conn: sqlite3.Connection) -> None:
         "CREATE INDEX IF NOT EXISTS idx_tweets_candidate ON tweets(candidate_id)"
     )
     existing = {row[1] for row in conn.execute("PRAGMA table_info(tweets)").fetchall()}
-    if "text_token_length" not in existing:
-        conn.execute("ALTER TABLE tweets ADD COLUMN text_token_length INTEGER")
+    if "token_length" not in existing:
+        conn.execute("ALTER TABLE tweets ADD COLUMN token_length INTEGER")
     conn.commit()
 
 
@@ -125,7 +138,7 @@ def insert_tweet(
     year: int,
     race_type: str,
     required_compliance: str,
-    text_token_length: int,
+    token_length: int,
 ) -> None:
     """Insert a tweet row, skipping on conflict.
 
@@ -146,7 +159,7 @@ def insert_tweet(
         year: Election year.
         race_type: Race type from elections table.
         required_compliance: 'Disclosure' or 'Prohibition'.
-        text_token_length: NLTK word token count of the tweet text.
+        token_length: NLTK word token count of the tweet text.
     """
     conn.execute(
         """
@@ -154,7 +167,7 @@ def insert_tweet(
             (tweet_id, candidate_id, candidate_name, x_handle, created_at,
              text, like_count, retweet_count, reply_count, view_count,
              image_urls, image_paths, year, race_type, required_compliance,
-             text_token_length)
+             token_length)
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ON CONFLICT(tweet_id) DO NOTHING
         """,
@@ -162,7 +175,7 @@ def insert_tweet(
             tweet_id, candidate_id, candidate_name, x_handle, created_at,
             text, like_count, retweet_count, reply_count, view_count,
             image_urls, image_paths, year, race_type, required_compliance,
-            text_token_length,
+            token_length,
         ),
     )
     conn.commit()
@@ -272,14 +285,16 @@ def download_media(
 
         if media_type in ("video", "animated_gif"):
             url = _best_video_url(media)
-            ext = ".mp4"
-        else:
-            url = (
-                media.get("media_url_https")
-                or media.get("mediaUrlHttps")
-                or media.get("url", "")
-            )
-            ext = Path(urlparse(url).path).suffix or ".jpg"
+            if url:
+                urls.append(url)
+            continue
+
+        url = (
+            media.get("media_url_https")
+            or media.get("mediaUrlHttps")
+            or media.get("url", "")
+        )
+        ext = Path(urlparse(url).path).suffix or ".jpg"
 
         if not url:
             logger.debug(
@@ -455,21 +470,72 @@ def fetch_tweets_for_handle(
 # ── Orchestrator ──────────────────────────────────────────────────────────
 
 
+def load_csv_candidates(csv_path: str) -> tuple[list[dict], list[str]]:
+    """Load all rows from a candidate CSV file.
+
+    Expects columns: candidate_id, candidate_name, campaign_x_url, year,
+    race_type. required_compliance and scraped are optional.
+
+    Args:
+        csv_path: Path to the CSV file.
+
+    Returns:
+        Tuple of (all_rows, fieldnames). all_rows are plain dicts with a
+        normalized 'x_url' key added. Rows with no x_url are included but
+        will have x_url=''.
+    """
+    with open(csv_path, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        fieldnames = list(reader.fieldnames or [])
+        rows = []
+        for row in reader:
+            row["x_url"] = row.get("campaign_x_url", "").strip()
+            row.setdefault("scraped", "")
+            row.setdefault("required_compliance", "")
+            rows.append(row)
+
+    if "scraped" not in fieldnames:
+        fieldnames.append("scraped")
+
+    return rows, fieldnames
+
+
+def write_csv(csv_path: str, rows: list[dict], fieldnames: list[str]) -> None:
+    """Write rows back to the CSV file.
+
+    Args:
+        csv_path: Destination path.
+        rows: List of row dicts (may contain extra keys beyond fieldnames).
+        fieldnames: Column order for the output file.
+    """
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
+        writer.writeheader()
+        writer.writerows(rows)
+
+
 def scrape_tweets(
     api_key: str,
     db_path: str = DB_FILENAME,
     year: int | None = None,
     race_type: str | None = None,
     candidate_name: str | None = None,
+    csv_path: str | None = None,
 ) -> int:
-    """Scrape tweets for all compliance-flagged candidates with X links.
+    """Scrape tweets for candidates with X links.
+
+    By default queries compliance-flagged candidates from the DB. Pass
+    csv_path to scrape a specific set of candidates from a CSV file instead.
 
     Args:
         api_key: twitterapi.io API key.
         db_path: Path to the SQLite database.
-        year: Optional filter by election year.
-        race_type: Optional filter by race type.
-        candidate_name: Optional filter by candidate name (case-insensitive substring match).
+        year: Optional filter by election year (DB mode only).
+        race_type: Optional filter by race type (DB mode only).
+        candidate_name: Optional filter by candidate name (DB mode only).
+        csv_path: Path to CSV file with candidate_id, candidate_name,
+            campaign_x_url, year, race_type columns. When provided, skips
+            the compliance DB query and uses the CSV rows instead.
 
     Returns:
         Total number of tweets saved.
@@ -479,52 +545,63 @@ def scrape_tweets(
     conn.row_factory = sqlite3.Row
     init_tweets_table(conn)
 
-    query = """
-        SELECT
-            c.candidate_id,
-            c.candidate_name,
-            c.required_compliance,
-            cl.url AS x_url,
-            e.year,
-            e.race_type
-        FROM candidates c
-        JOIN elections e ON c.election_id = e.election_id
-        JOIN contact_links cl ON cl.candidate_id = c.candidate_id
-        WHERE cl.link_type = 'campaign_x'
-          AND c.required_compliance IN ('Disclosure', 'Prohibition')
-          AND c.candidate_name != ''
-    """
-    params: list[str | int] = []
-    if year is not None:
-        query += " AND e.year = ?"
-        params.append(year)
-    if race_type is not None:
-        query += " AND e.race_type = ?"
-        params.append(race_type)
-    if candidate_name is not None:
-        query += " AND c.candidate_name LIKE ?"
-        params.append(f"%{candidate_name}%")
+    csv_rows: list[dict] = []
+    csv_fieldnames: list[str] = []
 
-    rows = conn.execute(query, params).fetchall()
-    done_handles = already_scraped_handles(conn)
-    remaining = [r for r in rows if extract_handle(r["x_url"]) not in done_handles]
+    if csv_path is not None:
+        csv_rows, csv_fieldnames = load_csv_candidates(csv_path)
+        rows = [r for r in csv_rows if r["x_url"] and r.get("scraped", "") != "yes"]
+        logger.info(
+            "Loaded %d candidates from %s (%d already scraped, skipping).",
+            len(csv_rows),
+            csv_path,
+            len(csv_rows) - len(rows),
+        )
+    else:
+        query = """
+            SELECT
+                c.candidate_id,
+                c.candidate_name,
+                c.required_compliance,
+                cl.url AS x_url,
+                e.year,
+                e.race_type
+            FROM candidates c
+            JOIN elections e ON c.election_id = e.election_id
+            JOIN contact_links cl ON cl.candidate_id = c.candidate_id
+            WHERE cl.link_type = 'campaign_x'
+              AND c.required_compliance IN ('Disclosure', 'Prohibition')
+              AND c.candidate_name != ''
+        """
+        params: list[str | int] = []
+        if year is not None:
+            query += " AND e.year = ?"
+            params.append(year)
+        if race_type is not None:
+            query += " AND e.race_type = ?"
+            params.append(race_type)
+        if candidate_name is not None:
+            query += " AND c.candidate_name LIKE ?"
+            params.append(f"%{candidate_name}%")
 
-    logger.info(
-        "Found %d candidates. %d already scraped. %d remaining.",
-        len(rows),
-        len(rows) - len(remaining),
-        len(remaining),
-    )
+        rows = conn.execute(query, params).fetchall()
+        done_handles = already_scraped_handles(conn)
+        rows = [r for r in rows if extract_handle(r["x_url"]) not in done_handles]
+
+    logger.info("%d candidates remaining to scrape.", len(rows))
 
     total_saved = 0
 
-    for row in tqdm(remaining, desc="Scraping tweets", unit="candidate"):
+    for row in tqdm(rows, desc="Scraping tweets", unit="candidate"):
         handle = extract_handle(row["x_url"])
         if not handle:
             logger.error("Could not parse handle from %s", row["x_url"])
+            if csv_path is not None:
+                row["scraped"] = "yes"
+                write_csv(csv_path, csv_rows, csv_fieldnames)
             continue
 
-        election_year = row["year"]
+        election_year = int(row["year"])
         election_date = general_election_date(election_year)
         since_date = election_date - timedelta(days=150)
         until_date = election_date + timedelta(days=30)
@@ -558,7 +635,7 @@ def scrape_tweets(
             insert_tweet(
                 conn,
                 tweet_id=tweet_id,
-                candidate_id=row["candidate_id"],
+                candidate_id=int(row["candidate_id"]),
                 candidate_name=row["candidate_name"],
                 x_handle=handle,
                 created_at=tweet.get("createdAt", ""),
@@ -572,11 +649,15 @@ def scrape_tweets(
                 year=election_year,
                 race_type=row["race_type"],
                 required_compliance=row["required_compliance"],
-                text_token_length=len(nltk.word_tokenize(tweet_text)) if tweet_text else 0,
+                token_length=len(nltk.word_tokenize(tweet_text)) if tweet_text else 0,
             )
             total_saved += 1
 
         logger.info("Saved %d tweets for @%s.", len(tweets), handle)
+
+        if csv_path is not None:
+            row["scraped"] = "yes"
+            write_csv(csv_path, csv_rows, csv_fieldnames)
 
     conn.close()
     logger.info("Done. Total tweets saved: %d", total_saved)
@@ -587,18 +668,33 @@ def scrape_tweets(
 
 
 if __name__ == "__main__":
+    load_dotenv()
+    api_key = os.getenv("TWITTER_IO_API_KEY")
+    if not api_key:
+        raise RuntimeError("TWITTER_IO_API_KEY environment variable is not set.")
+
     parser = argparse.ArgumentParser(description="Scrape candidate tweets.")
-    parser.add_argument("--api-key", required=True, help="twitterapi.io API key")
     parser.add_argument("--db", default=DB_FILENAME, help="Database path")
-    parser.add_argument("--year", type=int, default=None, help="Filter by election year")
-    parser.add_argument("--race", default=None, help="Filter by race type")
-    parser.add_argument("--candidate", default=None, help="Filter by candidate name (case-insensitive substring)")
+    parser.add_argument("--year", type=int, default=None, help="Filter by election year (DB mode only)")
+    parser.add_argument("--race", default=None, help="Filter by race type (DB mode only)")
+    parser.add_argument("--candidate", default=None, help="Filter by candidate name (DB mode only)")
+    parser.add_argument(
+        "--csv",
+        default=None,
+        metavar="CSV_PATH",
+        help=(
+            "CSV file with candidate_id, candidate_name, campaign_x_url, year, "
+            "race_type columns. When provided, scrapes these candidates instead of "
+            "querying by compliance filter."
+        ),
+    )
     args = parser.parse_args()
 
     scrape_tweets(
-        api_key=args.api_key,
+        api_key=api_key,
         db_path=args.db,
         year=args.year,
         race_type=args.race,
         candidate_name=args.candidate,
+        csv_path=args.csv,
     )

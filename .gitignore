@@ -15,8 +15,10 @@ camplinks.db
 camplinks.db-shm
 camplinks.db-wal
 
-# Downloaded tweet media
+# Downloaded tweet/site media
 tweet_images/
+tweet_images_compliance_required/
+campaign-site-images/
 
 # Large generated/detection CSVs
 detection/campaign_site_text_detection_final.csv
@@ -25,3 +27,4 @@ content_export.csv
 detection/campaign_site_content_export.csv
 campaign_site_content_export.csv
 campaign_site_text_results.csv
+data/results/

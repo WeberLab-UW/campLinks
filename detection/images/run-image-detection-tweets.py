@@ -1,7 +1,7 @@
 """Run GPT-4o-mini image AI detection on tweets with images.
 
-Adds image_AI_label column to the tweets table (if absent), then queries rows
-where image_paths is non-empty and image_AI_label IS NULL. For each tweet,
+Adds image_AI_result column to the tweets table (if absent), then queries rows
+where image_paths is non-empty and image_AI_result IS NULL. For each tweet,
 sends each .jpg/.png image (base64-encoded) to GPT-4o-mini with the prompt:
   "Is this an AI-generated image? Answer in one word: yes or no"
 
@@ -85,7 +85,12 @@ def classify_image(client: OpenAI, image_path: Path) -> str:
                 max_completion_tokens=5,
             )
             answer = response.choices[0].message.content.strip().lower()
-            return "yes" if answer.startswith("yes") else "no"
+            if answer == "yes":
+                return "yes"
+            elif answer == "no":
+                return "no"
+            else:
+                return "output error"
         except Exception as exc:
             wait = RETRY_BACKOFF[min(attempt, len(RETRY_BACKOFF) - 1)]
             logger.error(
@@ -95,7 +100,7 @@ def classify_image(client: OpenAI, image_path: Path) -> str:
             if attempt < MAX_RETRIES - 1:
                 time.sleep(wait)
 
-    return "error"
+    return "API error"
 
 
 def classify_tweet_images(client: OpenAI, image_paths_str: str) -> str | None:
@@ -118,22 +123,19 @@ def classify_tweet_images(client: OpenAI, image_paths_str: str) -> str | None:
     if not image_files:
         return None
 
-    results: list[str] = []
+    had_error = False
     for img_path in image_files:
         if not img_path.exists():
             logger.warning("Image not found, skipping: %s", img_path)
             continue
         label = classify_image(client, img_path)
         logger.info("  %s -> %s", img_path.name, label)
-        results.append(label)
+        if label == "yes":
+            return "yes"
+        if label in ("API error", "output error"):
+            had_error = True
 
-    if not results:
-        return None
-    if "yes" in results:
-        return "yes"
-    if "error" in results:
-        return "error"
-    return "no"
+    return "API error" if had_error else "no"
 
 
 def main() -> None:
@@ -149,8 +151,8 @@ def main() -> None:
         conn.execute("PRAGMA journal_mode = WAL")
 
         conn.execute(
-            "ALTER TABLE tweets ADD COLUMN image_AI_label TEXT"
-        ) if not _column_exists(conn, "tweets", "image_AI_label") else None
+            "ALTER TABLE tweets ADD COLUMN image_AI_result TEXT"
+        ) if not _column_exists(conn, "tweets", "image_AI_result") else None
 
         rows = conn.execute(
             """
@@ -158,7 +160,7 @@ def main() -> None:
             FROM tweets
             WHERE image_paths IS NOT NULL
               AND image_paths != ''
-              AND image_AI_label IS NULL
+              AND image_AI_result IS NULL
             """
         ).fetchall()
 
@@ -178,7 +180,7 @@ def main() -> None:
             logger.info("[%s] tweet %s -> %s", candidate_name, tweet_db_id, label)
 
             conn.execute(
-                "UPDATE tweets SET image_AI_label = ? WHERE tweet_db_id = ?",
+                "UPDATE tweets SET image_AI_result = ? WHERE tweet_db_id = ?",
                 (label, tweet_db_id),
             )
             processed += 1

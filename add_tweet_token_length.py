@@ -1,7 +1,7 @@
-"""Backfill text_token_length for tweets rows missing it.
+"""Backfill token_length for tweets rows missing it.
 
 Uses the NLTK word tokenizer to count tokens in the text column.
-Only processes rows where text_token_length IS NULL.
+Only processes rows where token_length IS NULL.
 """
 
 from __future__ import annotations
@@ -36,19 +36,19 @@ def main() -> None:
         conn.execute("PRAGMA journal_mode = WAL")
 
         existing = {row[1] for row in conn.execute("PRAGMA table_info(tweets)").fetchall()}
-        if "text_token_length" not in existing:
-            conn.execute("ALTER TABLE tweets ADD COLUMN text_token_length INTEGER")
+        if "token_length" not in existing:
+            conn.execute("ALTER TABLE tweets ADD COLUMN token_length INTEGER")
             conn.commit()
 
         rows = conn.execute(
             """
             SELECT tweet_db_id, text
             FROM tweets
-            WHERE text_token_length IS NULL
+            WHERE token_length IS NULL
             """
         ).fetchall()
 
-        logger.info("Found %d rows missing text_token_length.", len(rows))
+        logger.info("Found %d rows missing token_length.", len(rows))
 
         updates: list[tuple[int, int]] = []
         for tweet_db_id, text in tqdm(rows, desc="Tokenizing", unit="tweet"):
@@ -57,7 +57,7 @@ def main() -> None:
 
             if len(updates) >= BATCH_SIZE:
                 conn.executemany(
-                    "UPDATE tweets SET text_token_length = ? WHERE tweet_db_id = ?",
+                    "UPDATE tweets SET token_length = ? WHERE tweet_db_id = ?",
                     updates,
                 )
                 conn.commit()
@@ -65,7 +65,7 @@ def main() -> None:
 
         if updates:
             conn.executemany(
-                "UPDATE tweets SET text_token_length = ? WHERE tweet_db_id = ?",
+                "UPDATE tweets SET token_length = ? WHERE tweet_db_id = ?",
                 updates,
             )
             conn.commit()

@@ -13,7 +13,7 @@ CSV_PATH = "detection/campaign_site_text_detection_final.csv"
 DB_PATH = "camplinks.db"
 
 NEW_COLUMNS: list[tuple[str, str]] = [
-    ("AI_label", "TEXT"),
+    ("text_AI_result", "TEXT"),
     ("assistance_score", "REAL"),
     ("confidence", "TEXT"),
     ("fraction_ai", "REAL"),
