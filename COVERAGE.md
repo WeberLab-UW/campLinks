@@ -28,10 +28,10 @@ Note that campaign site coverage is the percentage of candidates we have in data
 | Mayor | 2024 | 76 | 100% | ballotpedia, manually collected | 82.9% | 51.3% |
 | Mayor | 2025 | 72 | 100% | ballotpedia, manually collected | 83.3% | 38.9% |
 | State House | 2023 | 821 | 100%** | follow the money | 40.2% | 25.5% |
-| State House | 2024 | 8,123 | 86%* | follow the money | 61.3% | 27.0% |
+| State House | 2024 |  | 86%* | follow the money | 61.3% | 27.0% |
 | State House | 2025 | 439 | 100%** | scraped ballotpedia automated | 67.0% | 46.2% |
 | State Senate | 2023 | 332 | 97.1% | follow the money | 51.2% | 26.2% |
-| State Senate | 2024 | 1,967 | 86%* | follow the money | 60.2% | 35.4% |
+| State Senate | 2024 | | 86%* | follow the money | 60.2% | 35.4% |
 | State Senate | 2025 | 70 | 100% | wikipedia, manually collected | 85.7% | 41.4% |
 | US House | 2023 | 6 | 100% | wikipedia, manually collected | 100.0% | 66.7% |
 | US House | 2024 | 859 | 98.7% | MIT election lab | 96.9% | 66.1% |
