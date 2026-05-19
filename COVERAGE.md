@@ -1,6 +1,6 @@
 # Database Coverage Report
 
-Last updated: 2026-05-18
+Last updated: 2026-05-19
 
 ## Totals
 
@@ -9,8 +9,8 @@ Last updated: 2026-05-18
 | Elections | 6,905 |
 | Candidates | 12,977 |
 | Campaign X URLs | 4,246 |
-| Campaign Site URLs | 8,173 |
-| Campaign Site Content Pages | 12,682 |
+| Campaign Site URLs | 8,171 |
+| Campaign Site Content Pages | 12,680 |
 | Tweets | 329,160 |
 
 ## Database Coverage of Candidates by Year and Race Type 2023 - 2025
@@ -46,7 +46,7 @@ Note that campaign site coverage is the percentage of candidates we have in data
 
 | Link Type | Count |
 |-----------|-------|
-| campaign_site | 8,173 |
+| campaign_site | 8,171 |
 | campaign_x | 4,246 |
 | campaign_site_archived | 2,265 |
 
@@ -54,9 +54,9 @@ Note that campaign site coverage is the percentage of candidates we have in data
 
 | Source | Count |
 |--------|-------|
-| ballotpedia | 5,548 |
+| ballotpedia | 5,547 |
 | web_search | 3,963 |
 | wayback | 2,257 |
-| wikipedia | 1,652 |
+| wikipedia | 1,651 |
 | csv_import | 1,263 |
 | manual | 1 |
